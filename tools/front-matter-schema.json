@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Journey Markdown Front Matter",
+  "type": "object",
+  "required": [
+    "title",
+    "document_id",
+    "status",
+    "owner_role",
+    "reviewers",
+    "version",
+    "last_reviewed",
+    "next_review",
+    "programme",
+    "sensitivity",
+    "content_layer",
+    "source_references"
+  ],
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "document_id": {
+      "type": "string",
+      "pattern": "^[A-Z]+-[A-Z0-9-]+$"
+    },
+    "status": {
+      "enum": [
+        "approved",
+        "deprecated",
+        "draft",
+        "historical-example",
+        "review-required"
+      ]
+    },
+    "content_layer": {
+      "enum": [
+        "core",
+        "local",
+        "standard"
+      ]
+    }
+  }
+}

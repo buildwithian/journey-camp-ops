@@ -13,3 +13,10 @@
 - Commands: /Users/iansinclair/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 tests/test_inventory.py
 - Validation: PASS: every source file appears once, counts reconcile, checksums valid, sensitive raw paths redacted
 - Issues: None unresolved.
+
+## Phase 3: Establish standards, templates and repository rules
+
+- Time: 2026-07-13T20:12:42+00:00
+- Commands: /Users/iansinclair/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 tools/check_front_matter.py
+- Validation: PASS: indexes exist, templates have front matter, IDs unique
+- Issues: None unresolved.
