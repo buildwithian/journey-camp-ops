@@ -1,0 +1,539 @@
+inventory_id,extension,functional_area,priority,sensitivity,action
+SRC-000002,.xlsx,Equipment,medium,internal-source,Convert to sanitized reference note.
+SRC-000003,.pptx,Roles,medium,internal-source,Convert to sanitized reference note.
+SRC-000004,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000005,.docx,Onboarding,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000006,.xlsx,Administration,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000007,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000008,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000009,.xlsx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000010,.docx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000011,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000012,.docx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000013,.pptx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000014,.xlsx,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000015,.docx,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000016,.pptx,Kickoff camp,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000017,.docx,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000018,.pdf,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000019,.pdf,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000020,.pdf,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000021,.pdf,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000022,.pdf,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000023,.png,Compass Evening,high,internal-source,Catalogue and review for future use.
+SRC-000024,.png,Compass Evening,high,internal-source,Catalogue and review for future use.
+SRC-000025,.xlsx,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000026,.xlsx,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000027,.pdf,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000028,.docx,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000029,.xlsx,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000030,.docx,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000031,.pptx,Compass Evening,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000032,.pdf,Rite of passage,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000033,.pdf,Rite of passage,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000034,.pdf,Rite of passage,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000035,.docx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000036,.xlsx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000037,.mp4,Rite of passage,high,internal-source,Catalogue and review for future use.
+SRC-000038,.xlsx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000039,.docx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000040,.xlsx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000041,.xlsx,Rite of passage,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000042,.pptx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000043,.pptx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000044,.xlsx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000045,.pdf,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000046,.pdf,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000047,.xlsx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000048,.jpeg,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000049,.jpeg,Kickoff camp,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000051,.xlsx,Equipment,medium,internal-source,Convert to sanitized reference note.
+SRC-000052,.xlsx,Other,medium,internal-source,Convert to sanitized reference note.
+SRC-000053,.xlsx,Rite of passage,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000054,.docx,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000055,.xlsx,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000056,.xlsx,Administration,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000057,.xlsx,Other,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000058,.xlsx,Other,medium,internal-source,Convert to sanitized reference note.
+SRC-000059,.pdf,Other,medium,internal-source,Convert to sanitized reference note.
+SRC-000060,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000061,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000062,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000063,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000064,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000065,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000066,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000067,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000068,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000069,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000070,.xlsx,Other,medium,internal-source,Convert to sanitized reference note.
+SRC-000071,.xlsx,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000072,.pdf,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000073,.pdf,Compass Evening,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000074,.docx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000075,.docx,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000076,.xlsx,Administration,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000077,.xlsx,Rite of passage,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000079,.xlsx,Equipment,medium,internal-source,Convert to sanitized reference note.
+SRC-000080,.xlsx,Equipment,medium,internal-source,Convert to sanitized reference note.
+SRC-000081,.pptx,Roles,medium,internal-source,Convert to sanitized reference note.
+SRC-000082,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000083,.docx,Onboarding,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000084,.xlsx,Administration,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000085,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000086,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000087,.xlsx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000088,.docx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000089,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000090,.docx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000091,.pptx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000092,.xlsx,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000093,.docx,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000094,.pptx,Kickoff camp,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000095,.docx,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000096,.pdf,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000097,.pdf,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000098,.pdf,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000099,.pdf,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000100,.pdf,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000101,.png,Compass Evening,high,internal-source,Catalogue and review for future use.
+SRC-000102,.png,Compass Evening,high,internal-source,Catalogue and review for future use.
+SRC-000103,.xlsx,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000104,.xlsx,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000105,.pdf,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000106,.docx,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000107,.xlsx,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000108,.docx,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000109,.pptx,Compass Evening,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000110,.pdf,Rite of passage,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000111,.pdf,Rite of passage,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000112,.pdf,Rite of passage,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000113,.docx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000114,.xlsx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000115,.mp4,Rite of passage,high,internal-source,Catalogue and review for future use.
+SRC-000116,.xlsx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000117,.docx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000118,.xlsx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000119,.xlsx,Rite of passage,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000120,.pptx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000121,.pptx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000122,.xlsx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000123,.pdf,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000124,.pdf,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000125,.xlsx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000126,.jpeg,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000127,.jpeg,Kickoff camp,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000128,.docx,Onboarding,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000129,.xlsx,Administration,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000130,.docx,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000131,.xlsx,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000132,.docx,Other,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000133,.docx,Other,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000134,.docx,Other,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000135,.docx,Other,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000136,.docx,Other,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000137,.docx,Other,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000138,.docx,Other,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000139,.docx,Other,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000140,.docx,Other,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000141,.docx,Other,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000142,.docx,Other,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000143,.docx,Other,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000144,.docx,Other,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000145,.docx,Other,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000146,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000147,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000148,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000149,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000150,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000151,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000152,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000153,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000154,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000155,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000156,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000157,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000158,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000159,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000160,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000161,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000162,.xlsx,Other,medium,internal-source,Convert to sanitized reference note.
+SRC-000163,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000167,.pdf,Media,medium,internal-source,Convert to sanitized reference note.
+SRC-000168,.pdf,Other,medium,internal-source,Convert to sanitized reference note.
+SRC-000170,.pdf,Other,medium,internal-source,Convert to sanitized reference note.
+SRC-000171,.xlsx,Administration,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000172,.xlsx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000173,.xlsx,Other,medium,internal-source,Convert to sanitized reference note.
+SRC-000174,.xlsx,Other,medium,internal-source,Convert to sanitized reference note.
+SRC-000175,.pdf,Other,medium,internal-source,Convert to sanitized reference note.
+SRC-000176,,Weekly sessions,high,internal-source,Catalogue and review for future use.
+SRC-000177,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000178,.pptx,Weekly sessions,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000179,,Weekly sessions,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000180,.docx,Weekly sessions,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000181,,Kickoff camp,high,internal-source,Catalogue and review for future use.
+SRC-000182,.pdf,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000183,.pdf,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000184,.pptx,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000185,.pdf,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000186,.pdf,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000187,.pdf,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000188,.pdf,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000189,,Kickoff camp,high,internal-source,Catalogue and review for future use.
+SRC-000190,.xls,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000191,.docx,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000192,.pptx,Kickoff camp,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000193,.pptx,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000194,.pptx,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000195,.pdf,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000196,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000197,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000198,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000199,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000200,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000201,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000202,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000203,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000204,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000205,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000206,,Weekly sessions,high,internal-source,Catalogue and review for future use.
+SRC-000207,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000208,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000209,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000210,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000211,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000212,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000213,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000214,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000215,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000216,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000217,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000218,,Weekly sessions,high,internal-source,Catalogue and review for future use.
+SRC-000219,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000220,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000221,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000222,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000223,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000224,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000225,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000226,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000227,.pdf,Other,medium,internal-source,Convert to sanitized reference note.
+SRC-000228,,Weekly sessions,high,internal-source,Catalogue and review for future use.
+SRC-000229,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000230,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000231,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000232,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000233,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000234,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000235,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000236,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000237,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000238,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000239,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000240,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000241,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000242,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000243,,Weekly sessions,high,internal-source,Catalogue and review for future use.
+SRC-000244,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000245,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000246,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000247,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000248,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000249,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000250,,Compass Evening,high,internal-source,Catalogue and review for future use.
+SRC-000251,.pdf,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000252,.pdf,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000253,.pdf,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000254,.docx,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000255,.docx,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000256,.docx,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000258,,Weekly sessions,high,internal-source,Catalogue and review for future use.
+SRC-000259,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000260,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000261,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000262,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000263,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000264,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000265,,Weekly sessions,high,internal-source,Catalogue and review for future use.
+SRC-000266,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000267,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000268,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000269,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000270,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000271,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000272,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000273,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000274,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000275,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000276,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000277,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000278,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000279,,Weekly sessions,high,internal-source,Catalogue and review for future use.
+SRC-000280,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000281,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000282,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000283,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000284,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000285,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000286,,Rite of passage,high,internal-source,Catalogue and review for future use.
+SRC-000287,.pdf,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000288,.pdf,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000289,.pdf,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000290,.pdf,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000291,.pdf,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000292,.docx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000293,.xlsx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000294,.xlsx,Rite of passage,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000295,.docx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000296,.pptx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000297,.pdf,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000298,.m4a,Rite of passage,high,internal-source,Catalogue and review for future use.
+SRC-000301,.xlsx,Other,medium,internal-source,Convert to sanitized reference note.
+SRC-000302,.docx,Foundations,medium,internal-source,Convert to sanitized reference note.
+SRC-000303,.xlsx,Equipment,medium,internal-source,Convert to sanitized reference note.
+SRC-000304,.xlsx,Other,medium,internal-source,Convert to sanitized reference note.
+SRC-000305,.xlsx,Rite of passage,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000306,.docx,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000307,.xlsx,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000308,.xlsx,Administration,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000309,.xlsx,Other,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000310,.xlsx,Other,medium,internal-source,Convert to sanitized reference note.
+SRC-000311,.pdf,Other,medium,internal-source,Convert to sanitized reference note.
+SRC-000312,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000313,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000314,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000315,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000316,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000317,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000318,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000319,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000320,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000321,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000322,.xlsx,Other,medium,internal-source,Convert to sanitized reference note.
+SRC-000323,.xlsx,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000324,.pdf,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000325,.pdf,Compass Evening,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000326,.docx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000327,.docx,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000328,.xlsx,Administration,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000329,.xlsx,Rite of passage,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000330,.xlsx,Equipment,medium,internal-source,Convert to sanitized reference note.
+SRC-000331,.xlsx,Equipment,medium,internal-source,Convert to sanitized reference note.
+SRC-000332,.pptx,Roles,medium,internal-source,Convert to sanitized reference note.
+SRC-000333,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000334,.docx,Onboarding,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000335,.xlsx,Administration,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000336,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000337,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000338,.xlsx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000339,.docx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000340,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000341,.docx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000342,.pptx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000343,.xlsx,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000344,.docx,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000345,.pptx,Kickoff camp,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000346,.docx,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000347,.pdf,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000348,.pdf,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000349,.pdf,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000350,.pdf,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000351,.pdf,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000352,.png,Compass Evening,high,internal-source,Catalogue and review for future use.
+SRC-000353,.png,Compass Evening,high,internal-source,Catalogue and review for future use.
+SRC-000354,.xlsx,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000355,.xlsx,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000356,.pdf,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000357,.docx,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000358,.xlsx,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000359,.docx,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000360,.pptx,Compass Evening,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000361,.pdf,Rite of passage,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000362,.pdf,Rite of passage,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000363,.pdf,Rite of passage,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000364,.docx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000365,.xlsx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000366,.mp4,Rite of passage,high,internal-source,Catalogue and review for future use.
+SRC-000367,.xlsx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000368,.docx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000369,.xlsx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000370,.xlsx,Rite of passage,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000371,.pptx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000372,.pptx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000373,.xlsx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000374,.pdf,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000375,.pdf,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000376,.xlsx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000377,.jpeg,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000378,.jpeg,Kickoff camp,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000379,.docx,Onboarding,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000380,.xlsx,Administration,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000381,.docx,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000382,.xlsx,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000383,.docx,Other,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000384,.docx,Other,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000385,.docx,Other,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000386,.docx,Other,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000387,.docx,Other,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000388,.docx,Other,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000389,.docx,Other,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000390,.docx,Other,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000391,.docx,Other,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000392,.docx,Other,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000393,.docx,Other,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000394,.docx,Other,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000395,.docx,Other,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000396,.docx,Other,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000397,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000398,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000399,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000400,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000401,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000402,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000403,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000404,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000405,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000406,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000407,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000408,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000409,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000410,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000411,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000412,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000413,.xlsx,Other,medium,internal-source,Convert to sanitized reference note.
+SRC-000414,.docx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000418,.pdf,Media,medium,internal-source,Convert to sanitized reference note.
+SRC-000419,.pdf,Other,medium,internal-source,Convert to sanitized reference note.
+SRC-000421,.pdf,Other,medium,internal-source,Convert to sanitized reference note.
+SRC-000422,.xlsx,Administration,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000423,.xlsx,Finance,review,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000424,.xlsx,Other,medium,internal-source,Convert to sanitized reference note.
+SRC-000425,.xlsx,Other,medium,internal-source,Convert to sanitized reference note.
+SRC-000426,.pdf,Other,medium,internal-source,Convert to sanitized reference note.
+SRC-000427,,Weekly sessions,high,internal-source,Catalogue and review for future use.
+SRC-000428,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000429,.pptx,Weekly sessions,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000430,,Weekly sessions,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000431,.docx,Weekly sessions,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000432,,Kickoff camp,high,internal-source,Catalogue and review for future use.
+SRC-000433,.pdf,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000434,.pdf,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000435,.pptx,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000436,.pdf,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000437,.pdf,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000438,.pdf,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000439,.pdf,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000440,,Kickoff camp,high,internal-source,Catalogue and review for future use.
+SRC-000441,.xls,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000442,.docx,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000443,.pptx,Kickoff camp,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000444,.pptx,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000445,.pptx,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000446,.pdf,Kickoff camp,high,internal-source,Convert to sanitized reference note.
+SRC-000447,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000448,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000449,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000450,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000451,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000452,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000453,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000454,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000455,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000456,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000457,,Weekly sessions,high,internal-source,Catalogue and review for future use.
+SRC-000458,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000459,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000460,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000461,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000462,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000463,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000464,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000465,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000466,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000467,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000468,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000469,,Weekly sessions,high,internal-source,Catalogue and review for future use.
+SRC-000470,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000471,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000472,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000473,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000474,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000475,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000476,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000477,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000478,.pdf,Other,medium,internal-source,Convert to sanitized reference note.
+SRC-000479,,Weekly sessions,high,internal-source,Catalogue and review for future use.
+SRC-000480,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000481,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000482,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000483,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000484,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000485,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000486,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000487,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000488,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000489,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000490,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000491,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000492,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000493,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000494,,Weekly sessions,high,internal-source,Catalogue and review for future use.
+SRC-000495,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000496,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000497,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000498,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000499,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000500,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000501,,Compass Evening,high,internal-source,Catalogue and review for future use.
+SRC-000502,.pdf,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000503,.pdf,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000504,.pdf,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000505,.docx,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000506,.docx,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000507,.docx,Compass Evening,high,internal-source,Convert to sanitized reference note.
+SRC-000509,,Weekly sessions,high,internal-source,Catalogue and review for future use.
+SRC-000510,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000511,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000512,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000513,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000514,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000515,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000516,,Weekly sessions,high,internal-source,Catalogue and review for future use.
+SRC-000517,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000518,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000519,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000520,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000521,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000522,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000523,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000524,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000525,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000526,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000527,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000528,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000529,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000530,,Weekly sessions,high,internal-source,Catalogue and review for future use.
+SRC-000531,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000532,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000533,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000534,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000535,.pdf,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000536,.pptx,Weekly sessions,high,internal-source,Convert to sanitized reference note.
+SRC-000537,,Rite of passage,high,internal-source,Catalogue and review for future use.
+SRC-000538,.pdf,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000539,.pdf,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000540,.pdf,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000541,.pdf,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000542,.pdf,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000543,.docx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000544,.xlsx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000545,.xlsx,Rite of passage,high,restricted-source,Keep source private; use only redacted summary or synthetic template.
+SRC-000546,.docx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000547,.pptx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000548,.pdf,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000549,.m4a,Rite of passage,high,internal-source,Catalogue and review for future use.
+SRC-000552,.xlsx,Other,medium,internal-source,Convert to sanitized reference note.
+SRC-000553,.docx,Foundations,medium,internal-source,Convert to sanitized reference note.
+SRC-000554,.xlsx,Rite of passage,high,internal-source,Convert to sanitized reference note.
+SRC-000555,.xlsx,Rite of passage,high,internal-source,Convert to sanitized reference note.
