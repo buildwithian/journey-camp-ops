@@ -29,3 +29,10 @@ This file contains only decisions requiring qualified human or expert review.
 - Reason: Canonical programme theology must be approved by programme authority.
 - Required reviewer: Programme theological authority
 - Status: open
+
+## HR-005: Final decision rights and operating authority
+
+- Category: Governance authority
+- Reason: Decision rights are drafted structurally but require programme owner approval.
+- Required reviewer: Programme governance authority
+- Status: open
