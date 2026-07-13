@@ -20,3 +20,10 @@
 - Status: accepted
 - Decision: Reference notes preserve provenance and classification but do not reproduce raw extracted content.
 - Rationale: The source archive includes personal, financial and copyrighted material, so the MVP favours privacy-safe metadata until human review.
+
+## ADR-004: Place historical examples in examples rather than moving originals
+
+- Date: 2026-07-13
+- Status: accepted
+- Decision: Create sanitized example records under `examples/` while leaving original source files untouched.
+- Rationale: The plan requires separating examples, but also forbids moving or modifying original source files.

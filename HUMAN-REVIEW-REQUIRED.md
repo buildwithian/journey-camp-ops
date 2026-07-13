@@ -36,3 +36,10 @@ This file contains only decisions requiring qualified human or expert review.
 - Reason: Decision rights are drafted structurally but require programme owner approval.
 - Required reviewer: Programme governance authority
 - Status: open
+
+## HR-006: Girls session and rite-of-passage content
+
+- Category: Programme fidelity approval
+- Reason: Missing or partial girls content is marked for review instead of being invented.
+- Required reviewer: Programme content owner
+- Status: open
