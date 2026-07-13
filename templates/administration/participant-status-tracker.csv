@@ -1,0 +1,2 @@
+participant_id,status,consent_status,medical_form_status,payment_status,notes
+P-EXAMPLE-001,registered,received,received,not_applicable,Synthetic example only

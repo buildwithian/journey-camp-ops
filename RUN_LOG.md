@@ -48,3 +48,10 @@
 - Commands: session and event pack generation
 - Validation: PASS: sessions and events follow standard, historical examples separated, missing girls content identified
 - Issues: None unresolved.
+
+## Phase 8: Build lightweight operational toolkit
+
+- Time: 2026-07-13T20:12:47+00:00
+- Commands: /Users/iansinclair/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 tests/test_spreadsheets.py
+- Validation: PASS: xlsx opens, instructions sheet exists, no formula errors, templates use synthetic examples
+- Issues: None unresolved.

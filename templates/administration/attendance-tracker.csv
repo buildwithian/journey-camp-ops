@@ -1,0 +1,2 @@
+session_date,session_name,participant_id,attendance_status,follow_up_required
+YYYY-MM-DD,Session name,P-EXAMPLE-001,present,no
