@@ -1,0 +1,31 @@
+Read `PLAN.md` in full and execute it from Phase 1 through Phase 10.
+
+This is an autonomous overnight run.
+
+Rules:
+
+1. Treat `PLAN.md` as the authoritative specification.
+2. Work only inside this project folder.
+3. Never modify, rename, move or delete the original Journey source files.
+4. Complete phases sequentially.
+5. At the end of each phase:
+   - run all required validation;
+   - diagnose and resolve every technical failure;
+   - rerun validation until it passes;
+   - update `RUN_LOG.md`, `DECISIONS.md` and `codex-state.json`;
+   - create the specified Git commit;
+   - confirm the working tree is clean;
+   - continue automatically.
+6. Do not ask me questions during the run.
+7. For missing information, create a clearly marked review item and continue all unaffected work.
+8. Attempt at least two safe technical approaches before marking a technical issue unresolved.
+9. Do not invent legal, medical, safeguarding, theological, governance or copyright decisions.
+10. Never commit participant personal data, banking information, medical information, private contact information, signed forms, private photographs or raw confidential source archives.
+11. GitHub and internet access are optional. Complete the project locally when either is unavailable.
+12. Prefer standard-library and direct XML fallbacks when dependencies cannot be installed.
+13. Do not use dangerous full access or make changes outside the project workspace.
+14. Continue until all ten phases have been attempted, all resolvable technical checks pass, the final validation report exists, the original source checksum remains unchanged, no sensitive source files are tracked, the `v0.1.0` tag exists and the Git working tree is clean.
+15. If context becomes large, rely on the repository state files and compact context rather than restarting.
+16. At completion, provide only the final execution report required by `PLAN.md`.
+
+Begin now by verifying the project root, reading `PLAN.md`, creating the state mechanism and starting Phase 1.

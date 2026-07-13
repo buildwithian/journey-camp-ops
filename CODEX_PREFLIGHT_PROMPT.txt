@@ -1,0 +1,34 @@
+Read `PLAN.md`, but do not begin Phase 1 yet.
+
+Perform an unattended-run preflight inside the current project folder.
+
+Verify:
+
+1. The current folder is the intended Journey project.
+2. `PLAN.md` is readable.
+3. Journey source files are present.
+4. The source files can be read without modifying them.
+5. The project folder is writable.
+6. Git is available or a safe local fallback is possible.
+7. Python 3 is available.
+8. A local virtual environment can be created if required.
+9. Common DOCX, PPTX, XLSX and PDF files can be inspected using installed tools, direct Office XML parsing or documented fallbacks.
+10. There is enough disk space to copy, extract and process the current source.
+11. `.gitignore` can protect raw archives, `.work/` and sensitive source records.
+12. Commands can run inside the workspace without requiring dangerous full access.
+13. The project can continue without GitHub or internet access.
+14. The original source files can be checksummed and preserved unchanged.
+15. No output path would be created outside this project folder.
+
+Create and delete one harmless temporary test file inside the project to confirm write access.
+
+Resolve all safe setup problems now. Do not reorganise or convert the Journey source yet.
+
+At the end, report:
+
+- `PREFLIGHT: PASS` or `PREFLIGHT: FAIL`
+- Any blocker that would prevent an unattended run
+- Any setting or permission I must change
+- Whether it is safe to start the overnight run
+
+Do not begin the full implementation.

@@ -1,0 +1,3 @@
+# Templates
+
+Index for `templates`.

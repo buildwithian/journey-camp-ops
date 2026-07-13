@@ -1,0 +1,19 @@
+.DS_Store
+.work/
+site/build/
+site/site/
+__pycache__/
+*.pyc
+~$*
+*.tmp
+*.bak
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+Journey - Boys - Paul/
+Journey - Paul/
+Journey - Richard/
+ROP - who does what.xlsx
+TJ26-1 ROP (Weekend Program) _ April 2026.xlsx

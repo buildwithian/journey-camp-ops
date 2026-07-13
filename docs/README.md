@@ -1,0 +1,3 @@
+# Docs
+
+Index for `docs`.

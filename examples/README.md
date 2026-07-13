@@ -1,0 +1,3 @@
+# Examples
+
+Index for `examples`.

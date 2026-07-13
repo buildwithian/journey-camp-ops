@@ -1,0 +1,20 @@
+Resume the autonomous Journey Operating System build.
+
+Read, in this order:
+
+1. `PLAN.md`
+2. `AGENTS.md`, if it exists
+3. `codex-state.json`
+4. `RUN_LOG.md`
+5. `DECISIONS.md`
+6. `FINAL-VALIDATION-REPORT.md`, if it exists
+
+Determine the last fully completed phase from repository evidence, Git history, validation results and `codex-state.json`.
+
+Do not repeat completed work unless validation shows it is defective.
+
+Continue from the first incomplete or failed phase. Follow all error-resolution, privacy, validation, commit and release requirements in `PLAN.md`.
+
+Do not ask me questions. Record missing human decisions and continue all unaffected work.
+
+Stop only when the completion conditions in `PLAN.md` are satisfied or an explicit stop condition in `PLAN.md` applies.
