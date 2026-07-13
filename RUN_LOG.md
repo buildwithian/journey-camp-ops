@@ -20,3 +20,10 @@
 - Commands: /Users/iansinclair/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 tools/check_front_matter.py
 - Validation: PASS: indexes exist, templates have front matter, IDs unique
 - Issues: None unresolved.
+
+## Phase 4: Extract, convert and normalise source knowledge
+
+- Time: 2026-07-13T20:12:45+00:00
+- Commands: /Users/iansinclair/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 tests/test_conversion.py
+- Validation: PASS: conversion totals reconcile, raw extraction ignored, unreadable files registered, sanitized notes created
+- Issues: None unresolved.

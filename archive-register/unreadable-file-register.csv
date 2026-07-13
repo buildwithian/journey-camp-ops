@@ -1,0 +1,3 @@
+inventory_id,extension,reason,fallback_used
+SRC-000190,.xls,office-xml-failed:BadZipFile,metadata-only classification
+SRC-000441,.xls,office-xml-failed:BadZipFile,metadata-only classification
