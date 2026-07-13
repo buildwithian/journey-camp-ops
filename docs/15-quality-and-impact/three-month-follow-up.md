@@ -1,25 +1,23 @@
 ---
-title: "Risk Assessment Template"
-document_id: "TPL-RISK-ASSESSMENT"
-status: "review-required"
-owner_role: "Safety Lead"
+title: "Three-month follow-up"
+document_id: "QUALITY-THREE-MONTH-FOLLOW-UP"
+status: "draft"
+owner_role: "Oversight Lead"
 reviewers: []
 version: "0.1"
 last_reviewed: "2026-07-13"
 next_review: ""
 programme: "general"
 sensitivity: "internal"
-content_layer: "core"
+content_layer: "standard"
 source_references: []
 ---
 
-# Risk Assessment Template
-
-> Draft requiring review by qualified safeguarding, legal, insurance and medical professionals before operational adoption.
+# Three-month follow-up
 
 ## Purpose
 
-Draft risk assessment template for Journey activities.
+Three-month follow-up for quality assurance and learning.
 
 ## Intended Outcome
 

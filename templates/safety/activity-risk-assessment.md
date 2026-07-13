@@ -1,6 +1,6 @@
 ---
-title: "Risk Assessment Template"
-document_id: "TPL-RISK-ASSESSMENT"
+title: "Activity risk assessment"
+document_id: "TPL-SAFETY-ACTIVITY-RISK-ASSESSMENT"
 status: "review-required"
 owner_role: "Safety Lead"
 reviewers: []
@@ -13,13 +13,13 @@ content_layer: "core"
 source_references: []
 ---
 
-# Risk Assessment Template
+# Activity risk assessment
 
 > Draft requiring review by qualified safeguarding, legal, insurance and medical professionals before operational adoption.
 
 ## Purpose
 
-Draft risk assessment template for Journey activities.
+Draft activity risk assessment template using synthetic fields only.
 
 ## Intended Outcome
 

@@ -1,6 +1,6 @@
 ---
-title: "Risk Assessment Template"
-document_id: "TPL-RISK-ASSESSMENT"
+title: "Activity Risk Sheet: Fire"
+document_id: "RISK-FIRE"
 status: "review-required"
 owner_role: "Safety Lead"
 reviewers: []
@@ -13,13 +13,13 @@ content_layer: "core"
 source_references: []
 ---
 
-# Risk Assessment Template
+# Activity Risk Sheet: Fire
 
 > Draft requiring review by qualified safeguarding, legal, insurance and medical professionals before operational adoption.
 
 ## Purpose
 
-Draft risk assessment template for Journey activities.
+Draft activity risk sheet for fire.
 
 ## Intended Outcome
 

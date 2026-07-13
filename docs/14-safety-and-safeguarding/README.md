@@ -1,21 +1,21 @@
 ---
-title: "Docs / 14 Safety And Safeguarding"
-document_id: "DOC-39EDACDD2905"
-status: "draft"
-owner_role: "Journey Lead"
+title: "Safety And Safeguarding Index"
+document_id: "SAFETY-INDEX"
+status: "review-required"
+owner_role: "Safety Lead"
 reviewers: []
 version: "0.1"
 last_reviewed: "2026-07-13"
 next_review: ""
 programme: "general"
 sensitivity: "internal"
-content_layer: "standard"
+content_layer: "core"
 source_references: []
 ---
 
-# Docs / 14 Safety And Safeguarding
+# Safety And Safeguarding Index
 
-This section contains docs / 14 safety and safeguarding material.
+Draft requiring review by qualified safeguarding, legal, insurance and medical professionals before operational adoption.
 
 ## Contents
 

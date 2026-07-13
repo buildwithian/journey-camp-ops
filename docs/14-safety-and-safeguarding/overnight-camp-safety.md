@@ -1,6 +1,6 @@
 ---
-title: "Risk Assessment Template"
-document_id: "TPL-RISK-ASSESSMENT"
+title: "Overnight camp safety"
+document_id: "SAFETY-OVERNIGHT-CAMP-SAFETY"
 status: "review-required"
 owner_role: "Safety Lead"
 reviewers: []
@@ -13,13 +13,13 @@ content_layer: "core"
 source_references: []
 ---
 
-# Risk Assessment Template
+# Overnight camp safety
 
 > Draft requiring review by qualified safeguarding, legal, insurance and medical professionals before operational adoption.
 
 ## Purpose
 
-Draft risk assessment template for Journey activities.
+Draft overnight camp safety guidance for The Journey.
 
 ## Intended Outcome
 

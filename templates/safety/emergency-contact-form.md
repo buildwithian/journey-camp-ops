@@ -1,6 +1,6 @@
 ---
-title: "Risk Assessment Template"
-document_id: "TPL-RISK-ASSESSMENT"
+title: "Emergency contact form"
+document_id: "TPL-SAFETY-EMERGENCY-CONTACT-FORM"
 status: "review-required"
 owner_role: "Safety Lead"
 reviewers: []
@@ -13,13 +13,13 @@ content_layer: "core"
 source_references: []
 ---
 
-# Risk Assessment Template
+# Emergency contact form
 
 > Draft requiring review by qualified safeguarding, legal, insurance and medical professionals before operational adoption.
 
 ## Purpose
 
-Draft risk assessment template for Journey activities.
+Draft emergency contact form template using synthetic fields only.
 
 ## Intended Outcome
 

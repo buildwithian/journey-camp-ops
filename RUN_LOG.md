@@ -55,3 +55,10 @@
 - Commands: /Users/iansinclair/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 tests/test_spreadsheets.py
 - Validation: PASS: xlsx opens, instructions sheet exists, no formula errors, templates use synthetic examples
 - Issues: None unresolved.
+
+## Phase 9: Add safety, quality controls and documentation site
+
+- Time: 2026-07-13T20:15:54+00:00
+- Commands: python3 tools/validate.py
+- Validation: PASS: repository checks pass; MkDocs unavailable locally and documented fallback created
+- Issues: None unresolved.

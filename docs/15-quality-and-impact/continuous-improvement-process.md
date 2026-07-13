@@ -1,25 +1,23 @@
 ---
-title: "Risk Assessment Template"
-document_id: "TPL-RISK-ASSESSMENT"
-status: "review-required"
-owner_role: "Safety Lead"
+title: "Continuous improvement process"
+document_id: "QUALITY-CONTINUOUS-IMPROVEMENT-PROCESS"
+status: "draft"
+owner_role: "Oversight Lead"
 reviewers: []
 version: "0.1"
 last_reviewed: "2026-07-13"
 next_review: ""
 programme: "general"
 sensitivity: "internal"
-content_layer: "core"
+content_layer: "standard"
 source_references: []
 ---
 
-# Risk Assessment Template
-
-> Draft requiring review by qualified safeguarding, legal, insurance and medical professionals before operational adoption.
+# Continuous improvement process
 
 ## Purpose
 
-Draft risk assessment template for Journey activities.
+Continuous improvement process for quality assurance and learning.
 
 ## Intended Outcome
 

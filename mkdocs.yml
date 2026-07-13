@@ -1,0 +1,44 @@
+{
+  "site_name": "The Journey Operating System",
+  "site_description": "Local-first Journey Run Kit",
+  "docs_dir": "docs",
+  "site_dir": "site/build",
+  "theme": {
+    "name": "mkdocs",
+    "features": [
+      "search.suggest"
+    ]
+  },
+  "nav": [
+    {
+      "Start": "01-foundations/journey-purpose.md"
+    },
+    {
+      "Start a Journey": "02-start-a-journey/start-a-journey-guide.md"
+    },
+    {
+      "Roles": "03-governance-and-roles/responsibility-matrix.md"
+    },
+    {
+      "Sessions": "06-weekly-sessions/boys/session-index.md"
+    },
+    {
+      "Kickoff Camp": "07-kickoff-camp/kickoff-camp-pack.md"
+    },
+    {
+      "Compass Evening": "08-compass-evening/compass-evening-pack.md"
+    },
+    {
+      "Rite of Passage": "09-rite-of-passage/boys/boys-rite-of-passage-pack.md"
+    },
+    {
+      "Safety": "14-safety-and-safeguarding/safety-framework.md"
+    },
+    {
+      "Quality": "15-quality-and-impact/journey-readiness-review.md"
+    }
+  ],
+  "plugins": [
+    "search"
+  ]
+}
