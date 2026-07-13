@@ -1,0 +1,22 @@
+# Gap Analysis
+
+- ISSUE-005: Launch process is Partial and priority 4-repeatability.
+- ISSUE-006: Governance is Missing and priority 4-repeatability.
+- ISSUE-007: Roles is Weak and priority 4-repeatability.
+- ISSUE-008: Leader recruitment is Partial and priority 4-repeatability.
+- ISSUE-009: Leader training is Missing and priority 4-repeatability.
+- ISSUE-010: Participant onboarding is Partial and priority 4-repeatability.
+- ISSUE-016: Celebration is Missing and priority 4-repeatability.
+- ISSUE-017: Administration is Partial and priority 4-repeatability.
+- ISSUE-019: Logistics is Missing and priority 4-repeatability.
+- ISSUE-020: Equipment is Partial and priority 4-repeatability.
+- ISSUE-021: Communications is Missing and priority 4-repeatability.
+- ISSUE-022: Safety is Weak and priority 1-child-and-participant-safety.
+- ISSUE-023: Safeguarding is Weak and priority 1-child-and-participant-safety.
+- ISSUE-024: Medical readiness is Weak and priority 1-child-and-participant-safety.
+- ISSUE-025: Privacy is Partial and priority 1-child-and-participant-safety.
+- ISSUE-026: Quality is Missing and priority 4-repeatability.
+- ISSUE-027: Impact is Missing and priority 4-repeatability.
+- ISSUE-028: Alumni is Missing and priority 4-repeatability.
+- ISSUE-029: Localisation is Missing and priority 4-repeatability.
+- ISSUE-030: Leader support is Missing and priority 4-repeatability.

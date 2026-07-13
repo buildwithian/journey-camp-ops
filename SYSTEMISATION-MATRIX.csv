@@ -1,0 +1,32 @@
+system_area,classification,evidence_count,mvp_required,priority,issue_id
+Purpose and theology,Strong,195,no,3-programme-fidelity,
+Programme architecture,Strong,555,no,3-programme-fidelity,
+Boys curriculum,Strong,318,no,4-repeatability,
+Girls curriculum,Strong,36,no,4-repeatability,
+Launch process,Partial,5,yes,4-repeatability,ISSUE-005
+Governance,Missing,0,no,4-repeatability,ISSUE-006
+Roles,Weak,3,yes,4-repeatability,ISSUE-007
+Leader recruitment,Partial,5,no,4-repeatability,ISSUE-008
+Leader training,Missing,0,no,4-repeatability,ISSUE-009
+Participant onboarding,Partial,16,no,4-repeatability,ISSUE-010
+Weekly sessions,Strong,193,yes,2-current-journey-continuity,
+Kickoff camp,Strong,55,yes,2-current-journey-continuity,
+Compass Evening,Strong,64,no,2-current-journey-continuity,
+Boys rite of passage,Strong,83,no,2-current-journey-continuity,
+Girls rite of passage,Strong,83,no,2-current-journey-continuity,
+Celebration,Missing,0,no,4-repeatability,ISSUE-016
+Administration,Partial,11,no,4-repeatability,ISSUE-017
+Finance,Strong,65,no,4-repeatability,
+Logistics,Missing,0,no,4-repeatability,ISSUE-019
+Equipment,Partial,7,no,4-repeatability,ISSUE-020
+Communications,Missing,0,no,4-repeatability,ISSUE-021
+Safety,Weak,0,yes,1-child-and-participant-safety,ISSUE-022
+Safeguarding,Weak,0,yes,1-child-and-participant-safety,ISSUE-023
+Medical readiness,Weak,0,no,1-child-and-participant-safety,ISSUE-024
+Privacy,Partial,148,yes,1-child-and-participant-safety,ISSUE-025
+Quality,Missing,0,no,4-repeatability,ISSUE-026
+Impact,Missing,0,no,4-repeatability,ISSUE-027
+Alumni,Missing,0,no,4-repeatability,ISSUE-028
+Localisation,Missing,0,no,4-repeatability,ISSUE-029
+Leader support,Missing,0,no,4-repeatability,ISSUE-030
+Knowledge management,Strong,555,no,4-repeatability,
