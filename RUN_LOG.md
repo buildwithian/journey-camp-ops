@@ -133,3 +133,10 @@
 - Commands: create Canonical Resources subfolders 16 through 18; compile sanitized guide Docs; build three artifact-tool registry workbooks with rendered previews; import native Docs and Sheets; link Resource Library Index final rows; add Delegation Tracker TASK-009; Drive/Docs/Sheets readback verification
 - Validation: PASS: artifact-tool workbook inspect/render; Google Docs sentinel checks; native Sheet/range readback; pack folder readback; Resource Library Index readback; Delegation Tracker readback; python3 tools/validate.py; python3 tests/test_site_prototype.py; bundled-python tests/test_spreadsheets.py; git diff --check; source-original tracking check
 - Issues: Public/private website publishing remains unapproved; human-review gates remain active.
+
+## Post-release: Journey V3 organizational implementation tracker setup
+
+- Time: 2026-07-18T12:18:24+00:00
+- Commands: expand live Leader Roster owner-role rows; complete Human Review tracker with HR-001 through HR-007; add Tasks TASK-010 through TASK-016; add Decisions DEC-003 through DEC-006; add pilot and production launch readiness rows; repair dashboard event-readiness formula; add Resource Library Index quality gates; update local next-stage implementation evidence
+- Validation: PASS: Leader Roster readback; Human Review readback; Tasks readback; Decisions readback; Event Readiness readback; Dashboard formula readback; Resource Library Index Quality Checks readback; validation-backed cell metadata readback; python3 tools/validate.py; python3 tests/test_site_prototype.py; bundled-python tests/test_spreadsheets.py; git diff --check; source-original tracking check
+- Issues: Actual leader names, qualified review outcomes, pilot evidence, restricted real-data replacement, website access decision and production website publishing remain pending human approval.

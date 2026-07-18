@@ -76,3 +76,10 @@
 - Status: accepted
 - Decision: Represent local examples, archive/provenance and approved-media canonical resources as folder-backed native guide Docs and registry Sheets rather than uploading original source files or media.
 - Rationale: These resources depend on provenance, sensitivity, copyright, consent and historical-example context. Review-register packs make the library searchable without exposing raw or unapproved material.
+
+## ADR-012: Organizational gates before production website work
+
+- Date: 2026-07-18
+- Status: accepted
+- Decision: Treat named owner assignment, seven human-review gates, pilot-cycle evidence, real-data replacement controls and website access-model approval as launch-blocking tracker items before production website publishing.
+- Rationale: The next stage depends on accountable people and human approval, not additional automatic consolidation. Tracking these gates in the live Drive Sheets prevents synthetic examples, draft governance or benchmark inspiration from becoming accidental operating approval.

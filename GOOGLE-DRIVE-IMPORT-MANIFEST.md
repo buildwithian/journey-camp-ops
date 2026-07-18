@@ -150,6 +150,23 @@ Resource Library Index `current_drive_link` for these three rows points to the p
 - Resource index `Quality Checks!A8:E8` readback marked the canonical-resource link check `Done` for all 20 rows.
 - Delegation tracker `Tasks!A12:J13` readback showed new `TASK-009` as `Done`.
 
+
+## Post-import Organizational Implementation State
+
+Status: active and review-gated as of 2026-07-18.
+
+| Surface | Range | Current state |
+| --- | --- | --- |
+| Leader Delegation and Readiness Tracker | `Leader Roster!A5:H16` | All required owner roles are present; actual leader-name cells remain blank for programme owner completion. |
+| Leader Delegation and Readiness Tracker | `Human Review!A5:G11` | HR-001 through HR-007 are present and open. |
+| Leader Delegation and Readiness Tracker | `Tasks!A14:J20` | TASK-010 through TASK-016 track owner appointment, governance approval, seven review gates, pilot, real-data replacement, website access and production publishing. |
+| Leader Delegation and Readiness Tracker | `Decisions!A7:G10` | DEC-003 through DEC-006 keep owner naming, website access, real-data replacement and production publishing approval-gated. |
+| Leader Delegation and Readiness Tracker | `Event Readiness!A9:H10` | Pilot Journey Cycle and Production Website Launch are tracked as not ready. |
+| Leader Delegation and Readiness Tracker | `Dashboard!A5:C10` | Dashboard readback shows 16 tasks, 7 open human-review items and 6 populated non-green readiness rows. |
+| Resource Library Index | `Quality Checks!A11:E13` | Named leaders, restricted real-data replacement and production website access model are explicit quality gates. |
+
+The production website remains blocked until access model, content review, copyright boundaries and final operating authority are approved.
+
 ## Remaining Boundaries
 
 - Public/private website publishing is not yet approved.
