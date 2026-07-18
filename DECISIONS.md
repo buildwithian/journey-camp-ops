@@ -1,3 +1,9 @@
+## 2026-07-18T12:43:05+00:00
+
+- Created an owner appointment packet to support programme-owner completion of named leader assignments and authority decisions.
+- Left `Leader Roster` names blank and kept `DEC-003` review-gated; the packet is preparation evidence, not approval evidence.
+- Added communication rows for owner appointment, review packet routing and pilot readiness instead of sending messages or assigning real people without authority.
+
 ## 2026-07-18T12:37:16+00:00
 
 - Added explicit human-review sign-off fields to the live tracker instead of relying only on free-text notes.

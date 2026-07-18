@@ -158,12 +158,12 @@ Status: active and review-gated as of 2026-07-18.
 | Surface | Range | Current state |
 | --- | --- | --- |
 | Leader Delegation and Readiness Tracker | `Leader Roster!A5:H16` | All required owner roles are present; actual leader-name cells remain blank for programme owner completion. |
-| Leader Delegation and Readiness Tracker | `Human Review!A5:G11` | HR-001 through HR-007 are present and open. |
+| Leader Delegation and Readiness Tracker | `Human Review!A5:N11` | HR-001 through HR-007 are present and open, with packet links and reviewer sign-off fields. |
 | Leader Delegation and Readiness Tracker | `Tasks!A14:J20` | TASK-010 through TASK-016 track owner appointment, governance approval, seven review gates, pilot, real-data replacement, website access and production publishing. |
 | Leader Delegation and Readiness Tracker | `Decisions!A7:G10` | DEC-003 through DEC-006 keep owner naming, website access, real-data replacement and production publishing approval-gated. |
 | Leader Delegation and Readiness Tracker | `Event Readiness!A9:H10` | Pilot Journey Cycle and Production Website Launch are tracked as not ready. |
 | Leader Delegation and Readiness Tracker | `Dashboard!A5:C10` | Dashboard readback shows 16 tasks, 7 open human-review items and 6 populated non-green readiness rows. |
-| Resource Library Index | `Quality Checks!A11:E13` | Named leaders, restricted real-data replacement and production website access model are explicit quality gates. |
+| Resource Library Index | `Quality Checks!A11:E16` | Named leaders, restricted real-data replacement, production website access model, review packet readiness, pilot evidence readiness and owner appointment packet readiness are explicit quality gates. |
 
 The production website remains blocked until access model, content review, copyright boundaries and final operating authority are approved.
 
@@ -180,7 +180,19 @@ Status: created and linked as of 2026-07-18.
 | Website Access Model Decision Brief | https://docs.google.com/document/d/1PnohC62I7YfG0W7msi3RdRDDJdo2NrNZ3MJJ4ioqvSc/edit | Document sentinel readback showed that the brief does not approve publication. |
 | Leader Delegation Tracker Pilot Log | https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit | Metadata and cell readback showed a new `Pilot Log` tab with dropdown validation for workstream, owner role, observation type and status. |
 
-`Human Review!A4:I11` now links each review gate to its packet and keeps outcome evidence pending. `Tasks!A16:J20`, `Decisions!A8:G10`, `Event Readiness!A9:H10` and `Quality Checks!A11:E15` were read back after linking these artifacts.
+`Human Review!A4:N11` now links each review gate to its packet and keeps outcome evidence/sign-off pending. `Tasks!A16:J20`, `Decisions!A8:G10`, `Event Readiness!A9:H10` and `Quality Checks!A11:E15` were read back after linking these artifacts.
+
+
+## Owner Appointment And Handoff
+
+Status: created and linked as of 2026-07-18.
+
+| Artifact | URL | Verification |
+| --- | --- | --- |
+| Owner Appointment and Handoff folder | https://drive.google.com/drive/folders/1AGf3o2syQrGKfOFz79ltL7DECeVQXxgU | Folder was created under `05 Human Review and Governance`. |
+| Owner Appointment and Authority Packet | https://docs.google.com/document/d/1xX2YAA67-Ei5WYfbOKKJTJx9dwQAkh-Xb-copKH7m5U/edit | Document sentinel readback showed that the packet does not appoint leaders, approve authority or close review gates. |
+
+`Tasks!A14:J16`, `Communications!A8:G10` and Resource Library Index `Quality Checks!A14:E16` were read back after linking the owner appointment packet. Actual leader names and authority approvals remain pending human completion.
 
 ## Remaining Boundaries
 
