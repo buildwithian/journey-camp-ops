@@ -212,3 +212,10 @@
 - Commands: update `site/index.html` and `site/operating-hub-prototype.html` with a synthetic Access view; add access filters and dashboard access-decision metric; update existing Drive raw HTML artifact in place; expand prototype regression markers
 - Validation: PASS: python3 tests/test_site_prototype.py; no external URL scan matched in site HTML; Drive metadata readback for raw HTML artifact; python3 tools/validate.py; bundled-python tests/test_spreadsheets.py; git diff --check; source-original tracking check
 - Issues: Prototype refresh does not approve website access, broaden sharing or publish production pages; all live Website Access Review rows remain `Needs decision`.
+
+## Post-release: Journey V3 governance authority review matrix
+
+- Time: 2026-07-18T13:40:38+00:00
+- Commands: create Governance Authority Review tracker tab; add role and status dropdown validation; link Dashboard row 14, GATE-001, TASK-011, DEC-003, HR-005 and Resource Library Index quality-check evidence; Sheets metadata/range/validation readback verification
+- Validation: PASS: Governance Authority Review metadata readback; `Governance Authority Review!A1:K16` readback; Dashboard, Instructions, Launch Gates, Tasks, Decisions, Human Review and Quality Checks linked-range readbacks; python3 tools/validate.py; python3 tests/test_site_prototype.py; bundled-python tests/test_spreadsheets.py; git diff --check; source-original tracking check
+- Issues: Final decision rights remain unapproved; all 12 governance authority decisions remain `Needs authority decision`; named owner appointments, human-review outcomes, real pilot evidence, restricted-data replacement, website access approval and production publishing remain pending.

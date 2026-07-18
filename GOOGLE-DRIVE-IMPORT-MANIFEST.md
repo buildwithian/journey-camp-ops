@@ -166,8 +166,9 @@ Status: active and review-gated as of 2026-07-18.
 | Leader Delegation and Readiness Tracker | `Launch Gates!A5:K10` | Six remaining launch gates are consolidated with owner role, status, next human action, evidence surface and proof required to close. |
 | Leader Delegation and Readiness Tracker | `Owner Evidence Review!A5:J13` | Nine private-source evidence reviews are listed for authorized owner confirmation without copying source-derived names into the shared tracker. |
 | Leader Delegation and Readiness Tracker | `Website Access Review!A5:J18` | Fourteen website-area access decisions are listed as `Needs decision`, with public/protected/restricted/withheld recommendations and no publication approval. |
-| Leader Delegation and Readiness Tracker | `Dashboard!A5:C13` | Dashboard readback shows 16 tasks, 7 open human-review items, 6 populated non-green readiness rows, 6 launch gates not complete, 9 owner evidence reviews pending and 14 website access decisions pending. |
-| Resource Library Index | `Quality Checks!A11:E22` | Named leaders, restricted real-data replacement, production website access model, review packet readiness, pilot evidence readiness, owner appointment packet readiness, pilot run/debrief readiness, restricted-data checklist readiness, website publication gate readiness, Launch Gates control readiness, owner evidence review readiness and website access review readiness are explicit quality gates. |
+| Leader Delegation and Readiness Tracker | `Governance Authority Review!A5:K16` | Twelve final-authority decisions are listed as `Needs authority decision`, with proposed final-authority role, operating owner role, required approver and non-approval notes. |
+| Leader Delegation and Readiness Tracker | `Dashboard!A5:C14` | Dashboard readback shows 16 tasks, 7 open human-review items, 6 populated non-green readiness rows, 6 launch gates not complete, 9 owner evidence reviews pending, 14 website access decisions pending and 12 governance authority decisions pending. |
+| Resource Library Index | `Quality Checks!A11:E23` | Named leaders, restricted real-data replacement, production website access model, review packet readiness, pilot evidence readiness, owner appointment packet readiness, pilot run/debrief readiness, restricted-data checklist readiness, website publication gate readiness, Launch Gates control readiness, owner evidence review readiness, website access review readiness and governance authority review readiness are explicit quality gates. |
 
 The production website remains blocked until access model, content review, copyright boundaries and final operating authority are approved.
 
@@ -275,3 +276,14 @@ The Access view uses synthetic rows copied from the review matrix structure only
 - Canonical programme, safety, medical, legal, theological, copyright and governance review gates remain active.
 - Source-original folders, confidential raw source files and unapproved original media were not uploaded.
 - Local examples, archive/provenance and approved-media packs are review registers, not approval to publish underlying source material.
+
+## Governance Authority Review Matrix
+
+Status: created and linked as of 2026-07-18.
+
+| Artifact | URL | Verification |
+| --- | --- | --- |
+| Governance Authority Review tracker tab | https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit | Readback showed 12 authority decision rows, all `Needs authority decision`, with dropdown validation for proposed final authority, operating owner and authority status. |
+| Dashboard governance-authority metric | https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit | `Dashboard!A14:C14` readback showed 12 governance authority decisions pending. |
+
+`Governance Authority Review!A1:K16`, `Dashboard!A14:C14`, `Instructions!A14:B14`, `Launch Gates!A5:F5`, `Tasks!A15:J15`, `Decisions!A7:G7`, `Human Review!A9:N9` and Resource Library Index `Quality Checks!A21:E23` were read back after creating the governance authority matrix. The matrix supports HR-005 and DEC-003 but does not approve final authority, appoint any owner, authorize restricted-data migration or approve publication.

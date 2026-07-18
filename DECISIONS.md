@@ -140,3 +140,10 @@
 - Status: accepted
 - Decision: Mirror the Website Access Review structure in the local and Drive raw HTML prototype using synthetic data only, while keeping production publishing blocked.
 - Rationale: The user wants a single website-shaped operating hub, but the access model, authority, content review and copyright gates are still open. A synthetic prototype helps leaders review the workflow without broadening access or turning draft content into a public site.
+
+## ADR-016: Governance authority review before HR-005
+
+- Date: 2026-07-18
+- Status: accepted
+- Decision: Add a validation-backed Governance Authority Review matrix before approving final decision rights, operating authority, escalation paths or role authority.
+- Rationale: HR-005 controls whether proposed leaders and operating roles can become live authority. A separate review matrix makes the required final approver, operating owner and non-approval notes explicit while preventing synthetic roles, private source evidence or prototype workflows from becoming accidental authority.

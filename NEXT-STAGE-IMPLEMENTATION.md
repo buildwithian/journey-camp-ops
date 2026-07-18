@@ -1,7 +1,7 @@
 # Next Stage Implementation
 
 Status: active organizational implementation, not automatic consolidation.
-Last updated: 2026-07-18T13:29:30+00:00
+Last updated: 2026-07-18T13:40:38+00:00
 
 ## Live Sources Of Truth
 
@@ -39,12 +39,14 @@ Last updated: 2026-07-18T13:29:30+00:00
 - Added validation-backed `Website Access Review` tab with 14 website-area access decisions, all still `Needs decision`.
 - Linked `Website Access Review` into Dashboard row 13, `GATE-005`, `TASK-015`, `DEC-004` and the Resource Library Index quality checks.
 - Updated the local operating-hub prototype and existing Drive HTML artifact with a synthetic Access view that mirrors the 14 decision rows without publishing a production site.
+- Added validation-backed `Governance Authority Review` tab with 12 final-authority decisions, all still `Needs authority decision`.
+- Linked `Governance Authority Review` into Dashboard row 14, `GATE-001`, `TASK-011`, `DEC-003`, HR-005 and the Resource Library Index quality checks.
 
 ## Launch Gates Still Open
 
 | Gate | Current status | Evidence now present | Proof required to close |
 | --- | --- | --- | --- |
-| Appoint owners and governance fields | Not started / review required | `Owner Evidence Review!A5:J13`, `Leader Roster!A5:H16`, `TASK-010`, `DEC-003`, owner appointment packet | Authorized reviewers inspect private source evidence, then programme owners enter real leader names, backups, availability, training status and final authority approval. |
+| Appoint owners and governance fields | Not started / review required | `Governance Authority Review!A5:K16`, `Owner Evidence Review!A5:J13`, `Leader Roster!A5:H16`, `TASK-010`, `TASK-011`, `DEC-003`, owner appointment packet | Authorized reviewers inspect private source evidence, then programme owners enter real leader names, backups, availability, training status and final authority approval through HR-005. |
 | Complete seven human-review gates | Open | `Human Review!A5:N11`, `TASK-012`, review packet folder, `HUMAN-REVIEW-REQUIRED.md` | Qualified reviewers record assigned reviewer, authority, outcome, date and conditions for HR-001 through HR-007; no gate is auto-approved. |
 | Pilot one real Journey cycle | Not started | `Event Readiness!A9:H9`, `TASK-013`, `Pilot Log`, pilot evidence folder, pilot run/debrief packet | Small leadership team uses the packs and logs unclear steps, duplicated work, missing resources and unnecessary fields. |
 | Replace synthetic examples carefully | Review required | `TASK-014`, `DEC-005`, Resource Index quality check, restricted data replacement checklist | Approved local information is entered only in least-privilege Drive/Sheets locations; private data stays restricted. |
@@ -67,6 +69,7 @@ Last updated: 2026-07-18T13:29:30+00:00
 - Launch Gates tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 - Owner Evidence Review tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 - Website Access Review tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
+- Governance Authority Review tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 - Pilot Log tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 
 | Gate | Packet |
@@ -81,4 +84,4 @@ Last updated: 2026-07-18T13:29:30+00:00
 
 ## Operating Rule
 
-The Drive copy is now the practical source of truth for organizational review. Use the Launch Gates tab as the single weekly control view for the six open gates, use Owner Evidence Review for source-backed owner nominations before any names move into Leader Roster, use Website Access Review to decide area-by-area public/protected/restricted treatment before DEC-004 can close, and treat the local/Drive HTML Access view as a synthetic prototype only. The local repository remains the audit trail, template source and recovery package. Do not publish the production website or broaden sharing until the live tracker shows the relevant approvals.
+The Drive copy is now the practical source of truth for organizational review. Use the Launch Gates tab as the single weekly control view for the six open gates, use Owner Evidence Review for source-backed owner nominations before any names move into Leader Roster, use Governance Authority Review to confirm final decision rights and escalation paths before HR-005 or DEC-003 can close, use Website Access Review to decide area-by-area public/protected/restricted treatment before DEC-004 can close, and treat the local/Drive HTML Access view as a synthetic prototype only. The local repository remains the audit trail, template source and recovery package. Do not publish the production website or broaden sharing until the live tracker shows the relevant approvals.

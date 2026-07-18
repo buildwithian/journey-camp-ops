@@ -21,6 +21,7 @@ Current live tracker state:
 - `Launch Gates!A5:K10` consolidates the six remaining launch gates; Dashboard row 11 shows 6 launch gates not complete.
 - `Owner Evidence Review!A5:J13` lists nine private-source evidence reviews; Dashboard row 12 shows 9 owner evidence reviews pending.
 - `Website Access Review!A5:J18` lists 14 website-area access decisions; Dashboard row 13 shows 14 website access decisions pending.
+- `Governance Authority Review!A5:K16` lists 12 final-authority decisions; Dashboard row 14 shows 12 governance authority decisions pending.
 - The local operating-hub prototype and Drive HTML artifact include a synthetic Access view for these decisions; it is not a production deployment.
 
 Do not publish the production website or broaden access until the access model, content review, copyright boundary and final operating authority are approved.
@@ -39,7 +40,8 @@ Current review, owner, pilot, data and launch artifacts:
 - Launch Gates tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 - Owner Evidence Review tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 - Website Access Review tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
+- Governance Authority Review tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 - Updated operating-hub prototype HTML artifact: https://drive.google.com/file/d/13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi/view
 - Pilot Log tab lives in the Leader Delegation and Readiness Tracker.
 
-These artifacts prepare owner appointment, source-evidence review, human review, pilot execution, restricted-data replacement decisions, website access review, website publication review and weekly launch-gate control but do not appoint leaders, copy private names into shared records, close any human-review gate, authorize restricted-data migration or authorize publication.
+These artifacts prepare owner appointment, source-evidence review, governance authority review, human review, pilot execution, restricted-data replacement decisions, website access review, website publication review and weekly launch-gate control but do not appoint leaders, copy private names into shared records, close any human-review gate, authorize restricted-data migration or authorize publication.
