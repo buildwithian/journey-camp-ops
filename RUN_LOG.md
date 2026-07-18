@@ -1,3 +1,12 @@
+## 2026-07-18T13:00:12+00:00
+
+- Added live `Launch Gates` tab to the Journey V3 Leader Delegation and Readiness Tracker: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
+- Populated six launch-gate rows for owner appointment, human review, pilot, restricted-data replacement, website access and production publication.
+- Added owner-role and status dropdown validation to `Launch Gates!C5:D50`.
+- Added Dashboard metric `Launch gates not complete`, which read back as 6.
+- Updated tracker Instructions and Resource Library Index `Quality Checks!A20:E20` to point to the Launch Gates control tab.
+- Verified `Launch Gates!A4:D10`, `Dashboard!A11:C11`, validation metadata and Resource Index readbacks via Google Sheets.
+
 ## 2026-07-18T12:53:35+00:00
 
 - Created, moved and populated native Google Doc `Production Website Publication Gate Checklist`: https://docs.google.com/document/d/1Nokc8fgVHMZ9posIt0Vz3VHStl1q43XHZcS_DWn27DE/edit

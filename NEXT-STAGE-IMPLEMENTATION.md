@@ -1,7 +1,7 @@
 # Next Stage Implementation
 
 Status: active organizational implementation, not automatic consolidation.
-Last updated: 2026-07-18T12:53:35+00:00
+Last updated: 2026-07-18T13:00:12+00:00
 
 ## Live Sources Of Truth
 
@@ -32,6 +32,8 @@ Last updated: 2026-07-18T12:53:35+00:00
 - Linked pilot/data packets to `TASK-013`, `TASK-014`, `DEC-005`, Event Readiness, Communications and Resource Library Index quality checks.
 - Created Production Website Publication Gate Checklist in the Website Operating Hub folder.
 - Linked the website gate checklist to `TASK-015`, `TASK-016`, `DEC-004`, `DEC-006`, Event Readiness, Communications and Resource Library Index quality checks.
+- Added a validation-backed `Launch Gates` tab to the Leader Delegation tracker for the six remaining launch gates.
+- Added Dashboard metric `Launch gates not complete`, tracker Instructions guidance and a Resource Library Index quality-check row for the Launch Gates control tab.
 
 ## Launch Gates Still Open
 
@@ -45,7 +47,7 @@ Last updated: 2026-07-18T12:53:35+00:00
 | Build and publish production website | Blocked | `TASK-016`, `Event Readiness!A10:H10`, `DEC-006`, website publication gate checklist | Access model, content review, copyright boundaries and operating authority are approved before publishing. |
 
 
-## Review, Owner, Pilot And Data Artifacts
+## Review, Owner, Pilot, Data And Launch Artifacts
 
 - Owner Appointment folder: https://drive.google.com/drive/folders/1AGf3o2syQrGKfOFz79ltL7DECeVQXxgU
 - Owner Appointment and Authority Packet: https://docs.google.com/document/d/1xX2YAA67-Ei5WYfbOKKJTJx9dwQAkh-Xb-copKH7m5U/edit
@@ -57,6 +59,7 @@ Last updated: 2026-07-18T12:53:35+00:00
 - Pilot Evidence README: https://docs.google.com/document/d/1bKM-8GWJKHDGBUvZQ4QVz-zbzfCkVraUlfC6EKfootw/edit
 - Website Access Model Decision Brief: https://docs.google.com/document/d/1PnohC62I7YfG0W7msi3RdRDDJdo2NrNZ3MJJ4ioqvSc/edit
 - Production Website Publication Gate Checklist: https://docs.google.com/document/d/1Nokc8fgVHMZ9posIt0Vz3VHStl1q43XHZcS_DWn27DE/edit
+- Launch Gates tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 - Pilot Log tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 
 | Gate | Packet |
@@ -71,4 +74,4 @@ Last updated: 2026-07-18T12:53:35+00:00
 
 ## Operating Rule
 
-The Drive copy is now the practical source of truth for organizational review. The local repository remains the audit trail, template source and recovery package. Do not publish the production website or broaden sharing until the live tracker shows the relevant approvals.
+The Drive copy is now the practical source of truth for organizational review. Use the Launch Gates tab as the single weekly control view for the six open gates. The local repository remains the audit trail, template source and recovery package. Do not publish the production website or broaden sharing until the live tracker shows the relevant approvals.
