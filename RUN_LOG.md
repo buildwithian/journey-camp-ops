@@ -91,3 +91,10 @@
 - Commands: static HTML prototype; site prototype test; repository validation
 - Validation: PASS: python3 tests/test_site_prototype.py; python3 tools/validate.py
 - Issues: Native Drive import remains pending explicit destination approval.
+
+## Post-release: site homepage hub integration
+
+- Time: 2026-07-18T10:03:14+00:00
+- Commands: replace static site homepage with operating hub prototype; extend site prototype regression test
+- Validation: PASS: python3 tests/test_site_prototype.py; python3 tools/validate.py; git diff --check
+- Issues: Native Drive import remains pending explicit destination approval.
