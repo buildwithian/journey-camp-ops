@@ -126,3 +126,10 @@
 - Status: accepted
 - Decision: Create per-gate review packet Docs and a validation-backed Pilot Log before changing any human-review status or publishing the production website.
 - Rationale: The next stage needs qualified reviewer outcomes and real pilot evidence. Packet and log artifacts make the work executable while preserving the rule that no safety, legal, medical, theology, authority, programme-content or copyright gate is auto-approved.
+
+## ADR-014: Area-by-area website access review before DEC-004
+
+- Date: 2026-07-18
+- Status: accepted
+- Decision: Add a validation-backed Website Access Review matrix to decide public, protected, restricted or withheld treatment for each website area before closing the production access-model decision.
+- Rationale: The future website mixes public explanation, leader resources, current management data, review evidence, participant administration, medical/safeguarding workflows, finance tools and media. Area-level decisions reduce the risk that a single broad access choice accidentally exposes private data, review-gated content or third-party material.

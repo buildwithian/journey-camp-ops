@@ -198,3 +198,10 @@
 - Commands: create Human Review Packets and Pilot Evidence Drive folders; create native Docs for HR-001 through HR-007 review packets; create Website Access Model Decision Brief; create Pilot Evidence README; add validation-backed Pilot Log tab; link packet and evidence artifacts into Human Review, Tasks, Decisions, Event Readiness and Quality Checks tracker ranges
 - Validation: PASS: packet folder readback; pilot evidence folder readback; review-packet Doc sentinel checks; website access brief sentinel check; pilot README sentinel check; Pilot Log header and validation metadata readback; Human Review packet-link readback; Tasks, Decisions, Event Readiness and Quality Checks linked-range readbacks; python3 tools/validate.py; python3 tests/test_site_prototype.py; bundled-python tests/test_spreadsheets.py; git diff --check; source-original tracking check
 - Issues: Review packets and pilot log are ready, but leader names, qualified approvals, real pilot evidence, restricted local data replacement, access-model approval and production website publication remain pending human action.
+
+## Post-release: Journey V3 website access review matrix
+
+- Time: 2026-07-18T13:22:15+00:00
+- Commands: create Website Access Review tracker tab; add access, decision-status and owner-role dropdown validation; link Dashboard row 13, GATE-005, TASK-015, DEC-004 and Resource Library Index quality-check evidence; Sheets metadata/range/format readback verification
+- Validation: PASS: Website Access Review metadata readback; `Website Access Review!A1:J18` readback; Dashboard, Launch Gates, Tasks, Decisions and Quality Checks linked-range readbacks; python3 tools/validate.py; python3 tests/test_site_prototype.py; bundled-python tests/test_spreadsheets.py; git diff --check; source-original tracking check
+- Issues: Website access model remains unapproved; all 14 website-area decisions remain `Needs decision`; production website publishing remains blocked.
