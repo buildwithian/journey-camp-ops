@@ -56,6 +56,29 @@ Status: completed for the first core resource tranche on 2026-07-18.
 | Journey V3 - Start A Journey Launch Pack | 02 Canonical Resources / 02 Start a Journey | CAN-START-A-JOURNEY-LAUNCH-PACK | https://docs.google.com/document/d/1-jozm9_dEegP7_qMljnOcKaOMJjA6yoeMTCzcRC18KE/edit |
 | Journey V3 - Governance And Role Pack | 02 Canonical Resources / 03 Governance and Roles | CAN-OPERATING-MODEL-AND-DECISION-RIGHTS; CAN-ROLE-DESCRIPTIONS-AND-RACI | https://docs.google.com/document/d/1MNW7jZluPWq693hABhywIDxGyPjyR4Xm-1EIvdQM7xE/edit |
 
+
+## Imported Programme and Event Pack Docs
+
+Status: completed for the programme/event resource tranche on 2026-07-18.
+
+| Subfolder | URL |
+| --- | --- |
+| 04 Leader Training | https://drive.google.com/drive/folders/1yr4hyNl5rmVpiRdMUDJpLAkOzLSMWv9n |
+| 05 Participant Onboarding | https://drive.google.com/drive/folders/1Q6aP845e5iz5kHiR6ecQSewq6vU2BgnH |
+| 06 Weekly Sessions | https://drive.google.com/drive/folders/1I_UosIr17D210S5jZU-b-fok8fXWWsaw |
+| 07 Kickoff Camp | https://drive.google.com/drive/folders/1a62pNAEpWIIeexJDV5Eg6s4qeOsjmTti |
+| 08 Compass Evening | https://drive.google.com/drive/folders/1RzddqJ1Hgp10y7KZVmlDd0a0cCfHHAnL |
+| 09 Rite of Passage | https://drive.google.com/drive/folders/172S-bMrDloW2r7cUCQH2cFvrDYDd1e8Y |
+
+| Google Doc | Destination | Resource index row linked | URL |
+| --- | --- | --- | --- |
+| Journey V3 - Leader Training Pack | 02 Canonical Resources / 04 Leader Training | CAN-LEADER-TRAINING-PACK | https://docs.google.com/document/d/1fRC0gS3zkD38xSQ8_QhExJ59FwwV6RveRiNkqYzxdVo/edit |
+| Journey V3 - Participant Onboarding Pack | 02 Canonical Resources / 05 Participant Onboarding | CAN-PARTICIPANT-ONBOARDING-PACK | https://docs.google.com/document/d/1EtOLCYVquV631sQULPMZl5W1njcW_HpykujEUVWViEE/edit |
+| Journey V3 - Weekly Session Library | 02 Canonical Resources / 06 Weekly Sessions | CAN-WEEKLY-SESSION-LIBRARY | https://docs.google.com/document/d/14Zqf9Wj8JtiyrwhjpxSp4OozpAMSe8ann2de5O63sgI/edit |
+| Journey V3 - Kickoff Camp Pack | 02 Canonical Resources / 07 Kickoff Camp | CAN-KICKOFF-CAMP-PACK | https://docs.google.com/document/d/1FVx5awPysnyrpSWqa9qdKVEkxKwqC0zSPrZm7AYhSmM/edit |
+| Journey V3 - Compass Evening Pack | 02 Canonical Resources / 08 Compass Evening | CAN-COMPASS-EVENING-PACK | https://docs.google.com/document/d/11kh-NMo9EtP9nJORzQMWJdTH4aa1as4Nc2Mwp7bRxw0/edit |
+| Journey V3 - Rite Of Passage Pack | 02 Canonical Resources / 09 Rite of Passage | CAN-RITE-OF-PASSAGE-PACK | https://docs.google.com/document/d/1onxYi8MMDnXMy0VdkU-L8rJvM0ETQKOq7DDuFdzj7pE/edit |
+
 ## Uploaded Website Artifact
 
 | File | Destination | URL |
@@ -80,10 +103,15 @@ Status: completed for the first core resource tranche on 2026-07-18.
 - Resource index `Canonical Resources!A5:L9` readback showed current links to the four new core pack Docs.
 - Resource index `Quality Checks!A8:E8` readback kept the canonical-resource check `In progress` and recorded the first tranche evidence.
 - Delegation tracker `Tasks!A9:J10` readback showed new `TASK-006` as `Done`.
+- Programme/event Doc sentinel checks passed for Training Module Template, Participant registration process, Girls session material, Kickoff Camp Pack, Compass Evening Pack and Girls Rite Of Passage Pack.
+- Canonical Resources folder readback showed subfolders 00 through 09.
+- Resource index `Canonical Resources!A10:L15` readback showed current links to the six new programme/event pack Docs.
+- Resource index `Quality Checks!A8:E8` readback recorded that 11 of 20 canonical rows now have current Drive links.
+- Delegation tracker `Tasks!A10:J11` readback showed new `TASK-007` as `Done`.
 
 ## Remaining Boundaries
 
 - Public/private website publishing is not yet approved.
 - Canonical programme, safety, medical, legal, theological, copyright and governance review gates remain active.
-- Remaining canonical packs still need to be imported, linked and owner-reviewed after the first core resource tranche.
+- Remaining operations, safety, quality, local examples, archive/provenance and media packs still need to be imported, linked and owner-reviewed after the core and programme/event tranches.
 - Source-original folders and confidential raw source files were not uploaded.

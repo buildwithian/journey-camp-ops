@@ -55,3 +55,10 @@
 - Status: accepted
 - Decision: Import the first canonical resource tranche as four consolidated native Google Docs under `02 Canonical Resources` before migrating every remaining template/source-derived asset.
 - Rationale: The user wants a simpler, Alpha-inspired operating hub backed by Drive as source of truth. Consolidated pack Docs make the core workflow usable sooner, reduce duplication, and keep review-gated material out of broad access until qualified owners approve it.
+
+## ADR-009: Programme/event packs as consolidated native Docs
+
+- Date: 2026-07-18
+- Status: accepted
+- Decision: Import the leader training, participant onboarding, weekly session, kickoff camp, Compass evening and rite-of-passage resources as six consolidated native Google Docs under `02 Canonical Resources`.
+- Rationale: These resources are operationally consumed as guided packs rather than raw source folders. Consolidating them reduces duplication, keeps Drive as the source of truth, and preserves review-required labels for girls, theological, safety and rite-of-passage content.

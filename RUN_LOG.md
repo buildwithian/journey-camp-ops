@@ -112,3 +112,10 @@
 - Commands: create Canonical Resources subfolders; import Start Here, Foundations, Start a Journey and Governance/Role pack Docs; link Resource Library Index rows; add Delegation Tracker TASK-006; Drive/Docs/Sheets readback verification
 - Validation: PASS: Google Docs sentinel checks; Resource Library Index readback; Delegation Tracker readback; python3 tools/validate.py; python3 tests/test_site_prototype.py; bundled-python tests/test_spreadsheets.py; git diff --check; source-original tracking check
 - Issues: Remaining canonical packs and owner review gates remain pending; website publishing remains unapproved.
+
+## Post-release: Journey V3 programme/event resource pack import
+
+- Time: 2026-07-18T11:34:19+00:00
+- Commands: create Canonical Resources subfolders 04 through 09; import leader training, participant onboarding, weekly sessions, kickoff camp, Compass evening and rite-of-passage pack Docs; link Resource Library Index rows; add Delegation Tracker TASK-007; Drive/Docs/Sheets readback verification
+- Validation: PASS: Google Docs sentinel checks; Resource Library Index readback; Canonical Resources folder readback; Delegation Tracker readback; python3 tools/validate.py; python3 tests/test_site_prototype.py; bundled-python tests/test_spreadsheets.py; git diff --check; source-original tracking check
+- Issues: Remaining operations, safety, quality, local examples, archive/provenance and media packs remain pending; website publishing remains unapproved.
