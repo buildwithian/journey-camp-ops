@@ -205,3 +205,10 @@
 - Commands: create Website Access Review tracker tab; add access, decision-status and owner-role dropdown validation; link Dashboard row 13, GATE-005, TASK-015, DEC-004 and Resource Library Index quality-check evidence; Sheets metadata/range/format readback verification
 - Validation: PASS: Website Access Review metadata readback; `Website Access Review!A1:J18` readback; Dashboard, Launch Gates, Tasks, Decisions and Quality Checks linked-range readbacks; python3 tools/validate.py; python3 tests/test_site_prototype.py; bundled-python tests/test_spreadsheets.py; git diff --check; source-original tracking check
 - Issues: Website access model remains unapproved; all 14 website-area decisions remain `Needs decision`; production website publishing remains blocked.
+
+## Post-release: local operating-hub access-view prototype
+
+- Time: 2026-07-18T13:29:30+00:00
+- Commands: update `site/index.html` and `site/operating-hub-prototype.html` with a synthetic Access view; add access filters and dashboard access-decision metric; update existing Drive raw HTML artifact in place; expand prototype regression markers
+- Validation: PASS: python3 tests/test_site_prototype.py; no external URL scan matched in site HTML; Drive metadata readback for raw HTML artifact; python3 tools/validate.py; bundled-python tests/test_spreadsheets.py; git diff --check; source-original tracking check
+- Issues: Prototype refresh does not approve website access, broaden sharing or publish production pages; all live Website Access Review rows remain `Needs decision`.

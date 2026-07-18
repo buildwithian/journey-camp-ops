@@ -113,6 +113,7 @@ Resource Library Index `current_drive_link` for these three rows points to the p
 | File | Destination | URL |
 | --- | --- | --- |
 | Journey V3 - Operating Hub Prototype.html | 04 Website Operating Hub | https://drive.google.com/file/d/13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi/view |
+| Journey V3 - Operating Hub Prototype.html access-view refresh | 04 Website Operating Hub | Updated in place on 2026-07-18; same file ID, modified time 2026-07-18T13:27:54.544Z, size 20170 bytes. |
 
 ## Verification
 
@@ -256,6 +257,17 @@ Status: created and linked as of 2026-07-18.
 | Dashboard website-access metric | https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit | `Dashboard!A13:C13` readback showed 14 website access decisions pending. |
 
 `Website Access Review!A1:J18`, `Dashboard!A11:C13`, `Launch Gates!A9:F9`, `Tasks!A19:J19`, `Decisions!A8:G8` and Resource Library Index `Quality Checks!A20:E22` were read back after creating the access review matrix. The matrix supports DEC-004 but does not approve public access, authenticated access or production publication.
+
+## Operating Hub Prototype Access View
+
+Status: local prototype and existing Drive raw HTML artifact updated as of 2026-07-18.
+
+| Artifact | URL | Verification |
+| --- | --- | --- |
+| Local prototype Access view | site/index.html | Regression test readback showed Website Access Review markers, filters, access rows and no external URL dependencies. |
+| Drive HTML artifact | https://drive.google.com/file/d/13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi/view | Drive metadata readback showed the same file ID, text/html MIME type, modified time 2026-07-18T13:27:54.544Z and size 20170 bytes after update. |
+
+The Access view uses synthetic rows copied from the review matrix structure only. It does not publish a production website, approve access, broaden sharing or replace Drive/Sheets as the source of truth.
 
 ## Remaining Boundaries
 

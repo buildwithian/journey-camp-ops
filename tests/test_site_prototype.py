@@ -11,6 +11,12 @@ required = [
     'Journey V3 live',
     'Resource Library',
     'Event Readiness',
+    'Website Access Review',
+    'accessRows',
+    'accessPendingCount',
+    'accessLevelFilter',
+    'accessStatusFilter',
+    'Do not copy Alpha assets',
 ]
 for name in ('site/index.html', 'site/operating-hub-prototype.html'):
     html = root.joinpath(name).read_text(encoding='utf-8')

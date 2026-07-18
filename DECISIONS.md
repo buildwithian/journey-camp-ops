@@ -133,3 +133,10 @@
 - Status: accepted
 - Decision: Add a validation-backed Website Access Review matrix to decide public, protected, restricted or withheld treatment for each website area before closing the production access-model decision.
 - Rationale: The future website mixes public explanation, leader resources, current management data, review evidence, participant administration, medical/safeguarding workflows, finance tools and media. Area-level decisions reduce the risk that a single broad access choice accidentally exposes private data, review-gated content or third-party material.
+
+## ADR-015: Access-review prototype remains non-production
+
+- Date: 2026-07-18
+- Status: accepted
+- Decision: Mirror the Website Access Review structure in the local and Drive raw HTML prototype using synthetic data only, while keeping production publishing blocked.
+- Rationale: The user wants a single website-shaped operating hub, but the access model, authority, content review and copyright gates are still open. A synthetic prototype helps leaders review the workflow without broadening access or turning draft content into a public site.

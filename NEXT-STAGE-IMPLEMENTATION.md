@@ -1,7 +1,7 @@
 # Next Stage Implementation
 
 Status: active organizational implementation, not automatic consolidation.
-Last updated: 2026-07-18T13:22:15+00:00
+Last updated: 2026-07-18T13:29:30+00:00
 
 ## Live Sources Of Truth
 
@@ -38,6 +38,7 @@ Last updated: 2026-07-18T13:22:15+00:00
 - Added Dashboard metric `Owner evidence reviews pending`, tracker Instructions guidance and a Resource Library Index quality-check row for the Owner Evidence Review tab.
 - Added validation-backed `Website Access Review` tab with 14 website-area access decisions, all still `Needs decision`.
 - Linked `Website Access Review` into Dashboard row 13, `GATE-005`, `TASK-015`, `DEC-004` and the Resource Library Index quality checks.
+- Updated the local operating-hub prototype and existing Drive HTML artifact with a synthetic Access view that mirrors the 14 decision rows without publishing a production site.
 
 ## Launch Gates Still Open
 
@@ -80,4 +81,4 @@ Last updated: 2026-07-18T13:22:15+00:00
 
 ## Operating Rule
 
-The Drive copy is now the practical source of truth for organizational review. Use the Launch Gates tab as the single weekly control view for the six open gates, use Owner Evidence Review for source-backed owner nominations before any names move into Leader Roster, and use Website Access Review to decide area-by-area public/protected/restricted treatment before DEC-004 can close. The local repository remains the audit trail, template source and recovery package. Do not publish the production website or broaden sharing until the live tracker shows the relevant approvals.
+The Drive copy is now the practical source of truth for organizational review. Use the Launch Gates tab as the single weekly control view for the six open gates, use Owner Evidence Review for source-backed owner nominations before any names move into Leader Roster, use Website Access Review to decide area-by-area public/protected/restricted treatment before DEC-004 can close, and treat the local/Drive HTML Access view as a synthetic prototype only. The local repository remains the audit trail, template source and recovery package. Do not publish the production website or broaden sharing until the live tracker shows the relevant approvals.
