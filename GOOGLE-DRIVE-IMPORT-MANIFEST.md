@@ -167,6 +167,21 @@ Status: active and review-gated as of 2026-07-18.
 
 The production website remains blocked until access model, content review, copyright boundaries and final operating authority are approved.
 
+
+## Review Packets And Pilot Evidence
+
+Status: created and linked as of 2026-07-18.
+
+| Artifact | URL | Verification |
+| --- | --- | --- |
+| Human Review Packets folder | https://drive.google.com/drive/folders/1qFvxr10Tto589PexueN34XK8AFvYMjTd | Folder readback showed HR-001 through HR-007 native review packet Docs plus the website access decision brief. |
+| Pilot Evidence folder | https://drive.google.com/drive/folders/1v1_PtevCjMEL8bwnDOz9Z2JVyglH_CZJ | Folder readback showed the Pilot Evidence README. |
+| Pilot Evidence README | https://docs.google.com/document/d/1bKM-8GWJKHDGBUvZQ4QVz-zbzfCkVraUlfC6EKfootw/edit | Document sentinel readback showed the non-sensitive evidence rule. |
+| Website Access Model Decision Brief | https://docs.google.com/document/d/1PnohC62I7YfG0W7msi3RdRDDJdo2NrNZ3MJJ4ioqvSc/edit | Document sentinel readback showed that the brief does not approve publication. |
+| Leader Delegation Tracker Pilot Log | https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit | Metadata and cell readback showed a new `Pilot Log` tab with dropdown validation for workstream, owner role, observation type and status. |
+
+`Human Review!A4:I11` now links each review gate to its packet and keeps outcome evidence pending. `Tasks!A16:J20`, `Decisions!A8:G10`, `Event Readiness!A9:H10` and `Quality Checks!A11:E15` were read back after linking these artifacts.
+
 ## Remaining Boundaries
 
 - Public/private website publishing is not yet approved.

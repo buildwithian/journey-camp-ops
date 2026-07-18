@@ -83,3 +83,10 @@
 - Status: accepted
 - Decision: Treat named owner assignment, seven human-review gates, pilot-cycle evidence, real-data replacement controls and website access-model approval as launch-blocking tracker items before production website publishing.
 - Rationale: The next stage depends on accountable people and human approval, not additional automatic consolidation. Tracking these gates in the live Drive Sheets prevents synthetic examples, draft governance or benchmark inspiration from becoming accidental operating approval.
+
+## ADR-013: Review packets and pilot evidence before approval changes
+
+- Date: 2026-07-18
+- Status: accepted
+- Decision: Create per-gate review packet Docs and a validation-backed Pilot Log before changing any human-review status or publishing the production website.
+- Rationale: The next stage needs qualified reviewer outcomes and real pilot evidence. Packet and log artifacts make the work executable while preserving the rule that no safety, legal, medical, theology, authority, programme-content or copyright gate is auto-approved.

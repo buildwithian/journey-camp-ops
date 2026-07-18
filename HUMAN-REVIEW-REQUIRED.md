@@ -8,6 +8,22 @@ This file contains only decisions requiring qualified human or expert review.
 - Current status: all seven review gates are open; HR-005 and HR-006 are now present in the live tracker alongside HR-001 through HR-004 and HR-007.
 - Rule: do not mark any gate approved without the named qualified reviewer or programme authority recording the outcome.
 
+
+## Review Packet Links
+
+- Review packet folder: https://drive.google.com/drive/folders/1qFvxr10Tto589PexueN34XK8AFvYMjTd
+- Website access decision brief: https://docs.google.com/document/d/1PnohC62I7YfG0W7msi3RdRDDJdo2NrNZ3MJJ4ioqvSc/edit
+
+| Review ID | Packet |
+| --- | --- |
+| HR-001 | Safeguarding Review Packet: https://docs.google.com/document/d/1vxbJeggVFC-UkPHXnlqNq1VpcZp_kXDZCugyKbEjk3Q/edit |
+| HR-002 | Legal Compliance Review Packet: https://docs.google.com/document/d/1GSXyEnA_Qd52au6vZwW5d532CnyW2yAaP9vtiKzoDts/edit |
+| HR-003 | Medical Readiness Review Packet: https://docs.google.com/document/d/1iTsga4rXo9AL4lGQ3vtDaZylt25BBQHE_jPKdOb8GAE/edit |
+| HR-004 | Theology Review Packet: https://docs.google.com/document/d/1s2F1hNAYgm8Amo-dwRsM91nPRv6-XSq1NrKN-jo17yQ/edit |
+| HR-005 | Operating Authority Review Packet: https://docs.google.com/document/d/1cgh2cEx6gKN9uDEwFuX1LEXQ-DXYeX2aLVVPryChebs/edit |
+| HR-006 | Girls Programme Content Review Packet: https://docs.google.com/document/d/1MKDo9_SywF2KErlKvtN2oSr0IZxzqahfBxCh7JSEz1s/edit |
+| HR-007 | Copyright Boundary Review Packet: https://docs.google.com/document/d/1T_MKdInk66JzB5GaOnHOsL3b5CYjihVkUn_ZTjGRPgE/edit |
+
 ## HR-001: Safeguarding and child-protection material
 
 - Category: Safeguarding approval

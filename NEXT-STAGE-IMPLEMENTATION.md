@@ -1,7 +1,7 @@
 # Next Stage Implementation
 
 Status: active organizational implementation, not automatic consolidation.
-Last updated: 2026-07-18T12:18:24+00:00
+Last updated: 2026-07-18T12:33:20+00:00
 
 ## Live Sources Of Truth
 
@@ -19,16 +19,40 @@ Last updated: 2026-07-18T12:18:24+00:00
 - Fixed the Delegation Tracker dashboard formula so `Events not green` counts populated event rows only.
 - Added Resource Library Index quality checks for named leader assignment, restricted local data replacement, and website access-model approval.
 
+- Created Drive folder `01 Human Review Packets` with seven native review-packet Docs plus a website access decision brief.
+- Created Drive folder `02 Pilot Evidence` with a pilot evidence README.
+- Added `Human Review!H4:I11` review-packet and outcome-evidence fields.
+- Added validation-backed `Pilot Log` tab for pilot observations and restricted-data notes.
+
 ## Launch Gates Still Open
 
 | Gate | Current status | Evidence now present | Proof required to close |
 | --- | --- | --- | --- |
 | Appoint owners and governance fields | Not started / review required | `Leader Roster!A5:H16`, `TASK-010`, `DEC-003` | Real leader names, backups, availability, training status and final authority approval entered by programme owners. |
-| Complete seven human-review gates | Open | `Human Review!A5:G11`, `TASK-012`, `HUMAN-REVIEW-REQUIRED.md` | Qualified reviewers record outcomes for HR-001 through HR-007; no gate is auto-approved. |
-| Pilot one real Journey cycle | Not started | `Event Readiness!A9:H9`, `TASK-013` | Small leadership team uses the packs and logs unclear steps, duplicated work, missing resources and unnecessary fields. |
+| Complete seven human-review gates | Open | `Human Review!A5:I11`, `TASK-012`, review packet folder, `HUMAN-REVIEW-REQUIRED.md` | Qualified reviewers record outcomes for HR-001 through HR-007; no gate is auto-approved. |
+| Pilot one real Journey cycle | Not started | `Event Readiness!A9:H9`, `TASK-013`, `Pilot Log`, pilot evidence folder | Small leadership team uses the packs and logs unclear steps, duplicated work, missing resources and unnecessary fields. |
 | Replace synthetic examples carefully | Review required | `TASK-014`, `DEC-005`, Resource Index quality check | Approved local information is entered only in least-privilege Drive/Sheets locations; private data stays restricted. |
-| Approve website access model | Review required | `TASK-015`, `DEC-004`, Resource Index quality check | Oversight selects leaders-only, partly public with protected leader area, or public information plus authenticated tools. |
+| Approve website access model | Review required | `TASK-015`, `DEC-004`, website access decision brief, Resource Index quality check | Oversight selects leaders-only, partly public with protected leader area, or public information plus authenticated tools. |
 | Build and publish production website | Blocked | `TASK-016`, `Event Readiness!A10:H10`, `DEC-006` | Access model, content review, copyright boundaries and operating authority are approved before publishing. |
+
+
+## Review And Pilot Artifacts
+
+- Human Review Packets folder: https://drive.google.com/drive/folders/1qFvxr10Tto589PexueN34XK8AFvYMjTd
+- Pilot Evidence folder: https://drive.google.com/drive/folders/1v1_PtevCjMEL8bwnDOz9Z2JVyglH_CZJ
+- Pilot Evidence README: https://docs.google.com/document/d/1bKM-8GWJKHDGBUvZQ4QVz-zbzfCkVraUlfC6EKfootw/edit
+- Website Access Model Decision Brief: https://docs.google.com/document/d/1PnohC62I7YfG0W7msi3RdRDDJdo2NrNZ3MJJ4ioqvSc/edit
+- Pilot Log tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
+
+| Gate | Packet |
+| --- | --- |
+| HR-001 | Safeguarding Review Packet: https://docs.google.com/document/d/1vxbJeggVFC-UkPHXnlqNq1VpcZp_kXDZCugyKbEjk3Q/edit |
+| HR-002 | Legal Compliance Review Packet: https://docs.google.com/document/d/1GSXyEnA_Qd52au6vZwW5d532CnyW2yAaP9vtiKzoDts/edit |
+| HR-003 | Medical Readiness Review Packet: https://docs.google.com/document/d/1iTsga4rXo9AL4lGQ3vtDaZylt25BBQHE_jPKdOb8GAE/edit |
+| HR-004 | Theology Review Packet: https://docs.google.com/document/d/1s2F1hNAYgm8Amo-dwRsM91nPRv6-XSq1NrKN-jo17yQ/edit |
+| HR-005 | Operating Authority Review Packet: https://docs.google.com/document/d/1cgh2cEx6gKN9uDEwFuX1LEXQ-DXYeX2aLVVPryChebs/edit |
+| HR-006 | Girls Programme Content Review Packet: https://docs.google.com/document/d/1MKDo9_SywF2KErlKvtN2oSr0IZxzqahfBxCh7JSEz1s/edit |
+| HR-007 | Copyright Boundary Review Packet: https://docs.google.com/document/d/1T_MKdInk66JzB5GaOnHOsL3b5CYjihVkUn_ZTjGRPgE/edit |
 
 ## Operating Rule
 

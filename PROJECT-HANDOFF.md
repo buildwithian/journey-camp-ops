@@ -20,3 +20,12 @@ Current live tracker state:
 - `Event Readiness!A9:H10` tracks the pilot Journey cycle and production website launch as not ready.
 
 Do not publish the production website or broaden access until the access model, content review, copyright boundary and final operating authority are approved.
+
+Current review and pilot artifacts:
+
+- Human Review Packets folder: https://drive.google.com/drive/folders/1qFvxr10Tto589PexueN34XK8AFvYMjTd
+- Pilot Evidence folder: https://drive.google.com/drive/folders/1v1_PtevCjMEL8bwnDOz9Z2JVyglH_CZJ
+- Website Access Model Decision Brief: https://docs.google.com/document/d/1PnohC62I7YfG0W7msi3RdRDDJdo2NrNZ3MJJ4ioqvSc/edit
+- Pilot Log tab lives in the Leader Delegation and Readiness Tracker.
+
+These artifacts prepare review and pilot execution but do not close any human-review gate or authorize publication.
