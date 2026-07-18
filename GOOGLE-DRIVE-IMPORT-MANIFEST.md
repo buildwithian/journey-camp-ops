@@ -159,6 +159,7 @@ Status: active and review-gated as of 2026-07-18.
 | Surface | Range | Current state |
 | --- | --- | --- |
 | Leader Delegation and Readiness Tracker | `Leader Roster!A5:H16` | All required owner roles are present; actual leader-name cells remain blank for programme owner completion. |
+| Leader Delegation and Readiness Tracker | `Owner Appointment Routing!A5:N16` | Twelve owner-appointment actions are present as `Needs candidate named`, with blank candidate-name, backup-confirmation and target-date fields for programme completion. |
 | Leader Delegation and Readiness Tracker | `Human Review!A5:N11` | HR-001 through HR-007 are present and open, with packet links and reviewer sign-off fields. |
 | Leader Delegation and Readiness Tracker | `Human Review Routing!A5:M11` | Seven reviewer-assignment rows are present as `Needs reviewer assigned`, with blank reviewer-name, authority and target-date fields for programme completion. |
 | Leader Delegation and Readiness Tracker | `Tasks!A14:J20` | TASK-010 through TASK-016 track owner appointment, governance approval, seven review gates, pilot, real-data replacement, website access and production publishing. |
@@ -168,8 +169,8 @@ Status: active and review-gated as of 2026-07-18.
 | Leader Delegation and Readiness Tracker | `Owner Evidence Review!A5:J13` | Nine private-source evidence reviews are listed for authorized owner confirmation without copying source-derived names into the shared tracker. |
 | Leader Delegation and Readiness Tracker | `Website Access Review!A5:J18` | Fourteen website-area access decisions are listed as `Needs decision`, with public/protected/restricted/withheld recommendations and no publication approval. |
 | Leader Delegation and Readiness Tracker | `Governance Authority Review!A5:K16` | Twelve final-authority decisions are listed as `Needs authority decision`, with proposed final-authority role, operating owner role, required approver and non-approval notes. |
-| Leader Delegation and Readiness Tracker | `Dashboard!A5:C15` | Dashboard readback shows 16 tasks, 7 open human-review items, 6 populated non-green readiness rows, 6 launch gates not complete, 9 owner evidence reviews pending, 14 website access decisions pending, 12 governance authority decisions pending and 7 human-review routing actions pending. |
-| Resource Library Index | `Quality Checks!A11:E24` | Named leaders, restricted real-data replacement, production website access model, review packet readiness, pilot evidence readiness, owner appointment packet readiness, pilot run/debrief readiness, restricted-data checklist readiness, website publication gate readiness, Launch Gates control readiness, owner evidence review readiness, website access review readiness, governance authority review readiness and human-review routing readiness are explicit quality gates. |
+| Leader Delegation and Readiness Tracker | `Dashboard!A5:C16` | Dashboard readback shows 16 tasks, 7 open human-review items, 6 populated non-green readiness rows, 6 launch gates not complete, 9 owner evidence reviews pending, 14 website access decisions pending, 12 governance authority decisions pending, 7 human-review routing actions pending and 12 owner appointment actions pending. |
+| Resource Library Index | `Quality Checks!A11:E25` | Named leaders, restricted real-data replacement, production website access model, review packet readiness, pilot evidence readiness, owner appointment packet readiness, pilot run/debrief readiness, restricted-data checklist readiness, website publication gate readiness, Launch Gates control readiness, owner evidence review readiness, website access review readiness, governance authority review readiness, human-review routing readiness and owner appointment routing readiness are explicit quality gates. |
 
 The production website remains blocked until access model, content review, copyright boundaries and final operating authority are approved.
 
@@ -299,3 +300,14 @@ Status: created and linked as of 2026-07-18.
 | Dashboard human-review routing metric | https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit | `Dashboard!A15:C15` readback showed 7 human-review routing actions pending and the formula counts populated routing rows not yet marked `Sign-off recorded`. |
 
 `Human Review Routing!A1:M11`, `Dashboard!A15:C15`, `Instructions!A15:B15`, `Launch Gates!A6:F6`, `Tasks!A16:J16` and Resource Library Index `Quality Checks!A24:E24` were read back after creating the routing queue. The queue prepares reviewer assignment and packet movement only; HR-001 through HR-007 remain open until qualified reviewers record final sign-off in `Human Review`.
+
+## Owner Appointment Routing Queue
+
+Status: created and linked as of 2026-07-18.
+
+| Artifact | URL | Verification |
+| --- | --- | --- |
+| Owner Appointment Routing tracker tab | https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit | Readback showed twelve role appointment rows, all `Needs candidate named`, with blank candidate-name, backup-confirmation and target-date fields. |
+| Dashboard owner-appointment routing metric | https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit | `Dashboard!A16:C16` readback showed 12 owner appointment actions pending and the formula counts populated appointment rows not yet marked `Entered in Leader Roster`. |
+
+`Owner Appointment Routing!A1:N16`, `Dashboard!A16:C16`, `Instructions!A16:B16`, `Launch Gates!A5:F5`, `Tasks!A14:J15` and Resource Library Index `Quality Checks!A25:E25` were read back after creating the routing queue. The queue prepares candidate nomination, backup confirmation and Leader Roster entry only; it does not appoint leaders, copy source-derived names, approve authority or close DEC-003/HR-005.

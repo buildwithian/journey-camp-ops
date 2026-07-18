@@ -154,3 +154,10 @@
 - Status: accepted
 - Decision: Add a validation-backed Human Review Routing queue before any HR-001 through HR-007 sign-off is entered.
 - Rationale: The open review gates need named qualified reviewers, target dates and packet movement before final outcomes can be responsibly recorded. A routing queue makes those operational steps visible while keeping approval authority in the `Human Review` sign-off fields.
+
+## ADR-018: Owner appointment routing before roster entry
+
+- Date: 2026-07-18
+- Status: accepted
+- Decision: Add a validation-backed Owner Appointment Routing queue before entering real leader names into `Leader Roster`.
+- Rationale: The appointment step requires authorized source review, programme-owner confirmation, backup coverage and HR-005 authority approval. A routing queue makes those dependencies visible while keeping source-derived names and final appointments out of shared records until approved.

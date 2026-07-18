@@ -1,7 +1,7 @@
 # Next Stage Implementation
 
 Status: active organizational implementation, not automatic consolidation.
-Last updated: 2026-07-18T13:50:05+00:00
+Last updated: 2026-07-18T13:57:48+00:00
 
 ## Live Sources Of Truth
 
@@ -43,12 +43,14 @@ Last updated: 2026-07-18T13:50:05+00:00
 - Linked `Governance Authority Review` into Dashboard row 14, `GATE-001`, `TASK-011`, `DEC-003`, HR-005 and the Resource Library Index quality checks.
 - Added validation-backed `Human Review Routing` tab with seven reviewer-assignment rows, all still `Needs reviewer assigned`.
 - Linked `Human Review Routing` into Dashboard row 15, `GATE-002`, `TASK-012`, tracker Instructions and the Resource Library Index quality checks.
+- Added validation-backed `Owner Appointment Routing` tab with twelve role appointment rows, all still `Needs candidate named` and with real-name fields blank.
+- Linked `Owner Appointment Routing` into Dashboard row 16, `GATE-001`, `TASK-010`, `TASK-011`, tracker Instructions and the Resource Library Index quality checks.
 
 ## Launch Gates Still Open
 
 | Gate | Current status | Evidence now present | Proof required to close |
 | --- | --- | --- | --- |
-| Appoint owners and governance fields | Not started / review required | `Governance Authority Review!A5:K16`, `Owner Evidence Review!A5:J13`, `Leader Roster!A5:H16`, `TASK-010`, `TASK-011`, `DEC-003`, owner appointment packet | Authorized reviewers inspect private source evidence, then programme owners enter real leader names, backups, availability, training status and final authority approval through HR-005. |
+| Appoint owners and governance fields | Not started / review required | `Owner Appointment Routing!A5:N16`, `Governance Authority Review!A5:K16`, `Owner Evidence Review!A5:J13`, `Leader Roster!A5:H16`, `TASK-010`, `TASK-011`, `DEC-003`, owner appointment packet | Authorized reviewers inspect private source evidence, then programme owners nominate candidates, confirm backup coverage, enter real leader names, availability, training status and final authority approval through HR-005. |
 | Complete seven human-review gates | Open | `Human Review Routing!A5:M11`, `Human Review!A5:N11`, `TASK-012`, review packet folder, `HUMAN-REVIEW-REQUIRED.md` | Qualified reviewers are assigned with target dates, then record reviewer name, authority, outcome, date and conditions for HR-001 through HR-007; no gate is auto-approved. |
 | Pilot one real Journey cycle | Not started | `Event Readiness!A9:H9`, `TASK-013`, `Pilot Log`, pilot evidence folder, pilot run/debrief packet | Small leadership team uses the packs and logs unclear steps, duplicated work, missing resources and unnecessary fields. |
 | Replace synthetic examples carefully | Review required | `TASK-014`, `DEC-005`, Resource Index quality check, restricted data replacement checklist | Approved local information is entered only in least-privilege Drive/Sheets locations; private data stays restricted. |
@@ -72,6 +74,7 @@ Last updated: 2026-07-18T13:50:05+00:00
 - Owner Evidence Review tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 - Website Access Review tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 - Governance Authority Review tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
+- Owner Appointment Routing tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 - Human Review Routing tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 - Pilot Log tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 
@@ -87,4 +90,4 @@ Last updated: 2026-07-18T13:50:05+00:00
 
 ## Operating Rule
 
-The Drive copy is now the practical source of truth for organizational review. Use the Launch Gates tab as the single weekly control view for the six open gates, use Owner Evidence Review for source-backed owner nominations before any names move into Leader Roster, use Governance Authority Review to confirm final decision rights and escalation paths before HR-005 or DEC-003 can close, use Human Review Routing to assign reviewers and target dates before any HR-001 through HR-007 sign-off is entered, use Website Access Review to decide area-by-area public/protected/restricted treatment before DEC-004 can close, and treat the local/Drive HTML Access view as a synthetic prototype only. The local repository remains the audit trail, template source and recovery package. Do not publish the production website or broaden sharing until the live tracker shows the relevant approvals.
+The Drive copy is now the practical source of truth for organizational review. Use the Launch Gates tab as the single weekly control view for the six open gates, use Owner Evidence Review for source-backed owner nominations before any names move into Leader Roster, use Owner Appointment Routing to nominate candidates and confirm backup coverage before Leader Roster entry, use Governance Authority Review to confirm final decision rights and escalation paths before HR-005 or DEC-003 can close, use Human Review Routing to assign reviewers and target dates before any HR-001 through HR-007 sign-off is entered, use Website Access Review to decide area-by-area public/protected/restricted treatment before DEC-004 can close, and treat the local/Drive HTML Access view as a synthetic prototype only. The local repository remains the audit trail, template source and recovery package. Do not publish the production website or broaden sharing until the live tracker shows the relevant approvals.

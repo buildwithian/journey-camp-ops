@@ -226,3 +226,10 @@
 - Commands: create Human Review Routing tracker tab; add owner-role and routing-status dropdown validation; link Dashboard row 15, GATE-002, TASK-012, tracker Instructions and Resource Library Index quality-check evidence; Sheets metadata/range/validation readback verification
 - Validation: PASS: Human Review Routing metadata readback; `Human Review Routing!A1:M11` readback; Dashboard, Instructions, Launch Gates, Tasks and Quality Checks linked-range readbacks; role/status validation metadata readback; best-effort visual metadata review; exported workbook produced successfully; python3 tools/validate.py; python3 tests/test_site_prototype.py; bundled-python tests/test_spreadsheets.py; git diff --check; source-original tracking check
 - Issues: Reviewers, target dates, reviewer authority and final sign-offs remain pending human completion; HR-001 through HR-007 remain open.
+
+## Post-release: Journey V3 owner appointment routing queue
+
+- Time: 2026-07-18T13:57:48+00:00
+- Commands: create Owner Appointment Routing tracker tab; add owner-role, backup-role and appointment-status dropdown validation; link Dashboard row 16, GATE-001, TASK-010, TASK-011, tracker Instructions and Resource Library Index quality-check evidence; Sheets metadata/range/validation readback verification
+- Validation: PASS: Owner Appointment Routing metadata readback; `Owner Appointment Routing!A1:N16` readback; Dashboard, Instructions, Launch Gates, Tasks and Quality Checks linked-range readbacks; role/status validation metadata readback; best-effort visual metadata review; python3 tools/validate.py; python3 tests/test_site_prototype.py; bundled-python tests/test_spreadsheets.py; git diff --check; source-original tracking check
+- Issues: Real leader names, backup confirmations, availability, target dates, programme-owner approval, HR-005 authority approval and Leader Roster entry remain pending human completion.

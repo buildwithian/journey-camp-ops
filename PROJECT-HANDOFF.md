@@ -14,6 +14,7 @@ The Drive consolidation is now functionally complete, so the active work is orga
 Current live tracker state:
 
 - `Leader Roster!A5:H16` lists every required owner role with real leader names still blank for programme-owner completion.
+- `Owner Appointment Routing!A5:N16` lists twelve role-appointment actions; Dashboard row 16 shows 12 owner appointment actions pending.
 - `Human Review!A5:N11` contains HR-001 through HR-007, all open, with packet links plus sign-off fields for assigned reviewer, reviewer authority, decision, date and conditions.
 - `Human Review Routing!A5:M11` contains seven reviewer-assignment rows; Dashboard row 15 shows 7 human-review routing actions pending.
 - `Tasks!A14:J20` contains `TASK-010` through `TASK-016` for owner appointment, governance approval, human review, pilot, real-data replacement, website access and production publishing.
@@ -42,8 +43,9 @@ Current review, owner, pilot, data and launch artifacts:
 - Owner Evidence Review tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 - Website Access Review tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 - Governance Authority Review tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
+- Owner Appointment Routing tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 - Human Review Routing tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 - Updated operating-hub prototype HTML artifact: https://drive.google.com/file/d/13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi/view
 - Pilot Log tab lives in the Leader Delegation and Readiness Tracker.
 
-These artifacts prepare owner appointment, source-evidence review, governance authority review, human-review routing, human review, pilot execution, restricted-data replacement decisions, website access review, website publication review and weekly launch-gate control but do not appoint leaders, copy private names into shared records, close any human-review gate, authorize restricted-data migration or authorize publication.
+These artifacts prepare owner appointment routing, owner appointment, source-evidence review, governance authority review, human-review routing, human review, pilot execution, restricted-data replacement decisions, website access review, website publication review and weekly launch-gate control but do not appoint leaders, copy private names into shared records, close any human-review gate, authorize restricted-data migration or authorize publication.
