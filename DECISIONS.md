@@ -1,3 +1,9 @@
+## 2026-07-18T12:53:35+00:00
+
+- Created a production website publication gate checklist to prepare TASK-015 and TASK-016 for future approval-controlled website work.
+- Kept production publishing blocked; the checklist is readiness evidence only and does not approve access, content, copyright or deployment.
+- Linked the checklist beside DEC-004 and DEC-006 so website decisions remain traceable to explicit gate evidence.
+
 ## 2026-07-18T12:49:23+00:00
 
 - Created pilot and restricted-data readiness packets to prepare TASK-013 and TASK-014 for human execution.

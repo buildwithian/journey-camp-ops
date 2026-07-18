@@ -6,5 +6,5 @@
 - Approve final decision rights and operating authority before treating role assignments as live.
 - Pilot one real Journey cycle with a small leadership team using the Pilot Run Sheet and Debrief Packet, then log unclear steps, duplicated work, missing resources and unnecessary fields in the `Pilot Log`: https://docs.google.com/document/d/1x003DqL29GAs3hbg4ANCq4QqHe3MhbLZVJQMrSvs9ks/edit
 - Replace synthetic examples only with approved local information stored in appropriately restricted Drive/Sheets locations, using the Restricted Data Replacement Checklist first: https://docs.google.com/document/d/1TZTJ2n5Y6JQqigvGZ0_F7yiYbLY4XY2HlApwo4mouCg/edit
-- Choose the production website access model: leaders-only, partly public with protected leader area, or public information plus authenticated operational tools.
+- Choose the production website access model using the access brief and publication gate checklist: leaders-only, partly public with protected leader area, or public information plus authenticated operational tools. Checklist: https://docs.google.com/document/d/1Nokc8fgVHMZ9posIt0Vz3VHStl1q43XHZcS_DWn27DE/edit
 - Keep the production Alpha-style portal blocked until access, authority, content-review and copyright decisions are approved.

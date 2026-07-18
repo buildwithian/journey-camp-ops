@@ -1,7 +1,7 @@
 # Next Stage Implementation
 
 Status: active organizational implementation, not automatic consolidation.
-Last updated: 2026-07-18T12:49:23+00:00
+Last updated: 2026-07-18T12:53:35+00:00
 
 ## Live Sources Of Truth
 
@@ -30,6 +30,8 @@ Last updated: 2026-07-18T12:49:23+00:00
 - Created Pilot Run Sheet and Debrief Packet inside the Pilot Evidence folder.
 - Created Drive folder `04 Data Replacement and Access Cleanup` plus the Restricted Data Replacement Checklist.
 - Linked pilot/data packets to `TASK-013`, `TASK-014`, `DEC-005`, Event Readiness, Communications and Resource Library Index quality checks.
+- Created Production Website Publication Gate Checklist in the Website Operating Hub folder.
+- Linked the website gate checklist to `TASK-015`, `TASK-016`, `DEC-004`, `DEC-006`, Event Readiness, Communications and Resource Library Index quality checks.
 
 ## Launch Gates Still Open
 
@@ -39,8 +41,8 @@ Last updated: 2026-07-18T12:49:23+00:00
 | Complete seven human-review gates | Open | `Human Review!A5:N11`, `TASK-012`, review packet folder, `HUMAN-REVIEW-REQUIRED.md` | Qualified reviewers record assigned reviewer, authority, outcome, date and conditions for HR-001 through HR-007; no gate is auto-approved. |
 | Pilot one real Journey cycle | Not started | `Event Readiness!A9:H9`, `TASK-013`, `Pilot Log`, pilot evidence folder, pilot run/debrief packet | Small leadership team uses the packs and logs unclear steps, duplicated work, missing resources and unnecessary fields. |
 | Replace synthetic examples carefully | Review required | `TASK-014`, `DEC-005`, Resource Index quality check, restricted data replacement checklist | Approved local information is entered only in least-privilege Drive/Sheets locations; private data stays restricted. |
-| Approve website access model | Review required | `TASK-015`, `DEC-004`, website access decision brief, Resource Index quality check | Oversight selects leaders-only, partly public with protected leader area, or public information plus authenticated tools. |
-| Build and publish production website | Blocked | `TASK-016`, `Event Readiness!A10:H10`, `DEC-006` | Access model, content review, copyright boundaries and operating authority are approved before publishing. |
+| Approve website access model | Review required | `TASK-015`, `DEC-004`, website access decision brief, website publication gate checklist, Resource Index quality check | Oversight selects leaders-only, partly public with protected leader area, or public information plus authenticated tools. |
+| Build and publish production website | Blocked | `TASK-016`, `Event Readiness!A10:H10`, `DEC-006`, website publication gate checklist | Access model, content review, copyright boundaries and operating authority are approved before publishing. |
 
 
 ## Review, Owner, Pilot And Data Artifacts
@@ -54,6 +56,7 @@ Last updated: 2026-07-18T12:49:23+00:00
 - Restricted Data Replacement Checklist: https://docs.google.com/document/d/1TZTJ2n5Y6JQqigvGZ0_F7yiYbLY4XY2HlApwo4mouCg/edit
 - Pilot Evidence README: https://docs.google.com/document/d/1bKM-8GWJKHDGBUvZQ4QVz-zbzfCkVraUlfC6EKfootw/edit
 - Website Access Model Decision Brief: https://docs.google.com/document/d/1PnohC62I7YfG0W7msi3RdRDDJdo2NrNZ3MJJ4ioqvSc/edit
+- Production Website Publication Gate Checklist: https://docs.google.com/document/d/1Nokc8fgVHMZ9posIt0Vz3VHStl1q43XHZcS_DWn27DE/edit
 - Pilot Log tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 
 | Gate | Packet |

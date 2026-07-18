@@ -31,6 +31,7 @@ Current review, owner, pilot and data artifacts:
 - Data Replacement and Access Cleanup folder: https://drive.google.com/drive/folders/1U0or80jBQFaDjXiAksyAzTzeE4HGyHKJ
 - Restricted Data Replacement Checklist: https://docs.google.com/document/d/1TZTJ2n5Y6JQqigvGZ0_F7yiYbLY4XY2HlApwo4mouCg/edit
 - Website Access Model Decision Brief: https://docs.google.com/document/d/1PnohC62I7YfG0W7msi3RdRDDJdo2NrNZ3MJJ4ioqvSc/edit
+- Production Website Publication Gate Checklist: https://docs.google.com/document/d/1Nokc8fgVHMZ9posIt0Vz3VHStl1q43XHZcS_DWn27DE/edit
 - Pilot Log tab lives in the Leader Delegation and Readiness Tracker.
 
-These artifacts prepare owner appointment, review, pilot execution and restricted-data replacement decisions but do not appoint leaders, close any human-review gate, authorize restricted-data migration or authorize publication.
+These artifacts prepare owner appointment, review, pilot execution, restricted-data replacement decisions and website publication review but do not appoint leaders, close any human-review gate, authorize restricted-data migration or authorize publication.

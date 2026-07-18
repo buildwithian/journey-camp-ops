@@ -163,7 +163,7 @@ Status: active and review-gated as of 2026-07-18.
 | Leader Delegation and Readiness Tracker | `Decisions!A7:G10` | DEC-003 through DEC-006 keep owner naming, website access, real-data replacement and production publishing approval-gated. |
 | Leader Delegation and Readiness Tracker | `Event Readiness!A9:H10` | Pilot Journey Cycle and Production Website Launch are tracked as not ready. |
 | Leader Delegation and Readiness Tracker | `Dashboard!A5:C10` | Dashboard readback shows 16 tasks, 7 open human-review items and 6 populated non-green readiness rows. |
-| Resource Library Index | `Quality Checks!A11:E18` | Named leaders, restricted real-data replacement, production website access model, review packet readiness, pilot evidence readiness, owner appointment packet readiness, pilot run/debrief readiness and restricted-data checklist readiness are explicit quality gates. |
+| Resource Library Index | `Quality Checks!A11:E19` | Named leaders, restricted real-data replacement, production website access model, review packet readiness, pilot evidence readiness, owner appointment packet readiness, pilot run/debrief readiness, restricted-data checklist readiness and website publication gate readiness are explicit quality gates. |
 
 The production website remains blocked until access model, content review, copyright boundaries and final operating authority are approved.
 
@@ -207,6 +207,17 @@ Status: created and linked as of 2026-07-18.
 | Restricted Data Replacement Checklist | https://docs.google.com/document/d/1TZTJ2n5Y6JQqigvGZ0_F7yiYbLY4XY2HlApwo4mouCg/edit | Document sentinel readback showed that the checklist does not authorize restricted-data collection, disclosure or migration. |
 
 `Tasks!A17:J18`, `Event Readiness!A9:H9`, `Communications!A11:G12` and Resource Library Index `Quality Checks!A16:E18` were read back after linking the pilot and data readiness packets. A real pilot and accountable data-owner approval remain pending.
+
+
+## Website Publication Readiness Packet
+
+Status: created and linked as of 2026-07-18.
+
+| Artifact | URL | Verification |
+| --- | --- | --- |
+| Production Website Publication Gate Checklist | https://docs.google.com/document/d/1Nokc8fgVHMZ9posIt0Vz3VHStl1q43XHZcS_DWn27DE/edit | Document sentinel readback showed that the checklist does not authorize publication or broaden website access. |
+
+`Tasks!A19:J20`, `Decisions!A8:G10`, `Event Readiness!A10:H10` and Resource Library Index `Quality Checks!A17:E19` were read back after linking the website publication gate checklist. Production publishing remains blocked pending access model, authority, content review and copyright approvals.
 
 ## Remaining Boundaries
 
