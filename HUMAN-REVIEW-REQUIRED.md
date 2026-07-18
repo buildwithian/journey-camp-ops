@@ -43,3 +43,10 @@ This file contains only decisions requiring qualified human or expert review.
 - Reason: Missing or partial girls content is marked for review instead of being invented.
 - Required reviewer: Programme content owner
 - Status: open
+
+## HR-007: Third-party benchmark and copyright boundaries
+
+- Category: Copyright permission
+- Reason: The Alpha website and help material may be used only as a benchmark pattern unless explicit permission is granted for any copied wording, screenshots, media, design assets, course concepts or branded materials.
+- Required reviewer: Programme owner and qualified copyright/legal reviewer
+- Status: open

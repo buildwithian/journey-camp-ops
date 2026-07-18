@@ -27,3 +27,10 @@
 - Status: accepted
 - Decision: Create sanitized example records under `examples/` while leaving original source files untouched.
 - Rationale: The plan requires separating examples, but also forbids moving or modifying original source files.
+
+## ADR-005: Alpha-inspired hub as product direction
+
+- Date: 2026-07-18
+- Status: accepted
+- Decision: Use Alpha's public host and resource-hub pattern as inspiration for the future Journey operating website, while keeping Drive and Google Sheets as the operational source of truth until a custom platform is justified.
+- Rationale: The benchmark shows a practical pattern for combining explanation, registration, resources, schedule, team access, promotion and guest workflows. Journey should adapt the operating pattern, not copy Alpha content or assets.

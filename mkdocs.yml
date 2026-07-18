@@ -11,6 +11,12 @@
   },
   "nav": [
     {
+      "Strategy": "00-strategy/alpha-inspired-journey-operating-hub.md"
+    },
+    {
+      "Drive Consolidation": "00-strategy/google-drive-consolidation-and-resource-library-plan.md"
+    },
+    {
       "Start": "01-foundations/journey-purpose.md"
     },
     {

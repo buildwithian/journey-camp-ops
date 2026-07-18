@@ -23,3 +23,18 @@
 - Pilot with a local team.
 - Complete expert reviews.
 - Expand localized examples after privacy review.
+
+
+## v0.2.0 Target: Consolidated Drive Library
+
+- Create the proposed clean Google Drive structure.
+- Consolidate duplicated source files into one canonical template per purpose.
+- Convert priority spreadsheets into cleaned Google Sheets-ready templates.
+- Create a Drive index mapping source inventory IDs to consolidated outputs.
+
+## v0.3.0 Target: Journey Operating Hub Prototype
+
+- Use the Alpha-inspired benchmark pattern to design a Journey website and private leader hub.
+- Add resource library navigation over the consolidated Drive.
+- Add leader roster, role assignment, RACI, task ownership and event readiness views.
+- Keep Drive and Google Sheets as the editable source of truth until a custom platform is justified.
