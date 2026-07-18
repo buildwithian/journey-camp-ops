@@ -1,3 +1,9 @@
+## 2026-07-18T13:10:40+00:00
+
+- Added Owner Evidence Review as the safer path toward real leader-name entry: source row ranges and role areas are visible, but source-derived names stay out of the shared tracker until authorized review.
+- Kept `Leader Roster` names blank and `GATE-001` not started; evidence review is preparation, not appointment or decision-rights approval.
+- Recorded that copying names from the private workbook into the shared Sheet requires explicit authorized approval.
+
 ## 2026-07-18T13:00:12+00:00
 
 - Added a Launch Gates control tab as the weekly control surface for the six remaining human-gated outcomes.

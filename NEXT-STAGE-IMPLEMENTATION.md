@@ -1,7 +1,7 @@
 # Next Stage Implementation
 
 Status: active organizational implementation, not automatic consolidation.
-Last updated: 2026-07-18T13:00:12+00:00
+Last updated: 2026-07-18T13:10:40+00:00
 
 ## Live Sources Of Truth
 
@@ -34,12 +34,14 @@ Last updated: 2026-07-18T13:00:12+00:00
 - Linked the website gate checklist to `TASK-015`, `TASK-016`, `DEC-004`, `DEC-006`, Event Readiness, Communications and Resource Library Index quality checks.
 - Added a validation-backed `Launch Gates` tab to the Leader Delegation tracker for the six remaining launch gates.
 - Added Dashboard metric `Launch gates not complete`, tracker Instructions guidance and a Resource Library Index quality-check row for the Launch Gates control tab.
+- Added validation-backed `Owner Evidence Review` tab that points authorized reviewers to private source row ranges without copying source-derived names into the shared tracker.
+- Added Dashboard metric `Owner evidence reviews pending`, tracker Instructions guidance and a Resource Library Index quality-check row for the Owner Evidence Review tab.
 
 ## Launch Gates Still Open
 
 | Gate | Current status | Evidence now present | Proof required to close |
 | --- | --- | --- | --- |
-| Appoint owners and governance fields | Not started / review required | `Leader Roster!A5:H16`, `TASK-010`, `DEC-003`, owner appointment packet | Real leader names, backups, availability, training status and final authority approval entered by programme owners. |
+| Appoint owners and governance fields | Not started / review required | `Owner Evidence Review!A5:J13`, `Leader Roster!A5:H16`, `TASK-010`, `DEC-003`, owner appointment packet | Authorized reviewers inspect private source evidence, then programme owners enter real leader names, backups, availability, training status and final authority approval. |
 | Complete seven human-review gates | Open | `Human Review!A5:N11`, `TASK-012`, review packet folder, `HUMAN-REVIEW-REQUIRED.md` | Qualified reviewers record assigned reviewer, authority, outcome, date and conditions for HR-001 through HR-007; no gate is auto-approved. |
 | Pilot one real Journey cycle | Not started | `Event Readiness!A9:H9`, `TASK-013`, `Pilot Log`, pilot evidence folder, pilot run/debrief packet | Small leadership team uses the packs and logs unclear steps, duplicated work, missing resources and unnecessary fields. |
 | Replace synthetic examples carefully | Review required | `TASK-014`, `DEC-005`, Resource Index quality check, restricted data replacement checklist | Approved local information is entered only in least-privilege Drive/Sheets locations; private data stays restricted. |
@@ -60,6 +62,7 @@ Last updated: 2026-07-18T13:00:12+00:00
 - Website Access Model Decision Brief: https://docs.google.com/document/d/1PnohC62I7YfG0W7msi3RdRDDJdo2NrNZ3MJJ4ioqvSc/edit
 - Production Website Publication Gate Checklist: https://docs.google.com/document/d/1Nokc8fgVHMZ9posIt0Vz3VHStl1q43XHZcS_DWn27DE/edit
 - Launch Gates tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
+- Owner Evidence Review tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 - Pilot Log tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 
 | Gate | Packet |
@@ -74,4 +77,4 @@ Last updated: 2026-07-18T13:00:12+00:00
 
 ## Operating Rule
 
-The Drive copy is now the practical source of truth for organizational review. Use the Launch Gates tab as the single weekly control view for the six open gates. The local repository remains the audit trail, template source and recovery package. Do not publish the production website or broaden sharing until the live tracker shows the relevant approvals.
+The Drive copy is now the practical source of truth for organizational review. Use the Launch Gates tab as the single weekly control view for the six open gates, and use Owner Evidence Review for source-backed owner nominations before any names move into Leader Roster. The local repository remains the audit trail, template source and recovery package. Do not publish the production website or broaden sharing until the live tracker shows the relevant approvals.

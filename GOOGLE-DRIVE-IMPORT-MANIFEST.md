@@ -163,8 +163,9 @@ Status: active and review-gated as of 2026-07-18.
 | Leader Delegation and Readiness Tracker | `Decisions!A7:G10` | DEC-003 through DEC-006 keep owner naming, website access, real-data replacement and production publishing approval-gated. |
 | Leader Delegation and Readiness Tracker | `Event Readiness!A9:H10` | Pilot Journey Cycle and Production Website Launch are tracked as not ready. |
 | Leader Delegation and Readiness Tracker | `Launch Gates!A5:K10` | Six remaining launch gates are consolidated with owner role, status, next human action, evidence surface and proof required to close. |
-| Leader Delegation and Readiness Tracker | `Dashboard!A5:C11` | Dashboard readback shows 16 tasks, 7 open human-review items, 6 populated non-green readiness rows and 6 launch gates not complete. |
-| Resource Library Index | `Quality Checks!A11:E20` | Named leaders, restricted real-data replacement, production website access model, review packet readiness, pilot evidence readiness, owner appointment packet readiness, pilot run/debrief readiness, restricted-data checklist readiness, website publication gate readiness and Launch Gates control readiness are explicit quality gates. |
+| Leader Delegation and Readiness Tracker | `Owner Evidence Review!A5:J13` | Nine private-source evidence reviews are listed for authorized owner confirmation without copying source-derived names into the shared tracker. |
+| Leader Delegation and Readiness Tracker | `Dashboard!A5:C12` | Dashboard readback shows 16 tasks, 7 open human-review items, 6 populated non-green readiness rows, 6 launch gates not complete and 9 owner evidence reviews pending. |
+| Resource Library Index | `Quality Checks!A11:E21` | Named leaders, restricted real-data replacement, production website access model, review packet readiness, pilot evidence readiness, owner appointment packet readiness, pilot run/debrief readiness, restricted-data checklist readiness, website publication gate readiness, Launch Gates control readiness and owner evidence review readiness are explicit quality gates. |
 
 The production website remains blocked until access model, content review, copyright boundaries and final operating authority are approved.
 
@@ -231,6 +232,18 @@ Status: created and linked as of 2026-07-18.
 | Dashboard launch-gate metric | https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit | `Dashboard!A11:C11` readback showed 6 launch gates not complete. |
 
 `Launch Gates!A4:D10`, `Dashboard!A11:C11`, `Instructions!A11:B11` and Resource Library Index `Quality Checks!A19:E20` were read back after creating the control tab. The tab consolidates open gates but does not approve any gate.
+
+
+## Owner Evidence Review Surface
+
+Status: created and linked as of 2026-07-18.
+
+| Artifact | URL | Verification |
+| --- | --- | --- |
+| Owner Evidence Review tracker tab | https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit | Readback showed nine source-evidence review rows, all `Needs authorized review`, with no source-derived names copied into the shared tracker. |
+| Dashboard owner-evidence metric | https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit | `Dashboard!A12:C12` readback showed 9 owner evidence reviews pending. |
+
+`Owner Evidence Review!A1:J13`, `Dashboard!A11:C12`, `Instructions!A11:B12`, `Launch Gates!A5:F5` and Resource Library Index `Quality Checks!A20:E21` were read back after creating the owner evidence review surface. Actual leader names still require authorized review and programme-owner confirmation before entry in `Leader Roster`.
 
 ## Remaining Boundaries
 
