@@ -62,3 +62,10 @@
 - Status: accepted
 - Decision: Import the leader training, participant onboarding, weekly session, kickoff camp, Compass evening and rite-of-passage resources as six consolidated native Google Docs under `02 Canonical Resources`.
 - Rationale: These resources are operationally consumed as guided packs rather than raw source folders. Consolidating them reduces duplication, keeps Drive as the source of truth, and preserves review-required labels for girls, theological, safety and rite-of-passage content.
+
+## ADR-010: Operations/control resources as folder-backed Doc and Sheet packs
+
+- Date: 2026-07-18
+- Status: accepted
+- Decision: Represent administration, logistics, finance, communications, safety and quality canonical resources as one Drive folder each, containing a native guide Doc and a native Google Sheet starter workbook.
+- Rationale: These resources are template sets, not single documents. Folder-backed packs keep each canonical resource link stable while preserving separate editable Docs and Sheets for the roles that run the work.

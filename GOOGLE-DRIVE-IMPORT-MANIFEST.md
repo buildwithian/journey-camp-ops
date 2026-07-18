@@ -79,6 +79,22 @@ Status: completed for the programme/event resource tranche on 2026-07-18.
 | Journey V3 - Compass Evening Pack | 02 Canonical Resources / 08 Compass Evening | CAN-COMPASS-EVENING-PACK | https://docs.google.com/document/d/11kh-NMo9EtP9nJORzQMWJdTH4aa1as4Nc2Mwp7bRxw0/edit |
 | Journey V3 - Rite Of Passage Pack | 02 Canonical Resources / 09 Rite of Passage | CAN-RITE-OF-PASSAGE-PACK | https://docs.google.com/document/d/1onxYi8MMDnXMy0VdkU-L8rJvM0ETQKOq7DDuFdzj7pE/edit |
 
+
+## Imported Operations and Control Pack Folders
+
+Status: completed for the operations/control resource tranche on 2026-07-18.
+
+| Pack Folder | Guide Doc | Native Sheet |
+| --- | --- | --- |
+| 10 Administration: https://drive.google.com/drive/folders/1FA1hcbK9TSaO3Nnd5A2hucg6aJNNwoz7 | https://docs.google.com/document/d/1YwI1iQcofPztIb_ubNzMs_VcviB5ML78vGl_bqMfO8c/edit | https://docs.google.com/spreadsheets/d/1Bee7MJcWJ6F09fi8X6yc1jhTy-a29eCBaFzSrW6Ttgk/edit |
+| 11 Logistics and Equipment: https://drive.google.com/drive/folders/16sKVbYtQRa3Nd7vAW9cEMpxPaY4d-Fvy | https://docs.google.com/document/d/1NqJ4E8-UZDICcUGsO843oCCf5x7JOkkIl0EKfnCJMJQ/edit | https://docs.google.com/spreadsheets/d/1n59yaE5TYhhVl7hncOoxBNSlWFYVxzrHPr58-5oPzjA/edit |
+| 12 Finance: https://drive.google.com/drive/folders/1VuJQjjHZqH837mqBL1-RGPM3AtjJ6a19 | https://docs.google.com/document/d/1PQg6Z5W0jlcCE_mT2tDEmjVy-j9C5kWv88S73SjTX7Q/edit | https://docs.google.com/spreadsheets/d/1Q3pr_3d0IjpiAFWoPywlgHw5N0f3yWDMdpK4tHmbj6g/edit |
+| 13 Communications: https://drive.google.com/drive/folders/1sW_iOlhwKEOjqjhOWkrmX1HpMdJeXQTD | https://docs.google.com/document/d/15mW34OiyfX9pOXlg44QTbci_hEzQETq7twvvP8lw0nc/edit | https://docs.google.com/spreadsheets/d/1OOMETGFB3dhY_xUUqqQS8VGESHXF0ZaVJjtDyI_u8hI/edit |
+| 14 Safety and Safeguarding: https://drive.google.com/drive/folders/1L6OfW8tuIyda9gJD9jpcsisZjaizMM3q | https://docs.google.com/document/d/1Px3NA_PlzUaKHFOnlc46u6Ws70rt1alU5y6QFSSaf4c/edit | https://docs.google.com/spreadsheets/d/1CHs5u2KGxkBQSit3RsHtmpJYyihqZwfoUk4uSlJGVJU/edit |
+| 15 Quality and Impact: https://drive.google.com/drive/folders/1oKt90AE-sv1fF91MFnWqnjMlcc0oDtWH | https://docs.google.com/document/d/1G2NgLAmKdwVaEugFCzVfGB5ySRUK_kmD6yrJzoNdUXE/edit | https://docs.google.com/spreadsheets/d/1uoI-DVXTGxRQ62ASoucr609pNlIQQN5zVVVImkSQkzg/edit |
+
+Resource Library Index `current_drive_link` for these six rows points to the pack folder, because the canonical resource consists of both a guide Doc and a native Sheet.
+
 ## Uploaded Website Artifact
 
 | File | Destination | URL |
@@ -108,10 +124,16 @@ Status: completed for the programme/event resource tranche on 2026-07-18.
 - Resource index `Canonical Resources!A10:L15` readback showed current links to the six new programme/event pack Docs.
 - Resource index `Quality Checks!A8:E8` readback recorded that 11 of 20 canonical rows now have current Drive links.
 - Delegation tracker `Tasks!A10:J11` readback showed new `TASK-007` as `Done`.
+- Operations/control guide Doc sentinel checks passed for Participant status tracker, Equipment register, Budget template, Communication calendar, Safeguarding policy and Impact measurement framework.
+- Native Sheet metadata readback confirmed expected tabs for Administration, Logistics, Finance, Communications, Safety and Quality workbooks.
+- Folder readback confirmed each operations/control pack folder contains one native guide Doc and one native Google Sheet.
+- Resource index `Canonical Resources!A16:L21` readback showed current links to the six operations/control pack folders.
+- Resource index `Quality Checks!A8:E8` readback recorded that 17 of 20 canonical rows now have current Drive links.
+- Delegation tracker `Tasks!A11:J12` readback showed new `TASK-008` as `Done`.
 
 ## Remaining Boundaries
 
 - Public/private website publishing is not yet approved.
 - Canonical programme, safety, medical, legal, theological, copyright and governance review gates remain active.
-- Remaining operations, safety, quality, local examples, archive/provenance and media packs still need to be imported, linked and owner-reviewed after the core and programme/event tranches.
+- Remaining local examples, archive/provenance and approved media packs still need to be imported, linked and owner-reviewed after the core, programme/event and operations/control tranches.
 - Source-original folders and confidential raw source files were not uploaded.
