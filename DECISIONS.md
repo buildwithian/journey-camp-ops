@@ -147,3 +147,10 @@
 - Status: accepted
 - Decision: Add a validation-backed Governance Authority Review matrix before approving final decision rights, operating authority, escalation paths or role authority.
 - Rationale: HR-005 controls whether proposed leaders and operating roles can become live authority. A separate review matrix makes the required final approver, operating owner and non-approval notes explicit while preventing synthetic roles, private source evidence or prototype workflows from becoming accidental authority.
+
+## ADR-017: Human review routing before sign-off
+
+- Date: 2026-07-18
+- Status: accepted
+- Decision: Add a validation-backed Human Review Routing queue before any HR-001 through HR-007 sign-off is entered.
+- Rationale: The open review gates need named qualified reviewers, target dates and packet movement before final outcomes can be responsibly recorded. A routing queue makes those operational steps visible while keeping approval authority in the `Human Review` sign-off fields.

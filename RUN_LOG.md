@@ -219,3 +219,10 @@
 - Commands: create Governance Authority Review tracker tab; add role and status dropdown validation; link Dashboard row 14, GATE-001, TASK-011, DEC-003, HR-005 and Resource Library Index quality-check evidence; Sheets metadata/range/validation readback verification
 - Validation: PASS: Governance Authority Review metadata readback; `Governance Authority Review!A1:K16` readback; Dashboard, Instructions, Launch Gates, Tasks, Decisions, Human Review and Quality Checks linked-range readbacks; python3 tools/validate.py; python3 tests/test_site_prototype.py; bundled-python tests/test_spreadsheets.py; git diff --check; source-original tracking check
 - Issues: Final decision rights remain unapproved; all 12 governance authority decisions remain `Needs authority decision`; named owner appointments, human-review outcomes, real pilot evidence, restricted-data replacement, website access approval and production publishing remain pending.
+
+## Post-release: Journey V3 human review routing queue
+
+- Time: 2026-07-18T13:50:05+00:00
+- Commands: create Human Review Routing tracker tab; add owner-role and routing-status dropdown validation; link Dashboard row 15, GATE-002, TASK-012, tracker Instructions and Resource Library Index quality-check evidence; Sheets metadata/range/validation readback verification
+- Validation: PASS: Human Review Routing metadata readback; `Human Review Routing!A1:M11` readback; Dashboard, Instructions, Launch Gates, Tasks and Quality Checks linked-range readbacks; role/status validation metadata readback; best-effort visual metadata review; exported workbook produced successfully; python3 tools/validate.py; python3 tests/test_site_prototype.py; bundled-python tests/test_spreadsheets.py; git diff --check; source-original tracking check
+- Issues: Reviewers, target dates, reviewer authority and final sign-offs remain pending human completion; HR-001 through HR-007 remain open.
