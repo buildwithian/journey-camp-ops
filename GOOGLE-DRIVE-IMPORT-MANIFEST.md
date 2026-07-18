@@ -163,7 +163,7 @@ Status: active and review-gated as of 2026-07-18.
 | Leader Delegation and Readiness Tracker | `Decisions!A7:G10` | DEC-003 through DEC-006 keep owner naming, website access, real-data replacement and production publishing approval-gated. |
 | Leader Delegation and Readiness Tracker | `Event Readiness!A9:H10` | Pilot Journey Cycle and Production Website Launch are tracked as not ready. |
 | Leader Delegation and Readiness Tracker | `Dashboard!A5:C10` | Dashboard readback shows 16 tasks, 7 open human-review items and 6 populated non-green readiness rows. |
-| Resource Library Index | `Quality Checks!A11:E16` | Named leaders, restricted real-data replacement, production website access model, review packet readiness, pilot evidence readiness and owner appointment packet readiness are explicit quality gates. |
+| Resource Library Index | `Quality Checks!A11:E18` | Named leaders, restricted real-data replacement, production website access model, review packet readiness, pilot evidence readiness, owner appointment packet readiness, pilot run/debrief readiness and restricted-data checklist readiness are explicit quality gates. |
 
 The production website remains blocked until access model, content review, copyright boundaries and final operating authority are approved.
 
@@ -177,6 +177,7 @@ Status: created and linked as of 2026-07-18.
 | Human Review Packets folder | https://drive.google.com/drive/folders/1qFvxr10Tto589PexueN34XK8AFvYMjTd | Folder readback showed HR-001 through HR-007 native review packet Docs plus the website access decision brief. |
 | Pilot Evidence folder | https://drive.google.com/drive/folders/1v1_PtevCjMEL8bwnDOz9Z2JVyglH_CZJ | Folder readback showed the Pilot Evidence README. |
 | Pilot Evidence README | https://docs.google.com/document/d/1bKM-8GWJKHDGBUvZQ4QVz-zbzfCkVraUlfC6EKfootw/edit | Document sentinel readback showed the non-sensitive evidence rule. |
+| Pilot Run Sheet and Debrief Packet | https://docs.google.com/document/d/1x003DqL29GAs3hbg4ANCq4QqHe3MhbLZVJQMrSvs9ks/edit | Document sentinel readback showed that the packet does not certify programme readiness or close launch gates. |
 | Website Access Model Decision Brief | https://docs.google.com/document/d/1PnohC62I7YfG0W7msi3RdRDDJdo2NrNZ3MJJ4ioqvSc/edit | Document sentinel readback showed that the brief does not approve publication. |
 | Leader Delegation Tracker Pilot Log | https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit | Metadata and cell readback showed a new `Pilot Log` tab with dropdown validation for workstream, owner role, observation type and status. |
 
@@ -193,6 +194,19 @@ Status: created and linked as of 2026-07-18.
 | Owner Appointment and Authority Packet | https://docs.google.com/document/d/1xX2YAA67-Ei5WYfbOKKJTJx9dwQAkh-Xb-copKH7m5U/edit | Document sentinel readback showed that the packet does not appoint leaders, approve authority or close review gates. |
 
 `Tasks!A14:J16`, `Communications!A8:G10` and Resource Library Index `Quality Checks!A14:E16` were read back after linking the owner appointment packet. Actual leader names and authority approvals remain pending human completion.
+
+
+## Pilot And Data Readiness Packets
+
+Status: created and linked as of 2026-07-18.
+
+| Artifact | URL | Verification |
+| --- | --- | --- |
+| Pilot Run Sheet and Debrief Packet | https://docs.google.com/document/d/1x003DqL29GAs3hbg4ANCq4QqHe3MhbLZVJQMrSvs9ks/edit | Document sentinel readback showed that the packet does not certify programme readiness or close launch gates. |
+| Data Replacement and Access Cleanup folder | https://drive.google.com/drive/folders/1U0or80jBQFaDjXiAksyAzTzeE4HGyHKJ | Folder was created under `05 Human Review and Governance`. |
+| Restricted Data Replacement Checklist | https://docs.google.com/document/d/1TZTJ2n5Y6JQqigvGZ0_F7yiYbLY4XY2HlApwo4mouCg/edit | Document sentinel readback showed that the checklist does not authorize restricted-data collection, disclosure or migration. |
+
+`Tasks!A17:J18`, `Event Readiness!A9:H9`, `Communications!A11:G12` and Resource Library Index `Quality Checks!A16:E18` were read back after linking the pilot and data readiness packets. A real pilot and accountable data-owner approval remain pending.
 
 ## Remaining Boundaries
 

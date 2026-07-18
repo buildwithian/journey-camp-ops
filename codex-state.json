@@ -8,7 +8,7 @@
   "files_inventoried": 555,
   "tests_passed": 14,
   "tests_failed": 0,
-  "last_completed_task": "Journey V3 owner appointment packet, review packets, sign-off fields and Pilot Log created, linked and verified",
+  "last_completed_task": "Journey V3 owner, pilot, restricted-data and review readiness packets created, linked and verified",
   "technical_blockers": [],
   "human_review_items": [
     "HR-001: Safeguarding and child-protection material",
@@ -19,8 +19,8 @@
     "HR-006: Girls session and rite-of-passage content",
     "HR-007: Third-party benchmark and copyright boundaries"
   ],
-  "last_updated": "2026-07-18T12:43:05+00:00",
-  "next_stage_status": "Owner appointment packet, review packets, Human Review sign-off fields and Pilot Log are ready; named owners, qualified review outcomes, real pilot evidence, restricted real-data replacement, website access approval and production website publishing remain pending.",
+  "last_updated": "2026-07-18T12:49:23+00:00",
+  "next_stage_status": "Owner appointment packet, review packets, Human Review sign-off fields, Pilot Log, pilot run/debrief packet and restricted-data replacement checklist are ready; named owners, qualified review outcomes, real pilot evidence, restricted real-data replacement, website access approval and production website publishing remain pending.",
   "drive_review_artifacts": {
     "human_review_packets_folder": "https://drive.google.com/drive/folders/1qFvxr10Tto589PexueN34XK8AFvYMjTd",
     "pilot_evidence_folder": "https://drive.google.com/drive/folders/1v1_PtevCjMEL8bwnDOz9Z2JVyglH_CZJ",
@@ -28,6 +28,9 @@
     "website_access_decision_brief": "https://docs.google.com/document/d/1PnohC62I7YfG0W7msi3RdRDDJdo2NrNZ3MJJ4ioqvSc/edit",
     "leader_tracker": "https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit",
     "owner_appointment_folder": "https://drive.google.com/drive/folders/1AGf3o2syQrGKfOFz79ltL7DECeVQXxgU",
-    "owner_appointment_packet": "https://docs.google.com/document/d/1xX2YAA67-Ei5WYfbOKKJTJx9dwQAkh-Xb-copKH7m5U/edit"
+    "owner_appointment_packet": "https://docs.google.com/document/d/1xX2YAA67-Ei5WYfbOKKJTJx9dwQAkh-Xb-copKH7m5U/edit",
+    "pilot_run_debrief_packet": "https://docs.google.com/document/d/1x003DqL29GAs3hbg4ANCq4QqHe3MhbLZVJQMrSvs9ks/edit",
+    "data_replacement_folder": "https://drive.google.com/drive/folders/1U0or80jBQFaDjXiAksyAzTzeE4HGyHKJ",
+    "restricted_data_replacement_checklist": "https://docs.google.com/document/d/1TZTJ2n5Y6JQqigvGZ0_F7yiYbLY4XY2HlApwo4mouCg/edit"
   }
 }

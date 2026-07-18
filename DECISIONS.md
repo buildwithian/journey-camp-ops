@@ -1,3 +1,9 @@
+## 2026-07-18T12:49:23+00:00
+
+- Created pilot and restricted-data readiness packets to prepare TASK-013 and TASK-014 for human execution.
+- Kept `TASK-013` not started and `TASK-014` review-required; no real pilot was run and no restricted data migration was authorized.
+- Added communication rows for data replacement review and website access decision routing while leaving approval decisions with accountable human owners.
+
 ## 2026-07-18T12:43:05+00:00
 
 - Created an owner appointment packet to support programme-owner completion of named leader assignments and authority decisions.

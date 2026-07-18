@@ -1,7 +1,7 @@
 # Next Stage Implementation
 
 Status: active organizational implementation, not automatic consolidation.
-Last updated: 2026-07-18T12:43:05+00:00
+Last updated: 2026-07-18T12:49:23+00:00
 
 ## Live Sources Of Truth
 
@@ -27,6 +27,9 @@ Last updated: 2026-07-18T12:43:05+00:00
 - Updated tracker instructions to keep private reviewer contact details out of the shared sheet and use the Pilot Log only for process observations.
 - Created Drive folder `03 Owner Appointment and Handoff` plus the Owner Appointment and Authority Packet.
 - Linked the owner packet to `TASK-010`, `TASK-011`, `DEC-003`, the Communications tab and the Resource Library Index quality checks.
+- Created Pilot Run Sheet and Debrief Packet inside the Pilot Evidence folder.
+- Created Drive folder `04 Data Replacement and Access Cleanup` plus the Restricted Data Replacement Checklist.
+- Linked pilot/data packets to `TASK-013`, `TASK-014`, `DEC-005`, Event Readiness, Communications and Resource Library Index quality checks.
 
 ## Launch Gates Still Open
 
@@ -34,18 +37,21 @@ Last updated: 2026-07-18T12:43:05+00:00
 | --- | --- | --- | --- |
 | Appoint owners and governance fields | Not started / review required | `Leader Roster!A5:H16`, `TASK-010`, `DEC-003`, owner appointment packet | Real leader names, backups, availability, training status and final authority approval entered by programme owners. |
 | Complete seven human-review gates | Open | `Human Review!A5:N11`, `TASK-012`, review packet folder, `HUMAN-REVIEW-REQUIRED.md` | Qualified reviewers record assigned reviewer, authority, outcome, date and conditions for HR-001 through HR-007; no gate is auto-approved. |
-| Pilot one real Journey cycle | Not started | `Event Readiness!A9:H9`, `TASK-013`, `Pilot Log`, pilot evidence folder | Small leadership team uses the packs and logs unclear steps, duplicated work, missing resources and unnecessary fields. |
-| Replace synthetic examples carefully | Review required | `TASK-014`, `DEC-005`, Resource Index quality check | Approved local information is entered only in least-privilege Drive/Sheets locations; private data stays restricted. |
+| Pilot one real Journey cycle | Not started | `Event Readiness!A9:H9`, `TASK-013`, `Pilot Log`, pilot evidence folder, pilot run/debrief packet | Small leadership team uses the packs and logs unclear steps, duplicated work, missing resources and unnecessary fields. |
+| Replace synthetic examples carefully | Review required | `TASK-014`, `DEC-005`, Resource Index quality check, restricted data replacement checklist | Approved local information is entered only in least-privilege Drive/Sheets locations; private data stays restricted. |
 | Approve website access model | Review required | `TASK-015`, `DEC-004`, website access decision brief, Resource Index quality check | Oversight selects leaders-only, partly public with protected leader area, or public information plus authenticated tools. |
 | Build and publish production website | Blocked | `TASK-016`, `Event Readiness!A10:H10`, `DEC-006` | Access model, content review, copyright boundaries and operating authority are approved before publishing. |
 
 
-## Review, Owner And Pilot Artifacts
+## Review, Owner, Pilot And Data Artifacts
 
 - Owner Appointment folder: https://drive.google.com/drive/folders/1AGf3o2syQrGKfOFz79ltL7DECeVQXxgU
 - Owner Appointment and Authority Packet: https://docs.google.com/document/d/1xX2YAA67-Ei5WYfbOKKJTJx9dwQAkh-Xb-copKH7m5U/edit
 - Human Review Packets folder: https://drive.google.com/drive/folders/1qFvxr10Tto589PexueN34XK8AFvYMjTd
 - Pilot Evidence folder: https://drive.google.com/drive/folders/1v1_PtevCjMEL8bwnDOz9Z2JVyglH_CZJ
+- Pilot Run Sheet and Debrief Packet: https://docs.google.com/document/d/1x003DqL29GAs3hbg4ANCq4QqHe3MhbLZVJQMrSvs9ks/edit
+- Data Replacement and Access Cleanup folder: https://drive.google.com/drive/folders/1U0or80jBQFaDjXiAksyAzTzeE4HGyHKJ
+- Restricted Data Replacement Checklist: https://docs.google.com/document/d/1TZTJ2n5Y6JQqigvGZ0_F7yiYbLY4XY2HlApwo4mouCg/edit
 - Pilot Evidence README: https://docs.google.com/document/d/1bKM-8GWJKHDGBUvZQ4QVz-zbzfCkVraUlfC6EKfootw/edit
 - Website Access Model Decision Brief: https://docs.google.com/document/d/1PnohC62I7YfG0W7msi3RdRDDJdo2NrNZ3MJJ4ioqvSc/edit
 - Pilot Log tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit

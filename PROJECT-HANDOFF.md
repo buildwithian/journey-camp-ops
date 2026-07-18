@@ -21,13 +21,16 @@ Current live tracker state:
 
 Do not publish the production website or broaden access until the access model, content review, copyright boundary and final operating authority are approved.
 
-Current review, owner and pilot artifacts:
+Current review, owner, pilot and data artifacts:
 
 - Owner Appointment folder: https://drive.google.com/drive/folders/1AGf3o2syQrGKfOFz79ltL7DECeVQXxgU
 - Owner Appointment and Authority Packet: https://docs.google.com/document/d/1xX2YAA67-Ei5WYfbOKKJTJx9dwQAkh-Xb-copKH7m5U/edit
 - Human Review Packets folder: https://drive.google.com/drive/folders/1qFvxr10Tto589PexueN34XK8AFvYMjTd
 - Pilot Evidence folder: https://drive.google.com/drive/folders/1v1_PtevCjMEL8bwnDOz9Z2JVyglH_CZJ
+- Pilot Run Sheet and Debrief Packet: https://docs.google.com/document/d/1x003DqL29GAs3hbg4ANCq4QqHe3MhbLZVJQMrSvs9ks/edit
+- Data Replacement and Access Cleanup folder: https://drive.google.com/drive/folders/1U0or80jBQFaDjXiAksyAzTzeE4HGyHKJ
+- Restricted Data Replacement Checklist: https://docs.google.com/document/d/1TZTJ2n5Y6JQqigvGZ0_F7yiYbLY4XY2HlApwo4mouCg/edit
 - Website Access Model Decision Brief: https://docs.google.com/document/d/1PnohC62I7YfG0W7msi3RdRDDJdo2NrNZ3MJJ4ioqvSc/edit
 - Pilot Log tab lives in the Leader Delegation and Readiness Tracker.
 
-These artifacts prepare owner appointment, review and pilot execution but do not appoint leaders, close any human-review gate or authorize publication.
+These artifacts prepare owner appointment, review, pilot execution and restricted-data replacement decisions but do not appoint leaders, close any human-review gate, authorize restricted-data migration or authorize publication.
