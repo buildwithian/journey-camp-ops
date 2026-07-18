@@ -27,6 +27,7 @@
 
 ## v0.2.0 Target: Consolidated Drive Library
 
+- Build the resource library and leader delegation Google Sheets-ready workbooks.
 - Create the proposed clean Google Drive structure.
 - Consolidate duplicated source files into one canonical template per purpose.
 - Convert priority spreadsheets into cleaned Google Sheets-ready templates.

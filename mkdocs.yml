@@ -11,6 +11,12 @@
   },
   "nav": [
     {
+      "Drive Copy Runbook": "00-strategy/drive-copy-build-runbook.md"
+    },
+    {
+      "Operating Hub Requirements": "00-strategy/website-operating-hub-requirements.md"
+    },
+    {
       "Strategy": "00-strategy/alpha-inspired-journey-operating-hub.md"
     },
     {

@@ -76,3 +76,11 @@
 - Commands: web benchmark review; strategy documents; roadmap/backlog updates
 - Validation: PASS: python3 tools/validate.py
 - Issues: No technical blockers. Third-party copyright boundaries recorded for human review.
+
+
+## Post-release: v0.2 Drive consolidation execution
+
+- Time: 2026-07-18T09:48:31+00:00
+- Commands: drive consolidation registers; website requirements; Drive copy runbook; artifact-tool workbook build; Google Drive import attempted and rejected by safety review
+- Validation: PASS: python3 tools/validate.py; tests/test_spreadsheets.py; artifact-tool import/scan; 16 rendered preview images checked for nonblank output
+- Issues: External Google Drive import requires explicit approval of trusted destination before upload.

@@ -21,6 +21,8 @@ This section captures post-v0.1.0 strategy for the future Journey operating hub,
 
 ## Contents
 
+- [Drive Copy Build Runbook](drive-copy-build-runbook.md)
+- [Website Operating Hub Requirements](website-operating-hub-requirements.md)
 - [Alpha-Inspired Journey Operating Hub Target State](alpha-inspired-journey-operating-hub.md)
 - [Google Drive Consolidation And Resource Library Plan](google-drive-consolidation-and-resource-library-plan.md)
 
