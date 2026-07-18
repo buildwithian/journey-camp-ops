@@ -98,3 +98,10 @@
 - Commands: replace static site homepage with operating hub prototype; extend site prototype regression test
 - Validation: PASS: python3 tests/test_site_prototype.py; python3 tools/validate.py; git diff --check
 - Issues: Native Drive import remains pending explicit destination approval.
+
+## Post-release: Journey V3 Google Drive execution
+
+- Time: 2026-07-18T10:28:03+00:00
+- Commands: create Google Drive folder scaffold; import native Google Sheets; import native Google Docs; upload operating hub HTML; update native tracker/status links; Drive readback verification
+- Validation: PASS: python3 tests/test_site_prototype.py; python3 tools/validate.py; bundled-python tests/test_spreadsheets.py; git diff --check; Drive connector readback
+- Issues: Website publishing remains pending explicit public/private deployment approval; human-review gates remain active.

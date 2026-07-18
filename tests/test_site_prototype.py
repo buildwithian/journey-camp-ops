@@ -8,7 +8,7 @@ required = [
     'taskForm',
     'driveSteps',
     'localStorage',
-    'Approval required',
+    'Journey V3 live',
     'Resource Library',
     'Event Readiness',
 ]

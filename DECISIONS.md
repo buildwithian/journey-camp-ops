@@ -41,3 +41,10 @@
 - Status: accepted
 - Decision: Add a self-contained static HTML prototype for the future Journey operating hub, using synthetic local data and browser localStorage rather than external services.
 - Rationale: The user asked for an Alpha-like single website that can expose resources, planning templates, leader assignment and delegated responsibility. A static prototype gives a concrete review surface without publishing confidential material or replacing Drive as the current source of truth.
+
+## ADR-007: Journey V3 Drive folder as approved destination
+
+- Date: 2026-07-18
+- Status: accepted
+- Decision: Use a new Google Drive folder named `Journey V3` as the trusted destination for the first Drive-native copy of the consolidated Journey operating resources.
+- Rationale: The user approved creating a new destination folder, resolving the previous upload blocker while keeping original source files and confidential raw records out of Drive imports.
