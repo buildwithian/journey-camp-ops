@@ -1,3 +1,9 @@
+## 2026-07-18T12:37:16+00:00
+
+- Added explicit human-review sign-off fields to the live tracker instead of relying only on free-text notes.
+- Kept contact details out of the shared reviewer fields; only reviewer name, authority, decision, decision date and conditions/required changes should be recorded there.
+- Maintained all HR-001 through HR-007 decisions as pending until qualified reviewers record outcomes.
+
 # Decisions
 
 ## ADR-001: Repository-in-place with ignored originals

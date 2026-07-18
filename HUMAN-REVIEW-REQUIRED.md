@@ -4,9 +4,10 @@ This file contains only decisions requiring qualified human or expert review.
 
 ## Live Tracker Alignment
 
-- Source of truth: Journey V3 Leader Delegation and Readiness Tracker, `Human Review!A5:G11` (https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit).
+- Source of truth: Journey V3 Leader Delegation and Readiness Tracker, `Human Review!A5:N11` (https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit).
 - Current status: all seven review gates are open; HR-005 and HR-006 are now present in the live tracker alongside HR-001 through HR-004 and HR-007.
-- Rule: do not mark any gate approved without the named qualified reviewer or programme authority recording the outcome.
+- Rule: do not mark any gate approved without the named qualified reviewer or programme authority recording reviewer name, authority, decision, date and any conditions/required changes.
+- Privacy rule: do not record private reviewer contact details in the shared tracker.
 
 
 ## Review Packet Links

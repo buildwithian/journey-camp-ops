@@ -1,7 +1,7 @@
 # Next Stage Implementation
 
 Status: active organizational implementation, not automatic consolidation.
-Last updated: 2026-07-18T12:33:20+00:00
+Last updated: 2026-07-18T12:37:16+00:00
 
 ## Live Sources Of Truth
 
@@ -23,13 +23,15 @@ Last updated: 2026-07-18T12:33:20+00:00
 - Created Drive folder `02 Pilot Evidence` with a pilot evidence README.
 - Added `Human Review!H4:I11` review-packet and outcome-evidence fields.
 - Added validation-backed `Pilot Log` tab for pilot observations and restricted-data notes.
+- Added `Human Review!J4:N11` sign-off fields for assigned reviewer, reviewer authority, review decision, decision date and conditions/required changes.
+- Updated tracker instructions to keep private reviewer contact details out of the shared sheet and use the Pilot Log only for process observations.
 
 ## Launch Gates Still Open
 
 | Gate | Current status | Evidence now present | Proof required to close |
 | --- | --- | --- | --- |
 | Appoint owners and governance fields | Not started / review required | `Leader Roster!A5:H16`, `TASK-010`, `DEC-003` | Real leader names, backups, availability, training status and final authority approval entered by programme owners. |
-| Complete seven human-review gates | Open | `Human Review!A5:I11`, `TASK-012`, review packet folder, `HUMAN-REVIEW-REQUIRED.md` | Qualified reviewers record outcomes for HR-001 through HR-007; no gate is auto-approved. |
+| Complete seven human-review gates | Open | `Human Review!A5:N11`, `TASK-012`, review packet folder, `HUMAN-REVIEW-REQUIRED.md` | Qualified reviewers record assigned reviewer, authority, outcome, date and conditions for HR-001 through HR-007; no gate is auto-approved. |
 | Pilot one real Journey cycle | Not started | `Event Readiness!A9:H9`, `TASK-013`, `Pilot Log`, pilot evidence folder | Small leadership team uses the packs and logs unclear steps, duplicated work, missing resources and unnecessary fields. |
 | Replace synthetic examples carefully | Review required | `TASK-014`, `DEC-005`, Resource Index quality check | Approved local information is entered only in least-privilege Drive/Sheets locations; private data stays restricted. |
 | Approve website access model | Review required | `TASK-015`, `DEC-004`, website access decision brief, Resource Index quality check | Oversight selects leaders-only, partly public with protected leader area, or public information plus authenticated tools. |

@@ -1,3 +1,10 @@
+## 2026-07-18T12:37:16+00:00
+
+- Added live `Human Review!J4:N11` sign-off fields for assigned reviewer, reviewer authority, review decision, decision date and conditions/required changes.
+- Added decision-status dropdown values in `Human Review!L5:L11`: Pending, Approved, Approved with conditions, Changes required and Not approved.
+- Updated live tracker instructions to keep private reviewer contact details out of the shared sheet and to use the Pilot Log only for non-sensitive process observations.
+- Verified the new Human Review sign-off fields and Instructions rows via Google Sheets readback.
+
 # Run Log
 
 ## Phase 1: Secure and bootstrap the project

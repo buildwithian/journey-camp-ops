@@ -14,7 +14,7 @@ The Drive consolidation is now functionally complete, so the active work is orga
 Current live tracker state:
 
 - `Leader Roster!A5:H16` lists every required owner role with real leader names still blank for programme-owner completion.
-- `Human Review!A5:G11` contains HR-001 through HR-007, all open.
+- `Human Review!A5:N11` contains HR-001 through HR-007, all open, with packet links plus sign-off fields for assigned reviewer, reviewer authority, decision, date and conditions.
 - `Tasks!A14:J20` contains `TASK-010` through `TASK-016` for owner appointment, governance approval, human review, pilot, real-data replacement, website access and production publishing.
 - `Decisions!A7:G10` records launch-gating decisions for named owners, website access, data replacement and production publishing.
 - `Event Readiness!A9:H10` tracks the pilot Journey cycle and production website launch as not ready.
