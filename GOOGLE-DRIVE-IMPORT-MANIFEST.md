@@ -37,6 +37,25 @@ The user approved creation of a new Drive folder named `Journey V3`. The importe
 | Journey V3 - Google Drive Import Manifest | 01 Strategy and Runbooks | https://docs.google.com/document/d/1Zc6guTbsp-QDcfanOFVdb59SRkHRhnfNaBtG9adkXgs/edit |
 | Journey V3 - Human Review Required | 05 Human Review and Governance | https://docs.google.com/document/d/103S4jCirxFD5ZnxE751-K_veLcCJiTsYVnZeQN1hYqM/edit |
 
+
+## Imported Core Resource Pack Docs
+
+Status: completed for the first core resource tranche on 2026-07-18.
+
+| Subfolder | URL |
+| --- | --- |
+| 00 Start Here | https://drive.google.com/drive/folders/1cDGH9vRUku44qarKXLgyf4OUbhpExWch |
+| 01 Foundations | https://drive.google.com/drive/folders/1IYk8zl15KmeV0hpXgNyMj5jDudA-4hMS |
+| 02 Start a Journey | https://drive.google.com/drive/folders/1Gjl2_jLZzCbAumUTi8upn2DxD7yBx5gY |
+| 03 Governance and Roles | https://drive.google.com/drive/folders/13ncoFOnetQ1Y-R5HKWlAvlHy1fjG7MOx |
+
+| Google Doc | Destination | Resource index rows linked | URL |
+| --- | --- | --- | --- |
+| Journey V3 - Start Here Guide | 02 Canonical Resources / 00 Start Here | CAN-START-HERE-GUIDE | https://docs.google.com/document/d/1fjeea1MUJQIx83LmEq_IS4aNP_YzGm7-Glcbaw8vCyQ/edit |
+| Journey V3 - Foundations Pack | 02 Canonical Resources / 01 Foundations | CAN-JOURNEY-PURPOSE-AND-PROGRAMME-MAP | https://docs.google.com/document/d/1LS5898wvGArTk06knScmzPDwNYLHzylLIg4xTcvR2oQ/edit |
+| Journey V3 - Start A Journey Launch Pack | 02 Canonical Resources / 02 Start a Journey | CAN-START-A-JOURNEY-LAUNCH-PACK | https://docs.google.com/document/d/1-jozm9_dEegP7_qMljnOcKaOMJjA6yoeMTCzcRC18KE/edit |
+| Journey V3 - Governance And Role Pack | 02 Canonical Resources / 03 Governance and Roles | CAN-OPERATING-MODEL-AND-DECISION-RIGHTS; CAN-ROLE-DESCRIPTIONS-AND-RACI | https://docs.google.com/document/d/1MNW7jZluPWq693hABhywIDxGyPjyR4Xm-1EIvdQM7xE/edit |
+
 ## Uploaded Website Artifact
 
 | File | Destination | URL |
@@ -56,9 +75,15 @@ The user approved creation of a new Drive folder named `Journey V3`. The importe
 - Resource index `Quality Checks` was updated with completed/in-progress status evidence.
 - Delegation tracker `TASK-005` was updated to `Done` with both native Sheet links.
 - `START HERE` document readback showed native rich links for the folder, Sheets, Docs and HTML file.
+- Canonical Resources subfolder readback showed four newly created core subfolders.
+- Core resource Doc sentinel checks passed for Start Here Guide, Journey Purpose, Launch Readiness Checklist, Operating Model, Journey Lead, Decision Rights and Responsibility Matrix.
+- Resource index `Canonical Resources!A5:L9` readback showed current links to the four new core pack Docs.
+- Resource index `Quality Checks!A8:E8` readback kept the canonical-resource check `In progress` and recorded the first tranche evidence.
+- Delegation tracker `Tasks!A9:J10` readback showed new `TASK-006` as `Done`.
 
 ## Remaining Boundaries
 
 - Public/private website publishing is not yet approved.
 - Canonical programme, safety, medical, legal, theological, copyright and governance review gates remain active.
+- Remaining canonical packs still need to be imported, linked and owner-reviewed after the first core resource tranche.
 - Source-original folders and confidential raw source files were not uploaded.

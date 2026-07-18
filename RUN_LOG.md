@@ -105,3 +105,10 @@
 - Commands: create Google Drive folder scaffold; import native Google Sheets; import native Google Docs; upload operating hub HTML; update native tracker/status links; Drive readback verification
 - Validation: PASS: python3 tests/test_site_prototype.py; python3 tools/validate.py; bundled-python tests/test_spreadsheets.py; git diff --check; Drive connector readback
 - Issues: Website publishing remains pending explicit public/private deployment approval; human-review gates remain active.
+
+## Post-release: Journey V3 core resource pack import
+
+- Time: 2026-07-18T11:14:44+00:00
+- Commands: create Canonical Resources subfolders; import Start Here, Foundations, Start a Journey and Governance/Role pack Docs; link Resource Library Index rows; add Delegation Tracker TASK-006; Drive/Docs/Sheets readback verification
+- Validation: PASS: Google Docs sentinel checks; Resource Library Index readback; Delegation Tracker readback; python3 tools/validate.py; python3 tests/test_site_prototype.py; bundled-python tests/test_spreadsheets.py; git diff --check; source-original tracking check
+- Issues: Remaining canonical packs and owner review gates remain pending; website publishing remains unapproved.

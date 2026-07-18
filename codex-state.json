@@ -8,7 +8,7 @@
   "files_inventoried": 555,
   "tests_passed": 14,
   "tests_failed": 0,
-  "last_completed_task": "Journey V3 Google Drive folder created, populated and verified",
+  "last_completed_task": "Journey V3 core resource packs imported, linked and verified",
   "technical_blockers": [],
   "human_review_items": [
     "HR-001: Safeguarding and child-protection material",
@@ -18,5 +18,5 @@
     "HR-005: Final decision rights and operating authority",
     "HR-006: Girls session and rite-of-passage content"
   ],
-  "last_updated": "2026-07-18T10:28:03+00:00"
+  "last_updated": "2026-07-18T11:14:44+00:00"
 }

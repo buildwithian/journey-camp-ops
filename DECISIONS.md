@@ -48,3 +48,10 @@
 - Status: accepted
 - Decision: Use a new Google Drive folder named `Journey V3` as the trusted destination for the first Drive-native copy of the consolidated Journey operating resources.
 - Rationale: The user approved creating a new destination folder, resolving the previous upload blocker while keeping original source files and confidential raw records out of Drive imports.
+
+## ADR-008: Core resource packs before one-file-per-source migration
+
+- Date: 2026-07-18
+- Status: accepted
+- Decision: Import the first canonical resource tranche as four consolidated native Google Docs under `02 Canonical Resources` before migrating every remaining template/source-derived asset.
+- Rationale: The user wants a simpler, Alpha-inspired operating hub backed by Drive as source of truth. Consolidated pack Docs make the core workflow usable sooner, reduce duplication, and keep review-gated material out of broad access until qualified owners approve it.
