@@ -161,3 +161,10 @@
 - Status: accepted
 - Decision: Add a validation-backed Owner Appointment Routing queue before entering real leader names into `Leader Roster`.
 - Rationale: The appointment step requires authorized source review, programme-owner confirmation, backup coverage and HR-005 authority approval. A routing queue makes those dependencies visible while keeping source-derived names and final appointments out of shared records until approved.
+
+## ADR-019: Pilot cycle plan before GATE-003
+
+- Date: 2026-07-18
+- Status: accepted
+- Decision: Add a validation-backed Pilot Cycle Plan queue before closing the pilot Journey cycle launch gate.
+- Rationale: A real pilot needs owner/date confirmation, focused walkthroughs, non-sensitive observation logging, debrief and approved-change routing. The queue makes those steps explicit while preserving the rule that no pilot evidence, restricted-data approval or launch-gate closure can be synthesized by automation.

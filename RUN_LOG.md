@@ -233,3 +233,10 @@
 - Commands: create Owner Appointment Routing tracker tab; add owner-role, backup-role and appointment-status dropdown validation; link Dashboard row 16, GATE-001, TASK-010, TASK-011, tracker Instructions and Resource Library Index quality-check evidence; Sheets metadata/range/validation readback verification
 - Validation: PASS: Owner Appointment Routing metadata readback; `Owner Appointment Routing!A1:N16` readback; Dashboard, Instructions, Launch Gates, Tasks and Quality Checks linked-range readbacks; role/status validation metadata readback; best-effort visual metadata review; python3 tools/validate.py; python3 tests/test_site_prototype.py; bundled-python tests/test_spreadsheets.py; git diff --check; source-original tracking check
 - Issues: Real leader names, backup confirmations, availability, target dates, programme-owner approval, HR-005 authority approval and Leader Roster entry remain pending human completion.
+
+## Post-release: Journey V3 pilot cycle plan queue
+
+- Time: 2026-07-18T14:08:07+00:00
+- Commands: create Pilot Cycle Plan tracker tab; add owner-role and plan-status dropdown validation plus target-date formatting; link Dashboard row 17, GATE-003, TASK-013, Event Readiness, tracker Instructions and Resource Library Index quality-check evidence; Sheets metadata/range/validation readback verification
+- Validation: PASS: Pilot Cycle Plan metadata readback; `Pilot Cycle Plan!A1:M16` readback; Dashboard, Instructions, Launch Gates, Tasks, Event Readiness and Quality Checks linked-range readbacks; role/status validation metadata readback; python3 tools/validate.py; python3 tests/test_site_prototype.py; bundled-python tests/test_spreadsheets.py; git diff --check; source-original tracking check
+- Issues: The real pilot has not been run; owner/date completion, walkthroughs, observation logging, debrief, approved-change routing, restricted-data approval and GATE-003 closure remain pending human execution.
