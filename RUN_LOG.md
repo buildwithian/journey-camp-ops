@@ -126,3 +126,10 @@
 - Commands: create Canonical Resources subfolders 10 through 15; compile sanitized guide Docs; build six artifact-tool Google-Sheets-ready workbooks with rendered previews; import native Docs and Sheets; link Resource Library Index rows to pack folders; add Delegation Tracker TASK-008; Drive/Docs/Sheets readback verification
 - Validation: PASS: artifact-tool workbook inspect/render; Google Docs sentinel checks; native Sheet metadata readback; pack folder readback; Resource Library Index readback; Delegation Tracker readback; python3 tools/validate.py; python3 tests/test_site_prototype.py; bundled-python tests/test_spreadsheets.py; git diff --check; source-original tracking check
 - Issues: Remaining local examples, archive/provenance and approved media packs remain pending; website publishing remains unapproved.
+
+## Post-release: Journey V3 library/provenance/media resource import
+
+- Time: 2026-07-18T12:00:25+00:00
+- Commands: create Canonical Resources subfolders 16 through 18; compile sanitized guide Docs; build three artifact-tool registry workbooks with rendered previews; import native Docs and Sheets; link Resource Library Index final rows; add Delegation Tracker TASK-009; Drive/Docs/Sheets readback verification
+- Validation: PASS: artifact-tool workbook inspect/render; Google Docs sentinel checks; native Sheet/range readback; pack folder readback; Resource Library Index readback; Delegation Tracker readback; python3 tools/validate.py; python3 tests/test_site_prototype.py; bundled-python tests/test_spreadsheets.py; git diff --check; source-original tracking check
+- Issues: Public/private website publishing remains unapproved; human-review gates remain active.

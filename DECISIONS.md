@@ -69,3 +69,10 @@
 - Status: accepted
 - Decision: Represent administration, logistics, finance, communications, safety and quality canonical resources as one Drive folder each, containing a native guide Doc and a native Google Sheet starter workbook.
 - Rationale: These resources are template sets, not single documents. Folder-backed packs keep each canonical resource link stable while preserving separate editable Docs and Sheets for the roles that run the work.
+
+## ADR-011: Library/provenance/media resources as review-register packs
+
+- Date: 2026-07-18
+- Status: accepted
+- Decision: Represent local examples, archive/provenance and approved-media canonical resources as folder-backed native guide Docs and registry Sheets rather than uploading original source files or media.
+- Rationale: These resources depend on provenance, sensitivity, copyright, consent and historical-example context. Review-register packs make the library searchable without exposing raw or unapproved material.

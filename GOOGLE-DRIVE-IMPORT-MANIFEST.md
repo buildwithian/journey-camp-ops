@@ -95,6 +95,19 @@ Status: completed for the operations/control resource tranche on 2026-07-18.
 
 Resource Library Index `current_drive_link` for these six rows points to the pack folder, because the canonical resource consists of both a guide Doc and a native Sheet.
 
+
+## Imported Library, Provenance and Media Review Pack Folders
+
+Status: completed for the library/provenance/media resource tranche on 2026-07-18.
+
+| Pack Folder | Guide Doc | Native Sheet |
+| --- | --- | --- |
+| 16 Local Examples: https://drive.google.com/drive/folders/1JMscJ61y4GaBJ1ggDoj0IWHSwsWLvb86 | https://docs.google.com/document/d/1MbdsraPrglxtlMXeCW75NDHMdHPdQDt7MdYEcAO9xII/edit | https://docs.google.com/spreadsheets/d/1nhsnchgS7GQ3zBaee4DDpbdOsGWiwWYQT_YOJdTYmFg/edit |
+| 17 Archive Register: https://drive.google.com/drive/folders/1cFXC8N0oev4MsiFBGuYXmozKhuoWkv3B | https://docs.google.com/document/d/1loRMNvIir1pNCky_VsqtVl-aQyRcd5onuizBmIoRsaY/edit | https://docs.google.com/spreadsheets/d/1lkULlb4i94QnI84uok8Km1SrVTBTIsnAVwG7p8FrgX4/edit |
+| 18 Website Source Exports: https://drive.google.com/drive/folders/1foGYgLdSsg7wY-dXXO_dAXxLKgVTHKuy | https://docs.google.com/document/d/1TZUDpNQSiN5p5ngxhwq4obMz-_mQz4x8-B1Gwto0g2A/edit | https://docs.google.com/spreadsheets/d/14PIrRZBGjnANAk8kCKyn6IrWqZezXhCfmHeuFph2znY/edit |
+
+Resource Library Index `current_drive_link` for these three rows points to the pack folder, because each canonical resource depends on a guide Doc plus a register/review Sheet.
+
 ## Uploaded Website Artifact
 
 | File | Destination | URL |
@@ -130,10 +143,16 @@ Resource Library Index `current_drive_link` for these six rows points to the pac
 - Resource index `Canonical Resources!A16:L21` readback showed current links to the six operations/control pack folders.
 - Resource index `Quality Checks!A8:E8` readback recorded that 17 of 20 canonical rows now have current Drive links.
 - Delegation tracker `Tasks!A11:J12` readback showed new `TASK-008` as `Done`.
+- Library/provenance/media guide Doc sentinel checks passed for Local Examples Library, Archive Register and Provenance, and Approved Media Library.
+- Native Sheet range readback confirmed expected tabs and review gates for Local Examples, Archive Register and Approved Media workbooks.
+- Folder readback confirmed each final library/provenance/media pack folder contains one native guide Doc and one native Google Sheet.
+- Resource index `Canonical Resources!A22:L24` readback showed current links to the three final pack folders.
+- Resource index `Quality Checks!A8:E8` readback marked the canonical-resource link check `Done` for all 20 rows.
+- Delegation tracker `Tasks!A12:J13` readback showed new `TASK-009` as `Done`.
 
 ## Remaining Boundaries
 
 - Public/private website publishing is not yet approved.
 - Canonical programme, safety, medical, legal, theological, copyright and governance review gates remain active.
-- Remaining local examples, archive/provenance and approved media packs still need to be imported, linked and owner-reviewed after the core, programme/event and operations/control tranches.
-- Source-original folders and confidential raw source files were not uploaded.
+- Source-original folders, confidential raw source files and unapproved original media were not uploaded.
+- Local examples, archive/provenance and approved-media packs are review registers, not approval to publish underlying source material.
