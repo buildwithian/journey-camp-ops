@@ -34,3 +34,10 @@
 - Status: accepted
 - Decision: Use Alpha's public host and resource-hub pattern as inspiration for the future Journey operating website, while keeping Drive and Google Sheets as the operational source of truth until a custom platform is justified.
 - Rationale: The benchmark shows a practical pattern for combining explanation, registration, resources, schedule, team access, promotion and guest workflows. Journey should adapt the operating pattern, not copy Alpha content or assets.
+
+## ADR-006: Local static operating hub prototype
+
+- Date: 2026-07-18
+- Status: accepted
+- Decision: Add a self-contained static HTML prototype for the future Journey operating hub, using synthetic local data and browser localStorage rather than external services.
+- Rationale: The user asked for an Alpha-like single website that can expose resources, planning templates, leader assignment and delegated responsibility. A static prototype gives a concrete review surface without publishing confidential material or replacing Drive as the current source of truth.
