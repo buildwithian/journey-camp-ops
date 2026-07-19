@@ -1,3 +1,12 @@
+## 2026-07-19T21:33:50+00:00
+
+- Added validation-backed live Resource Library Index `Template Acceptance Checklist!A1:N16` with twelve TIQ-linked acceptance rows for canonical candidates, reviewer authorities, acceptance statuses, evidence requirements, replacement targets, source preservation, restricted-data checks and non-approval boundaries.
+- Linked the checklist into Resource Library Dashboard row 13 and Instructions row 11; Dashboard row 13 readback shows 12 template acceptances pending.
+- Added Resource Library Index `Quality Checks!A60:E60` for the Template Acceptance Checklist and verified B60:C60 dropdown validation.
+- Created local recovery/import package `templates/operations/template-acceptance-checklist.csv` and `templates/operations/template-acceptance-checklist.md`; added the guide to `templates/operations/README.md`.
+- Validation: PASS: live `Template Acceptance Checklist!A1:N16` readback with TIQ ID, reviewer/authority, acceptance status and restricted-data validation, Dashboard `A13:C13` formula readback showing 12 pending items, Instructions `A11:B11` readback, Resource Library `Quality Checks!A60:E60` readback with B60:C60 dropdown validation; python3 tools/validate.py; python3 tests/test_site_prototype.py; bundled-python tests/test_spreadsheets.py; template-acceptance CSV/guide sentinel checks; python3 -c json load; git diff --check; source-original tracking check.
+- Issues: The Template Acceptance Checklist supports acceptance review only; it does not overwrite source files, approve content, appoint leaders, move restricted data, broaden sharing, publish outputs, approve website build, replace canonical links or close gates.
+
 ## 2026-07-19T21:26:42+00:00
 
 - Updated local `site/index.html` and `site/operating-hub-prototype.html` with a Templates view section that mirrors the live Resource Library Template Improvement Queue for TIQ-001 through TIQ-012, pending count, output targets, owner roles, output formats, approval authorities and non-overwrite boundaries.

@@ -37,6 +37,7 @@ This section contains local recovery guides and import templates for the live Jo
 - [Strategy Review Queue](strategy-review-queue.md)
 - [Duplicate Resolution Queue](duplicate-resolution-queue.md)
 - [Template Improvement Queue](template-improvement-queue.md)
+- [Template Acceptance Checklist](template-acceptance-checklist.md)
 - [Website Build Backlog](website-build-backlog.md)
 - [Website Content Approval Templates](website-content-approval-templates.md)
 
