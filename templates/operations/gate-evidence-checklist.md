@@ -21,7 +21,7 @@ Use this checklist to prove what must be true before any remaining launch gate i
 
 ## Current Live-state Note
 
-An empty `Gate Evidence Checklist` tab was created in the live tracker before connector usage limits stopped the live population step. Populate that live tab from [gate-evidence-checklist.csv](gate-evidence-checklist.csv) when connector access is available again, then link it into Dashboard, Instructions, Launch Gates and Resource Library Index quality checks.
+The live `Gate Evidence Checklist` tab is populated with the 22 evidence rows from [gate-evidence-checklist.csv](gate-evidence-checklist.csv), linked into Dashboard row 18, Instructions row 18, Launch Gates evidence fields and Resource Library Index quality checks. Keep the CSV as the recovery/import template.
 
 ## Privacy Rule
 

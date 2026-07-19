@@ -166,13 +166,13 @@ Status: active and review-gated as of 2026-07-18.
 | Leader Delegation and Readiness Tracker | `Decisions!A7:G10` | DEC-003 through DEC-006 keep owner naming, website access, real-data replacement and production publishing approval-gated. |
 | Leader Delegation and Readiness Tracker | `Event Readiness!A9:H10` | Pilot Journey Cycle and Production Website Launch are tracked as not ready. |
 | Leader Delegation and Readiness Tracker | `Pilot Cycle Plan!A5:M16` | Twelve pilot-prep, walkthrough, logging, debrief and approved-change routing actions are present for one small leadership-team pilot; none records participant, medical, financial or private personal data. |
-| Leader Delegation and Readiness Tracker | `Gate Evidence Checklist` | Empty live tab exists after connector usage limits interrupted population; local import package is available at `templates/operations/gate-evidence-checklist.csv` with 22 launch-gate evidence items. |
+| Leader Delegation and Readiness Tracker | `Gate Evidence Checklist!A5:M26` | Twenty-two launch-gate evidence items are populated with validation-backed gate, role, status and date fields; all remain pending human evidence and approval. |
 | Leader Delegation and Readiness Tracker | `Launch Gates!A5:K10` | Six remaining launch gates are consolidated with owner role, status, next human action, evidence surface and proof required to close. |
 | Leader Delegation and Readiness Tracker | `Owner Evidence Review!A5:J13` | Nine private-source evidence reviews are listed for authorized owner confirmation without copying source-derived names into the shared tracker. |
 | Leader Delegation and Readiness Tracker | `Website Access Review!A5:J18` | Fourteen website-area access decisions are listed as `Needs decision`, with public/protected/restricted/withheld recommendations and no publication approval. |
 | Leader Delegation and Readiness Tracker | `Governance Authority Review!A5:K16` | Twelve final-authority decisions are listed as `Needs authority decision`, with proposed final-authority role, operating owner role, required approver and non-approval notes. |
-| Leader Delegation and Readiness Tracker | `Dashboard!A5:C17` | Dashboard readback shows 16 tasks, 7 open human-review items, 6 populated non-green readiness rows, 6 launch gates not complete, 9 owner evidence reviews pending, 14 website access decisions pending, 12 governance authority decisions pending, 7 human-review routing actions pending, 12 owner appointment actions pending and 12 pilot cycle plan actions pending. |
-| Resource Library Index | `Quality Checks!A11:E26` | Named leaders, restricted real-data replacement, production website access model, review packet readiness, pilot evidence readiness, owner appointment packet readiness, pilot run/debrief readiness, restricted-data checklist readiness, website publication gate readiness, Launch Gates control readiness, owner evidence review readiness, website access review readiness, governance authority review readiness, human-review routing readiness, owner appointment routing readiness and pilot cycle plan queue readiness are explicit quality gates. |
+| Leader Delegation and Readiness Tracker | `Dashboard!A5:C18` | Dashboard readback shows 16 tasks, 7 open human-review items, 6 populated non-green readiness rows, 6 launch gates not complete, 9 owner evidence reviews pending, 14 website access decisions pending, 12 governance authority decisions pending, 7 human-review routing actions pending, 12 owner appointment actions pending, 12 pilot cycle plan actions pending and 22 gate evidence items pending. |
+| Resource Library Index | `Quality Checks!A11:E27` | Named leaders, restricted real-data replacement, production website access model, review packet readiness, pilot evidence readiness, owner appointment packet readiness, pilot run/debrief readiness, restricted-data checklist readiness, website publication gate readiness, Launch Gates control readiness, owner evidence review readiness, website access review readiness, governance authority review readiness, human-review routing readiness, owner appointment routing readiness, pilot cycle plan queue readiness and gate evidence checklist readiness are explicit quality gates. |
 
 The production website remains blocked until access model, content review, copyright boundaries and final operating authority are approved.
 
@@ -328,12 +328,12 @@ Status: created and linked as of 2026-07-18.
 
 ## Gate Evidence Checklist Import Package
 
-Status: local import package created on 2026-07-19; live tab exists but remains empty until connector access is available.
+Status: local import package created and live tab populated on 2026-07-19.
 
 | Artifact | Location | Verification |
 | --- | --- | --- |
 | Local Gate Evidence Checklist guide | `templates/operations/gate-evidence-checklist.md` | Defines operating sequence, privacy rule and status values for evidence collection. |
 | Local Gate Evidence Checklist CSV | `templates/operations/gate-evidence-checklist.csv` | Contains 22 evidence rows covering owner/governance, HR-001 through HR-007, pilot, restricted data, website access and production publication proof. |
-| Live Gate Evidence Checklist tab | https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit | Range readback after creation returned no populated values; Dashboard, Launch Gates and Resource Library Index links remain pending. |
+| Live Gate Evidence Checklist tab | https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit | `Gate Evidence Checklist!A1:M26`, Dashboard row 18, Instructions row 18, Launch Gates evidence links, validation metadata and Resource Library Index `Quality Checks!A27:E27` were read back after population. |
 
-The local package prepares population of the live checklist only. It does not appoint leaders, approve any human-review gate, run a pilot, authorize restricted-data replacement, approve website access or publish production pages.
+The live checklist and local package prepare evidence collection only. They do not appoint leaders, approve any human-review gate, run a pilot, authorize restricted-data replacement, approve website access or publish production pages.

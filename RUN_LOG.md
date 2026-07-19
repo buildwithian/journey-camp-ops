@@ -247,3 +247,10 @@
 - Commands: read live Gate Evidence Checklist range; create local CSV/Markdown import package for six-gate evidence proof; update local audit/state files
 - Validation: PASS: python3 tools/validate.py; python3 tests/test_site_prototype.py; bundled-python tests/test_spreadsheets.py; git diff --check; source-original tracking check; live `Gate Evidence Checklist!A1:M10` readback showed an empty tab created before connector write limits stopped population
 - Issues: Connector usage limit prevented live population, dashboard formula, validation metadata and Resource Library Index quality-check updates; no gate was approved or closed.
+
+## Post-release: Journey V3 gate evidence checklist live population
+
+- Time: 2026-07-19T15:51:30+00:00
+- Commands: populate live Gate Evidence Checklist tab from local checklist package; add validation-backed gate, role, status and date fields; link Dashboard row 18, tracker Instructions row 18, Launch Gates evidence ranges and Resource Library Index Quality Checks row 27; Sheets range/formula/validation readback verification
+- Validation: PASS: `Gate Evidence Checklist!A1:M26` readback; Dashboard row 18 formula readback; Instructions row 18 readback; Launch Gates `A5:F10` evidence-link readback; Resource Library Index `Quality Checks!A25:E27` readback; Gate Evidence validation metadata readback
+- Issues: All 22 evidence items remain pending human completion; no owner appointment, human-review sign-off, pilot evidence, restricted-data approval, website access approval or production publication was completed.
