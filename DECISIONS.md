@@ -485,3 +485,10 @@
 - Status: accepted
 - Decision: Add a validation-backed Organizational Implementation Board in the Leader Delegation tracker before owner appointments, human-review gate closure, pilot acceptance, restricted-data replacement, website access approval or production publication work proceeds.
 - Rationale: The next stage depends on real human names, qualified review decisions, pilot evidence, data-placement approval and access/publication authority that cannot be invented. A single live board keeps those work areas actionable while preserving that names, approvals, pilot completion, restricted-data movement, sharing changes, build, deployment, publication and launch-gate closure remain human-gated.
+
+## ADR-047: Organizational implementation prototype mirrors the live board only
+
+- Date: 2026-07-19
+- Status: accepted
+- Decision: Mirror the live Organizational Implementation Board inside the non-production operating hub prototype after the live board exists.
+- Rationale: The single website-shaped review surface should show the six current organizational implementation actions beside the planning controls. The prototype remains synthetic and does not appoint leaders, approve HR gates, run a pilot, move restricted data, approve access, build, deploy, publish or close launch gates.
