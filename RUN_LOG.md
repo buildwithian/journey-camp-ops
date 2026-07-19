@@ -1,3 +1,12 @@
+## 2026-07-19T19:12:20+00:00
+
+- Created native Google Doc `Journey V3 - Alpha-Style Website Benchmark And Adaptation Brief` in the Strategy and Runbooks folder: https://docs.google.com/document/d/1_ZqYJ3yz90ElOe7aR6IfgEflQ1GmM3944_5M2ZZD6Tc/edit
+- Used current public Alpha UK, Alpha Australia, Alpha Canada and Alpha USA Help Center pages as benchmark evidence, then translated patterns into original Journey website layers, feature backlog and approval dependencies.
+- Created local strategy twin `docs/00-strategy/alpha-style-website-benchmark-adaptation-brief.md` with source URLs and added it to `docs/00-strategy/README.md`.
+- Added Resource Library Index `Quality Checks!A45:E45` for the benchmark brief and verified B45:C45 dropdown validation.
+- Validation: PASS: python3 tools/validate.py; python3 tests/test_site_prototype.py; bundled-python tests/test_spreadsheets.py; python3 -c json load and benchmark sentinel checks; git diff --check; source-original tracking check.
+- Issues: The brief does not approve copyright use, copy Alpha assets, approve public content, decide access, broaden sharing, build, deploy, publish or close GATE-006.
+
 ## 2026-07-19T19:03:13+00:00
 
 - Updated local `site/index.html` and `site/operating-hub-prototype.html` with a synthetic Website Content Approval view covering WCR-001 through WCR-020 filters, pending-count metric, planning/resource/template references and non-approval boundaries.

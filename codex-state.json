@@ -8,7 +8,7 @@
   "files_inventoried": 555,
   "tests_passed": 14,
   "tests_failed": 0,
-  "last_completed_task": "Operating hub prototype content approval view added and Drive HTML artifact refreshed without approving content or publication",
+  "last_completed_task": "Alpha-style website benchmark adaptation brief added from current public sources without copying Alpha content or approving publication",
   "technical_blockers": [],
   "human_review_items": [
     "HR-001: Safeguarding and child-protection material",
@@ -19,8 +19,8 @@
     "HR-006: Girls session and rite-of-passage content",
     "HR-007: Third-party benchmark and copyright boundaries"
   ],
-  "last_updated": "2026-07-19T19:04:40+00:00",
-  "next_stage_status": "The operating hub prototype now includes a synthetic Website Content Approval view with WCR-001 through WCR-020 rows, filters, a content approval pending metric, template/planning/resource references and non-approval boundaries. The existing Drive HTML artifact was refreshed in place at the same file ID, modified 2026-07-19T19:01:24.101Z with size 40463 bytes, and Resource Library Quality Checks row 44 records the refresh. Content approval, Alpha/copyright permission, access decisions, DEC-006/TASK-016 updates, sharing changes, gate closure and production publishing remain pending accountable human approval.",
+  "last_updated": "2026-07-19T19:12:20+00:00",
+  "next_stage_status": "A native and local Alpha-style website benchmark adaptation brief now captures current public Alpha UK, Alpha Australia, Alpha Canada and Alpha USA Help Center run/host patterns as original Journey requirements, feature backlog items and no-copy approval boundaries. Resource Library Quality Checks row 45 records the brief. Copyright use, public content, website access, sharing changes, production build/deployment, DEC-006/TASK-016 updates, gate closure and publication remain pending accountable human approval.",
   "drive_review_artifacts": {
     "human_review_packets_folder": "https://drive.google.com/drive/folders/1qFvxr10Tto589PexueN34XK8AFvYMjTd",
     "pilot_evidence_folder": "https://drive.google.com/drive/folders/1v1_PtevCjMEL8bwnDOz9Z2JVyglH_CZJ",
@@ -151,6 +151,10 @@
     "operating_hub_prototype_content_approval_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit",
     "operating_hub_prototype_content_approval_local_index": "site/index.html",
     "operating_hub_prototype_content_approval_local_named_copy": "site/operating-hub-prototype.html",
-    "operating_hub_prototype_content_approval_test": "tests/test_site_prototype.py"
+    "operating_hub_prototype_content_approval_test": "tests/test_site_prototype.py",
+    "alpha_style_website_benchmark_doc": "https://docs.google.com/document/d/1_ZqYJ3yz90ElOe7aR6IfgEflQ1GmM3944_5M2ZZD6Tc/edit",
+    "alpha_style_website_benchmark_local_guide": "docs/00-strategy/alpha-style-website-benchmark-adaptation-brief.md",
+    "alpha_style_website_benchmark_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit",
+    "alpha_style_website_benchmark_sources_checked": "Alpha UK Run Alpha; Alpha Australia Run Alpha; Alpha Canada Running Alpha; Alpha USA Help Center resources article; checked 2026-07-19"
   }
 }
