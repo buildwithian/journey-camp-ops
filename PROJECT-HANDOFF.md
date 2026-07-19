@@ -29,6 +29,8 @@ Current live tracker state:
 - `Communications!A13:G13` links the Leadership Review Message Templates Doc as a ready role-only wording pack for COMM-001 through COMM-016.
 - `Communications!A14:G14` links the Human Review Sign-off Templates Doc as `Ready` for qualified reviewers to use after HR packet review.
 - `Instructions!A23:B23` records the sign-off template boundary: it supports decision capture but does not assign reviewers, approve decisions or close launch gates.
+- `Communications!A15:G15` links the Owner Appointment Confirmation Templates Doc as `Ready` for programme owners after candidate nomination.
+- `Instructions!A24:B24` records the owner appointment template boundary: it supports candidate/backup/authority capture but does not appoint leaders, approve authority or close GATE-001.
 - `Launch Gates!A5:K10` consolidates the six remaining launch gates; Dashboard row 11 shows 6 launch gates not complete.
 - `Owner Evidence Review!A5:J13` lists nine private-source evidence reviews; Dashboard row 12 shows 9 owner evidence reviews pending.
 - `Website Access Review!A5:J18` lists 14 website-area access decisions; Dashboard row 13 shows 14 website access decisions pending.
@@ -71,5 +73,7 @@ Current review, owner, pilot, data and launch artifacts:
 - Leadership Review Message Templates local guide: `templates/communications/leadership-review-message-templates.md`
 - Human Review Sign-off Templates Doc supports HR-001 through HR-007 decision capture after qualified review: https://docs.google.com/document/d/1devu3dd7yzkx047MJ1QWDiVmOcy2vcrHy7nmxvwSNlE/edit
 - Human Review Sign-off Templates local guide: `templates/operations/human-review-sign-off-templates.md`
+- Owner Appointment Confirmation Templates Doc supports APP-001 through APP-012 decision capture after candidate nomination: https://docs.google.com/document/d/1Q3-cpnyY8hh2ov4hvlcNu1Y0lvgC1ZkTDuLelybrTrI/edit
+- Owner Appointment Confirmation Templates local guide: `templates/operations/owner-appointment-confirmation-templates.md`
 
-These artifacts prepare owner appointment routing, owner appointment, source-evidence review, governance authority review, human-review routing, human review, leadership-review agenda execution, leadership-review output capture, role-only leadership-review communications, leadership-review message templates, human-review sign-off templates, pilot-cycle planning, pilot execution, restricted-data replacement decisions, website access review, website publication review and weekly launch-gate control but do not appoint leaders, copy private names into shared records, close any human-review gate, authorize restricted-data migration or authorize publication.
+These artifacts prepare owner appointment routing, owner appointment, owner-appointment confirmation templates, source-evidence review, governance authority review, human-review routing, human review, leadership-review agenda execution, leadership-review output capture, role-only leadership-review communications, leadership-review message templates, human-review sign-off templates, pilot-cycle planning, pilot execution, restricted-data replacement decisions, website access review, website publication review and weekly launch-gate control but do not appoint leaders, copy private names into shared records, close any human-review gate, authorize restricted-data migration or authorize publication.

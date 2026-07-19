@@ -1,3 +1,9 @@
+## 2026-07-19T17:07:50+00:00
+
+- Created reusable Owner Appointment Confirmation Templates before real candidates or backups are entered into shared tracker fields.
+- Kept candidate naming, backup confirmation, authority approval, roster entry and GATE-001 closure pending human completion.
+- Linked the template from Communications, Instructions, Launch Gates and Resource Library quality checks so programme owners have wording without treating the template as appointment approval.
+
 ## 2026-07-19T16:59:46+00:00
 
 - Created reusable Human Review Sign-off Templates before final HR-001 through HR-007 outcomes are entered.
@@ -225,3 +231,10 @@
 - Status: accepted
 - Decision: Add reusable HR-001 through HR-007 sign-off templates before any human-review gate outcome is recorded as approved, conditionally approved, changed or rejected.
 - Rationale: Reviewers need consistent wording and evidence-routing fields, but only qualified human review can create a valid decision. The template pack makes decision capture easier while preserving the boundary that reviewer assignment, authority confirmation, gate approval and launch closure remain human-gated.
+
+## ADR-027: Owner appointment confirmation templates before roster entry
+
+- Date: 2026-07-19
+- Status: accepted
+- Decision: Add reusable APP-001 through APP-012 owner appointment confirmation templates before any candidate names, backup confirmations or owner appointments are entered into Leader Roster.
+- Rationale: Owner appointments require programme-owner confirmation, backup coverage and HR-005 authority evidence. The template pack makes appointment capture consistent while preserving that candidate naming, authority approval, roster entry and GATE-001 closure remain human-gated.
