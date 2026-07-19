@@ -20,6 +20,15 @@ required = [
     'accessLevelFilter',
     'accessStatusFilter',
     'Do not copy Alpha assets',
+    'START HERE Pathway',
+    'Planning Control Board',
+    'Template Bundles',
+    'Review Packet Preview',
+    'startPathRows',
+    'planningRows',
+    'templateRows',
+    'handoffSummary',
+    'prototypeVersion',
 ]
 for name in ('site/index.html', 'site/operating-hub-prototype.html'):
     html = root.joinpath(name).read_text(encoding='utf-8')

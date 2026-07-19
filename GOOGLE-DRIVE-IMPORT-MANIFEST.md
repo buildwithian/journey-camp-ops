@@ -115,6 +115,7 @@ Resource Library Index `current_drive_link` for these three rows points to the p
 | Journey V3 - Operating Hub Prototype.html | 04 Website Operating Hub | https://drive.google.com/file/d/13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi/view |
 | Journey V3 - Operating Hub Prototype.html access-view refresh | 04 Website Operating Hub | Updated in place on 2026-07-18; same file ID, modified time 2026-07-18T13:27:54.544Z, size 20170 bytes. |
 | Journey V3 - Operating Hub Prototype.html gate-review refresh | 04 Website Operating Hub | Updated in place on 2026-07-19; same file ID `13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi`, modified time 2026-07-19T18:10:13.509Z, size 22549 bytes. |
+| Journey V3 - Operating Hub Prototype.html planning/resource refresh | 04 Website Operating Hub | Updated in place on 2026-07-19; same file ID `13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi`, modified time 2026-07-19T18:29:11.916Z, size 32636 bytes. |
 
 ## Verification
 
@@ -130,6 +131,8 @@ Resource Library Index `current_drive_link` for these three rows points to the p
 - Delegation tracker `TASK-005` was updated to `Done` with both native Sheet links.
 - `START HERE` document readback showed native rich links for the folder, Sheets, Docs and HTML file.
 - START HERE document readback showed `Current launch-gate review entrypoint` as a HEADING_1 section with native rich links to the Launch Gate Review Pack, live launch-gate tracker, operating hub prototype and Human Review Packets folder.
+- Drive HTML artifact readback showed START HERE Pathway, Planning Control Board, Template Bundles and Review Packet Preview markers after the planning/resource prototype refresh.
+- Resource index `Quality Checks!A41:E41` readback recorded the operating hub planning/resource prototype refresh as `Done` with owner/status dropdown validation in B41:C41.
 - Canonical Resources subfolder readback showed four newly created core subfolders.
 - Core resource Doc sentinel checks passed for Start Here Guide, Journey Purpose, Launch Readiness Checklist, Operating Model, Journey Lead, Decision Rights and Responsibility Matrix.
 - Resource index `Canonical Resources!A5:L9` readback showed current links to the four new core pack Docs.

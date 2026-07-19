@@ -1,3 +1,9 @@
+## 2026-07-19T18:30:11+00:00
+
+- Expanded the non-production operating hub prototype toward the requested single operating surface with START HERE, planning, template and review-packet-preview views.
+- Refreshed the existing Drive HTML artifact in place while preserving the same file ID and sharing state.
+- Recorded the refresh in Resource Library quality checks without changing website access, publication, gate or review decisions.
+
 ## 2026-07-19T18:19:21+00:00
 
 - Refreshed START HERE as the leader-facing entrypoint for current launch-gate review work.
@@ -329,3 +335,10 @@
 - Status: accepted
 - Decision: Make the native START HERE Doc the first leader-facing entrypoint for the current launch-gate review packet, tracker, prototype and review-packet folder.
 - Rationale: The Drive copy now has enough review surfaces that leaders need a single current doorway. START HERE improves discoverability while preserving that owner appointment, reviewer assignment, pilot execution, data migration, website access, publication and gate closure remain human-gated.
+
+## ADR-035: Prototype planning surfaces before production website work
+
+- Date: 2026-07-19
+- Status: accepted
+- Decision: Add START HERE, Planning Control Board, Template Bundles and Review Packet Preview surfaces to the non-production operating hub prototype before any production website build or publication.
+- Rationale: The user wants an Alpha-style single website for explanation, resources, planning, templates, leader assignment and delegated management. A richer synthetic prototype lets leaders review the operating model without broadening access, copying restricted data, approving content, publishing pages or treating Drive as anything other than the source of truth.

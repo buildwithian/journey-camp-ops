@@ -8,7 +8,7 @@
   "files_inventoried": 555,
   "tests_passed": 14,
   "tests_failed": 0,
-  "last_completed_task": "START HERE launch-gate review entrypoint refreshed and Resource Library quality check added without changing human-gated statuses",
+  "last_completed_task": "Operating hub prototype START HERE, planning, templates and review packet preview refreshed in local files and existing Drive HTML artifact without changing human-gated statuses",
   "technical_blockers": [],
   "human_review_items": [
     "HR-001: Safeguarding and child-protection material",
@@ -19,8 +19,8 @@
     "HR-006: Girls session and rite-of-passage content",
     "HR-007: Third-party benchmark and copyright boundaries"
   ],
-  "last_updated": "2026-07-19T18:19:21+00:00",
-  "next_stage_status": "Native START HERE now points leaders to the current launch-gate review entrypoint with rich links to the Launch Gate Review Pack, live tracker, Gate Review prototype and Human Review Packets folder; Resource Library Quality Checks row 40 records the discoverability refresh. Owner appointment, reviewer assignment, human-review decisions, pilot execution/evidence, restricted-data migration, access approval, sharing changes, DEC-006/TASK-016 updates, gate closure and production publishing remain pending accountable human approval.",
+  "last_updated": "2026-07-19T18:30:11+00:00",
+  "next_stage_status": "The non-production operating hub prototype now has START HERE, Planning Control Board, Template Bundles, Review Packet Preview, Gate Review and Access views in both local HTML files and the existing Drive HTML artifact; Resource Library Quality Checks row 41 records the refresh. Owner appointment, reviewer assignment, human-review decisions, pilot execution/evidence, restricted-data migration, access approval, sharing changes, DEC-006/TASK-016 updates, gate closure and production publishing remain pending accountable human approval.",
   "drive_review_artifacts": {
     "human_review_packets_folder": "https://drive.google.com/drive/folders/1qFvxr10Tto589PexueN34XK8AFvYMjTd",
     "pilot_evidence_folder": "https://drive.google.com/drive/folders/1v1_PtevCjMEL8bwnDOz9Z2JVyglH_CZJ",
@@ -114,14 +114,21 @@
     "operating_hub_prototype_gate_review_local_named_copy": "site/operating-hub-prototype.html",
     "operating_hub_prototype_gate_review_drive_file": "https://drive.google.com/file/d/13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi/view",
     "operating_hub_prototype_gate_review_drive_file_id": "13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi",
-    "operating_hub_prototype_gate_review_modified_time": "2026-07-19T18:10:13.509Z",
-    "operating_hub_prototype_gate_review_size_bytes": "22549",
+    "operating_hub_prototype_gate_review_modified_time": "2026-07-19T18:29:11.916Z",
+    "operating_hub_prototype_gate_review_size_bytes": "32636",
     "start_here_doc": "https://docs.google.com/document/d/1yjYo1yQr59q7SwS5g_xzr8ldLKQAXlB3_mGzE41RGw8/edit",
     "start_here_launch_gate_entrypoint_revision": "ALtnJHw8CgzkUo78dZehz5YOL4KJk1BgqBc6RtRK5Uryshn-wwLprLuruQEqOmIbEJQ3WJfvmCR1v5PMOmtzQ4Cz0QU5dvMaucQLJ_B8zU8",
     "start_here_launch_gate_entrypoint_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit",
     "start_here_launch_gate_entrypoint_launch_pack": "https://docs.google.com/document/d/10koplccP__JkX7HWiqq2I2ADNO4BAtCe5H51mGPZUU0/edit",
     "start_here_launch_gate_entrypoint_leader_tracker": "https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit",
     "start_here_launch_gate_entrypoint_prototype": "https://drive.google.com/file/d/13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi/view",
-    "start_here_launch_gate_entrypoint_packets_folder": "https://drive.google.com/drive/folders/1qFvxr10Tto589PexueN34XK8AFvYMjTd"
+    "start_here_launch_gate_entrypoint_packets_folder": "https://drive.google.com/drive/folders/1qFvxr10Tto589PexueN34XK8AFvYMjTd",
+    "operating_hub_prototype_planning_resource_drive_file": "https://drive.google.com/file/d/13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi/view",
+    "operating_hub_prototype_planning_resource_modified_time": "2026-07-19T18:29:11.916Z",
+    "operating_hub_prototype_planning_resource_size_bytes": "32636",
+    "operating_hub_prototype_planning_resource_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit",
+    "operating_hub_prototype_planning_resource_local_index": "site/index.html",
+    "operating_hub_prototype_planning_resource_local_named_copy": "site/operating-hub-prototype.html",
+    "operating_hub_prototype_planning_resource_test": "tests/test_site_prototype.py"
   }
 }

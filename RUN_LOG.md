@@ -1,3 +1,12 @@
+## 2026-07-19T18:30:11+00:00
+
+- Updated local `site/index.html` and `site/operating-hub-prototype.html` with fuller START HERE, Planning Control Board, Template Bundles and Review Packet Preview surfaces for the Alpha-inspired operating hub concept.
+- Kept the prototype self-contained with no external URL dependencies; localStorage remains synthetic and Drive remains the source of truth.
+- Updated the existing Drive HTML artifact in place: https://drive.google.com/file/d/13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi/view (same file ID `13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi`, modified 2026-07-19T18:29:11.916Z, size 32636 bytes, parent `1V7VG7E2MuGg7KaLqjgncWefbXB0PkDbJ`).
+- Added Resource Library Index `Quality Checks!A41:E41` for the operating hub planning/resource prototype refresh and verified B41:C41 dropdown validation.
+- Validation: PASS: node --check extracted prototype script; python3 tests/test_site_prototype.py; python3 tools/validate.py; bundled-python tests/test_spreadsheets.py; python3 -c json.load codex-state.json; git diff --check; source-original tracking check.
+- Issues: This is a non-production prototype refresh only; it does not appoint leaders, assign reviewers, approve HR gates, run the pilot, migrate restricted data, approve access, publish pages, broaden sharing or close launch gates.
+
 ## 2026-07-19T18:19:21+00:00
 
 - Updated native Google Doc `Journey V3 - START HERE` with a `Current launch-gate review entrypoint` section before Working rules: https://docs.google.com/document/d/1yjYo1yQr59q7SwS5g_xzr8ldLKQAXlB3_mGzE41RGw8/edit
