@@ -8,7 +8,7 @@
   "files_inventoried": 555,
   "tests_passed": 14,
   "tests_failed": 0,
-  "last_completed_task": "Website Content Approval Templates Doc, live tracker links and local recovery guide added without approving content, access or publication",
+  "last_completed_task": "Operating hub prototype content approval view added and Drive HTML artifact refreshed without approving content or publication",
   "technical_blockers": [],
   "human_review_items": [
     "HR-001: Safeguarding and child-protection material",
@@ -19,8 +19,8 @@
     "HR-006: Girls session and rite-of-passage content",
     "HR-007: Third-party benchmark and copyright boundaries"
   ],
-  "last_updated": "2026-07-19T18:54:26+00:00",
-  "next_stage_status": "The Leader Delegation tracker now links a native Website Content Approval Templates Doc from Communications row 21, Instructions row 31 and GATE-006 evidence; Resource Library Quality Checks row 43 records the pack, and the local recovery guide is templates/operations/website-content-approval-templates.md. The templates support WCR-001 through WCR-020 content-scope, public-safe summary, restricted-handling, media/copyright, dates/schedule and publication-handoff review capture. Content approval, Alpha/copyright permission, access decisions, DEC-006/TASK-016 updates, sharing changes, gate closure and production publishing remain pending accountable human approval.",
+  "last_updated": "2026-07-19T19:04:40+00:00",
+  "next_stage_status": "The operating hub prototype now includes a synthetic Website Content Approval view with WCR-001 through WCR-020 rows, filters, a content approval pending metric, template/planning/resource references and non-approval boundaries. The existing Drive HTML artifact was refreshed in place at the same file ID, modified 2026-07-19T19:01:24.101Z with size 40463 bytes, and Resource Library Quality Checks row 44 records the refresh. Content approval, Alpha/copyright permission, access decisions, DEC-006/TASK-016 updates, sharing changes, gate closure and production publishing remain pending accountable human approval.",
   "drive_review_artifacts": {
     "human_review_packets_folder": "https://drive.google.com/drive/folders/1qFvxr10Tto589PexueN34XK8AFvYMjTd",
     "pilot_evidence_folder": "https://drive.google.com/drive/folders/1v1_PtevCjMEL8bwnDOz9Z2JVyglH_CZJ",
@@ -144,6 +144,13 @@
     "website_content_approval_templates_communications_row": "https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit",
     "website_content_approval_templates_instruction_row": "https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit",
     "website_content_approval_templates_launch_gate_evidence": "https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit",
-    "website_content_approval_templates_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit"
+    "website_content_approval_templates_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit",
+    "operating_hub_prototype_content_approval_drive_file": "https://drive.google.com/file/d/13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi/view",
+    "operating_hub_prototype_content_approval_modified_time": "2026-07-19T19:01:24.101Z",
+    "operating_hub_prototype_content_approval_size_bytes": "40463",
+    "operating_hub_prototype_content_approval_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit",
+    "operating_hub_prototype_content_approval_local_index": "site/index.html",
+    "operating_hub_prototype_content_approval_local_named_copy": "site/operating-hub-prototype.html",
+    "operating_hub_prototype_content_approval_test": "tests/test_site_prototype.py"
   }
 }

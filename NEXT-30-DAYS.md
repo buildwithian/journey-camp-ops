@@ -5,6 +5,7 @@
 - Use the Launch Gate Review Pack to run a leadership session across GATE-001 through GATE-006 before changing any gate status: https://docs.google.com/document/d/10koplccP__JkX7HWiqq2I2ADNO4BAtCe5H51mGPZUU0/edit
 - Use the non-production operating hub Gate Review view as a synthetic walkthrough surface for the six launch gates; it points to tracker rows and does not approve or publish anything.
 - Use the non-production operating hub START HERE, Planning Control Board, Template Bundles and Review Packet Preview views to rehearse the single-site management flow before any access or publication decision.
+- Use the non-production operating hub Website Content Approval view to rehearse WCR-001 through WCR-020 review routing, filters and publication-handoff boundaries before any access or publication decision.
 - Use the populated live `Gate Evidence Checklist` tab to collect closure proof before moving any launch gate to complete; keep the local CSV as the recovery/import template.
 - Use the populated live `Leadership Review Schedule` tab to set meeting dates, facilitator roles, attendee roles and expected outputs for the six open gates.
 - Use the populated live `Leadership Review Agenda` tab to run each scheduled review session with prompts, evidence requirements, decision boundaries and required outputs.

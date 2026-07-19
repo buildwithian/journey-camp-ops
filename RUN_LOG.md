@@ -1,3 +1,12 @@
+## 2026-07-19T19:03:13+00:00
+
+- Updated local `site/index.html` and `site/operating-hub-prototype.html` with a synthetic Website Content Approval view covering WCR-001 through WCR-020 filters, pending-count metric, planning/resource/template references and non-approval boundaries.
+- Updated `site/README.md` and `tests/test_site_prototype.py` so the prototype contract includes the Content view while still rejecting external URL dependencies.
+- Updated the existing Drive HTML artifact in place: https://drive.google.com/file/d/13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi/view (same file ID `13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi`, modified 2026-07-19T19:01:24.101Z, size 40463 bytes, parent `1V7VG7E2MuGg7KaLqjgncWefbXB0PkDbJ`).
+- Added Resource Library Index `Quality Checks!A44:E44` for the content approval prototype refresh and verified B44:C44 dropdown validation.
+- Validation: PASS: node --check extracted prototype script; python3 tests/test_site_prototype.py; python3 tools/validate.py; bundled-python tests/test_spreadsheets.py; python3 -c json.load codex-state.json; git diff --check; source-original tracking check.
+- Issues: This is a non-production prototype refresh only; it does not approve content, copy Alpha assets, authorize media, broaden sharing, publish pages, update DEC-006/TASK-016 or close GATE-006.
+
 ## 2026-07-19T18:54:26+00:00
 
 - Created native Google Doc `Journey V3 - Website Content Approval Templates` in the Website Operating Hub folder: https://docs.google.com/document/d/1RgevIzRPXYjB1cJkECdt5R2szmOSp6oAZ_6a_vhOKYk/edit
