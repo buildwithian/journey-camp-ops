@@ -196,3 +196,11 @@
 - Status: accepted
 - Decision: Add a leadership review agenda before running scheduled review sessions or treating schedule rows as executable.
 - Rationale: The review process needs prompts, required evidence, decision boundaries, expected outputs and time boxes before humans can safely use the control tracker. The agenda makes meetings executable while preserving that owner appointments, authority approvals, review decisions, pilot evidence, restricted-data approval, access approval and production publishing remain human-gated.
+
+
+## ADR-024: Leadership review communications before review execution
+
+- Date: 2026-07-19
+- Status: accepted
+- Decision: Add a validation-backed leadership review communications queue before treating scheduled reviews, reviewer requests, pilot debriefs, restricted-data review, website access review or publication prerequisites as actively routed.
+- Rationale: The open gates need real outreach, responses and evidence capture, but shared trackers must not store contact details or turn message-sending into approval. A role-only communications queue makes the next human action visible while preserving that named owners, reviewer decisions, pilot evidence, restricted-data approval, access approval and production publishing remain human-gated.

@@ -19,7 +19,9 @@ This section contains templates / communications templates.
 
 ## Contents
 
-- Add documents as this section matures.
+- `communication-calendar.md` and `communication-calendar.csv`
+- `communication-model.md`
+- `leadership-review-communications.md` and `leadership-review-communications.csv`
 
 ## Use
 

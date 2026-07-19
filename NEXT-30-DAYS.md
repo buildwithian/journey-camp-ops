@@ -5,6 +5,7 @@
 - Use the populated live `Leadership Review Schedule` tab to set meeting dates, facilitator roles, attendee roles and expected outputs for the six open gates.
 - Use the populated live `Leadership Review Agenda` tab to run each scheduled review session with prompts, evidence requirements, decision boundaries and required outputs.
 - Use the populated live `Leadership Review Outputs` tab after each scheduled review session to record approved outputs, evidence links and follow-up owner roles before updating the linked trackers.
+- Use the populated live `Leadership Review Communications` tab to draft, send and follow up role-only invites and review requests for the open gates, without storing contact details or treating outreach as approval.
 - Use the Owner Evidence Review tab and Owner Appointment and Authority Packet before entering actual leader names and backups in the Journey V3 `Leader Roster`: https://docs.google.com/document/d/1xX2YAA67-Ei5WYfbOKKJTJx9dwQAkh-Xb-copKH7m5U/edit
 - Use the `Owner Appointment Routing` tab to nominate candidates, confirm backup coverage and route each role into `Leader Roster` only after programme-owner confirmation: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 - Enter actual leader names and backups in the Journey V3 `Leader Roster` only after authorized source review and programme-owner confirmation; leave private contact details out unless permissions are approved.
