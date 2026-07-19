@@ -23,6 +23,7 @@ Current live tracker state:
 - `Pilot Cycle Plan!A5:M16` lists twelve pilot-prep, walkthrough, logging, debrief and approved-change routing actions; Dashboard row 17 shows 12 pilot cycle plan actions pending.
 - `Gate Evidence Checklist!A5:M26` contains 22 launch-gate evidence rows; Dashboard row 18 shows 22 gate evidence items pending.
 - `Leadership Review Schedule!A5:N13` contains nine review-session rows; Dashboard row 19 shows 9 leadership review sessions pending.
+- `Leadership Review Outputs!A5:N13` contains nine review-output rows; Dashboard row 20 shows 9 leadership review outputs pending.
 - `Launch Gates!A5:K10` consolidates the six remaining launch gates; Dashboard row 11 shows 6 launch gates not complete.
 - `Owner Evidence Review!A5:J13` lists nine private-source evidence reviews; Dashboard row 12 shows 9 owner evidence reviews pending.
 - `Website Access Review!A5:J18` lists 14 website-area access decisions; Dashboard row 13 shows 14 website access decisions pending.
@@ -55,5 +56,7 @@ Current review, owner, pilot, data and launch artifacts:
 - Gate Evidence Checklist local import template: `templates/operations/gate-evidence-checklist.csv`
 - Leadership Review Schedule tab lives in the Leader Delegation and Readiness Tracker and is populated with nine review-session rows: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 - Leadership Review Schedule local import template: `templates/operations/leadership-review-schedule.csv`
+- Leadership Review Outputs tab lives in the Leader Delegation and Readiness Tracker and is populated with nine output rows: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
+- Leadership Review Outputs local import template: `templates/operations/leadership-review-outputs.csv`
 
-These artifacts prepare owner appointment routing, owner appointment, source-evidence review, governance authority review, human-review routing, human review, pilot-cycle planning, pilot execution, restricted-data replacement decisions, website access review, website publication review and weekly launch-gate control but do not appoint leaders, copy private names into shared records, close any human-review gate, authorize restricted-data migration or authorize publication.
+These artifacts prepare owner appointment routing, owner appointment, source-evidence review, governance authority review, human-review routing, human review, leadership-review output capture, pilot-cycle planning, pilot execution, restricted-data replacement decisions, website access review, website publication review and weekly launch-gate control but do not appoint leaders, copy private names into shared records, close any human-review gate, authorize restricted-data migration or authorize publication.

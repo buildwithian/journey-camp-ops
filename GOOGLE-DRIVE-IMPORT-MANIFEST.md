@@ -168,12 +168,13 @@ Status: active and review-gated as of 2026-07-18.
 | Leader Delegation and Readiness Tracker | `Pilot Cycle Plan!A5:M16` | Twelve pilot-prep, walkthrough, logging, debrief and approved-change routing actions are present for one small leadership-team pilot; none records participant, medical, financial or private personal data. |
 | Leader Delegation and Readiness Tracker | `Gate Evidence Checklist!A5:M26` | Twenty-two launch-gate evidence items are populated with validation-backed gate, role, status and date fields; all remain pending human evidence and approval. |
 | Leader Delegation and Readiness Tracker | `Leadership Review Schedule!A5:N13` | Nine review-session rows are populated with validation-backed facilitator, status and date fields; dates, attendee confirmation and outputs remain pending human completion. |
+| Leader Delegation and Readiness Tracker | `Leadership Review Outputs!A5:N13` | Nine review-output rows are populated with validation-backed output type, role, status and date fields; decision summaries, dates, evidence links and linked tracker updates remain pending human completion. |
 | Leader Delegation and Readiness Tracker | `Launch Gates!A5:K10` | Six remaining launch gates are consolidated with owner role, status, next human action, evidence surface and proof required to close. |
 | Leader Delegation and Readiness Tracker | `Owner Evidence Review!A5:J13` | Nine private-source evidence reviews are listed for authorized owner confirmation without copying source-derived names into the shared tracker. |
 | Leader Delegation and Readiness Tracker | `Website Access Review!A5:J18` | Fourteen website-area access decisions are listed as `Needs decision`, with public/protected/restricted/withheld recommendations and no publication approval. |
 | Leader Delegation and Readiness Tracker | `Governance Authority Review!A5:K16` | Twelve final-authority decisions are listed as `Needs authority decision`, with proposed final-authority role, operating owner role, required approver and non-approval notes. |
-| Leader Delegation and Readiness Tracker | `Dashboard!A5:C19` | Dashboard readback shows 16 tasks, 7 open human-review items, 6 populated non-green readiness rows, 6 launch gates not complete, 9 owner evidence reviews pending, 14 website access decisions pending, 12 governance authority decisions pending, 7 human-review routing actions pending, 12 owner appointment actions pending, 12 pilot cycle plan actions pending, 22 gate evidence items pending and 9 leadership review sessions pending. |
-| Resource Library Index | `Quality Checks!A11:E28` | Named leaders, restricted real-data replacement, production website access model, review packet readiness, pilot evidence readiness, owner appointment packet readiness, pilot run/debrief readiness, restricted-data checklist readiness, website publication gate readiness, Launch Gates control readiness, owner evidence review readiness, website access review readiness, governance authority review readiness, human-review routing readiness, owner appointment routing readiness, pilot cycle plan queue readiness, gate evidence checklist readiness and leadership review schedule readiness are explicit quality gates. |
+| Leader Delegation and Readiness Tracker | `Dashboard!A5:C20` | Dashboard readback shows 16 tasks, 7 open human-review items, 6 populated non-green readiness rows, 6 launch gates not complete, 9 owner evidence reviews pending, 14 website access decisions pending, 12 governance authority decisions pending, 7 human-review routing actions pending, 12 owner appointment actions pending, 12 pilot cycle plan actions pending, 22 gate evidence items pending, 9 leadership review sessions pending and 9 leadership review outputs pending. |
+| Resource Library Index | `Quality Checks!A11:E29` | Named leaders, restricted real-data replacement, production website access model, review packet readiness, pilot evidence readiness, owner appointment packet readiness, pilot run/debrief readiness, restricted-data checklist readiness, website publication gate readiness, Launch Gates control readiness, owner evidence review readiness, website access review readiness, governance authority review readiness, human-review routing readiness, owner appointment routing readiness, pilot cycle plan queue readiness, gate evidence checklist readiness, leadership review schedule readiness and leadership review output readiness are explicit quality gates. |
 
 The production website remains blocked until access model, content review, copyright boundaries and final operating authority are approved.
 
@@ -350,3 +351,16 @@ Status: local import package created and live tab populated on 2026-07-19.
 | Live Leadership Review Schedule tab | https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit | `Leadership Review Schedule!A1:N13`, Dashboard row 19, Instructions row 19, Launch Gates evidence links, validation metadata and Resource Library Index `Quality Checks!A28:E28` were read back after population. |
 
 The live schedule and local package coordinate meetings only. They do not enter leader names, approve authority, close human-review gates, run the pilot, authorize restricted-data replacement, approve website access or publish production pages.
+
+
+## Leadership Review Outputs
+
+Status: local import package created and live tab populated on 2026-07-19.
+
+| Artifact | Location | Verification |
+| --- | --- | --- |
+| Local Leadership Review Outputs guide | `templates/operations/leadership-review-outputs.md` | Defines meeting-output capture, privacy rule and status values for leadership review follow-up coordination. |
+| Local Leadership Review Outputs CSV | `templates/operations/leadership-review-outputs.csv` | Contains nine output rows covering launch orientation, owner/governance review, human-review routing, pilot planning/debrief, restricted data, website access and production go/no-go. |
+| Live Leadership Review Outputs tab | https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit | `Leadership Review Outputs!A1:N13`, Dashboard row 20, Instructions row 20, Launch Gates evidence links, validation metadata and Resource Library Index `Quality Checks!A29:E29` were read back after population. |
+
+The live outputs register and local package capture meeting outputs only. They do not enter leader names, approve authority, close human-review gates, run the pilot, authorize restricted-data replacement, approve website access or publish production pages.

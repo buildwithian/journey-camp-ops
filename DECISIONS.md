@@ -182,3 +182,10 @@
 - Status: accepted
 - Decision: Add a leadership review schedule before treating open launch gates as executable or closable.
 - Rationale: The next stage needs real people to meet, review evidence, assign dates and record outputs. A schedule turns the evidence checklist into a practical meeting flow while keeping actual owner appointments, review decisions, pilot execution, restricted-data approval, access approval and production publishing under human authority.
+
+## ADR-022: Leadership review outputs register before tracker updates
+
+- Date: 2026-07-19
+- Status: accepted
+- Decision: Add a leadership review outputs register before treating scheduled review meetings as completed or using them to update gate trackers.
+- Rationale: Review meetings need a traceable output, evidence link and follow-up owner role before downstream trackers change. This preserves a clean audit chain while keeping actual owner appointments, authority approvals, review decisions, pilot evidence, restricted-data approval, access approval and production publishing under human authority.
