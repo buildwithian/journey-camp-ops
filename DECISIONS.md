@@ -1,3 +1,9 @@
+## 2026-07-19T16:59:46+00:00
+
+- Created reusable Human Review Sign-off Templates before final HR-001 through HR-007 outcomes are entered.
+- Kept reviewer assignment, reviewer authority, decisions, dates, conditions and launch-gate closure pending human completion.
+- Linked the template from Communications, Instructions and Resource Library quality checks so reviewers have wording without treating the template as approval.
+
 ## 2026-07-18T13:10:40+00:00
 
 - Added Owner Evidence Review as the safer path toward real leader-name entry: source row ranges and role areas are visible, but source-derived names stay out of the shared tracker until authorized review.
@@ -212,3 +218,10 @@
 - Status: accepted
 - Decision: Add reusable role-only message templates before leaders send the communication queue items.
 - Rationale: The review queue needs consistent wording that makes boundaries explicit. A template pack helps human senders request reviews, meetings, pilot debriefs, access decisions and publication prerequisite checks without storing contacts, sending messages automatically or implying approval.
+
+## ADR-026: Human review sign-off templates before review closure
+
+- Date: 2026-07-19
+- Status: accepted
+- Decision: Add reusable HR-001 through HR-007 sign-off templates before any human-review gate outcome is recorded as approved, conditionally approved, changed or rejected.
+- Rationale: Reviewers need consistent wording and evidence-routing fields, but only qualified human review can create a valid decision. The template pack makes decision capture easier while preserving the boundary that reviewer assignment, authority confirmation, gate approval and launch closure remain human-gated.

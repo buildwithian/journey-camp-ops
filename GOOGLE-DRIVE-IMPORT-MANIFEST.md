@@ -172,12 +172,14 @@ Status: active and review-gated as of 2026-07-18.
 | Leader Delegation and Readiness Tracker | `Leadership Review Agenda!A5:M31` | Twenty-seven review-agenda checkpoint rows are populated with validation-backed facilitator and status fields; meetings, outputs, decisions and follow-up updates remain pending human completion. |
 | Leader Delegation and Readiness Tracker | `Leadership Review Communications!A5:N20` | Sixteen role-only outreach rows are populated with validation-backed channel, sender-role, communication-status and date fields; message sending, recipients, responses and evidence links remain pending human completion. |
 | Leader Delegation and Readiness Tracker | `Communications!A13:G13` | Leadership Review Message Templates Doc is linked as `Ready` for functional leads to use with COMM-001 through COMM-016. |
+| Leader Delegation and Readiness Tracker | `Communications!A14:G14` | Human Review Sign-off Templates Doc is linked as `Ready` for qualified reviewers after HR packet review. |
+| Leader Delegation and Readiness Tracker | `Instructions!A23:B23` | Human Review Sign-off Templates guidance is linked with explicit non-approval boundaries. |
 | Leader Delegation and Readiness Tracker | `Launch Gates!A5:K10` | Six remaining launch gates are consolidated with owner role, status, next human action, evidence surface and proof required to close. |
 | Leader Delegation and Readiness Tracker | `Owner Evidence Review!A5:J13` | Nine private-source evidence reviews are listed for authorized owner confirmation without copying source-derived names into the shared tracker. |
 | Leader Delegation and Readiness Tracker | `Website Access Review!A5:J18` | Fourteen website-area access decisions are listed as `Needs decision`, with public/protected/restricted/withheld recommendations and no publication approval. |
 | Leader Delegation and Readiness Tracker | `Governance Authority Review!A5:K16` | Twelve final-authority decisions are listed as `Needs authority decision`, with proposed final-authority role, operating owner role, required approver and non-approval notes. |
 | Leader Delegation and Readiness Tracker | `Dashboard!A5:C22` | Dashboard readback shows 16 tasks, 7 open human-review items, 6 populated non-green readiness rows, 6 launch gates not complete, 9 owner evidence reviews pending, 14 website access decisions pending, 12 governance authority decisions pending, 7 human-review routing actions pending, 12 owner appointment actions pending, 12 pilot cycle plan actions pending, 22 gate evidence items pending, 9 leadership review sessions pending, 9 leadership review outputs pending, 27 leadership review agenda items pending and 16 leadership review communications pending. |
-| Resource Library Index | `Quality Checks!A11:E32` | Named leaders, restricted real-data replacement, production website access model, review packet readiness, pilot evidence readiness, owner appointment packet readiness, pilot run/debrief readiness, restricted-data checklist readiness, website publication gate readiness, Launch Gates control readiness, owner evidence review readiness, website access review readiness, governance authority review readiness, human-review routing readiness, owner appointment routing readiness, pilot cycle plan queue readiness, gate evidence checklist readiness, leadership review schedule readiness, leadership review output readiness, leadership review agenda readiness, leadership review communications readiness and leadership review message template readiness are explicit quality gates. |
+| Resource Library Index | `Quality Checks!A11:E33` | Named leaders, restricted real-data replacement, production website access model, review packet readiness, pilot evidence readiness, owner appointment packet readiness, pilot run/debrief readiness, restricted-data checklist readiness, website publication gate readiness, Launch Gates control readiness, owner evidence review readiness, website access review readiness, governance authority review readiness, human-review routing readiness, owner appointment routing readiness, pilot cycle plan queue readiness, gate evidence checklist readiness, leadership review schedule readiness, leadership review output readiness, leadership review agenda readiness, leadership review communications readiness, leadership review message template readiness and human review sign-off template readiness are explicit quality gates. |
 
 The production website remains blocked until access model, content review, copyright boundaries and final operating authority are approved.
 
@@ -406,4 +408,20 @@ Status: native Google Doc and local guide created on 2026-07-19.
 | Communications tracker row | `Communications!A13:G13` | Readback showed the Doc linked as `Ready` for functional leads. |
 | Resource Library quality check | `Quality Checks!A32:E32` | Readback showed the message template pack marked `Done` with human-gated sending and approval boundaries. |
 
+
 The message templates support human senders only. They do not send messages, select recipients, store contacts, approve launch gates, approve reviews, run the pilot, authorize restricted-data replacement, approve website access or publish production pages.
+
+
+## Human Review Sign-off Templates
+
+Status: native Google Doc and local guide created on 2026-07-19.
+
+| Artifact | Location | Verification |
+| --- | --- | --- |
+| Human Review Sign-off Templates Doc | https://docs.google.com/document/d/1devu3dd7yzkx047MJ1QWDiVmOcy2vcrHy7nmxvwSNlE/edit | Google Docs text readback showed the title, shared sign-off fields, HR-001 through HR-007 sections and tracker update rule. |
+| Local Human Review Sign-off Templates guide | `templates/operations/human-review-sign-off-templates.md` | Mirrors the sign-off wording pack for repository recovery and future import/reference. |
+| Communications tracker row | `Communications!A14:G14` | Readback showed the Doc linked as `Ready` for qualified reviewers. |
+| Tracker instruction row | `Instructions!A23:B23` | Readback showed non-approval guidance for reviewer statements, decision wording, conditions and evidence routing. |
+| Resource Library quality check | `Quality Checks!A33:E33` | Readback showed the sign-off template pack marked `Done` with reviewer-assignment, authority, final-decision and launch-gate boundaries. |
+
+The sign-off templates support reviewer decision capture only. They do not assign reviewers, approve decisions, close launch gates, run the pilot, authorize restricted-data replacement, approve website access or publish production pages.
