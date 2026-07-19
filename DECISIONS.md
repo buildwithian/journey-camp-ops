@@ -1,3 +1,9 @@
+## 2026-07-19T18:40:46+00:00
+
+- Added a validation-backed Website Content Review register before production website content decisions are made.
+- Kept all 20 rows as review-routing items with proposed access, required review, owner role and restricted-content handling, not approvals.
+- Linked the register to Dashboard row 23, Instructions row 30, GATE-006 and Resource Library quality checks so content review is visible before publication work.
+
 ## 2026-07-19T18:30:11+00:00
 
 - Expanded the non-production operating hub prototype toward the requested single operating surface with START HERE, planning, template and review-packet-preview views.
@@ -342,3 +348,10 @@
 - Status: accepted
 - Decision: Add START HERE, Planning Control Board, Template Bundles and Review Packet Preview surfaces to the non-production operating hub prototype before any production website build or publication.
 - Rationale: The user wants an Alpha-style single website for explanation, resources, planning, templates, leader assignment and delegated management. A richer synthetic prototype lets leaders review the operating model without broadening access, copying restricted data, approving content, publishing pages or treating Drive as anything other than the source of truth.
+
+## ADR-036: Website content register before production build
+
+- Date: 2026-07-19
+- Status: accepted
+- Decision: Add a Website Content Review register before any production website build, publication or access expansion.
+- Rationale: The desired Alpha-style website spans public explanation, videos, dates, leader resources, templates, operational dashboards and restricted workflows. A content register lets leaders classify each area and record required review while preserving that content approval, copyright permission, access decisions, data handling and publication authority remain human-gated.

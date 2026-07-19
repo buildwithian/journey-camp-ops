@@ -32,6 +32,7 @@ This section contains templates / operations templates.
 - [Website Access Model Decision Templates](website-access-model-decision-templates.md)
 - [Production Website Publication Approval Templates](production-website-publication-approval-templates.md)
 - [Launch Gate Review Pack](launch-gate-review-pack.md)
+- [Website Content Review](website-content-review.md)
 
 ## Use
 

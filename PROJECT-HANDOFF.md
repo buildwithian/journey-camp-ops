@@ -16,6 +16,7 @@ Current live tracker state:
 - Native START HERE now has a `Current launch-gate review entrypoint` section with rich links to the Launch Gate Review Pack, live tracker, Gate Review prototype and Human Review Packets folder.
 - Resource Library Index `Quality Checks!A40:E40` records the START HERE launch-gate pathway refresh as `Done`.
 - Resource Library Index `Quality Checks!A41:E41` records the operating hub planning/resource prototype refresh as `Done`.
+- Resource Library Index `Quality Checks!A42:E42` records the Website Content Review register as `Done`.
 - `Leader Roster!A5:H16` lists every required owner role with real leader names still blank for programme-owner completion.
 - `Owner Appointment Routing!A5:N16` lists twelve role-appointment actions; Dashboard row 16 shows 12 owner appointment actions pending.
 - `Human Review!A5:N11` contains HR-001 through HR-007, all open, with packet links plus sign-off fields for assigned reviewer, reviewer authority, decision, date and conditions.
@@ -29,6 +30,7 @@ Current live tracker state:
 - `Leadership Review Outputs!A5:N13` contains nine review-output rows; Dashboard row 20 shows 9 leadership review outputs pending.
 - `Leadership Review Agenda!A5:M31` contains 27 review-agenda checkpoint rows; Dashboard row 21 shows 27 leadership review agenda items pending.
 - `Leadership Review Communications!A5:N20` contains 16 role-only outreach rows; Dashboard row 22 shows 16 leadership review communications pending.
+- `Website Content Review!A5:N24` contains 20 proposed website content rows; Dashboard row 23 shows 20 website content reviews pending.
 - `Communications!A13:G13` links the Leadership Review Message Templates Doc as a ready role-only wording pack for COMM-001 through COMM-016.
 - `Communications!A14:G14` links the Human Review Sign-off Templates Doc as `Ready` for qualified reviewers to use after HR packet review.
 - `Instructions!A23:B23` records the sign-off template boundary: it supports decision capture but does not assign reviewers, approve decisions or close launch gates.
@@ -83,6 +85,9 @@ Current review, owner, pilot, data and launch artifacts:
 - Launch Gates tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 - Owner Evidence Review tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 - Website Access Review tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
+- Website Content Review tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
+- Website Content Review local import template: `templates/operations/website-content-review.csv`
+- Website Content Review local guide: `templates/operations/website-content-review.md`
 - Governance Authority Review tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 - Owner Appointment Routing tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 - Human Review Routing tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
@@ -108,4 +113,4 @@ Current review, owner, pilot, data and launch artifacts:
 - Pilot Evidence Capture Templates Doc supports GATE-003 observation, debrief and accepted-change routing during a real pilot: https://docs.google.com/document/d/1F3rh9hJd9FPXFAAHsrVnVeeH-3P8FilO6_9en3Z97W4/edit
 - Pilot Evidence Capture Templates local guide: `templates/operations/pilot-evidence-capture-templates.md`
 
-These artifacts prepare START HERE launch-gate entrypoint routing, operating-hub prototype walkthrough, planning control, template bundle review, owner appointment routing, owner appointment, owner-appointment confirmation templates, source-evidence review, governance authority review, human-review routing, human review, leadership-review agenda execution, leadership-review output capture, role-only leadership-review communications, leadership-review message templates, human-review sign-off templates, launch-gate review facilitation, pilot-cycle planning, pilot evidence capture templates, pilot execution, restricted-data placement approval templates, restricted-data replacement decisions, website access model decision templates, website access review, production website publication approval templates, website publication review and weekly launch-gate control but do not appoint leaders, copy private names into shared records, close any human-review gate, authorize restricted-data migration, approve website access or authorize publication.
+These artifacts prepare START HERE launch-gate entrypoint routing, operating-hub prototype walkthrough, planning control, template bundle review, owner appointment routing, owner appointment, owner-appointment confirmation templates, source-evidence review, governance authority review, human-review routing, human review, leadership-review agenda execution, leadership-review output capture, role-only leadership-review communications, leadership-review message templates, human-review sign-off templates, launch-gate review facilitation, pilot-cycle planning, pilot evidence capture templates, pilot execution, restricted-data placement approval templates, restricted-data replacement decisions, website content review, website access model decision templates, website access review, production website publication approval templates, website publication review and weekly launch-gate control but do not appoint leaders, copy private names into shared records, close any human-review gate, authorize restricted-data migration, approve website access or authorize publication.

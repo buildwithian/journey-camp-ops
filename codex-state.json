@@ -8,7 +8,7 @@
   "files_inventoried": 555,
   "tests_passed": 14,
   "tests_failed": 0,
-  "last_completed_task": "Operating hub prototype START HERE, planning, templates and review packet preview refreshed in local files and existing Drive HTML artifact without changing human-gated statuses",
+  "last_completed_task": "Website Content Review live tab, dashboard metric, GATE-006 linkage and local recovery package added without approving content or publication",
   "technical_blockers": [],
   "human_review_items": [
     "HR-001: Safeguarding and child-protection material",
@@ -19,8 +19,8 @@
     "HR-006: Girls session and rite-of-passage content",
     "HR-007: Third-party benchmark and copyright boundaries"
   ],
-  "last_updated": "2026-07-19T18:30:11+00:00",
-  "next_stage_status": "The non-production operating hub prototype now has START HERE, Planning Control Board, Template Bundles, Review Packet Preview, Gate Review and Access views in both local HTML files and the existing Drive HTML artifact; Resource Library Quality Checks row 41 records the refresh. Owner appointment, reviewer assignment, human-review decisions, pilot execution/evidence, restricted-data migration, access approval, sharing changes, DEC-006/TASK-016 updates, gate closure and production publishing remain pending accountable human approval.",
+  "last_updated": "2026-07-19T18:40:46+00:00",
+  "next_stage_status": "The Leader Delegation tracker now includes a validation-backed Website Content Review tab with 20 proposed website content rows, Dashboard row 23 showing 20 pending content reviews, Instructions row 30 and GATE-006 evidence/dependency linkage; Resource Library Quality Checks row 42 records the refresh. Owner appointment, reviewer assignment, content approval, copyright permission, human-review decisions, pilot execution/evidence, restricted-data migration, access approval, sharing changes, DEC-006/TASK-016 updates, gate closure and production publishing remain pending accountable human approval.",
   "drive_review_artifacts": {
     "human_review_packets_folder": "https://drive.google.com/drive/folders/1qFvxr10Tto589PexueN34XK8AFvYMjTd",
     "pilot_evidence_folder": "https://drive.google.com/drive/folders/1v1_PtevCjMEL8bwnDOz9Z2JVyglH_CZJ",
@@ -129,6 +129,15 @@
     "operating_hub_prototype_planning_resource_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit",
     "operating_hub_prototype_planning_resource_local_index": "site/index.html",
     "operating_hub_prototype_planning_resource_local_named_copy": "site/operating-hub-prototype.html",
-    "operating_hub_prototype_planning_resource_test": "tests/test_site_prototype.py"
+    "operating_hub_prototype_planning_resource_test": "tests/test_site_prototype.py",
+    "website_content_review_tab": "https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit",
+    "website_content_review_range": "Website Content Review!A5:N24",
+    "website_content_review_dashboard_metric": "Dashboard!A23:C23",
+    "website_content_review_instructions": "Instructions!A30:B30",
+    "website_content_review_launch_gate_link": "Launch Gates!F10:H10",
+    "website_content_review_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit",
+    "website_content_review_local_csv": "templates/operations/website-content-review.csv",
+    "website_content_review_local_guide": "templates/operations/website-content-review.md",
+    "website_content_review_sheet_title": "Website Content Review"
   }
 }

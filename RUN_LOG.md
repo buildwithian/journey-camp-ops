@@ -1,3 +1,13 @@
+## 2026-07-19T18:40:46+00:00
+
+- Added live `Website Content Review` tab to the Journey V3 Leader Delegation and Readiness Tracker with 20 review-routing rows for proposed public, protected, restricted and withheld website areas.
+- Linked `Website Content Review!A5:N24` into Dashboard row 23, Instructions row 30 and GATE-006 evidence/dependency fields while keeping production publishing blocked.
+- Created local recovery/import package `templates/operations/website-content-review.csv` and `templates/operations/website-content-review.md`; added the guide to `templates/operations/README.md`.
+- Added Resource Library Index `Quality Checks!A42:E42` and verified B42:C42 dropdown validation.
+- Validation: PASS after repair: python3 tools/validate.py; python3 tests/test_site_prototype.py; bundled-python tests/test_spreadsheets.py; python3 -c csv/json load checks; git diff --check; source-original tracking check.
+- Repair: removed the raw numeric Google sheet tab ID from `codex-state.json` after the privacy validator treated it as a possible private number; retained the sheet title and A1 ranges instead.
+- Issues: The content register does not approve content, copy Alpha assets, authorize videos/media, broaden sharing, publish pages, collect restricted data or close GATE-006.
+
 ## 2026-07-19T18:30:11+00:00
 
 - Updated local `site/index.html` and `site/operating-hub-prototype.html` with fuller START HERE, Planning Control Board, Template Bundles and Review Packet Preview surfaces for the Alpha-inspired operating hub concept.
