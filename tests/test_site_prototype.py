@@ -37,6 +37,13 @@ required = [
     'contentStatusFilter',
     'WCR-001',
     'Publication handoff',
+    'Deployment preparation',
+    'BLD-001',
+    'buildApprovalFilter',
+    'buildStatusFilter',
+    'buildPendingCount',
+    'buildRows',
+    'Website Build Backlog',
 ]
 for name in ('site/index.html', 'site/operating-hub-prototype.html'):
     html = root.joinpath(name).read_text(encoding='utf-8')

@@ -8,7 +8,7 @@
   "files_inventoried": 555,
   "tests_passed": 14,
   "tests_failed": 0,
-  "last_completed_task": "Website Build Backlog live tab, dashboard metric and local recovery package added without approving build or publication",
+  "last_completed_task": "Operating hub prototype refreshed with Website Build Backlog view and Drive artifact updated in place",
   "technical_blockers": [],
   "human_review_items": [
     "HR-001: Safeguarding and child-protection material",
@@ -19,8 +19,8 @@
     "HR-006: Girls session and rite-of-passage content",
     "HR-007: Third-party benchmark and copyright boundaries"
   ],
-  "last_updated": "2026-07-19T19:38:37+00:00",
-  "next_stage_status": "The Leader Delegation tracker now includes a validation-backed Website Build Backlog tab with 20 blocked or approval-gated production-site build rows, Dashboard row 25 showing 20 blocked or pending build items, Instructions row 33 and Resource Library Quality Checks row 47. Rows cover source-of-truth boundaries, IA, approved content, videos, dates, leader resources, templates, delegation UI, dashboards, access controls, QA, deployment handoff, rollback and post-launch operations. Approved scope, target environment and evidence fields remain blank until accountable approvals exist; no build, deployment, publication, sharing changes, DEC-006/TASK-016 updates or GATE-006 closure are approved.",
+  "last_updated": "2026-07-19T19:45:18+00:00",
+  "next_stage_status": "The operating hub prototype now includes a synthetic Website Build Backlog view for BLD-001 through BLD-020, a build backlog pending metric, filters and non-publication boundaries. The existing Drive HTML artifact was updated in place with the same file ID and Resource Library Quality Checks row 48 records the refresh. The prototype remains non-production; no build start, deployment, sharing, publication, DEC-006/TASK-016 updates or GATE-006 closure are approved.",
   "drive_review_artifacts": {
     "human_review_packets_folder": "https://drive.google.com/drive/folders/1qFvxr10Tto589PexueN34XK8AFvYMjTd",
     "pilot_evidence_folder": "https://drive.google.com/drive/folders/1v1_PtevCjMEL8bwnDOz9Z2JVyglH_CZJ",
@@ -171,6 +171,13 @@
     "website_build_backlog_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit",
     "website_build_backlog_local_csv": "templates/operations/website-build-backlog.csv",
     "website_build_backlog_local_guide": "templates/operations/website-build-backlog.md",
-    "website_build_backlog_sheet_title": "Website Build Backlog"
+    "website_build_backlog_sheet_title": "Website Build Backlog",
+    "operating_hub_prototype_build_backlog_drive_file": "https://drive.google.com/file/d/13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi/view",
+    "operating_hub_prototype_build_backlog_modified_time": "2026-07-19T19:43:56.747Z",
+    "operating_hub_prototype_build_backlog_size_bytes": "50598",
+    "operating_hub_prototype_build_backlog_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit",
+    "operating_hub_prototype_build_backlog_local_index": "site/index.html",
+    "operating_hub_prototype_build_backlog_local_named_copy": "site/operating-hub-prototype.html",
+    "operating_hub_prototype_build_backlog_test": "tests/test_site_prototype.py"
   }
 }
