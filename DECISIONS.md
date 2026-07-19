@@ -436,3 +436,10 @@
 - Status: accepted
 - Decision: Align the non-production Strategy Control Board prototype view to the live Strategy Review Queue after the queue exists.
 - Rationale: The single website-shaped review surface should show the same owner role, reviewing authority, status and decision-needed routing that leaders use in the live tracker. Mirroring those fields improves usability while preserving that the prototype is synthetic and cannot approve strategy acceptance, access changes, build start, publication, Drive sharing or launch-gate closure.
+
+## ADR-040: Duplicate resolution queue before cleanup
+
+- Date: 2026-07-19
+- Status: accepted
+- Decision: Add a validation-backed Duplicate Resolution Queue in the Resource Library Index before any duplicate cleanup, archiving, rewriting, Drive moves, sharing changes or production-site consolidation.
+- Rationale: The user identified Drive duplication as a core friction point, but consolidation must not become accidental deletion or approval. A queue makes canonical-target selection, owner role, approval authority and non-deletion boundaries explicit while preserving that actual archive, move, rewrite, access, restricted-data and publication decisions remain human-gated.

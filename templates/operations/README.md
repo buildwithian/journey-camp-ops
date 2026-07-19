@@ -35,6 +35,7 @@ This section contains local recovery guides and import templates for the live Jo
 - [Launch Gate Review Pack](launch-gate-review-pack.md)
 - [Website Content Review](website-content-review.md)
 - [Strategy Review Queue](strategy-review-queue.md)
+- [Duplicate Resolution Queue](duplicate-resolution-queue.md)
 - [Website Build Backlog](website-build-backlog.md)
 - [Website Content Approval Templates](website-content-approval-templates.md)
 

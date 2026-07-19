@@ -8,7 +8,7 @@
   "files_inventoried": 555,
   "tests_passed": 14,
   "tests_failed": 0,
-  "last_completed_task": "Operating hub strategy queue prototype aligned",
+  "last_completed_task": "Duplicate Resolution Queue tracker added",
   "technical_blockers": [],
   "human_review_items": [
     "HR-001: Safeguarding and child-protection material",
@@ -19,8 +19,8 @@
     "HR-006: Girls session and rite-of-passage content",
     "HR-007: Third-party benchmark and copyright boundaries"
   ],
-  "last_updated": "2026-07-19T20:58:03+00:00",
-  "next_stage_status": "The existing Drive HTML operating hub prototype now mirrors the live Strategy Review Queue with SRQ IDs, owner roles, reviewing authorities, pending status, decision needs and quality evidence. Resource Library Quality Checks row 55 records the prototype alignment. No Alpha asset use, Drive permissions, owner names, human-review outcomes, pilot completion, restricted-data movement, website access, build start, deployment, publication, sharing changes or launch-gate closure are approved.",
+  "last_updated": "2026-07-19T21:09:08+00:00",
+  "next_stage_status": "The Resource Library Index now includes a validation-backed Duplicate Resolution Queue with eight review-required duplicate areas, Dashboard row 11 showing 8 pending items, Instructions row 9 and Quality Checks row 56. No source deletion, archive, move, rewrite, sharing change, Alpha asset use, owner appointment, restricted-data movement, website access, build start, deployment, publication or launch-gate closure is approved.",
   "drive_review_artifacts": {
     "human_review_packets_folder": "https://drive.google.com/drive/folders/1qFvxr10Tto589PexueN34XK8AFvYMjTd",
     "pilot_evidence_folder": "https://drive.google.com/drive/folders/1v1_PtevCjMEL8bwnDOz9Z2JVyglH_CZJ",
@@ -221,6 +221,14 @@
     "operating_hub_prototype_strategy_queue_alignment_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit",
     "operating_hub_prototype_strategy_queue_alignment_local_index": "site/index.html",
     "operating_hub_prototype_strategy_queue_alignment_local_named_copy": "site/operating-hub-prototype.html",
-    "operating_hub_prototype_strategy_queue_alignment_test": "tests/test_site_prototype.py"
+    "operating_hub_prototype_strategy_queue_alignment_test": "tests/test_site_prototype.py",
+    "duplicate_resolution_queue_tab": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit",
+    "duplicate_resolution_queue_range": "Duplicate Resolution Queue!A5:N12",
+    "duplicate_resolution_queue_dashboard_metric": "Dashboard!A11:C11",
+    "duplicate_resolution_queue_instructions": "Instructions!A9:B9",
+    "duplicate_resolution_queue_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit",
+    "duplicate_resolution_queue_local_csv": "templates/operations/duplicate-resolution-queue.csv",
+    "duplicate_resolution_queue_local_guide": "templates/operations/duplicate-resolution-queue.md",
+    "duplicate_resolution_queue_sheet_title": "Duplicate Resolution Queue"
   }
 }

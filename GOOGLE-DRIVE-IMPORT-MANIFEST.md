@@ -166,6 +166,7 @@ Resource Library Index `current_drive_link` for these three rows points to the p
 - Resource index `Quality Checks!A54:E54` readback recorded the Strategy Review Queue tracker as `Done` with owner/status dropdown validation in B54:C54.
 - Operating hub strategy queue alignment refreshed the existing Drive HTML artifact in place with same file ID, modified 2026-07-19T20:57:29.918Z, size 54999 bytes, and added local SRQ ID, owner-role, reviewing-authority and queue-count markers in `site/index.html`, `site/operating-hub-prototype.html` and `tests/test_site_prototype.py`.
 - Resource index `Quality Checks!A55:E55` readback recorded the operating hub strategy queue alignment as `Done` with owner/status dropdown validation in B55:C55.
+- Resource index `Duplicate Resolution Queue!A1:N12`, `Dashboard!A11:C11`, `Instructions!A9:B9` and `Quality Checks!A56:E56` readback showed eight review-required duplicate-resolution rows, dashboard count 8, owner/status/approval validation and a non-deletion boundary.
 - Canonical Resources subfolder readback showed four newly created core subfolders.
 - Core resource Doc sentinel checks passed for Start Here Guide, Journey Purpose, Launch Readiness Checklist, Operating Model, Journey Lead, Decision Rights and Responsibility Matrix.
 - Resource index `Canonical Resources!A5:L9` readback showed current links to the four new core pack Docs.
@@ -196,6 +197,7 @@ Status: active and review-gated as of 2026-07-18.
 
 | Surface | Range | Current state |
 | --- | --- | --- |
+| Resource Library Index | `Duplicate Resolution Queue!A5:N12` | Eight duplicate-area rows are populated as `Review required`; Dashboard row 11 shows 8 duplicate-resolution items pending before any cleanup, archive, move, rewrite, sharing change or publication dependency update. |
 | Leader Delegation and Readiness Tracker | `Leader Roster!A5:H16` | All required owner roles are present; actual leader-name cells remain blank for programme owner completion. |
 | Leader Delegation and Readiness Tracker | `Owner Appointment Routing!A5:N16` | Twelve owner-appointment actions are present as `Needs candidate named`, with blank candidate-name, backup-confirmation and target-date fields for programme completion. |
 | Leader Delegation and Readiness Tracker | `Human Review!A5:N11` | HR-001 through HR-007 are present and open, with packet links and reviewer sign-off fields. |

@@ -1,3 +1,12 @@
+## 2026-07-19T21:09:08+00:00
+
+- Added validation-backed live Resource Library Index `Duplicate Resolution Queue!A1:N12` with eight duplicate-area rows for strategy, launch routing, owner/RACI, human review, pilot evidence, website release, restricted-data placement and communications consolidation.
+- Linked the queue into Resource Library Dashboard row 11 and Instructions row 9; Dashboard row 11 readback shows 8 duplicate-resolution items pending.
+- Added Resource Library Index `Quality Checks!A56:E56` for the Duplicate Resolution Queue and verified B56:C56 dropdown validation.
+- Created local recovery/import package `templates/operations/duplicate-resolution-queue.csv` and `templates/operations/duplicate-resolution-queue.md`; added the guide to `templates/operations/README.md`.
+- Validation: PASS: live `Duplicate Resolution Queue!A1:N12` readback with owner/status/approval validation, Dashboard `A11:C11` formula readback showing 8 pending items, Instructions `A9:B9` readback, Resource Library `Quality Checks!A56:E56` readback with B56:C56 dropdown validation.
+- Issues: The Duplicate Resolution Queue supports review only; it does not delete, archive, move, rewrite or share source files, approve Alpha asset use, approve content/access/build/publication, authorize restricted-data movement, appoint leaders, send messages or close launch gates.
+
 ## 2026-07-19T20:58:03+00:00
 
 - Updated local `site/index.html` and `site/operating-hub-prototype.html` so the Strategy Control Board mirrors the live Strategy Review Queue with SRQ IDs, owner roles, reviewing authorities, pending status, decision needs and quality evidence.
