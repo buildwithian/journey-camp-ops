@@ -82,6 +82,12 @@ required = [
     'dashboardSessionCount',
     'ISP-010',
     'Session item',
+    'Implementation Readiness Audit',
+    'auditRows',
+    'auditPendingCount',
+    'dashboardAuditCount',
+    'IRA-006',
+    'Audit ID',
 ]
 for name in ('site/index.html', 'site/operating-hub-prototype.html'):
     html = root.joinpath(name).read_text(encoding='utf-8')
