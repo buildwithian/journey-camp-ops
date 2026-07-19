@@ -180,12 +180,15 @@ Status: active and review-gated as of 2026-07-18.
 | Leader Delegation and Readiness Tracker | `Communications!A16:G16` | Pilot Evidence Capture Templates Doc is linked as `Ready` for the Journey leadership team during and after a real pilot. |
 | Leader Delegation and Readiness Tracker | `Instructions!A25:B25` | Pilot Evidence Capture Templates guidance is linked with explicit non-completion boundaries. |
 | Leader Delegation and Readiness Tracker | `Launch Gates!A7:K7` | GATE-003 evidence surface links the Pilot Evidence Capture Templates Doc while keeping the gate not started. |
+| Leader Delegation and Readiness Tracker | `Communications!A17:G17` | Restricted Data Placement Approval Templates Doc is linked as `Ready` for accountable data owners before replacing synthetic examples. |
+| Leader Delegation and Readiness Tracker | `Instructions!A26:B26` | Restricted Data Placement Approval Templates guidance is linked with explicit non-migration boundaries. |
+| Leader Delegation and Readiness Tracker | `Launch Gates!A8:K8` | GATE-004 evidence surface links the Restricted Data Placement Approval Templates Doc while status remains `Review required`. |
 | Leader Delegation and Readiness Tracker | `Launch Gates!A5:K10` | Six remaining launch gates are consolidated with owner role, status, next human action, evidence surface and proof required to close. |
 | Leader Delegation and Readiness Tracker | `Owner Evidence Review!A5:J13` | Nine private-source evidence reviews are listed for authorized owner confirmation without copying source-derived names into the shared tracker. |
 | Leader Delegation and Readiness Tracker | `Website Access Review!A5:J18` | Fourteen website-area access decisions are listed as `Needs decision`, with public/protected/restricted/withheld recommendations and no publication approval. |
 | Leader Delegation and Readiness Tracker | `Governance Authority Review!A5:K16` | Twelve final-authority decisions are listed as `Needs authority decision`, with proposed final-authority role, operating owner role, required approver and non-approval notes. |
 | Leader Delegation and Readiness Tracker | `Dashboard!A5:C22` | Dashboard readback shows 16 tasks, 7 open human-review items, 6 populated non-green readiness rows, 6 launch gates not complete, 9 owner evidence reviews pending, 14 website access decisions pending, 12 governance authority decisions pending, 7 human-review routing actions pending, 12 owner appointment actions pending, 12 pilot cycle plan actions pending, 22 gate evidence items pending, 9 leadership review sessions pending, 9 leadership review outputs pending, 27 leadership review agenda items pending and 16 leadership review communications pending. |
-| Resource Library Index | `Quality Checks!A11:E35` | Named leaders, restricted real-data replacement, production website access model, review packet readiness, pilot evidence readiness, owner appointment packet readiness, pilot run/debrief readiness, restricted-data checklist readiness, website publication gate readiness, Launch Gates control readiness, owner evidence review readiness, website access review readiness, governance authority review readiness, human-review routing readiness, owner appointment routing readiness, pilot cycle plan queue readiness, gate evidence checklist readiness, leadership review schedule readiness, leadership review output readiness, leadership review agenda readiness, leadership review communications readiness, leadership review message template readiness, human review sign-off template readiness, owner appointment confirmation template readiness and pilot evidence capture template readiness are explicit quality gates. |
+| Resource Library Index | `Quality Checks!A11:E36` | Named leaders, restricted real-data replacement, production website access model, review packet readiness, pilot evidence readiness, owner appointment packet readiness, pilot run/debrief readiness, restricted-data checklist readiness, website publication gate readiness, Launch Gates control readiness, owner evidence review readiness, website access review readiness, governance authority review readiness, human-review routing readiness, owner appointment routing readiness, pilot cycle plan queue readiness, gate evidence checklist readiness, leadership review schedule readiness, leadership review output readiness, leadership review agenda readiness, leadership review communications readiness, leadership review message template readiness, human review sign-off template readiness, owner appointment confirmation template readiness and pilot evidence capture template readiness and restricted data placement approval template readiness are explicit quality gates. |
 
 The production website remains blocked until access model, content review, copyright boundaries and final operating authority are approved.
 
@@ -228,6 +231,7 @@ Status: created and linked as of 2026-07-18.
 | Pilot Run Sheet and Debrief Packet | https://docs.google.com/document/d/1x003DqL29GAs3hbg4ANCq4QqHe3MhbLZVJQMrSvs9ks/edit | Document sentinel readback showed that the packet does not certify programme readiness or close launch gates. |
 | Data Replacement and Access Cleanup folder | https://drive.google.com/drive/folders/1U0or80jBQFaDjXiAksyAzTzeE4HGyHKJ | Folder was created under `05 Human Review and Governance`. |
 | Restricted Data Replacement Checklist | https://docs.google.com/document/d/1TZTJ2n5Y6JQqigvGZ0_F7yiYbLY4XY2HlApwo4mouCg/edit | Document sentinel readback showed that the checklist does not authorize restricted-data collection, disclosure or migration. |
+| Restricted Data Placement Approval Templates Doc | https://docs.google.com/document/d/1uDcHCA-BgeQb44zjpqt52kQx83cVGNDiVFXoRmLT8HU/edit | Document sentinel readback showed that the template pack prepares approval capture for storage location, access group, field purpose and retention but does not authorize migration or close GATE-004. |
 
 `Tasks!A17:J18`, `Event Readiness!A9:H9`, `Communications!A11:G12` and Resource Library Index `Quality Checks!A16:E18` were read back after linking the pilot and data readiness packets. A real pilot and accountable data-owner approval remain pending.
 
@@ -465,3 +469,19 @@ Status: native Google Doc and local guide created on 2026-07-19.
 | Resource Library quality check | `Quality Checks!A35:E35` | Readback showed the pilot evidence capture template pack marked `Done` with pilot execution, observation acceptance, debrief approval and GATE-003 boundaries. |
 
 The pilot evidence capture templates support observation, debrief and accepted-change routing only. They do not run a pilot, prove pilot completion, approve pilot findings, update TASK-013/Event Readiness, close GATE-003, authorize restricted data, approve website access or publish production pages.
+
+
+## Restricted Data Placement Approval Templates
+
+Status: native Google Doc and local guide created on 2026-07-19.
+
+| Artifact | Location | Verification |
+| --- | --- | --- |
+| Restricted Data Placement Approval Templates Doc | https://docs.google.com/document/d/1uDcHCA-BgeQb44zjpqt52kQx83cVGNDiVFXoRmLT8HU/edit | Google Docs text readback showed the title, approval boundary, placement approval fields, decision wording blocks, category prompts, tracker update rule and non-approval statement. |
+| Local Restricted Data Placement Approval Templates guide | `templates/operations/restricted-data-placement-approval-templates.md` | Mirrors the storage-location, access-group, field-purpose and retention approval pack for repository recovery and future import/reference. |
+| Communications tracker row | `Communications!A17:G17` | Readback showed the Doc linked as `Ready` for accountable data owners. |
+| Tracker instruction row | `Instructions!A26:B26` | Readback showed non-migration guidance for restricted-data placement approval. |
+| Launch Gates evidence surface | `Launch Gates!A8:K8` | Readback showed GATE-004 evidence now includes the Restricted Data Placement Approval Templates Doc while status remains `Review required`. |
+| Resource Library quality check | `Quality Checks!A36:E36` | Readback showed the restricted data placement approval template pack marked `Done` with migration, DEC-005/TASK-014, website access and GATE-004 boundaries. |
+
+The restricted data placement approval templates support accountable data-owner decision capture only. They do not collect data, replace synthetic examples, authorize migration, update DEC-005/TASK-014, approve website access, close GATE-004 or publish production pages.

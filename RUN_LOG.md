@@ -1,3 +1,13 @@
+## 2026-07-19T17:31:32+00:00
+
+- Created native Google Doc `Journey V3 - Restricted Data Placement Approval Templates` in the Data Replacement and Access Cleanup folder: https://docs.google.com/document/d/1uDcHCA-BgeQb44zjpqt52kQx83cVGNDiVFXoRmLT8HU/edit
+- Populated approval boundaries, placement approval fields, decision wording blocks, category prompts, migration checklist and GATE-004 tracker update rule.
+- Linked the Doc from live `Communications!A17:G17`, tracker `Instructions!A26:B26`, GATE-004 evidence and Resource Library Index `Quality Checks!A36:E36`.
+- Created local template twin `templates/operations/restricted-data-placement-approval-templates.md` and added it to `templates/operations/README.md`.
+- Verified Google Docs text readback, Drive parent metadata, `Communications!A17:G17`, `Instructions!A26:B26`, `Launch Gates!A8:K8`, `Quality Checks!A36:E36` and native validation metadata on copied rows.
+- Validation: PASS: python3 tools/validate.py; python3 tests/test_site_prototype.py; bundled-python tests/test_spreadsheets.py; python3 -m json.tool codex-state.json; git diff --check; source-original tracking check.
+- Issues: The templates do not collect data, replace synthetic examples, authorize migration, update DEC-005/TASK-014, approve website access, close GATE-004 or publish production pages.
+
 ## 2026-07-19T17:18:26+00:00
 
 - Created native Google Doc `Journey V3 - Pilot Evidence Capture Templates` in the Pilot Evidence folder: https://docs.google.com/document/d/1F3rh9hJd9FPXFAAHsrVnVeeH-3P8FilO6_9en3Z97W4/edit

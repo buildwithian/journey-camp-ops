@@ -1,3 +1,9 @@
+## 2026-07-19T17:31:32+00:00
+
+- Created reusable Restricted Data Placement Approval Templates before synthetic examples are replaced with real local information.
+- Kept restricted-data migration, DEC-005/TASK-014 updates, website access approval and GATE-004 closure pending accountable human data-owner approval.
+- Linked the template from Communications, Instructions, Launch Gates and Resource Library quality checks so data owners can capture approval without treating the template as permission to migrate data.
+
 ## 2026-07-19T17:18:26+00:00
 
 - Created reusable Pilot Evidence Capture Templates before real pilot observations are accepted or routed into tracker changes.
@@ -251,3 +257,10 @@
 - Status: accepted
 - Decision: Add reusable pilot observation, debrief and accepted-change routing templates before treating GATE-003 as ready for closure.
 - Rationale: A real pilot must produce non-sensitive observations, accountable debrief decisions and accepted-change evidence before tracker statuses move. The template pack makes capture consistent while preserving that pilot execution, observation acceptance, TASK-013/Event Readiness updates and GATE-003 closure remain human-gated.
+
+## ADR-029: Restricted data placement approval templates before synthetic replacement
+
+- Date: 2026-07-19
+- Status: accepted
+- Decision: Add reusable restricted-data placement approval templates before replacing synthetic examples with real local information.
+- Rationale: Real data replacement requires accountable data-owner approval of the exact storage location, access group, minimum necessary field list and retention expectation. The template pack makes those decisions explicit while preserving that migration, DEC-005/TASK-014 updates, website access approval and GATE-004 closure remain human-gated.
