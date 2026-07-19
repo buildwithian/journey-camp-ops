@@ -15,6 +15,7 @@ This file contains only decisions requiring qualified human or expert review.
 
 - Review packet folder: https://drive.google.com/drive/folders/1qFvxr10Tto589PexueN34XK8AFvYMjTd
 - Website access decision brief: https://docs.google.com/document/d/1PnohC62I7YfG0W7msi3RdRDDJdo2NrNZ3MJJ4ioqvSc/edit
+- Launch Gate Review Pack: https://docs.google.com/document/d/10koplccP__JkX7HWiqq2I2ADNO4BAtCe5H51mGPZUU0/edit
 
 | Review ID | Packet |
 | --- | --- |

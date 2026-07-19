@@ -520,3 +520,18 @@ Status: native Google Doc and local guide created on 2026-07-19.
 | Resource Library quality check | `Quality Checks!A38:E38` | Readback showed the production publication approval template pack marked `Done` with deployment, sharing-change, publication, DEC-006/TASK-016 and GATE-006 boundaries. |
 
 The production website publication approval templates support final go/no-go decision capture only. They do not approve access, approve content, approve copyright use, authorize restricted-data collection, update DEC-006/TASK-016, build, deploy, publish, broaden sharing or close GATE-006.
+
+## Launch Gate Review Pack
+
+Status: native Google Doc and local guide created on 2026-07-19.
+
+| Artifact | Location | Verification |
+| --- | --- | --- |
+| Launch Gate Review Pack Doc | https://docs.google.com/document/d/10koplccP__JkX7HWiqq2I2ADNO4BAtCe5H51mGPZUU0/edit | Google Docs text readback showed live source list, session setup, operating rules, decision order, GATE-001 through GATE-006 prompts, after-meeting update order and non-approval statement. |
+| Local Launch Gate Review Pack guide | `templates/operations/launch-gate-review-pack.md` | Mirrors the leadership review facilitation pack for repository recovery and future import/reference. |
+| Communications tracker row | `Communications!A20:G20` | Readback showed the Doc linked as `Ready` for Journey leadership team review sessions. |
+| Tracker instruction row | `Instructions!A29:B29` | Readback showed non-approval guidance and the required update boundary. |
+| Launch Gates evidence surface | `Launch Gates!D5:F10` | Readback showed all six launch gate statuses preserved while each evidence surface includes the Launch Gate Review Pack Doc. |
+| Resource Library quality check | `Quality Checks!A39:E39` | Readback showed the launch gate review pack marked `Done` with owner, HR, pilot, data, access, publication and gate-closure boundaries. |
+
+The launch gate review pack supports human execution across the six remaining gates only. It does not appoint leaders, assign reviewers, approve HR gates, run the pilot, migrate restricted data, approve access, approve publication, broaden sharing, publish pages or close launch gates.

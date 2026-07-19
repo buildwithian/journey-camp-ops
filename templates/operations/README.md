@@ -31,6 +31,7 @@ This section contains templates / operations templates.
 - [Restricted Data Placement Approval Templates](restricted-data-placement-approval-templates.md)
 - [Website Access Model Decision Templates](website-access-model-decision-templates.md)
 - [Production Website Publication Approval Templates](production-website-publication-approval-templates.md)
+- [Launch Gate Review Pack](launch-gate-review-pack.md)
 
 ## Use
 

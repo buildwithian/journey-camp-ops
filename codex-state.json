@@ -8,7 +8,7 @@
   "files_inventoried": 555,
   "tests_passed": 14,
   "tests_failed": 0,
-  "last_completed_task": "Production Website Publication Approval Templates Doc created and linked without building, deploying, publishing or closing GATE-006",
+  "last_completed_task": "Launch Gate Review Pack Doc created and linked without changing launch-gate statuses or approving human-gated work",
   "technical_blockers": [],
   "human_review_items": [
     "HR-001: Safeguarding and child-protection material",
@@ -19,8 +19,8 @@
     "HR-006: Girls session and rite-of-passage content",
     "HR-007: Third-party benchmark and copyright boundaries"
   ],
-  "last_updated": "2026-07-19T17:48:56+00:00",
-  "next_stage_status": "Production Website Publication Approval Templates Doc is created in the Journey V3 Website Operating Hub folder and linked from Communications row 19, Instructions row 28, GATE-006 evidence and Resource Library quality checks; Website Access Model Decision Templates Doc, Restricted Data Placement Approval Templates Doc, Pilot Evidence Capture Templates Doc, Owner Appointment Confirmation Templates Doc, Human Review Sign-off Templates Doc and Leadership Review Message Templates Doc remain ready; real owner appointment, reviewer assignment, human-review decisions, pilot execution/evidence, restricted-data migration, access approval, sharing changes, HR-005/HR-007 dependencies, DEC-006/TASK-016 updates, GATE-006 closure and production publishing remain pending.",
+  "last_updated": "2026-07-19T18:02:00+00:00",
+  "next_stage_status": "Launch Gate Review Pack Doc is created in the Journey V3 Human Review Packets folder and linked from Communications row 20, Instructions row 29, all six Launch Gates evidence surfaces and Resource Library quality checks; Production Website Publication Approval Templates Doc, Website Access Model Decision Templates Doc, Restricted Data Placement Approval Templates Doc, Pilot Evidence Capture Templates Doc, Owner Appointment Confirmation Templates Doc, Human Review Sign-off Templates Doc and Leadership Review Message Templates Doc remain ready; real owner appointment, reviewer assignment, human-review decisions, pilot execution/evidence, restricted-data migration, access approval, sharing changes, HR-005/HR-007 dependencies, DEC-006/TASK-016 updates, gate closure and production publishing remain pending.",
   "drive_review_artifacts": {
     "human_review_packets_folder": "https://drive.google.com/drive/folders/1qFvxr10Tto589PexueN34XK8AFvYMjTd",
     "pilot_evidence_folder": "https://drive.google.com/drive/folders/1v1_PtevCjMEL8bwnDOz9Z2JVyglH_CZJ",
@@ -103,6 +103,12 @@
     "production_website_publication_approval_templates_communications_row": "https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit",
     "production_website_publication_approval_templates_instruction_row": "https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit",
     "production_website_publication_approval_templates_launch_gate_evidence": "https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit",
-    "production_website_publication_approval_templates_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit"
+    "production_website_publication_approval_templates_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit",
+    "launch_gate_review_pack_doc": "https://docs.google.com/document/d/10koplccP__JkX7HWiqq2I2ADNO4BAtCe5H51mGPZUU0/edit",
+    "launch_gate_review_pack_local_guide": "templates/operations/launch-gate-review-pack.md",
+    "launch_gate_review_pack_communications_row": "https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit",
+    "launch_gate_review_pack_instruction_row": "https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit",
+    "launch_gate_review_pack_launch_gate_evidence": "https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit",
+    "launch_gate_review_pack_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit"
   }
 }

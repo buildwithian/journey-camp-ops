@@ -39,6 +39,8 @@ Current live tracker state:
 - `Instructions!A27:B27` records the website access template boundary: it supports access-model decision capture but does not approve access, broaden sharing or publish production pages.
 - `Communications!A19:G19` links the Production Website Publication Approval Templates Doc as `Ready` for the production publishing authority after access, authority, copyright, content and data checks are accepted.
 - `Instructions!A28:B28` records the publication template boundary: it supports go/no-go capture but does not build, deploy, publish, broaden sharing or close GATE-006.
+- `Communications!A20:G20` links the Launch Gate Review Pack as `Ready` for the Journey leadership team before GATE-001 through GATE-006 review sessions.
+- `Instructions!A29:B29` records the launch-gate review boundary: it supports decision preparation and update order but does not appoint leaders, approve reviews, run a pilot, migrate data, approve access, publish pages or close gates.
 - `Launch Gates!A5:K10` consolidates the six remaining launch gates; Dashboard row 11 shows 6 launch gates not complete.
 - `Owner Evidence Review!A5:J13` lists nine private-source evidence reviews; Dashboard row 12 shows 9 owner evidence reviews pending.
 - `Website Access Review!A5:J18` lists 14 website-area access decisions; Dashboard row 13 shows 14 website access decisions pending.
@@ -52,6 +54,8 @@ Current review, owner, pilot, data and launch artifacts:
 - Owner Appointment folder: https://drive.google.com/drive/folders/1AGf3o2syQrGKfOFz79ltL7DECeVQXxgU
 - Owner Appointment and Authority Packet: https://docs.google.com/document/d/1xX2YAA67-Ei5WYfbOKKJTJx9dwQAkh-Xb-copKH7m5U/edit
 - Human Review Packets folder: https://drive.google.com/drive/folders/1qFvxr10Tto589PexueN34XK8AFvYMjTd
+- Launch Gate Review Pack supports a human leadership session across GATE-001 through GATE-006 before any gate status changes: https://docs.google.com/document/d/10koplccP__JkX7HWiqq2I2ADNO4BAtCe5H51mGPZUU0/edit
+- Launch Gate Review Pack local guide: `templates/operations/launch-gate-review-pack.md`
 - Pilot Evidence folder: https://drive.google.com/drive/folders/1v1_PtevCjMEL8bwnDOz9Z2JVyglH_CZJ
 - Pilot Run Sheet and Debrief Packet: https://docs.google.com/document/d/1x003DqL29GAs3hbg4ANCq4QqHe3MhbLZVJQMrSvs9ks/edit
 - Pilot Evidence Capture Templates Doc: https://docs.google.com/document/d/1F3rh9hJd9FPXFAAHsrVnVeeH-3P8FilO6_9en3Z97W4/edit
@@ -100,4 +104,4 @@ Current review, owner, pilot, data and launch artifacts:
 - Pilot Evidence Capture Templates Doc supports GATE-003 observation, debrief and accepted-change routing during a real pilot: https://docs.google.com/document/d/1F3rh9hJd9FPXFAAHsrVnVeeH-3P8FilO6_9en3Z97W4/edit
 - Pilot Evidence Capture Templates local guide: `templates/operations/pilot-evidence-capture-templates.md`
 
-These artifacts prepare owner appointment routing, owner appointment, owner-appointment confirmation templates, source-evidence review, governance authority review, human-review routing, human review, leadership-review agenda execution, leadership-review output capture, role-only leadership-review communications, leadership-review message templates, human-review sign-off templates, pilot-cycle planning, pilot evidence capture templates, pilot execution, restricted-data placement approval templates, restricted-data replacement decisions, website access model decision templates, website access review, production website publication approval templates, website publication review and weekly launch-gate control but do not appoint leaders, copy private names into shared records, close any human-review gate, authorize restricted-data migration or authorize publication.
+These artifacts prepare owner appointment routing, owner appointment, owner-appointment confirmation templates, source-evidence review, governance authority review, human-review routing, human review, leadership-review agenda execution, leadership-review output capture, role-only leadership-review communications, leadership-review message templates, human-review sign-off templates, launch-gate review facilitation, pilot-cycle planning, pilot evidence capture templates, pilot execution, restricted-data placement approval templates, restricted-data replacement decisions, website access model decision templates, website access review, production website publication approval templates, website publication review and weekly launch-gate control but do not appoint leaders, copy private names into shared records, close any human-review gate, authorize restricted-data migration, approve website access or authorize publication.

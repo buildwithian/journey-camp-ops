@@ -1,3 +1,9 @@
+## 2026-07-19T18:02:00+00:00
+
+- Created a reusable Launch Gate Review Pack before the leadership team executes the six remaining launch-gate decisions.
+- Kept owner appointment, reviewer assignment, human-review outcomes, pilot completion, restricted-data approval, access-model approval, publication approval, sharing changes and all gate closures pending accountable human action.
+- Linked the pack from Communications, Instructions, Launch Gates and Resource Library quality checks so review execution has a single facilitation surface.
+
 ## 2026-07-19T17:48:56+00:00
 
 - Created reusable Production Website Publication Approval Templates before any production build, deployment or publication decision is recorded.
@@ -290,3 +296,10 @@
 - Status: accepted
 - Decision: Add reusable production website publication approval templates before updating DEC-006, TASK-016 or GATE-006 for production build, deployment or publication.
 - Rationale: Production publication depends on approved access, content scope, operating authority, copyright boundaries, restricted-data checks, technical validation, rollback ownership and accountable publishing authority. The template pack makes the go/no-go evidence explicit while preserving that build, deployment, publication, sharing changes, tracker closure and GATE-006 completion remain human-gated.
+
+## ADR-032: Launch gate review pack before human gate execution
+
+- Date: 2026-07-19
+- Status: accepted
+- Decision: Add a reusable launch-gate review pack before treating GATE-001 through GATE-006 as ready for leadership execution or status changes.
+- Rationale: The open gates span owner appointment, qualified review, pilot evidence, restricted-data approval, website access and publication authority. A single facilitation pack reduces meeting friction while preserving that only accountable humans can appoint leaders, approve gates, run the pilot, authorize data movement, approve access, publish or close gates.

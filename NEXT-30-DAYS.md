@@ -1,6 +1,7 @@
 # Next 30 Days
 
 - Use the Launch Gates tab as the weekly control view for the six remaining gates: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
+- Use the Launch Gate Review Pack to run a leadership session across GATE-001 through GATE-006 before changing any gate status: https://docs.google.com/document/d/10koplccP__JkX7HWiqq2I2ADNO4BAtCe5H51mGPZUU0/edit
 - Use the populated live `Gate Evidence Checklist` tab to collect closure proof before moving any launch gate to complete; keep the local CSV as the recovery/import template.
 - Use the populated live `Leadership Review Schedule` tab to set meeting dates, facilitator roles, attendee roles and expected outputs for the six open gates.
 - Use the populated live `Leadership Review Agenda` tab to run each scheduled review session with prompts, evidence requirements, decision boundaries and required outputs.
