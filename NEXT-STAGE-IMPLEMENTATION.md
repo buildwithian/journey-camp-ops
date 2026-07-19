@@ -1,6 +1,6 @@
 # Next Stage Implementation
 
-Last updated: 2026-07-19T20:51:45+00:00
+Last updated: 2026-07-19T20:58:03+00:00
 
 ## Live Sources Of Truth
 
@@ -55,6 +55,7 @@ Last updated: 2026-07-19T20:51:45+00:00
 - Refreshed the native Google Drive Import Manifest to v0.2 with current Journey V3 Drive, Sheet, Doc, prototype, quality-evidence and non-approval state; recorded Resource Library `Quality Checks!A52:E52`.
 - Updated the local and Drive operating-hub prototype with a synthetic Strategy Control Board for six strategy references, review-required counts and quality-evidence rows; recorded Resource Library `Quality Checks!A53:E53` while keeping the artifact non-production and self-contained.
 - Added validation-backed live `Strategy Review Queue!A1:N10` with six strategy-reference rows, linked Dashboard row 26, Instructions row 34 and Resource Library `Quality Checks!A54:E54` while leaving strategy acceptance and downstream build/publication decisions human-gated.
+- Aligned the local and Drive operating-hub Strategy Control Board prototype view to mirror the Strategy Review Queue fields; recorded Resource Library `Quality Checks!A55:E55` while keeping the artifact non-production and self-contained.
 - Added validation-backed `Governance Authority Review` tab with 12 final-authority decisions, all still `Needs authority decision`.
 - Linked `Governance Authority Review` into Dashboard row 14, `GATE-001`, `TASK-011`, `DEC-003`, HR-005 and the Resource Library Index quality checks.
 - Added validation-backed `Human Review Routing` tab with seven reviewer-assignment rows, all still `Needs reviewer assigned`.

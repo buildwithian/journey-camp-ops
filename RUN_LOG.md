@@ -1,3 +1,11 @@
+## 2026-07-19T20:58:03+00:00
+
+- Updated local `site/index.html` and `site/operating-hub-prototype.html` so the Strategy Control Board mirrors the live Strategy Review Queue with SRQ IDs, owner roles, reviewing authorities, pending status, decision needs and quality evidence.
+- Updated the existing Drive HTML artifact in place: https://drive.google.com/file/d/13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi/view (same file ID `13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi`, modified 2026-07-19T20:57:29.918Z, size 54999 bytes, parent `1V7VG7E2MuGg7KaLqjgncWefbXB0PkDbJ`).
+- Added Resource Library Index `Quality Checks!A55:E55` for the strategy queue prototype alignment and verified B55:C55 dropdown validation.
+- Validation: PASS: node --check extracted prototype script; python3 tests/test_site_prototype.py; no external URL scan matched in site HTML; prototype copy cmp; Drive HTML update metadata readback; Resource Library `Quality Checks!A55:E55` readback with B55:C55 dropdown validation; python3 tools/validate.py; bundled-python tests/test_spreadsheets.py; python3 -c json load; git diff --check; source-original tracking check.
+- Issues: This is a non-production prototype refresh only; it does not approve Alpha asset use, website access, build start, deployment, publication, Drive sharing, restricted-data movement, DEC-006/TASK-016 updates or launch-gate closure.
+
 ## 2026-07-19T20:51:45+00:00
 
 - Added validation-backed live `Strategy Review Queue!A1:N10` with six strategy-reference rows for target-state, benchmark, requirements, runbook, consolidation-plan and import-manifest review.

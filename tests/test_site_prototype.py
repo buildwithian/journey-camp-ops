@@ -50,6 +50,10 @@ required = [
     'strategyQualityCount',
     'Alpha-Inspired Hub Target State',
     'Google Drive Import Manifest',
+    'Strategy Review Queue',
+    'strategyQueueCount',
+    'Reviewing authority',
+    'SRQ-006',
 ]
 for name in ('site/index.html', 'site/operating-hub-prototype.html'):
     html = root.joinpath(name).read_text(encoding='utf-8')

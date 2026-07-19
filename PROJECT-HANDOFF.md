@@ -29,6 +29,7 @@ Current live tracker state:
 - Resource Library Index `Quality Checks!A52:E52` records the native Google Drive Import Manifest refresh as `Done`.
 - Resource Library Index `Quality Checks!A53:E53` records the operating hub strategy prototype refresh as `Done`.
 - Resource Library Index `Quality Checks!A54:E54` records the Strategy Review Queue tracker as `Done`.
+- Resource Library Index `Quality Checks!A55:E55` records the operating hub strategy queue prototype alignment as `Done`.
 - `Leader Roster!A5:H16` lists every required owner role with real leader names still blank for programme-owner completion.
 - `Owner Appointment Routing!A5:N16` lists twelve role-appointment actions; Dashboard row 16 shows 12 owner appointment actions pending.
 - `Human Review!A5:N11` contains HR-001 through HR-007, all open, with packet links plus sign-off fields for assigned reviewer, reviewer authority, decision, date and conditions.
@@ -123,6 +124,7 @@ Current review, owner, pilot, data and launch artifacts:
 - Strategy Review Queue local guide: `templates/operations/strategy-review-queue.md`
 - Operating Hub Prototype build backlog refresh: https://drive.google.com/file/d/13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi/view (same Drive file, modified 2026-07-19T19:43:56.747Z, size 50598 bytes)
 - Operating Hub Prototype strategy view refresh: https://drive.google.com/file/d/13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi/view (same Drive file, modified 2026-07-19T20:22:01.561Z, size 53927 bytes)
+- Operating Hub Prototype strategy queue alignment refresh: https://drive.google.com/file/d/13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi/view (same Drive file, modified 2026-07-19T20:57:29.918Z, size 54999 bytes)
 - Owner Evidence Review tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 - Website Access Review tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 - Website Content Review tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit

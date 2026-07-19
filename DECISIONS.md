@@ -429,3 +429,10 @@
 - Status: accepted
 - Decision: Add a validation-backed Strategy Review Queue in the Leader Delegation tracker before treating strategy references as accepted inputs for production build, Drive cleanup or publication work.
 - Rationale: The strategy layer now includes multiple current Docs and a prototype view, but leaders still need an owner/authority/status queue to keep review work visible. The queue makes strategy maintenance assignable while preserving that build scope, access changes, copyright/Alpha asset use, restricted-data movement, publication and launch-gate closure remain human-gated.
+
+## ADR-039: Strategy prototype mirrors the review queue only
+
+- Date: 2026-07-19
+- Status: accepted
+- Decision: Align the non-production Strategy Control Board prototype view to the live Strategy Review Queue after the queue exists.
+- Rationale: The single website-shaped review surface should show the same owner role, reviewing authority, status and decision-needed routing that leaders use in the live tracker. Mirroring those fields improves usability while preserving that the prototype is synthetic and cannot approve strategy acceptance, access changes, build start, publication, Drive sharing or launch-gate closure.
