@@ -1,3 +1,12 @@
+## 2026-07-19T20:02:41+00:00
+
+- Refreshed local and native Google Doc `Journey V3 - Website Operating Hub Requirements` to v0.2 with current Journey V3 source-of-truth links, prototype coverage, Website Build Backlog dependencies and non-approval boundaries.
+- Refreshed local and native Google Doc `Journey V3 - Drive Copy Build Runbook` to v0.2 with current Drive/Sheets surfaces, update sequence, prototype sync rules, validation commands and permission/privacy gates.
+- Cleaned orphan trailing punctuation after native Docs readback and verified sentinel text in both Docs.
+- Added Resource Library Index `Quality Checks!A49:E49` for the strategy refresh and verified B49:C49 dropdown validation.
+- Validation: PASS: native Docs sentinel readback, Resource Library `Quality Checks!A49:E49` readback with B49:C49 dropdown validation, node --check extracted prototype script, python3 tools/validate.py, python3 tests/test_site_prototype.py, bundled-python tests/test_spreadsheets.py, python3 -c json load and strategy sentinels, git diff --check, source-original tracking check.
+- Issues: The strategy refresh does not approve Google Drive permissions, owner names, human review gates, pilot completion, restricted-data migration, website access, third-party use, build start, deployment, publication, sharing changes or launch-gate closure.
+
 ## 2026-07-19T19:45:18+00:00
 
 - Updated local `site/index.html` and `site/operating-hub-prototype.html` with a synthetic Website Build Backlog view for BLD-001 through BLD-020 filters, build backlog pending metric, planning/resource/template references and non-publication boundaries.

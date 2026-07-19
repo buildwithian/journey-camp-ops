@@ -1,3 +1,9 @@
+## 2026-07-19T20:02:41+00:00
+
+- Refreshed the two foundational strategy docs as current Journey V3 operating references instead of stale planning drafts.
+- Kept both Docs review-required and non-approval; they describe requirements/runbook only, not authority to publish, share, move restricted data or close gates.
+- Linked the refresh to Resource Library `Quality Checks!A49:E49` and local audit state.
+
 ## 2026-07-19T19:45:18+00:00
 
 - Added a Website Build Backlog view to the non-production operating hub prototype so build readiness can be reviewed beside content, access, planning and gate surfaces.
