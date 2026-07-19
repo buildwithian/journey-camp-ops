@@ -41,6 +41,7 @@ This section contains local recovery guides and import templates for the live Jo
 - [Organizational Implementation Board](organizational-implementation-board.md)
 - [Implementation Session Pack](implementation-session-pack.md)
 - [Implementation Readiness Audit](implementation-readiness-audit.md)
+- [Implementation Decision Session Brief](implementation-decision-session-brief.md)
 - [Website Build Backlog](website-build-backlog.md)
 - [Website Content Approval Templates](website-content-approval-templates.md)
 

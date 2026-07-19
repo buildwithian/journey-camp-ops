@@ -1,3 +1,9 @@
+## 2026-07-19T23:04:06+00:00
+
+- Added an Implementation Decision Session Brief tab as the first-session run sheet that maps Implementation Readiness Audit requirements to Leadership Decision Capture rows and downstream update targets.
+- Kept all ten brief rows ready, blocked or evidence-pending until authorized humans record names, reviewer outcomes, pilot evidence, restricted-data approval, access/content decisions and publication go/no-go in the linked tracker rows.
+- Recorded the tracker in Resource Library `Quality Checks!A68:E68` and mirrored it locally as a CSV/guide recovery package.
+
 ## 2026-07-19T22:46:55+00:00
 
 - Added an Implementation Readiness Audit view to the non-production operating hub prototype so the single-site review surface mirrors the live IRA tracker rows.

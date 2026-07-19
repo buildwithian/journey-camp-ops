@@ -1,3 +1,12 @@
+## 2026-07-19T23:04:06+00:00
+
+- Added validation-backed live `Implementation Decision Session Brief!A1:N14` in the Leader Delegation and Readiness Tracker with ten decision-session rows linking IRA-001 through IRA-006 and LDC-001 through LDC-018 to prompts, authority requirements, proof capture and update targets.
+- Linked the brief into Dashboard row 30 and Instructions row 38; Dashboard readback shows 10 implementation decision-session items pending and Instructions readback records the non-approval boundary.
+- Added Resource Library Index `Quality Checks!A68:E68` for the Implementation Decision Session Brief and verified B68:C68 dropdown validation.
+- Created local recovery/import package `templates/operations/implementation-decision-session-brief.csv` and `templates/operations/implementation-decision-session-brief.md`; added the guide to `templates/operations/README.md`.
+- Validation: PASS: live `Implementation Decision Session Brief!A1:N14` readback with authority, facilitator-role, session-status and target-date validation; Dashboard `A30:C30` formula readback showing 10 pending decision-session items; Instructions `A38:B38` readback; Resource Library `Quality Checks!A68:E68` readback with B68:C68 dropdown validation; python3 tools/validate.py; python3 tests/test_site_prototype.py; bundled-python tests/test_spreadsheets.py; implementation-decision-session CSV/guide sentinel checks; python3 -m json.tool codex-state.json; git diff --check; source-original tracking check.
+- Issues: The Implementation Decision Session Brief supports live leadership decision-session preparation only; it does not appoint leaders, approve HR-001 through HR-007, run or accept a pilot, authorize restricted-data movement, approve website access, approve content, build, deploy, publish or close launch gates.
+
 ## 2026-07-19T22:46:55+00:00
 
 - Updated local `site/index.html`, `site/operating-hub-prototype.html`, `site/README.md` and `tests/test_site_prototype.py` with a Planning view section that mirrors the live Implementation Readiness Audit for IRA-001 through IRA-006, dashboard audit-items count, workflow, next moves, resource card and review-packet summary.
