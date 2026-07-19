@@ -44,6 +44,12 @@ required = [
     'buildPendingCount',
     'buildRows',
     'Website Build Backlog',
+    'Strategy Control Board',
+    'strategyRows',
+    'strategyDocCount',
+    'strategyQualityCount',
+    'Alpha-Inspired Hub Target State',
+    'Google Drive Import Manifest',
 ]
 for name in ('site/index.html', 'site/operating-hub-prototype.html'):
     html = root.joinpath(name).read_text(encoding='utf-8')

@@ -27,6 +27,7 @@ Current live tracker state:
 - Resource Library Index `Quality Checks!A50:E50` records the strategy target-state and consolidation-plan alignment as `Done`.
 - Resource Library Index `Quality Checks!A51:E51` records the local recovery-guide metadata alignment as `Done`.
 - Resource Library Index `Quality Checks!A52:E52` records the native Google Drive Import Manifest refresh as `Done`.
+- Resource Library Index `Quality Checks!A53:E53` records the operating hub strategy prototype refresh as `Done`.
 - `Leader Roster!A5:H16` lists every required owner role with real leader names still blank for programme-owner completion.
 - `Owner Appointment Routing!A5:N16` lists twelve role-appointment actions; Dashboard row 16 shows 12 owner appointment actions pending.
 - `Human Review!A5:N11` contains HR-001 through HR-007, all open, with packet links plus sign-off fields for assigned reviewer, reviewer authority, decision, date and conditions.
@@ -64,7 +65,7 @@ Current live tracker state:
 - `Owner Evidence Review!A5:J13` lists nine private-source evidence reviews; Dashboard row 12 shows 9 owner evidence reviews pending.
 - `Website Access Review!A5:J18` lists 14 website-area access decisions; Dashboard row 13 shows 14 website access decisions pending.
 - `Governance Authority Review!A5:K16` lists 12 final-authority decisions; Dashboard row 14 shows 12 governance authority decisions pending.
-- The local operating-hub prototype and Drive HTML artifact include synthetic START HERE, Planning, Templates, Gate Review, Access, Content and Build views for launch-gate routing, delegated planning, template bundles, access decisions and build-backlog review; it is not a production deployment.
+- The local operating-hub prototype and Drive HTML artifact include synthetic START HERE, Planning, Strategy, Templates, Gate Review, Access, Content and Build views for launch-gate routing, delegated planning, template bundles, access decisions and build-backlog review; it is not a production deployment.
 
 Do not publish the production website or broaden access until the access model, content review, copyright boundary and final operating authority are approved.
 
@@ -116,6 +117,7 @@ Current review, owner, pilot, data and launch artifacts:
 - Website Build Backlog local import template: `templates/operations/website-build-backlog.csv`
 - Website Build Backlog local guide: `templates/operations/website-build-backlog.md`
 - Operating Hub Prototype build backlog refresh: https://drive.google.com/file/d/13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi/view (same Drive file, modified 2026-07-19T19:43:56.747Z, size 50598 bytes)
+- Operating Hub Prototype strategy view refresh: https://drive.google.com/file/d/13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi/view (same Drive file, modified 2026-07-19T20:22:01.561Z, size 53927 bytes)
 - Owner Evidence Review tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 - Website Access Review tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 - Website Content Review tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit

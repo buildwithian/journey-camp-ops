@@ -1,3 +1,11 @@
+## 2026-07-19T20:23:32+00:00
+
+- Updated local `site/index.html` and `site/operating-hub-prototype.html` with a synthetic Strategy view that surfaces six strategy sources, review-required counts and quality-evidence rows while keeping the prototype self-contained and URL-free.
+- Updated the existing Drive HTML artifact in place: https://drive.google.com/file/d/13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi/view (same file ID `13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi`, modified 2026-07-19T20:22:01.561Z, size 53927 bytes, parent `1V7VG7E2MuGg7KaLqjgncWefbXB0PkDbJ`).
+- Added Resource Library Index `Quality Checks!A53:E53` for the operating hub strategy prototype refresh and verified B53:C53 dropdown validation.
+- Validation: PASS: node --check extracted prototype script; python3 tests/test_site_prototype.py; no external URL scan matched in site HTML; prototype copy cmp; Drive HTML update metadata readback; Resource Library `Quality Checks!A53:E53` readback with B53:C53 dropdown validation; python3 tools/validate.py; bundled-python tests/test_spreadsheets.py; python3 -c json load; git diff --check; source-original tracking check.
+- Issues: This is a non-production prototype refresh only; it does not approve Alpha asset use, website access, build start, deployment, publication, Drive sharing, restricted-data movement, DEC-006/TASK-016 updates or launch-gate closure.
+
 ## 2026-07-19T20:15:21+00:00
 
 - Refreshed native Google Doc `Journey V3 - Google Drive Import Manifest` to v0.2 at https://docs.google.com/document/d/1Zc6guTbsp-QDcfanOFVdb59SRkHRhnfNaBtG9adkXgs/edit

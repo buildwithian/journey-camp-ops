@@ -8,7 +8,7 @@
   "files_inventoried": 555,
   "tests_passed": 14,
   "tests_failed": 0,
-  "last_completed_task": "Native Google Drive Import Manifest refreshed to v0.2",
+  "last_completed_task": "Operating hub prototype strategy view refreshed",
   "technical_blockers": [],
   "human_review_items": [
     "HR-001: Safeguarding and child-protection material",
@@ -19,8 +19,8 @@
     "HR-006: Girls session and rite-of-passage content",
     "HR-007: Third-party benchmark and copyright boundaries"
   ],
-  "last_updated": "2026-07-19T20:15:21+00:00",
-  "next_stage_status": "The native Google Drive Import Manifest now reflects the current Journey V3 prepared Drive state, including live folders, native Sheets, strategy Docs, tracker surfaces, operating hub prototype, Resource Library quality range through row 51 and non-approval boundaries. Resource Library Quality Checks row 52 records the refresh. No Drive permissions, owner names, human-review outcomes, pilot completion, restricted-data movement, website access, third-party content use, build start, deployment, publication, sharing changes or launch-gate closure are approved.",
+  "last_updated": "2026-07-19T20:23:32+00:00",
+  "next_stage_status": "The existing Drive HTML operating hub prototype now includes a synthetic Strategy Control Board with six strategy references, review-required counts and quality evidence rows 45, 49, 50, 52 and 53. Resource Library Quality Checks row 53 records the refresh. No Alpha asset use, Drive permissions, owner names, human-review outcomes, pilot completion, restricted-data movement, website access, build start, deployment, publication, sharing changes or launch-gate closure are approved.",
   "drive_review_artifacts": {
     "human_review_packets_folder": "https://drive.google.com/drive/folders/1qFvxr10Tto589PexueN34XK8AFvYMjTd",
     "pilot_evidence_folder": "https://drive.google.com/drive/folders/1v1_PtevCjMEL8bwnDOz9Z2JVyglH_CZJ",
@@ -198,6 +198,14 @@
     "local_recovery_guide_metadata_scope": "19 files across templates/operations and templates/communications updated to review-required v0.2 metadata",
     "google_drive_import_manifest_doc": "https://docs.google.com/document/d/1Zc6guTbsp-QDcfanOFVdb59SRkHRhnfNaBtG9adkXgs/edit",
     "google_drive_import_manifest_revision": "ALtnJHx2jLdJpjvK_8uZk7HcPIF1zQsHkZrwyIy5ggOyY9XFpRpvb0iHNOGWsgR8BGm2W2l00J92sedxpqvQJiegBfsduDwcds2RnHn4LFo",
-    "google_drive_import_manifest_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit"
+    "google_drive_import_manifest_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit",
+    "operating_hub_prototype_strategy_view_drive_file": "https://drive.google.com/file/d/13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi/view",
+    "operating_hub_prototype_strategy_view_drive_file_id": "13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi",
+    "operating_hub_prototype_strategy_view_modified_time": "2026-07-19T20:22:01.561Z",
+    "operating_hub_prototype_strategy_view_size_bytes": "53927",
+    "operating_hub_prototype_strategy_view_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit",
+    "operating_hub_prototype_strategy_view_local_index": "site/index.html",
+    "operating_hub_prototype_strategy_view_local_named_copy": "site/operating-hub-prototype.html",
+    "operating_hub_prototype_strategy_view_test": "tests/test_site_prototype.py"
   }
 }

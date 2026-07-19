@@ -415,3 +415,10 @@
 - Status: accepted
 - Decision: Add a Website Content Review register before any production website build, publication or access expansion.
 - Rationale: The desired Alpha-style website spans public explanation, videos, dates, leader resources, templates, operational dashboards and restricted workflows. A content register lets leaders classify each area and record required review while preserving that content approval, copyright permission, access decisions, data handling and publication authority remain human-gated.
+
+## ADR-037: Strategy control board prototype remains review-only
+
+- Date: 2026-07-19
+- Status: accepted
+- Decision: Add a Strategy Control Board to the non-production operating hub prototype before any production website build or publication.
+- Rationale: The current Drive copy now has multiple strategy references that leaders need to compare from the single website-shaped review surface. The Strategy view makes the Alpha-inspired target state, benchmark brief, website requirements, Drive runbook, consolidation plan and import manifest visible together while preserving that Alpha asset use, access approval, build start, deployment, publication, sharing changes and launch-gate closure remain human-gated.
