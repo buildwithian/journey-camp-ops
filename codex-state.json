@@ -8,7 +8,7 @@
   "files_inventoried": 555,
   "tests_passed": 14,
   "tests_failed": 0,
-  "last_completed_task": "Leadership Decision Capture live tab, dashboard metric and local recovery package added without entering human decisions",
+  "last_completed_task": "Website Build Backlog live tab, dashboard metric and local recovery package added without approving build or publication",
   "technical_blockers": [],
   "human_review_items": [
     "HR-001: Safeguarding and child-protection material",
@@ -19,8 +19,8 @@
     "HR-006: Girls session and rite-of-passage content",
     "HR-007: Third-party benchmark and copyright boundaries"
   ],
-  "last_updated": "2026-07-19T19:24:14+00:00",
-  "next_stage_status": "The Leader Delegation tracker now includes a validation-backed Leadership Decision Capture tab with 18 authorized-session rows, Dashboard row 24 showing 18 pending leadership decisions, Instructions row 32 and Resource Library Quality Checks row 46. Rows cover actual owner names, governance authority, HR-001 through HR-007 outcomes, pilot evidence, restricted-data approvals, website access model, website content approval and publication go/no-go. Name, decision, date and evidence fields remain blank until accountable human authorities record evidence; no gates, access decisions, data migration, publication or sharing changes are approved.",
+  "last_updated": "2026-07-19T19:38:37+00:00",
+  "next_stage_status": "The Leader Delegation tracker now includes a validation-backed Website Build Backlog tab with 20 blocked or approval-gated production-site build rows, Dashboard row 25 showing 20 blocked or pending build items, Instructions row 33 and Resource Library Quality Checks row 47. Rows cover source-of-truth boundaries, IA, approved content, videos, dates, leader resources, templates, delegation UI, dashboards, access controls, QA, deployment handoff, rollback and post-launch operations. Approved scope, target environment and evidence fields remain blank until accountable approvals exist; no build, deployment, publication, sharing changes, DEC-006/TASK-016 updates or GATE-006 closure are approved.",
   "drive_review_artifacts": {
     "human_review_packets_folder": "https://drive.google.com/drive/folders/1qFvxr10Tto589PexueN34XK8AFvYMjTd",
     "pilot_evidence_folder": "https://drive.google.com/drive/folders/1v1_PtevCjMEL8bwnDOz9Z2JVyglH_CZJ",
@@ -163,6 +163,14 @@
     "leadership_decision_capture_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit",
     "leadership_decision_capture_local_csv": "templates/operations/leadership-decision-capture.csv",
     "leadership_decision_capture_local_guide": "templates/operations/leadership-decision-capture.md",
-    "leadership_decision_capture_sheet_title": "Leadership Decision Capture"
+    "leadership_decision_capture_sheet_title": "Leadership Decision Capture",
+    "website_build_backlog_tab": "https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit",
+    "website_build_backlog_range": "Website Build Backlog!A5:N24",
+    "website_build_backlog_dashboard_metric": "Dashboard!A25:C25",
+    "website_build_backlog_instructions": "Instructions!A33:B33",
+    "website_build_backlog_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit",
+    "website_build_backlog_local_csv": "templates/operations/website-build-backlog.csv",
+    "website_build_backlog_local_guide": "templates/operations/website-build-backlog.md",
+    "website_build_backlog_sheet_title": "Website Build Backlog"
   }
 }

@@ -1,3 +1,12 @@
+## 2026-07-19T19:38:37+00:00
+
+- Added validation-backed live `Website Build Backlog!A5:N24` with 20 blocked or approval-gated rows for source-of-truth boundaries, information architecture, approved content, videos, dates, leader resources, templates, delegation UI, dashboards, access controls, QA, deployment handoff, rollback and post-launch operations.
+- Linked the backlog into Dashboard row 25 and Instructions row 33 while keeping production build, deployment, sharing and publication blocked until accountable approvals exist.
+- Added Resource Library Index `Quality Checks!A47:E47` and verified B47:C47 dropdown validation.
+- Created local recovery/import package `templates/operations/website-build-backlog.csv` and `templates/operations/website-build-backlog.md`; added the guide to `templates/operations/README.md`.
+- Validation: PASS: python3 tools/validate.py, python3 tests/test_site_prototype.py, bundled-python tests/test_spreadsheets.py, python3 -c json load and website-build-backlog CSV/guide sentinel checks, git diff --check, source-original tracking check.
+- Issues: The build backlog does not approve access, content, copyright, restricted-data handling, technical build, deployment, public sharing, publication, DEC-006/TASK-016 updates or GATE-006 closure.
+
 ## 2026-07-19T19:24:14+00:00
 
 - Added validation-backed live `Leadership Decision Capture!A5:N22` with 18 decision-capture rows covering real owner names, governance authority, HR-001 through HR-007, pilot evidence, restricted-data approval, website access model, website content approval and publication go/no-go.

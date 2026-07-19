@@ -1,3 +1,9 @@
+## 2026-07-19T19:38:37+00:00
+
+- Added a Website Build Backlog tab as the technical handoff queue for production-site work after gate evidence is accepted.
+- Kept build start, deployment, sharing, publication, DEC-006/TASK-016 updates and GATE-006 closure blocked until approved access, content, copyright, restricted-data, authority and publication evidence exists.
+- Linked the tab to Dashboard, Instructions and Resource Library quality checks so the future site has executable backlog items without treating planning as permission to publish.
+
 ## 2026-07-19T19:24:14+00:00
 
 - Added a Leadership Decision Capture tab as the practical authorized-session surface for real implementation decisions.
