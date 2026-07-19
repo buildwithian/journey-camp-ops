@@ -1,3 +1,9 @@
+## 2026-07-19T23:17:17+00:00
+
+- Added a live action-comment layer to the Leader Delegation and Readiness Tracker instead of creating another tracker tab.
+- Used exact Sheet ranges for owner appointment, HR gates, pilot execution, restricted-data replacement, website access, publication prerequisites and the decision-session run sheet.
+- Kept every comment unresolved and non-approval; the comments prompt humans to add evidence in existing source-of-truth fields.
+
 ## 2026-07-19T23:10:45+00:00
 
 - Added the Implementation Decision Session Brief to the non-production operating hub prototype so the single-site review surface mirrors the live IDSB tracker rows.

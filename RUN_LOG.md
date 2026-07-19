@@ -1,3 +1,11 @@
+## 2026-07-19T23:17:17+00:00
+
+- Added seven unresolved live action comments to the Leader Delegation and Readiness Tracker, each tied to exact range/quote evidence for the human-gated implementation work: `Leader Roster!A5:H16`, `Human Review!A5:N11`, `Pilot Cycle Plan!A5:M16`, `Launch Gates!A8:K8`, `Website Access Review!A5:J18`, `Website Build Backlog!A5:N24` and `Implementation Decision Session Brief!A5:N14`.
+- Verified comment readback IDs `AAACDQWjKfs, AAACDQWjKfw, AAACDQWjKf0, AAACDQWjKf4, AAACDQWjKf8, AAACDQWjKgA, AAACDQWjKgE`; each comment prompts accountable leaders/reviewers to complete the relevant human evidence without changing statuses or approvals.
+- Added Resource Library Index `Quality Checks!A70:E70` for the live tracker action-comment layer and verified B70:C70 dropdown validation.
+- Validation: PASS: live comment readback for seven unresolved comments with exact range/quote evidence; Resource Library `Quality Checks!A70:E70` readback with B70:C70 dropdown validation; python3 tools/validate.py; python3 tests/test_site_prototype.py; bundled-python tests/test_spreadsheets.py; python3 -m json.tool codex-state.json; git diff --check; source-original tracking check.
+- Issues: These comments are action prompts only; they do not appoint leaders, approve HR gates, run or accept a pilot, authorize restricted-data movement, approve website access/content, build, deploy, publish, broaden sharing or close launch gates.
+
 ## 2026-07-19T23:10:45+00:00
 
 - Updated local `site/index.html`, `site/operating-hub-prototype.html`, `site/README.md` and `tests/test_site_prototype.py` with a Planning view section that mirrors the live Implementation Decision Session Brief for IDSB-001 through IDSB-010, dashboard decision-session count, resource/template/summary/workflow markers and prototype version `hub-v13`.
