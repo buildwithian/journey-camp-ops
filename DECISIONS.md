@@ -175,3 +175,10 @@
 - Status: accepted
 - Decision: Add a gate evidence checklist package before moving any remaining launch gate to complete.
 - Rationale: The six launch gates need explicit proof, not status optimism. A checklist makes evidence requirements concrete while preserving the rule that owner appointments, human-review decisions, pilot evidence, real-data replacement, access model approval and production publication remain human-gated.
+
+## ADR-021: Leadership review schedule before gate execution
+
+- Date: 2026-07-19
+- Status: accepted
+- Decision: Add a leadership review schedule before treating open launch gates as executable or closable.
+- Rationale: The next stage needs real people to meet, review evidence, assign dates and record outputs. A schedule turns the evidence checklist into a practical meeting flow while keeping actual owner appointments, review decisions, pilot execution, restricted-data approval, access approval and production publishing under human authority.

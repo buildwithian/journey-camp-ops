@@ -22,6 +22,7 @@ This section contains templates / operations templates.
 - [Checklist Template](checklist-template.md)
 - [Decision Record Template](decision-record-template.md)
 - [Gate Evidence Checklist](gate-evidence-checklist.md)
+- [Leadership Review Schedule](leadership-review-schedule.md)
 
 ## Use
 
