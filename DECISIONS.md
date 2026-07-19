@@ -1,3 +1,9 @@
+## 2026-07-19T18:19:21+00:00
+
+- Refreshed START HERE as the leader-facing entrypoint for current launch-gate review work.
+- Used native rich links instead of plain Workspace URLs for the Launch Gate Review Pack and live tracker, and preserved the boundary that START HERE is routing evidence only.
+- Recorded the refresh in Resource Library quality checks without changing launch-gate statuses or approval decisions.
+
 ## 2026-07-19T18:10:27+00:00
 
 - Added a synthetic Gate Review view to the non-production operating hub prototype after the Launch Gate Review Pack was created and linked.
@@ -316,3 +322,10 @@
 - Status: accepted
 - Decision: Mirror the Launch Gate Review Pack in the operating hub prototype as a synthetic Gate Review view without embedding external Drive URLs or publishing a production website.
 - Rationale: The user wants a single website-shaped operating surface, but access, authority, copyright, content, restricted-data and publication gates remain open. A local and Drive HTML prototype lets leaders review the workflow while preserving that publication and sharing changes require explicit human approval.
+
+## ADR-034: START HERE routes launch-gate review before gate changes
+
+- Date: 2026-07-19
+- Status: accepted
+- Decision: Make the native START HERE Doc the first leader-facing entrypoint for the current launch-gate review packet, tracker, prototype and review-packet folder.
+- Rationale: The Drive copy now has enough review surfaces that leaders need a single current doorway. START HERE improves discoverability while preserving that owner appointment, reviewer assignment, pilot execution, data migration, website access, publication and gate closure remain human-gated.

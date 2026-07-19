@@ -129,6 +129,7 @@ Resource Library Index `current_drive_link` for these three rows points to the p
 - Resource index `Quality Checks` was updated with completed/in-progress status evidence.
 - Delegation tracker `TASK-005` was updated to `Done` with both native Sheet links.
 - `START HERE` document readback showed native rich links for the folder, Sheets, Docs and HTML file.
+- START HERE document readback showed `Current launch-gate review entrypoint` as a HEADING_1 section with native rich links to the Launch Gate Review Pack, live launch-gate tracker, operating hub prototype and Human Review Packets folder.
 - Canonical Resources subfolder readback showed four newly created core subfolders.
 - Core resource Doc sentinel checks passed for Start Here Guide, Journey Purpose, Launch Readiness Checklist, Operating Model, Journey Lead, Decision Rights and Responsibility Matrix.
 - Resource index `Canonical Resources!A5:L9` readback showed current links to the four new core pack Docs.
@@ -547,3 +548,14 @@ Status: local HTML and Drive raw HTML artifact updated on 2026-07-19.
 | Drive operating hub prototype | https://drive.google.com/file/d/13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi/view | Metadata readback showed same file ID `13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi`, parent `1V7VG7E2MuGg7KaLqjgncWefbXB0PkDbJ`, modified time 2026-07-19T18:10:13.509Z, size 22549 bytes and `text/html` MIME type. |
 
 The gate-review prototype refresh is a synthetic review surface only. It does not publish a production site, broaden Drive sharing, approve website access, approve human-review gates, appoint leaders, run a pilot, authorize restricted-data migration or close launch gates.
+
+## START HERE Launch-Gate Entrypoint Refresh
+
+Status: native START HERE Doc and Resource Library quality check updated on 2026-07-19.
+
+| Artifact | Location | Verification |
+| --- | --- | --- |
+| START HERE launch-gate entrypoint | https://docs.google.com/document/d/1yjYo1yQr59q7SwS5g_xzr8ldLKQAXlB3_mGzE41RGw8/edit | Google Docs readback showed `Current launch-gate review entrypoint` as `HEADING_1`, followed by normal-text rows with native rich links to the Launch Gate Review Pack, live tracker, operating hub prototype and Human Review Packets folder. Revision `ALtnJHw8CgzkUo78dZehz5YOL4KJk1BgqBc6RtRK5Uryshn-wwLprLuruQEqOmIbEJQ3WJfvmCR1v5PMOmtzQ4Cz0QU5dvMaucQLJ_B8zU8`. |
+| Resource Library quality check | `Quality Checks!A40:E40` | Readback showed `START HERE launch-gate pathway refreshed`, owner `Journey Lead`, status `Done`, evidence summary and pending-approval boundary; B40:C40 preserved dropdown validation. |
+
+The START HERE refresh improves leader discoverability only. It does not appoint leaders, assign reviewers, approve HR gates, run the pilot, authorize restricted-data migration, approve access, approve publication, broaden sharing or close launch gates.

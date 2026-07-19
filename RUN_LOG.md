@@ -1,3 +1,12 @@
+## 2026-07-19T18:19:21+00:00
+
+- Updated native Google Doc `Journey V3 - START HERE` with a `Current launch-gate review entrypoint` section before Working rules: https://docs.google.com/document/d/1yjYo1yQr59q7SwS5g_xzr8ldLKQAXlB3_mGzE41RGw8/edit
+- Inserted native rich links to the Launch Gate Review Pack, live Leader Delegation and Readiness Tracker, operating hub prototype and Human Review Packets folder, plus a non-approval boundary sentence.
+- Repaired paragraph style after readback so only the new section title is `HEADING_1`; link rows and boundary text read back as `NORMAL_TEXT` with native rich-link elements.
+- Added Resource Library Index `Quality Checks!A40:E40` for the START HERE launch-gate pathway refresh and verified B40:C40 dropdown validation.
+- Validation: PASS: python3 tools/validate.py; python3 tests/test_site_prototype.py; bundled-python tests/test_spreadsheets.py; python3 -c json.load codex-state.json; git diff --check; source-original tracking check.
+- Issues: The START HERE refresh does not appoint leaders, assign reviewers, approve HR gates, run the pilot, migrate restricted data, approve access, publish pages, broaden sharing or close launch gates.
+
 ## 2026-07-19T18:10:27+00:00
 
 - Updated local `site/index.html` and `site/operating-hub-prototype.html` with a synthetic Gate Review view for GATE-001 through GATE-006, `gateRows`, `gateOpenCount` and Launch Gate Review Pack placement cues.
