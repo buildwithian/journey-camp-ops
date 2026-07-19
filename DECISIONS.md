@@ -478,3 +478,10 @@
 - Status: accepted
 - Decision: Mirror the Resource Library Template Acceptance Checklist inside the non-production operating hub prototype after the live checklist exists.
 - Rationale: The single website-shaped review surface should show acceptance evidence routing beside template improvement work before any canonical link, website module or Drive placement changes. The prototype remains synthetic and does not approve source overwrite, canonical replacement, restricted-data movement, sharing changes, build, publication, accepted-output replacement or launch-gate closure.
+
+## ADR-046: Organizational implementation board before real decisions
+
+- Date: 2026-07-19
+- Status: accepted
+- Decision: Add a validation-backed Organizational Implementation Board in the Leader Delegation tracker before owner appointments, human-review gate closure, pilot acceptance, restricted-data replacement, website access approval or production publication work proceeds.
+- Rationale: The next stage depends on real human names, qualified review decisions, pilot evidence, data-placement approval and access/publication authority that cannot be invented. A single live board keeps those work areas actionable while preserving that names, approvals, pilot completion, restricted-data movement, sharing changes, build, deployment, publication and launch-gate closure remain human-gated.

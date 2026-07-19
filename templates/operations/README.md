@@ -38,6 +38,7 @@ This section contains local recovery guides and import templates for the live Jo
 - [Duplicate Resolution Queue](duplicate-resolution-queue.md)
 - [Template Improvement Queue](template-improvement-queue.md)
 - [Template Acceptance Checklist](template-acceptance-checklist.md)
+- [Organizational Implementation Board](organizational-implementation-board.md)
 - [Website Build Backlog](website-build-backlog.md)
 - [Website Content Approval Templates](website-content-approval-templates.md)
 
