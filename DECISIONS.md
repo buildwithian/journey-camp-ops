@@ -1,3 +1,9 @@
+## 2026-07-19T22:11:15+00:00
+
+- Added an Implementation Session Pack tab as the meeting-control layer between the Organizational Implementation Board and downstream tracker updates.
+- Kept all live session rows evidence-pending or review-blocked until accountable human authority records decisions.
+- Recorded the tracker in Resource Library `Quality Checks!A64:E64` and mirrored it locally as a CSV/guide recovery package.
+
 ## 2026-07-19T20:15:21+00:00
 
 - Refreshed the native Google Drive Import Manifest from an import-pending note into a current Journey V3 Drive-state manifest.
@@ -492,3 +498,10 @@
 - Status: accepted
 - Decision: Mirror the live Organizational Implementation Board inside the non-production operating hub prototype after the live board exists.
 - Rationale: The single website-shaped review surface should show the six current organizational implementation actions beside the planning controls. The prototype remains synthetic and does not appoint leaders, approve HR gates, run a pilot, move restricted data, approve access, build, deploy, publish or close launch gates.
+
+## ADR-048: Implementation session pack before live decision updates
+
+- Date: 2026-07-20
+- Status: accepted
+- Decision: Add a validation-backed Implementation Session Pack in the Leader Delegation tracker before OIB rows drive roster updates, HR outcomes, pilot evidence, restricted-data movement, website access or publication work.
+- Rationale: The Organizational Implementation Board identifies the remaining work, but the next safe step is a structured leadership meeting surface that captures authority, evidence, follow-up targets and non-approval boundaries before any human-gated tracker status changes.

@@ -183,6 +183,8 @@ Resource Library Index `current_drive_link` for these three rows points to the p
 - Resource index `Quality Checks!A62:E62` readback recorded the Organizational Implementation Board tracker as `Done` with owner/status dropdown validation in B62:C62.
 - Operating hub organizational implementation prototype refresh updated the existing Drive HTML artifact in place with same file ID, modified 2026-07-19T21:57:04.447Z, size 74643 bytes, and added local Organizational Implementation Board, OIB ID, implementation-actions count and non-automation-boundary markers in `site/index.html`, `site/operating-hub-prototype.html` and `tests/test_site_prototype.py`.
 - Resource index `Quality Checks!A63:E63` readback recorded the operating hub organizational implementation prototype alignment as `Done` with owner/status dropdown validation in B63:C63.
+- Leader tracker `Implementation Session Pack!A1:N14`, `Dashboard!A28:C28` and `Instructions!A36:B36` readback showed ten session rows, dashboard count 10, follow-up owner/status validation and non-approval boundaries.
+- Resource index `Quality Checks!A64:E64` readback recorded the Implementation Session Pack tracker as `Done` with owner/status dropdown validation in B64:C64.
 - Canonical Resources subfolder readback showed four newly created core subfolders.
 - Core resource Doc sentinel checks passed for Start Here Guide, Journey Purpose, Launch Readiness Checklist, Operating Model, Journey Lead, Decision Rights and Responsibility Matrix.
 - Resource index `Canonical Resources!A5:L9` readback showed current links to the four new core pack Docs.
@@ -209,7 +211,7 @@ Resource Library Index `current_drive_link` for these three rows points to the p
 
 ## Post-import Organizational Implementation State
 
-Status: active and review-gated as of 2026-07-18.
+Status: active and review-gated as of 2026-07-20.
 
 | Surface | Range | Current state |
 | --- | --- | --- |
@@ -236,6 +238,7 @@ Status: active and review-gated as of 2026-07-18.
 | Leader Delegation and Readiness Tracker | `Website Build Backlog!A5:N24` | Twenty production-site build rows are populated for IA, content, videos, dates, resources, delegation, dashboards, access controls, quality, deployment and post-launch operations; build, sharing and publication remain blocked until accountable approvals exist. |
 | Leader Delegation and Readiness Tracker | `Strategy Review Queue!A5:N10` | Six current strategy references are listed as `Review required`, with owner role, reviewing authority, quality evidence, prototype placement and non-approval boundaries. |
 | Leader Delegation and Readiness Tracker | `Organizational Implementation Board!A5:N10` | Six organizational implementation rows are populated for owner/governance completion, HR gates, pilot, restricted-data replacement, website access and production publication; Dashboard row 27 shows 6 pending actions and evidence/date fields remain blank for human completion. |
+| Leader Delegation and Readiness Tracker | `Implementation Session Pack!A5:N14` | Ten session rows are populated for running the first real leadership implementation meeting; Dashboard row 28 shows 10 pending session items, with live-capture, target-date and evidence fields blank for human completion. |
 | Leader Delegation and Readiness Tracker | `Dashboard!A25:C25` | Dashboard readback shows 20 website build backlog items blocked or pending from `Website Build Backlog`. |
 | Leader Delegation and Readiness Tracker | `Instructions!A33:B33` | Website Build Backlog guidance is linked with explicit prerequisite, non-publication and source-of-truth boundaries. |
 | Leader Delegation and Readiness Tracker | `Communications!A21:G21` | Website Content Approval Templates Doc is linked as `Ready` for content-owner, restricted-handling, copyright/media and website publication handoff review capture. |
