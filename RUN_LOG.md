@@ -1,3 +1,11 @@
+## 2026-07-19T23:10:45+00:00
+
+- Updated local `site/index.html`, `site/operating-hub-prototype.html`, `site/README.md` and `tests/test_site_prototype.py` with a Planning view section that mirrors the live Implementation Decision Session Brief for IDSB-001 through IDSB-010, dashboard decision-session count, resource/template/summary/workflow markers and prototype version `hub-v13`.
+- Updated the existing Drive HTML artifact in place: https://drive.google.com/file/d/13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi/view (same file ID `13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi`, modified 2026-07-19T23:08:55.242Z, size 88130 bytes, parent `1V7VG7E2MuGg7KaLqjgncWefbXB0PkDbJ`).
+- Added Resource Library Index `Quality Checks!A69:E69` for the operating hub decision-session prototype alignment and verified B69:C69 dropdown validation.
+- Validation: PASS: node --check extracted prototype script; python3 tests/test_site_prototype.py; prototype copy cmp; Drive HTML update response/readback showing same file ID, modified 2026-07-19T23:08:55.242Z and size 88130 bytes; Resource Library `Quality Checks!A69:E69` readback with B69:C69 dropdown validation; python3 tools/validate.py; bundled-python tests/test_spreadsheets.py; python3 -m json.tool codex-state.json; git diff --check; source-original tracking check.
+- Issues: This is a non-production prototype refresh only; it does not appoint leaders, approve HR gates, run or accept a pilot, authorize restricted-data movement, approve access/content, build, deploy, publish, broaden sharing or close launch gates.
+
 ## 2026-07-19T23:04:06+00:00
 
 - Added validation-backed live `Implementation Decision Session Brief!A1:N14` in the Leader Delegation and Readiness Tracker with ten decision-session rows linking IRA-001 through IRA-006 and LDC-001 through LDC-018 to prompts, authority requirements, proof capture and update targets.

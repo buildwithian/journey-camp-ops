@@ -8,7 +8,7 @@
   "files_inventoried": 555,
   "tests_passed": 14,
   "tests_failed": 0,
-  "last_completed_task": "Implementation decision session brief added",
+  "last_completed_task": "Operating hub decision-session prototype aligned",
   "technical_blockers": [],
   "human_review_items": [
     "HR-001: Safeguarding and child-protection material",
@@ -19,8 +19,8 @@
     "HR-006: Girls session and rite-of-passage content",
     "HR-007: Third-party benchmark and copyright boundaries"
   ],
-  "last_updated": "2026-07-19T23:04:06+00:00",
-  "next_stage_status": "The live Leader Delegation and Readiness Tracker now includes Implementation Decision Session Brief!A1:N14 with ten decision-session rows mapping IRA-001 through IRA-006 and LDC-001 through LDC-018 to meeting prompts, authority requirements, proof capture and update targets. Dashboard row 30 shows 10 implementation decision-session items pending, Instructions row 38 records the non-approval boundary, and Resource Library Quality Checks row 68 records the tracker with B68:C68 dropdown validation. This remains a leadership decision-session preparation surface only; no leader appointment, HR decision, pilot completion, restricted-data movement, access approval, content approval, website build, deployment, publication or launch-gate closure is approved.",
+  "last_updated": "2026-07-19T23:10:45+00:00",
+  "next_stage_status": "The local and Drive operating-hub prototype now mirrors the live Implementation Decision Session Brief in the Planning view, including IDSB-001 through IDSB-010, dashboard decision-session metric, workflow, next moves, resource card and review-packet summary. The existing Drive HTML artifact kept file ID 13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi, modified 2026-07-19T23:08:55.242Z, size 88130 bytes, and Resource Library Quality Checks row 69 records the alignment with B69:C69 dropdown validation. This remains a non-production review surface only; no leader appointment, HR decision, pilot completion, restricted-data movement, access approval, content approval, website build, deployment, publication or launch-gate closure is approved.",
   "drive_review_artifacts": {
     "human_review_packets_folder": "https://drive.google.com/drive/folders/1qFvxr10Tto589PexueN34XK8AFvYMjTd",
     "pilot_evidence_folder": "https://drive.google.com/drive/folders/1v1_PtevCjMEL8bwnDOz9Z2JVyglH_CZJ",
@@ -322,6 +322,15 @@
     "implementation_decision_session_brief_quality_check_range": "Quality Checks!A68:E68",
     "implementation_decision_session_brief_local_csv": "templates/operations/implementation-decision-session-brief.csv",
     "implementation_decision_session_brief_local_guide": "templates/operations/implementation-decision-session-brief.md",
-    "implementation_decision_session_brief_sheet_title": "Implementation Decision Session Brief"
+    "implementation_decision_session_brief_sheet_title": "Implementation Decision Session Brief",
+    "operating_hub_prototype_decision_session_drive_file": "https://drive.google.com/file/d/13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi/view",
+    "operating_hub_prototype_decision_session_drive_file_id": "13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi",
+    "operating_hub_prototype_decision_session_modified_time": "2026-07-19T23:08:55.242Z",
+    "operating_hub_prototype_decision_session_size_bytes": "88130",
+    "operating_hub_prototype_decision_session_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit",
+    "operating_hub_prototype_decision_session_quality_check_range": "Quality Checks!A69:E69",
+    "operating_hub_prototype_decision_session_local_index": "site/index.html",
+    "operating_hub_prototype_decision_session_local_named_copy": "site/operating-hub-prototype.html",
+    "operating_hub_prototype_decision_session_test": "tests/test_site_prototype.py"
   }
 }

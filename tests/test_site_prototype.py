@@ -88,6 +88,13 @@ required = [
     'dashboardAuditCount',
     'IRA-006',
     'Audit ID',
+    'Implementation Decision Session Brief',
+    'decisionRows',
+    'decisionSessionPendingCount',
+    'dashboardDecisionSessionCount',
+    'IDSB-010',
+    'Brief ID',
+    'Dashboard row 30',
 ]
 for name in ('site/index.html', 'site/operating-hub-prototype.html'):
     html = root.joinpath(name).read_text(encoding='utf-8')
