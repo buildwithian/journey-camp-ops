@@ -1,3 +1,9 @@
+## 2026-07-19T17:39:41+00:00
+
+- Created reusable Website Access Model Decision Templates before public/protected/restricted/withheld website access decisions are recorded.
+- Kept access approval, sharing changes, HR-005/HR-007 dependencies, GATE-005 closure, GATE-006 unblocking and production publishing pending human authority.
+- Linked the template from Communications, Instructions, Launch Gates and Resource Library quality checks so website approvers can capture DEC-004 without treating the template as access approval.
+
 ## 2026-07-19T17:31:32+00:00
 
 - Created reusable Restricted Data Placement Approval Templates before synthetic examples are replaced with real local information.
@@ -264,3 +270,10 @@
 - Status: accepted
 - Decision: Add reusable restricted-data placement approval templates before replacing synthetic examples with real local information.
 - Rationale: Real data replacement requires accountable data-owner approval of the exact storage location, access group, minimum necessary field list and retention expectation. The template pack makes those decisions explicit while preserving that migration, DEC-005/TASK-014 updates, website access approval and GATE-004 closure remain human-gated.
+
+## ADR-030: Website access model decision templates before access approval
+
+- Date: 2026-07-19
+- Status: accepted
+- Decision: Add reusable website access model and area-decision templates before approving DEC-004 or closing GATE-005.
+- Rationale: The production site mixes public explanation, protected leader resources, authenticated tools, restricted data and withheld content. A decision template makes the selected model and WAR-001 through WAR-014 area decisions explicit while preserving that access approval, sharing changes, HR-005/HR-007 dependencies, GATE-005 closure and production publishing remain human-gated.

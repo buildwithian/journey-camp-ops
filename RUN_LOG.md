@@ -1,3 +1,13 @@
+## 2026-07-19T17:39:41+00:00
+
+- Created native Google Doc `Journey V3 - Website Access Model Decision Templates` in the Website Operating Hub folder: https://docs.google.com/document/d/1YToT3HxWpQFXbe2npBRpKX75cAIwZ39zrgbu6bE1ZJc/edit
+- Populated decision boundaries, overall access-model fields, area-level fields, access wording blocks, publication gate handoff and tracker update rule.
+- Linked the Doc from live `Communications!A18:G18`, tracker `Instructions!A27:B27`, GATE-005 evidence and Resource Library Index `Quality Checks!A37:E37`.
+- Created local template twin `templates/operations/website-access-model-decision-templates.md` and added it to `templates/operations/README.md`.
+- Verified Google Docs text readback, Drive parent metadata, `Communications!A18:G18`, `Instructions!A27:B27`, `Launch Gates!A9:K9`, `Quality Checks!A37:E37` and native validation metadata on copied rows.
+- Validation: PASS: python3 tools/validate.py; python3 tests/test_site_prototype.py; bundled-python tests/test_spreadsheets.py; python3 -m json.tool codex-state.json; git diff --check; source-original tracking check.
+- Issues: The templates do not approve access, broaden sharing, authorize authenticated tools, close GATE-005, unblock GATE-006, approve copyright use, authorize restricted data or publish production pages.
+
 ## 2026-07-19T17:31:32+00:00
 
 - Created native Google Doc `Journey V3 - Restricted Data Placement Approval Templates` in the Data Replacement and Access Cleanup folder: https://docs.google.com/document/d/1uDcHCA-BgeQb44zjpqt52kQx83cVGNDiVFXoRmLT8HU/edit

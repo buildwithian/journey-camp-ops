@@ -8,7 +8,7 @@
   "files_inventoried": 555,
   "tests_passed": 14,
   "tests_failed": 0,
-  "last_completed_task": "Restricted Data Placement Approval Templates Doc created and linked without authorizing migration or closing GATE-004",
+  "last_completed_task": "Website Access Model Decision Templates Doc created and linked without approving access or publishing production pages",
   "technical_blockers": [],
   "human_review_items": [
     "HR-001: Safeguarding and child-protection material",
@@ -19,8 +19,8 @@
     "HR-006: Girls session and rite-of-passage content",
     "HR-007: Third-party benchmark and copyright boundaries"
   ],
-  "last_updated": "2026-07-19T17:31:32+00:00",
-  "next_stage_status": "Restricted Data Placement Approval Templates Doc is created in the Journey V3 Data Replacement and Access Cleanup folder and linked from Communications row 17, Instructions row 26, GATE-004 evidence and Resource Library quality checks; Pilot Evidence Capture Templates Doc, Owner Appointment Confirmation Templates Doc, Human Review Sign-off Templates Doc, Leadership Review Message Templates Doc and Leadership Review Communications tab remain ready; real owner appointment, reviewer assignment, human-review decisions, pilot execution/evidence, restricted-data migration, DEC-005/TASK-014 updates, website access approval and production publishing remain pending.",
+  "last_updated": "2026-07-19T17:39:41+00:00",
+  "next_stage_status": "Website Access Model Decision Templates Doc is created in the Journey V3 Website Operating Hub folder and linked from Communications row 18, Instructions row 27, GATE-005 evidence and Resource Library quality checks; Restricted Data Placement Approval Templates Doc, Pilot Evidence Capture Templates Doc, Owner Appointment Confirmation Templates Doc, Human Review Sign-off Templates Doc and Leadership Review Message Templates Doc remain ready; real owner appointment, reviewer assignment, human-review decisions, pilot execution/evidence, restricted-data migration, access approval, sharing changes, HR-005/HR-007 dependencies, GATE-005 closure and production publishing remain pending.",
   "drive_review_artifacts": {
     "human_review_packets_folder": "https://drive.google.com/drive/folders/1qFvxr10Tto589PexueN34XK8AFvYMjTd",
     "pilot_evidence_folder": "https://drive.google.com/drive/folders/1v1_PtevCjMEL8bwnDOz9Z2JVyglH_CZJ",
@@ -91,6 +91,12 @@
     "restricted_data_placement_approval_templates_communications_row": "https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit",
     "restricted_data_placement_approval_templates_instruction_row": "https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit",
     "restricted_data_placement_approval_templates_launch_gate_evidence": "https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit",
-    "restricted_data_placement_approval_templates_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit"
+    "restricted_data_placement_approval_templates_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit",
+    "website_access_model_decision_templates_doc": "https://docs.google.com/document/d/1YToT3HxWpQFXbe2npBRpKX75cAIwZ39zrgbu6bE1ZJc/edit",
+    "website_access_model_decision_templates_local_guide": "templates/operations/website-access-model-decision-templates.md",
+    "website_access_model_decision_templates_communications_row": "https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit",
+    "website_access_model_decision_templates_instruction_row": "https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit",
+    "website_access_model_decision_templates_launch_gate_evidence": "https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit",
+    "website_access_model_decision_templates_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit"
   }
 }

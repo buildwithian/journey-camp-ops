@@ -29,6 +29,7 @@ This section contains templates / operations templates.
 - [Owner Appointment Confirmation Templates](owner-appointment-confirmation-templates.md)
 - [Pilot Evidence Capture Templates](pilot-evidence-capture-templates.md)
 - [Restricted Data Placement Approval Templates](restricted-data-placement-approval-templates.md)
+- [Website Access Model Decision Templates](website-access-model-decision-templates.md)
 
 ## Use
 

@@ -183,12 +183,15 @@ Status: active and review-gated as of 2026-07-18.
 | Leader Delegation and Readiness Tracker | `Communications!A17:G17` | Restricted Data Placement Approval Templates Doc is linked as `Ready` for accountable data owners before replacing synthetic examples. |
 | Leader Delegation and Readiness Tracker | `Instructions!A26:B26` | Restricted Data Placement Approval Templates guidance is linked with explicit non-migration boundaries. |
 | Leader Delegation and Readiness Tracker | `Launch Gates!A8:K8` | GATE-004 evidence surface links the Restricted Data Placement Approval Templates Doc while status remains `Review required`. |
+| Leader Delegation and Readiness Tracker | `Communications!A18:G18` | Website Access Model Decision Templates Doc is linked as `Ready` for the website approving authority before access decisions or publication work. |
+| Leader Delegation and Readiness Tracker | `Instructions!A27:B27` | Website Access Model Decision Templates guidance is linked with explicit non-approval and non-publication boundaries. |
+| Leader Delegation and Readiness Tracker | `Launch Gates!A9:K9` | GATE-005 evidence surface links the Website Access Model Decision Templates Doc while status remains `Review required`. |
 | Leader Delegation and Readiness Tracker | `Launch Gates!A5:K10` | Six remaining launch gates are consolidated with owner role, status, next human action, evidence surface and proof required to close. |
 | Leader Delegation and Readiness Tracker | `Owner Evidence Review!A5:J13` | Nine private-source evidence reviews are listed for authorized owner confirmation without copying source-derived names into the shared tracker. |
 | Leader Delegation and Readiness Tracker | `Website Access Review!A5:J18` | Fourteen website-area access decisions are listed as `Needs decision`, with public/protected/restricted/withheld recommendations and no publication approval. |
 | Leader Delegation and Readiness Tracker | `Governance Authority Review!A5:K16` | Twelve final-authority decisions are listed as `Needs authority decision`, with proposed final-authority role, operating owner role, required approver and non-approval notes. |
 | Leader Delegation and Readiness Tracker | `Dashboard!A5:C22` | Dashboard readback shows 16 tasks, 7 open human-review items, 6 populated non-green readiness rows, 6 launch gates not complete, 9 owner evidence reviews pending, 14 website access decisions pending, 12 governance authority decisions pending, 7 human-review routing actions pending, 12 owner appointment actions pending, 12 pilot cycle plan actions pending, 22 gate evidence items pending, 9 leadership review sessions pending, 9 leadership review outputs pending, 27 leadership review agenda items pending and 16 leadership review communications pending. |
-| Resource Library Index | `Quality Checks!A11:E36` | Named leaders, restricted real-data replacement, production website access model, review packet readiness, pilot evidence readiness, owner appointment packet readiness, pilot run/debrief readiness, restricted-data checklist readiness, website publication gate readiness, Launch Gates control readiness, owner evidence review readiness, website access review readiness, governance authority review readiness, human-review routing readiness, owner appointment routing readiness, pilot cycle plan queue readiness, gate evidence checklist readiness, leadership review schedule readiness, leadership review output readiness, leadership review agenda readiness, leadership review communications readiness, leadership review message template readiness, human review sign-off template readiness, owner appointment confirmation template readiness and pilot evidence capture template readiness and restricted data placement approval template readiness are explicit quality gates. |
+| Resource Library Index | `Quality Checks!A11:E37` | Named leaders, restricted real-data replacement, production website access model, review packet readiness, pilot evidence readiness, owner appointment packet readiness, pilot run/debrief readiness, restricted-data checklist readiness, website publication gate readiness, Launch Gates control readiness, owner evidence review readiness, website access review readiness, governance authority review readiness, human-review routing readiness, owner appointment routing readiness, pilot cycle plan queue readiness, gate evidence checklist readiness, leadership review schedule readiness, leadership review output readiness, leadership review agenda readiness, leadership review communications readiness, leadership review message template readiness, human review sign-off template readiness, owner appointment confirmation template readiness and pilot evidence capture template readiness and restricted data placement approval template readiness and website access model decision template readiness are explicit quality gates. |
 
 The production website remains blocked until access model, content review, copyright boundaries and final operating authority are approved.
 
@@ -243,6 +246,7 @@ Status: created and linked as of 2026-07-18.
 | Artifact | URL | Verification |
 | --- | --- | --- |
 | Production Website Publication Gate Checklist | https://docs.google.com/document/d/1Nokc8fgVHMZ9posIt0Vz3VHStl1q43XHZcS_DWn27DE/edit | Document sentinel readback showed that the checklist does not authorize publication or broaden website access. |
+| Website Access Model Decision Templates Doc | https://docs.google.com/document/d/1YToT3HxWpQFXbe2npBRpKX75cAIwZ39zrgbu6bE1ZJc/edit | Document sentinel readback showed that the template pack prepares DEC-004/GATE-005 model and area-decision capture but does not approve access or publish production pages. |
 
 `Tasks!A19:J20`, `Decisions!A8:G10`, `Event Readiness!A10:H10` and Resource Library Index `Quality Checks!A17:E19` were read back after linking the website publication gate checklist. Production publishing remains blocked pending access model, authority, content review and copyright approvals.
 
@@ -485,3 +489,19 @@ Status: native Google Doc and local guide created on 2026-07-19.
 | Resource Library quality check | `Quality Checks!A36:E36` | Readback showed the restricted data placement approval template pack marked `Done` with migration, DEC-005/TASK-014, website access and GATE-004 boundaries. |
 
 The restricted data placement approval templates support accountable data-owner decision capture only. They do not collect data, replace synthetic examples, authorize migration, update DEC-005/TASK-014, approve website access, close GATE-004 or publish production pages.
+
+
+## Website Access Model Decision Templates
+
+Status: native Google Doc and local guide created on 2026-07-19.
+
+| Artifact | Location | Verification |
+| --- | --- | --- |
+| Website Access Model Decision Templates Doc | https://docs.google.com/document/d/1YToT3HxWpQFXbe2npBRpKX75cAIwZ39zrgbu6bE1ZJc/edit | Google Docs text readback showed the title, decision boundary, overall model fields, area-level fields, access wording blocks, publication handoff, tracker update rule and non-approval statement. |
+| Local Website Access Model Decision Templates guide | `templates/operations/website-access-model-decision-templates.md` | Mirrors the access-model and WAR-001 through WAR-014 area-decision pack for repository recovery and future import/reference. |
+| Communications tracker row | `Communications!A18:G18` | Readback showed the Doc linked as `Ready` for the website approving authority. |
+| Tracker instruction row | `Instructions!A27:B27` | Readback showed non-approval and non-publication guidance for access-model decisions. |
+| Launch Gates evidence surface | `Launch Gates!A9:K9` | Readback showed GATE-005 evidence now includes the Website Access Model Decision Templates Doc while status remains `Review required`. |
+| Resource Library quality check | `Quality Checks!A37:E37` | Readback showed the website access model decision template pack marked `Done` with access approval, sharing-change, HR dependency, GATE-005 and production publication boundaries. |
+
+The website access model decision templates support DEC-004/GATE-005 decision capture only. They do not approve access, broaden Drive sharing, authorize authenticated tools, close GATE-005, unblock GATE-006, approve copyright use, authorize restricted-data collection or publish production pages.
