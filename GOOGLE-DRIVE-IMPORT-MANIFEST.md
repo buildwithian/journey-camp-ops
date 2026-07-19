@@ -166,6 +166,7 @@ Status: active and review-gated as of 2026-07-18.
 | Leader Delegation and Readiness Tracker | `Decisions!A7:G10` | DEC-003 through DEC-006 keep owner naming, website access, real-data replacement and production publishing approval-gated. |
 | Leader Delegation and Readiness Tracker | `Event Readiness!A9:H10` | Pilot Journey Cycle and Production Website Launch are tracked as not ready. |
 | Leader Delegation and Readiness Tracker | `Pilot Cycle Plan!A5:M16` | Twelve pilot-prep, walkthrough, logging, debrief and approved-change routing actions are present for one small leadership-team pilot; none records participant, medical, financial or private personal data. |
+| Leader Delegation and Readiness Tracker | `Gate Evidence Checklist` | Empty live tab exists after connector usage limits interrupted population; local import package is available at `templates/operations/gate-evidence-checklist.csv` with 22 launch-gate evidence items. |
 | Leader Delegation and Readiness Tracker | `Launch Gates!A5:K10` | Six remaining launch gates are consolidated with owner role, status, next human action, evidence surface and proof required to close. |
 | Leader Delegation and Readiness Tracker | `Owner Evidence Review!A5:J13` | Nine private-source evidence reviews are listed for authorized owner confirmation without copying source-derived names into the shared tracker. |
 | Leader Delegation and Readiness Tracker | `Website Access Review!A5:J18` | Fourteen website-area access decisions are listed as `Needs decision`, with public/protected/restricted/withheld recommendations and no publication approval. |
@@ -324,3 +325,15 @@ Status: created and linked as of 2026-07-18.
 | Dashboard pilot-cycle metric | https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit | `Dashboard!A17:C17` readback showed 12 pilot cycle plan actions pending and the formula counts populated plan rows not yet marked `Changes routed`. |
 
 `Pilot Cycle Plan!A1:M16`, `Dashboard!A17:C17`, `Instructions!A17:B17`, `Launch Gates!A7:F7`, `Tasks!A17:J17`, `Event Readiness!A9:H9` and Resource Library Index `Quality Checks!A26:E26` were read back after creating the pilot cycle plan queue. The queue prepares one leadership-team pilot only; it does not run the pilot, close GATE-003, authorize restricted-data migration or record participant, medical, financial or private personal data.
+
+## Gate Evidence Checklist Import Package
+
+Status: local import package created on 2026-07-19; live tab exists but remains empty until connector access is available.
+
+| Artifact | Location | Verification |
+| --- | --- | --- |
+| Local Gate Evidence Checklist guide | `templates/operations/gate-evidence-checklist.md` | Defines operating sequence, privacy rule and status values for evidence collection. |
+| Local Gate Evidence Checklist CSV | `templates/operations/gate-evidence-checklist.csv` | Contains 22 evidence rows covering owner/governance, HR-001 through HR-007, pilot, restricted data, website access and production publication proof. |
+| Live Gate Evidence Checklist tab | https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit | Range readback after creation returned no populated values; Dashboard, Launch Gates and Resource Library Index links remain pending. |
+
+The local package prepares population of the live checklist only. It does not appoint leaders, approve any human-review gate, run a pilot, authorize restricted-data replacement, approve website access or publish production pages.

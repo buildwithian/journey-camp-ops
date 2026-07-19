@@ -21,6 +21,7 @@ Current live tracker state:
 - `Decisions!A7:G10` records launch-gating decisions for named owners, website access, data replacement and production publishing.
 - `Event Readiness!A9:H10` tracks the pilot Journey cycle and production website launch as not ready.
 - `Pilot Cycle Plan!A5:M16` lists twelve pilot-prep, walkthrough, logging, debrief and approved-change routing actions; Dashboard row 17 shows 12 pilot cycle plan actions pending.
+- `Gate Evidence Checklist` exists as an empty live tracker tab, with local import template `templates/operations/gate-evidence-checklist.csv` containing 22 evidence items ready for population when connector access returns.
 - `Launch Gates!A5:K10` consolidates the six remaining launch gates; Dashboard row 11 shows 6 launch gates not complete.
 - `Owner Evidence Review!A5:J13` lists nine private-source evidence reviews; Dashboard row 12 shows 9 owner evidence reviews pending.
 - `Website Access Review!A5:J18` lists 14 website-area access decisions; Dashboard row 13 shows 14 website access decisions pending.
@@ -49,5 +50,7 @@ Current review, owner, pilot, data and launch artifacts:
 - Updated operating-hub prototype HTML artifact: https://drive.google.com/file/d/13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi/view
 - Pilot Log tab lives in the Leader Delegation and Readiness Tracker.
 - Pilot Cycle Plan tab lives in the Leader Delegation and Readiness Tracker: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
+- Gate Evidence Checklist tab lives in the Leader Delegation and Readiness Tracker but is currently empty: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
+- Gate Evidence Checklist local import template: `templates/operations/gate-evidence-checklist.csv`
 
 These artifacts prepare owner appointment routing, owner appointment, source-evidence review, governance authority review, human-review routing, human review, pilot-cycle planning, pilot execution, restricted-data replacement decisions, website access review, website publication review and weekly launch-gate control but do not appoint leaders, copy private names into shared records, close any human-review gate, authorize restricted-data migration or authorize publication.

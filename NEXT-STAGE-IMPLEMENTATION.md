@@ -1,7 +1,7 @@
 # Next Stage Implementation
 
 Status: active organizational implementation, not automatic consolidation.
-Last updated: 2026-07-18T14:08:07+00:00
+Last updated: 2026-07-19T15:40:39+00:00
 
 ## Live Sources Of Truth
 
@@ -47,14 +47,15 @@ Last updated: 2026-07-18T14:08:07+00:00
 - Linked `Owner Appointment Routing` into Dashboard row 16, `GATE-001`, `TASK-010`, `TASK-011`, tracker Instructions and the Resource Library Index quality checks.
 - Added validation-backed `Pilot Cycle Plan` tab with twelve pre-pilot, run, debrief and change-routing actions for one small leadership-team pilot.
 - Linked `Pilot Cycle Plan` into Dashboard row 17, `GATE-003`, `TASK-013`, Event Readiness, tracker Instructions and the Resource Library Index quality checks.
+- Created an empty live `Gate Evidence Checklist` tab before connector usage limits stopped live population, and added a local CSV/Markdown import package with 22 evidence items covering all six open launch gates.
 
 ## Launch Gates Still Open
 
 | Gate | Current status | Evidence now present | Proof required to close |
 | --- | --- | --- | --- |
-| Appoint owners and governance fields | Not started / review required | `Owner Appointment Routing!A5:N16`, `Governance Authority Review!A5:K16`, `Owner Evidence Review!A5:J13`, `Leader Roster!A5:H16`, `TASK-010`, `TASK-011`, `DEC-003`, owner appointment packet | Authorized reviewers inspect private source evidence, then programme owners nominate candidates, confirm backup coverage, enter real leader names, availability, training status and final authority approval through HR-005. |
-| Complete seven human-review gates | Open | `Human Review Routing!A5:M11`, `Human Review!A5:N11`, `TASK-012`, review packet folder, `HUMAN-REVIEW-REQUIRED.md` | Qualified reviewers are assigned with target dates, then record reviewer name, authority, outcome, date and conditions for HR-001 through HR-007; no gate is auto-approved. |
-| Pilot one real Journey cycle | Not started | `Pilot Cycle Plan!A5:M16`, `Event Readiness!A9:H9`, `TASK-013`, `Pilot Log`, pilot evidence folder, pilot run/debrief packet | Small leadership team uses the packs and logs unclear steps, duplicated work, missing resources and unnecessary fields. |
+| Appoint owners and governance fields | Not started / review required | local `templates/operations/gate-evidence-checklist.csv` rows EVID-001 through EVID-003, empty live `Gate Evidence Checklist` tab pending population, `Owner Appointment Routing!A5:N16`, `Governance Authority Review!A5:K16`, `Owner Evidence Review!A5:J13`, `Leader Roster!A5:H16`, `TASK-010`, `TASK-011`, `DEC-003`, owner appointment packet | Authorized reviewers inspect private source evidence, then programme owners nominate candidates, confirm backup coverage, enter real leader names, availability, training status and final authority approval through HR-005. |
+| Complete seven human-review gates | Open | local `templates/operations/gate-evidence-checklist.csv` rows EVID-004 through EVID-010, empty live `Gate Evidence Checklist` tab pending population, `Human Review Routing!A5:M11`, `Human Review!A5:N11`, `TASK-012`, review packet folder, `HUMAN-REVIEW-REQUIRED.md` | Qualified reviewers are assigned with target dates, then record reviewer name, authority, outcome, date and conditions for HR-001 through HR-007; no gate is auto-approved. |
+| Pilot one real Journey cycle | Not started | local `templates/operations/gate-evidence-checklist.csv` rows EVID-011 through EVID-014, empty live `Gate Evidence Checklist` tab pending population, `Pilot Cycle Plan!A5:M16`, `Event Readiness!A9:H9`, `TASK-013`, `Pilot Log`, pilot evidence folder, pilot run/debrief packet | Small leadership team uses the packs and logs unclear steps, duplicated work, missing resources and unnecessary fields. |
 | Replace synthetic examples carefully | Review required | `TASK-014`, `DEC-005`, Resource Index quality check, restricted data replacement checklist | Approved local information is entered only in least-privilege Drive/Sheets locations; private data stays restricted. |
 | Approve website access model | Review required | `Website Access Review!A5:J18`, Dashboard row 13, `TASK-015`, `DEC-004`, website access decision brief, website publication gate checklist, Resource Index quality check | Oversight selects leaders-only, partly public with protected leader area, or public information plus authenticated tools and records the final decision. |
 | Build and publish production website | Blocked | `TASK-016`, `Event Readiness!A10:H10`, `DEC-006`, website publication gate checklist | Access model, content review, copyright boundaries and operating authority are approved before publishing. |
@@ -80,6 +81,8 @@ Last updated: 2026-07-18T14:08:07+00:00
 - Human Review Routing tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 - Pilot Log tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 - Pilot Cycle Plan tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
+- Gate Evidence Checklist live tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit (created empty; population pending connector availability)
+- Gate Evidence Checklist local import template: `templates/operations/gate-evidence-checklist.csv`
 
 | Gate | Packet |
 | --- | --- |

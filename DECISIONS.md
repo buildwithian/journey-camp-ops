@@ -168,3 +168,10 @@
 - Status: accepted
 - Decision: Add a validation-backed Pilot Cycle Plan queue before closing the pilot Journey cycle launch gate.
 - Rationale: A real pilot needs owner/date confirmation, focused walkthroughs, non-sensitive observation logging, debrief and approved-change routing. The queue makes those steps explicit while preserving the rule that no pilot evidence, restricted-data approval or launch-gate closure can be synthesized by automation.
+
+## ADR-020: Gate evidence checklist before launch-gate closure
+
+- Date: 2026-07-19
+- Status: accepted
+- Decision: Add a gate evidence checklist package before moving any remaining launch gate to complete.
+- Rationale: The six launch gates need explicit proof, not status optimism. A checklist makes evidence requirements concrete while preserving the rule that owner appointments, human-review decisions, pilot evidence, real-data replacement, access model approval and production publication remain human-gated.

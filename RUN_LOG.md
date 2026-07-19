@@ -240,3 +240,10 @@
 - Commands: create Pilot Cycle Plan tracker tab; add owner-role and plan-status dropdown validation plus target-date formatting; link Dashboard row 17, GATE-003, TASK-013, Event Readiness, tracker Instructions and Resource Library Index quality-check evidence; Sheets metadata/range/validation readback verification
 - Validation: PASS: Pilot Cycle Plan metadata readback; `Pilot Cycle Plan!A1:M16` readback; Dashboard, Instructions, Launch Gates, Tasks, Event Readiness and Quality Checks linked-range readbacks; role/status validation metadata readback; python3 tools/validate.py; python3 tests/test_site_prototype.py; bundled-python tests/test_spreadsheets.py; git diff --check; source-original tracking check
 - Issues: The real pilot has not been run; owner/date completion, walkthroughs, observation logging, debrief, approved-change routing, restricted-data approval and GATE-003 closure remain pending human execution.
+
+## Post-release: Journey V3 gate evidence checklist package
+
+- Time: 2026-07-19T15:40:39+00:00
+- Commands: read live Gate Evidence Checklist range; create local CSV/Markdown import package for six-gate evidence proof; update local audit/state files
+- Validation: PASS: python3 tools/validate.py; python3 tests/test_site_prototype.py; bundled-python tests/test_spreadsheets.py; git diff --check; source-original tracking check; live `Gate Evidence Checklist!A1:M10` readback showed an empty tab created before connector write limits stopped population
+- Issues: Connector usage limit prevented live population, dashboard formula, validation metadata and Resource Library Index quality-check updates; no gate was approved or closed.

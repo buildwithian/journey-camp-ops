@@ -19,7 +19,9 @@ This section contains templates / operations templates.
 
 ## Contents
 
-- Add documents as this section matures.
+- [Checklist Template](checklist-template.md)
+- [Decision Record Template](decision-record-template.md)
+- [Gate Evidence Checklist](gate-evidence-checklist.md)
 
 ## Use
 
