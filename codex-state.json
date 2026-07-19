@@ -8,7 +8,7 @@
   "files_inventoried": 555,
   "tests_passed": 14,
   "tests_failed": 0,
-  "last_completed_task": "Local operations and communications recovery guides aligned to review-required v0.2 metadata",
+  "last_completed_task": "Native Google Drive Import Manifest refreshed to v0.2",
   "technical_blockers": [],
   "human_review_items": [
     "HR-001: Safeguarding and child-protection material",
@@ -19,8 +19,8 @@
     "HR-006: Girls session and rite-of-passage content",
     "HR-007: Third-party benchmark and copyright boundaries"
   ],
-  "last_updated": "2026-07-19T20:11:25+00:00",
-  "next_stage_status": "Nineteen local operations/communications recovery guides and README files now carry review-required v0.2 metadata for live Journey V3 tracker tabs, template packs, decision queues, content/build surfaces and communications routing. Resource Library Quality Checks row 51 records the alignment. The sweep is metadata-only; no owner, reviewer, pilot, restricted-data, website access, build, publication, message-sending, contact-storage, sharing or launch-gate decision is approved.",
+  "last_updated": "2026-07-19T20:15:21+00:00",
+  "next_stage_status": "The native Google Drive Import Manifest now reflects the current Journey V3 prepared Drive state, including live folders, native Sheets, strategy Docs, tracker surfaces, operating hub prototype, Resource Library quality range through row 51 and non-approval boundaries. Resource Library Quality Checks row 52 records the refresh. No Drive permissions, owner names, human-review outcomes, pilot completion, restricted-data movement, website access, third-party content use, build start, deployment, publication, sharing changes or launch-gate closure are approved.",
   "drive_review_artifacts": {
     "human_review_packets_folder": "https://drive.google.com/drive/folders/1qFvxr10Tto589PexueN34XK8AFvYMjTd",
     "pilot_evidence_folder": "https://drive.google.com/drive/folders/1v1_PtevCjMEL8bwnDOz9Z2JVyglH_CZJ",
@@ -195,6 +195,9 @@
     "strategy_index_local": "docs/00-strategy/README.md",
     "strategy_target_consolidation_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit",
     "local_recovery_guide_metadata_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit",
-    "local_recovery_guide_metadata_scope": "19 files across templates/operations and templates/communications updated to review-required v0.2 metadata"
+    "local_recovery_guide_metadata_scope": "19 files across templates/operations and templates/communications updated to review-required v0.2 metadata",
+    "google_drive_import_manifest_doc": "https://docs.google.com/document/d/1Zc6guTbsp-QDcfanOFVdb59SRkHRhnfNaBtG9adkXgs/edit",
+    "google_drive_import_manifest_revision": "ALtnJHx2jLdJpjvK_8uZk7HcPIF1zQsHkZrwyIy5ggOyY9XFpRpvb0iHNOGWsgR8BGm2W2l00J92sedxpqvQJiegBfsduDwcds2RnHn4LFo",
+    "google_drive_import_manifest_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit"
   }
 }

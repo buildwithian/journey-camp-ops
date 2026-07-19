@@ -1,3 +1,12 @@
+## 2026-07-19T20:15:21+00:00
+
+- Refreshed native Google Doc `Journey V3 - Google Drive Import Manifest` to v0.2 at https://docs.google.com/document/d/1Zc6guTbsp-QDcfanOFVdb59SRkHRhnfNaBtG9adkXgs/edit
+- Replaced the older import-pending note with current Journey V3 Drive folders, native Sheets, strategy Docs, tracker surfaces, operating hub prototype, quality evidence and source/privacy boundaries.
+- Verified native manifest sentinels for `version: "0.2"`, Dashboard rows 23 through 25, `Quality Checks!A11:E51` and the non-approval boundary.
+- Added Resource Library Index `Quality Checks!A52:E52` for the native manifest refresh and verified B52:C52 dropdown validation.
+- Validation: PASS: native Google Drive Import Manifest sentinel readback, Resource Library `Quality Checks!A52:E52` readback with B52:C52 dropdown validation, python3 tools/validate.py, python3 tests/test_site_prototype.py, bundled-python tests/test_spreadsheets.py, python3 -c json and manifest state check, git diff --check, source-original tracking check.
+- Issues: The native manifest refresh does not approve Drive permissions, owner names, human-review outcomes, pilot completion, restricted-data movement, website access, third-party content use, build start, deployment, publication, sharing changes or launch-gate closure.
+
 ## 2026-07-19T20:11:25+00:00
 
 - Aligned 19 local recovery guides and README files across `templates/operations` and `templates/communications` to `status: "review-required"`, `version: "0.2"` and `last_reviewed: "2026-07-19"` for the live Journey V3 tracker tabs, review packets, decision queues, template packs, content/build surfaces and communications routing.

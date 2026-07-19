@@ -26,6 +26,7 @@ Current live tracker state:
 - Resource Library Index `Quality Checks!A49:E49` records the strategy requirements and Drive runbook refresh as `Done`.
 - Resource Library Index `Quality Checks!A50:E50` records the strategy target-state and consolidation-plan alignment as `Done`.
 - Resource Library Index `Quality Checks!A51:E51` records the local recovery-guide metadata alignment as `Done`.
+- Resource Library Index `Quality Checks!A52:E52` records the native Google Drive Import Manifest refresh as `Done`.
 - `Leader Roster!A5:H16` lists every required owner role with real leader names still blank for programme-owner completion.
 - `Owner Appointment Routing!A5:N16` lists twelve role-appointment actions; Dashboard row 16 shows 12 owner appointment actions pending.
 - `Human Review!A5:N11` contains HR-001 through HR-007, all open, with packet links plus sign-off fields for assigned reviewer, reviewer authority, decision, date and conditions.
@@ -79,6 +80,7 @@ Current review, owner, pilot, data and launch artifacts:
 - Alpha-Inspired Hub Target State local guide: `docs/00-strategy/alpha-inspired-journey-operating-hub.md`
 - Google Drive Consolidation And Resource Library Plan v0.2 records the current Drive maintenance model, duplicate handling, template standards and access/data boundaries: https://docs.google.com/document/d/1nJGoo9RYZfiLf_vQLyp8eCXRB8la3eQNVhn_6MpUmJI/edit
 - Google Drive Consolidation Plan local guide: `docs/00-strategy/google-drive-consolidation-and-resource-library-plan.md`
+- Google Drive Import Manifest v0.2 records current Journey V3 Drive-state evidence, tracker coverage, quality range and non-approval boundaries: https://docs.google.com/document/d/1Zc6guTbsp-QDcfanOFVdb59SRkHRhnfNaBtG9adkXgs/edit
 - Strategy Index local guide: `docs/00-strategy/README.md`
 - Website Operating Hub Requirements v0.2 records current Journey V3 site requirements, source-of-truth links, prototype coverage, Website Build Backlog dependencies and non-approval boundaries: https://docs.google.com/document/d/15y0vZMqu5Dq0tse0eNUk9_4DDhsIwU-QCLDeg_wKNWo/edit
 - Website Operating Hub Requirements local guide: `docs/00-strategy/website-operating-hub-requirements.md`

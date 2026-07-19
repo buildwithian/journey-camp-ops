@@ -1,3 +1,9 @@
+## 2026-07-19T20:15:21+00:00
+
+- Refreshed the native Google Drive Import Manifest from an import-pending note into a current Journey V3 Drive-state manifest.
+- Kept the manifest descriptive and non-approval; it records prepared Drive evidence without granting permissions, changing sharing or closing launch gates.
+- Recorded the refresh in Resource Library `Quality Checks!A52:E52` and local audit state.
+
 ## 2026-07-19T20:11:25+00:00
 
 - Treated the local recovery guides for live Journey V3 tracker tabs, template packs and communications routing as current review-required artifacts rather than stale drafts.
