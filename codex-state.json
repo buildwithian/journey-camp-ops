@@ -8,7 +8,7 @@
   "files_inventoried": 555,
   "tests_passed": 14,
   "tests_failed": 0,
-  "last_completed_task": "Operating hub prototype strategy view refreshed",
+  "last_completed_task": "Strategy Review Queue tracker added",
   "technical_blockers": [],
   "human_review_items": [
     "HR-001: Safeguarding and child-protection material",
@@ -19,8 +19,8 @@
     "HR-006: Girls session and rite-of-passage content",
     "HR-007: Third-party benchmark and copyright boundaries"
   ],
-  "last_updated": "2026-07-19T20:23:32+00:00",
-  "next_stage_status": "The existing Drive HTML operating hub prototype now includes a synthetic Strategy Control Board with six strategy references, review-required counts and quality evidence rows 45, 49, 50, 52 and 53. Resource Library Quality Checks row 53 records the refresh. No Alpha asset use, Drive permissions, owner names, human-review outcomes, pilot completion, restricted-data movement, website access, build start, deployment, publication, sharing changes or launch-gate closure are approved.",
+  "last_updated": "2026-07-19T20:51:45+00:00",
+  "next_stage_status": "The Leader Delegation tracker now includes Strategy Review Queue!A1:N10 with six review-required strategy references, Dashboard row 26 showing 6 pending strategy reviews, Instructions row 34 guidance and Resource Library Quality Checks row 54 evidence. No Alpha asset use, Drive permissions, owner names, human-review outcomes, pilot completion, restricted-data movement, website access, build start, deployment, publication, sharing changes or launch-gate closure are approved.",
   "drive_review_artifacts": {
     "human_review_packets_folder": "https://drive.google.com/drive/folders/1qFvxr10Tto589PexueN34XK8AFvYMjTd",
     "pilot_evidence_folder": "https://drive.google.com/drive/folders/1v1_PtevCjMEL8bwnDOz9Z2JVyglH_CZJ",
@@ -206,6 +206,14 @@
     "operating_hub_prototype_strategy_view_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit",
     "operating_hub_prototype_strategy_view_local_index": "site/index.html",
     "operating_hub_prototype_strategy_view_local_named_copy": "site/operating-hub-prototype.html",
-    "operating_hub_prototype_strategy_view_test": "tests/test_site_prototype.py"
+    "operating_hub_prototype_strategy_view_test": "tests/test_site_prototype.py",
+    "strategy_review_queue_tab": "https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit",
+    "strategy_review_queue_range": "Strategy Review Queue!A5:N10",
+    "strategy_review_queue_dashboard_metric": "Dashboard!A26:C26",
+    "strategy_review_queue_instructions": "Instructions!A34:B34",
+    "strategy_review_queue_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit",
+    "strategy_review_queue_local_csv": "templates/operations/strategy-review-queue.csv",
+    "strategy_review_queue_local_guide": "templates/operations/strategy-review-queue.md",
+    "strategy_review_queue_sheet_title": "Strategy Review Queue"
   }
 }

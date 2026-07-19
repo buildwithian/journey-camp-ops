@@ -422,3 +422,10 @@
 - Status: accepted
 - Decision: Add a Strategy Control Board to the non-production operating hub prototype before any production website build or publication.
 - Rationale: The current Drive copy now has multiple strategy references that leaders need to compare from the single website-shaped review surface. The Strategy view makes the Alpha-inspired target state, benchmark brief, website requirements, Drive runbook, consolidation plan and import manifest visible together while preserving that Alpha asset use, access approval, build start, deployment, publication, sharing changes and launch-gate closure remain human-gated.
+
+## ADR-038: Strategy review queue before build-scope acceptance
+
+- Date: 2026-07-19
+- Status: accepted
+- Decision: Add a validation-backed Strategy Review Queue in the Leader Delegation tracker before treating strategy references as accepted inputs for production build, Drive cleanup or publication work.
+- Rationale: The strategy layer now includes multiple current Docs and a prototype view, but leaders still need an owner/authority/status queue to keep review work visible. The queue makes strategy maintenance assignable while preserving that build scope, access changes, copyright/Alpha asset use, restricted-data movement, publication and launch-gate closure remain human-gated.

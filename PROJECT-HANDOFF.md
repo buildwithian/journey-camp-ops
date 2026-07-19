@@ -28,6 +28,7 @@ Current live tracker state:
 - Resource Library Index `Quality Checks!A51:E51` records the local recovery-guide metadata alignment as `Done`.
 - Resource Library Index `Quality Checks!A52:E52` records the native Google Drive Import Manifest refresh as `Done`.
 - Resource Library Index `Quality Checks!A53:E53` records the operating hub strategy prototype refresh as `Done`.
+- Resource Library Index `Quality Checks!A54:E54` records the Strategy Review Queue tracker as `Done`.
 - `Leader Roster!A5:H16` lists every required owner role with real leader names still blank for programme-owner completion.
 - `Owner Appointment Routing!A5:N16` lists twelve role-appointment actions; Dashboard row 16 shows 12 owner appointment actions pending.
 - `Human Review!A5:N11` contains HR-001 through HR-007, all open, with packet links plus sign-off fields for assigned reviewer, reviewer authority, decision, date and conditions.
@@ -44,6 +45,7 @@ Current live tracker state:
 - `Website Content Review!A5:N24` contains 20 proposed website content rows; Dashboard row 23 shows 20 website content reviews pending.
 - `Leadership Decision Capture!A5:N22` contains 18 authorized-session decision rows; Dashboard row 24 shows 18 leadership decisions pending.
 - `Website Build Backlog!A5:N24` contains 20 blocked or approval-gated production-site build rows; Dashboard row 25 shows 20 build items blocked or pending.
+- `Strategy Review Queue!A5:N10` contains six strategy-reference review rows; Dashboard row 26 shows 6 strategy reviews pending.
 - `Communications!A21:G21` links the Website Content Approval Templates Doc as `Ready` for content owners, copyright/legal reviewers and the website approving authority before WCR approvals.
 - `Instructions!A31:B31` records the content approval template boundary: it supports WCR decision capture but does not approve content, copy Alpha assets, broaden sharing, publish pages or close GATE-006.
 - `Communications!A13:G13` links the Leadership Review Message Templates Doc as a ready role-only wording pack for COMM-001 through COMM-016.
@@ -116,6 +118,9 @@ Current review, owner, pilot, data and launch artifacts:
 - Website Build Backlog tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 - Website Build Backlog local import template: `templates/operations/website-build-backlog.csv`
 - Website Build Backlog local guide: `templates/operations/website-build-backlog.md`
+- Strategy Review Queue tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
+- Strategy Review Queue local import template: `templates/operations/strategy-review-queue.csv`
+- Strategy Review Queue local guide: `templates/operations/strategy-review-queue.md`
 - Operating Hub Prototype build backlog refresh: https://drive.google.com/file/d/13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi/view (same Drive file, modified 2026-07-19T19:43:56.747Z, size 50598 bytes)
 - Operating Hub Prototype strategy view refresh: https://drive.google.com/file/d/13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi/view (same Drive file, modified 2026-07-19T20:22:01.561Z, size 53927 bytes)
 - Owner Evidence Review tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit

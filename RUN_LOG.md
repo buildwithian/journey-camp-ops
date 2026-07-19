@@ -1,3 +1,12 @@
+## 2026-07-19T20:51:45+00:00
+
+- Added validation-backed live `Strategy Review Queue!A1:N10` with six strategy-reference rows for target-state, benchmark, requirements, runbook, consolidation-plan and import-manifest review.
+- Linked the queue into Dashboard row 26 and Instructions row 34 while keeping build scope, access changes, Drive maintenance changes and publication decisions human-gated.
+- Added Resource Library Index `Quality Checks!A54:E54` for the Strategy Review Queue and verified B54:C54 dropdown validation.
+- Created local recovery/import package `templates/operations/strategy-review-queue.csv` and `templates/operations/strategy-review-queue.md`; added the guide to `templates/operations/README.md`.
+- Validation: PASS: Strategy Review Queue metadata and `A1:N10` readback; Dashboard `A26:C26` formula readback showing 6 pending reviews; Instructions `A34:B34` readback; Resource Library `Quality Checks!A54:E54` readback with B54:C54 dropdown validation; python3 tools/validate.py; python3 tests/test_site_prototype.py; bundled-python tests/test_spreadsheets.py; python3 -c csv/json load and strategy-review-queue guide sentinels; git diff --check; source-original tracking check.
+- Issues: The Strategy Review Queue does not approve Alpha asset use, website access, build start, deployment, publication, Drive sharing, restricted-data movement, DEC-006/TASK-016 updates or launch-gate closure.
+
 ## 2026-07-19T20:23:32+00:00
 
 - Updated local `site/index.html` and `site/operating-hub-prototype.html` with a synthetic Strategy view that surfaces six strategy sources, review-required counts and quality-evidence rows while keeping the prototype self-contained and URL-free.
