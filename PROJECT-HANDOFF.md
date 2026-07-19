@@ -20,6 +20,7 @@ Current live tracker state:
 - Resource Library Index `Quality Checks!A43:E43` records the Website Content Approval Templates pack as `Done`.
 - Resource Library Index `Quality Checks!A44:E44` records the operating hub content approval prototype refresh as `Done`.
 - Resource Library Index `Quality Checks!A45:E45` records the Alpha-style website benchmark adaptation brief as `Done`.
+- Resource Library Index `Quality Checks!A46:E46` records the Leadership Decision Capture tab as `Done`.
 - `Leader Roster!A5:H16` lists every required owner role with real leader names still blank for programme-owner completion.
 - `Owner Appointment Routing!A5:N16` lists twelve role-appointment actions; Dashboard row 16 shows 12 owner appointment actions pending.
 - `Human Review!A5:N11` contains HR-001 through HR-007, all open, with packet links plus sign-off fields for assigned reviewer, reviewer authority, decision, date and conditions.
@@ -34,6 +35,7 @@ Current live tracker state:
 - `Leadership Review Agenda!A5:M31` contains 27 review-agenda checkpoint rows; Dashboard row 21 shows 27 leadership review agenda items pending.
 - `Leadership Review Communications!A5:N20` contains 16 role-only outreach rows; Dashboard row 22 shows 16 leadership review communications pending.
 - `Website Content Review!A5:N24` contains 20 proposed website content rows; Dashboard row 23 shows 20 website content reviews pending.
+- `Leadership Decision Capture!A5:N22` contains 18 authorized-session decision rows; Dashboard row 24 shows 18 leadership decisions pending.
 - `Communications!A21:G21` links the Website Content Approval Templates Doc as `Ready` for content owners, copyright/legal reviewers and the website approving authority before WCR approvals.
 - `Instructions!A31:B31` records the content approval template boundary: it supports WCR decision capture but does not approve content, copy Alpha assets, broaden sharing, publish pages or close GATE-006.
 - `Communications!A13:G13` links the Leadership Review Message Templates Doc as a ready role-only wording pack for COMM-001 through COMM-016.
@@ -90,6 +92,9 @@ Current review, owner, pilot, data and launch artifacts:
 - Production Website Publication Approval Templates Doc: https://docs.google.com/document/d/1rXpF56LMVwuHwVbqm0KKtuwHBMzY-ljbT-qnLi6BYE0/edit
 - Production Website Publication Approval Templates local guide: `templates/operations/production-website-publication-approval-templates.md`
 - Launch Gates tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
+- Leadership Decision Capture tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
+- Leadership Decision Capture local import template: `templates/operations/leadership-decision-capture.csv`
+- Leadership Decision Capture local guide: `templates/operations/leadership-decision-capture.md`
 - Owner Evidence Review tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 - Website Access Review tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 - Website Content Review tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
@@ -123,4 +128,4 @@ Current review, owner, pilot, data and launch artifacts:
 - Pilot Evidence Capture Templates Doc supports GATE-003 observation, debrief and accepted-change routing during a real pilot: https://docs.google.com/document/d/1F3rh9hJd9FPXFAAHsrVnVeeH-3P8FilO6_9en3Z97W4/edit
 - Pilot Evidence Capture Templates local guide: `templates/operations/pilot-evidence-capture-templates.md`
 
-These artifacts prepare START HERE launch-gate entrypoint routing, operating-hub prototype walkthrough, planning control, template bundle review, owner appointment routing, owner appointment, owner-appointment confirmation templates, source-evidence review, governance authority review, human-review routing, human review, leadership-review agenda execution, leadership-review output capture, role-only leadership-review communications, leadership-review message templates, human-review sign-off templates, launch-gate review facilitation, pilot-cycle planning, pilot evidence capture templates, pilot execution, restricted-data placement approval templates, restricted-data replacement decisions, website content review, website content approval templates, operating-hub content approval prototype view, Alpha-style website benchmark adaptation, website access model decision templates, website access review, production website publication approval templates, website publication review and weekly launch-gate control but do not appoint leaders, copy private names into shared records, close any human-review gate, authorize restricted-data migration, approve website access or authorize publication.
+These artifacts prepare START HERE launch-gate entrypoint routing, operating-hub prototype walkthrough, planning control, template bundle review, owner appointment routing, owner appointment, owner-appointment confirmation templates, source-evidence review, governance authority review, human-review routing, human review, leadership-review agenda execution, leadership-review output capture, role-only leadership-review communications, leadership-review message templates, human-review sign-off templates, launch-gate review facilitation, pilot-cycle planning, pilot evidence capture templates, pilot execution, restricted-data placement approval templates, restricted-data replacement decisions, website content review, website content approval templates, operating-hub content approval prototype view, Alpha-style website benchmark adaptation, leadership decision capture, website access model decision templates, website access review, production website publication approval templates, website publication review and weekly launch-gate control but do not appoint leaders, copy private names into shared records, close any human-review gate, authorize restricted-data migration, approve website access or authorize publication.

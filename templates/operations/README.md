@@ -24,6 +24,7 @@ This section contains templates / operations templates.
 - [Gate Evidence Checklist](gate-evidence-checklist.md)
 - [Leadership Review Schedule](leadership-review-schedule.md)
 - [Leadership Review Outputs](leadership-review-outputs.md)
+- [Leadership Decision Capture](leadership-decision-capture.md)
 - [Leadership Review Agenda](leadership-review-agenda.md)
 - [Human Review Sign-off Templates](human-review-sign-off-templates.md)
 - [Owner Appointment Confirmation Templates](owner-appointment-confirmation-templates.md)

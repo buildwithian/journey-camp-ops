@@ -1,3 +1,9 @@
+## 2026-07-19T19:24:14+00:00
+
+- Added a Leadership Decision Capture tab as the practical authorized-session surface for real implementation decisions.
+- Kept leader naming, reviewer outcomes, pilot completion, restricted-data placement, website access, content approval, publication authorization, sharing changes and launch-gate closure pending accountable human evidence.
+- Linked the tab to Dashboard, Instructions and Resource Library quality checks so actual organizational implementation has a single capture queue without treating preparation as approval.
+
 ## 2026-07-19T19:12:20+00:00
 
 - Captured a current-source Alpha-style website benchmark as product-direction evidence for Journey V3.

@@ -8,7 +8,7 @@
   "files_inventoried": 555,
   "tests_passed": 14,
   "tests_failed": 0,
-  "last_completed_task": "Alpha-style website benchmark adaptation brief added from current public sources without copying Alpha content or approving publication",
+  "last_completed_task": "Leadership Decision Capture live tab, dashboard metric and local recovery package added without entering human decisions",
   "technical_blockers": [],
   "human_review_items": [
     "HR-001: Safeguarding and child-protection material",
@@ -19,8 +19,8 @@
     "HR-006: Girls session and rite-of-passage content",
     "HR-007: Third-party benchmark and copyright boundaries"
   ],
-  "last_updated": "2026-07-19T19:12:20+00:00",
-  "next_stage_status": "A native and local Alpha-style website benchmark adaptation brief now captures current public Alpha UK, Alpha Australia, Alpha Canada and Alpha USA Help Center run/host patterns as original Journey requirements, feature backlog items and no-copy approval boundaries. Resource Library Quality Checks row 45 records the brief. Copyright use, public content, website access, sharing changes, production build/deployment, DEC-006/TASK-016 updates, gate closure and publication remain pending accountable human approval.",
+  "last_updated": "2026-07-19T19:24:14+00:00",
+  "next_stage_status": "The Leader Delegation tracker now includes a validation-backed Leadership Decision Capture tab with 18 authorized-session rows, Dashboard row 24 showing 18 pending leadership decisions, Instructions row 32 and Resource Library Quality Checks row 46. Rows cover actual owner names, governance authority, HR-001 through HR-007 outcomes, pilot evidence, restricted-data approvals, website access model, website content approval and publication go/no-go. Name, decision, date and evidence fields remain blank until accountable human authorities record evidence; no gates, access decisions, data migration, publication or sharing changes are approved.",
   "drive_review_artifacts": {
     "human_review_packets_folder": "https://drive.google.com/drive/folders/1qFvxr10Tto589PexueN34XK8AFvYMjTd",
     "pilot_evidence_folder": "https://drive.google.com/drive/folders/1v1_PtevCjMEL8bwnDOz9Z2JVyglH_CZJ",
@@ -155,6 +155,14 @@
     "alpha_style_website_benchmark_doc": "https://docs.google.com/document/d/1_ZqYJ3yz90ElOe7aR6IfgEflQ1GmM3944_5M2ZZD6Tc/edit",
     "alpha_style_website_benchmark_local_guide": "docs/00-strategy/alpha-style-website-benchmark-adaptation-brief.md",
     "alpha_style_website_benchmark_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit",
-    "alpha_style_website_benchmark_sources_checked": "Alpha UK Run Alpha; Alpha Australia Run Alpha; Alpha Canada Running Alpha; Alpha USA Help Center resources article; checked 2026-07-19"
+    "alpha_style_website_benchmark_sources_checked": "Alpha UK Run Alpha; Alpha Australia Run Alpha; Alpha Canada Running Alpha; Alpha USA Help Center resources article; checked 2026-07-19",
+    "leadership_decision_capture_tab": "https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit",
+    "leadership_decision_capture_range": "Leadership Decision Capture!A5:N22",
+    "leadership_decision_capture_dashboard_metric": "Dashboard!A24:C24",
+    "leadership_decision_capture_instructions": "Instructions!A32:B32",
+    "leadership_decision_capture_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit",
+    "leadership_decision_capture_local_csv": "templates/operations/leadership-decision-capture.csv",
+    "leadership_decision_capture_local_guide": "templates/operations/leadership-decision-capture.md",
+    "leadership_decision_capture_sheet_title": "Leadership Decision Capture"
   }
 }

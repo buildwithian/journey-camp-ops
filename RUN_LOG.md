@@ -1,3 +1,12 @@
+## 2026-07-19T19:24:14+00:00
+
+- Added validation-backed live `Leadership Decision Capture!A5:N22` with 18 decision-capture rows covering real owner names, governance authority, HR-001 through HR-007, pilot evidence, restricted-data approval, website access model, website content approval and publication go/no-go.
+- Linked the tab into Dashboard row 24 and Instructions row 32 while keeping every decision pending accountable human evidence.
+- Added Resource Library Index `Quality Checks!A46:E46` and verified B46:C46 dropdown validation.
+- Created local recovery/import package `templates/operations/leadership-decision-capture.csv` and `templates/operations/leadership-decision-capture.md`; added the guide to `templates/operations/README.md`.
+- Validation: PASS: python3 tools/validate.py, python3 tests/test_site_prototype.py, bundled-python tests/test_spreadsheets.py, python3 -c json load and leadership-decision-capture CSV/guide sentinel checks, git diff --check, source-original tracking check.
+- Issues: The decision-capture tab does not appoint leaders, approve HR gates, run a pilot, migrate restricted data, decide access, approve content, publish pages, broaden sharing or close launch gates.
+
 ## 2026-07-19T19:12:20+00:00
 
 - Created native Google Doc `Journey V3 - Alpha-Style Website Benchmark And Adaptation Brief` in the Strategy and Runbooks folder: https://docs.google.com/document/d/1_ZqYJ3yz90ElOe7aR6IfgEflQ1GmM3944_5M2ZZD6Tc/edit
