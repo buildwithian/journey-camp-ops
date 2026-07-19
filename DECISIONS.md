@@ -1,3 +1,9 @@
+## 2026-07-19T20:11:25+00:00
+
+- Treated the local recovery guides for live Journey V3 tracker tabs, template packs and communications routing as current review-required artifacts rather than stale drafts.
+- Kept the sweep metadata-only for local guides; no tracker status, human gate, message, access, build or publication decision changed.
+- Recorded the alignment in Resource Library `Quality Checks!A51:E51` so local recovery state remains visible beside live Drive evidence.
+
 ## 2026-07-19T20:06:26+00:00
 
 - Refreshed the Alpha-inspired target state and Drive consolidation plan as current Journey V3 operating references instead of future-tense planning notes.

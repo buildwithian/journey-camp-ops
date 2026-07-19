@@ -1,11 +1,11 @@
 ---
 title: "Templates / Operations"
 document_id: "TPL-01F867466015"
-status: "draft"
+status: "review-required"
 owner_role: "Journey Lead"
 reviewers: []
-version: "0.1"
-last_reviewed: "2026-07-13"
+version: "0.2"
+last_reviewed: "2026-07-19"
 next_review: ""
 programme: "general"
 sensitivity: "internal"
@@ -15,7 +15,7 @@ source_references: []
 
 # Templates / Operations
 
-This section contains templates / operations templates.
+This section contains local recovery guides and import templates for the live Journey V3 operating trackers, review packets, decision queues and website build backlog.
 
 ## Contents
 
@@ -39,4 +39,4 @@ This section contains templates / operations templates.
 
 ## Use
 
-Start with approved or review-required documents. Historical examples are not canonical operating instructions.
+Use these files as local recovery/import companions for the live Drive and Google Sheets surfaces. They prepare review, delegation and launch-gate execution; they do not approve owners, reviewers, pilot evidence, restricted-data movement, website access, build, publication or sharing.

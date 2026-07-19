@@ -4,7 +4,7 @@ document_id: "TPL-LEADERSHIP-REVIEW-OUTPUTS"
 status: "review-required"
 owner_role: "Knowledge Management Lead"
 reviewers: ["Journey Lead", "Oversight Lead", "Programme governance authority"]
-version: "0.1"
+version: "0.2"
 last_reviewed: "2026-07-19"
 next_review: ""
 programme: "general"

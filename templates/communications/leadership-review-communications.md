@@ -1,10 +1,10 @@
 ---
 title: "Leadership Review Communications"
 document_id: "TPL-COMMUNICATIONS-LEADERSHIP-REVIEW-COMMUNICATIONS"
-status: "draft"
+status: "review-required"
 owner_role: "Communications Lead"
 reviewers: []
-version: "0.1"
+version: "0.2"
 last_reviewed: "2026-07-19"
 next_review: ""
 programme: "general"

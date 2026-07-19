@@ -4,7 +4,7 @@ document_id: "OPS-LEADERSHIP-DECISION-CAPTURE"
 status: "review-required"
 owner_role: "Oversight Lead"
 reviewers: ["Journey Lead", "Programme governance authority"]
-version: "0.1"
+version: "0.2"
 last_reviewed: "2026-07-19"
 next_review: ""
 programme: "general"

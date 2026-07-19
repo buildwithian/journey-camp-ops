@@ -1,10 +1,10 @@
 ---
 title: "Restricted Data Placement Approval Templates"
 document_id: "TPL-RESTRICTED-DATA-APPROVAL-001"
-status: "draft"
+status: "review-required"
 owner_role: "Administration Lead"
 reviewers: []
-version: "0.1"
+version: "0.2"
 last_reviewed: "2026-07-19"
 next_review: ""
 programme: "general"

@@ -1,11 +1,11 @@
 ---
 title: "Templates / Communications"
 document_id: "TPL-881FBBC8033A"
-status: "draft"
+status: "review-required"
 owner_role: "Journey Lead"
 reviewers: []
-version: "0.1"
-last_reviewed: "2026-07-13"
+version: "0.2"
+last_reviewed: "2026-07-19"
 next_review: ""
 programme: "general"
 sensitivity: "internal"
@@ -15,7 +15,7 @@ source_references: []
 
 # Templates / Communications
 
-This section contains templates / communications templates.
+This section contains local recovery guides and import templates for role-only Journey V3 communications, including the leadership review communications queue and message-template pack.
 
 ## Contents
 
@@ -26,4 +26,4 @@ This section contains templates / communications templates.
 
 ## Use
 
-Start with approved or review-required documents. Historical examples are not canonical operating instructions.
+Use these files as local companions for live communications surfaces. They prepare message routing and wording; they do not send messages, store contact details, approve decisions or close launch gates.

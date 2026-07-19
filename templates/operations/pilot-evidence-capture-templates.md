@@ -1,10 +1,10 @@
 ---
 title: "Pilot Evidence Capture Templates"
 document_id: "TPL-PILOT-EVIDENCE-CAPTURE-001"
-status: "draft"
+status: "review-required"
 owner_role: "Journey Lead"
 reviewers: []
-version: "0.1"
+version: "0.2"
 last_reviewed: "2026-07-19"
 next_review: ""
 programme: "general"
