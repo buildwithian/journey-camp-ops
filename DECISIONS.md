@@ -457,3 +457,10 @@
 - Status: accepted
 - Decision: Add a validation-backed Template Improvement Queue in the Resource Library Index before replacing rough, duplicate or source-derived templates with improved canonical outputs.
 - Rationale: The user wants summarized and improved Google Drive and Sheets templates, but draft improvement must stay separate from source deletion, restricted-data movement, content approval and publication. The queue makes owner role, output format, simplification goal, approval authority and placement explicit before any artifact becomes canonical.
+
+## ADR-043: Template improvement queue prototype mirrors live Resource Library only
+
+- Date: 2026-07-19
+- Status: accepted
+- Decision: Mirror the Resource Library Template Improvement Queue inside the non-production operating hub prototype after the live queue exists.
+- Rationale: The single website-shaped review surface should let leaders review template-improvement work beside the Template Bundles view while keeping Drive and Sheets as the source of truth. The prototype remains synthetic and does not approve source overwrite, canonical replacement, restricted-data movement, sharing changes, build, publication or launch-gate closure.

@@ -8,7 +8,7 @@
   "files_inventoried": 555,
   "tests_passed": 14,
   "tests_failed": 0,
-  "last_completed_task": "Template Improvement Queue tracker added",
+  "last_completed_task": "Operating hub template queue prototype aligned",
   "technical_blockers": [],
   "human_review_items": [
     "HR-001: Safeguarding and child-protection material",
@@ -19,8 +19,8 @@
     "HR-006: Girls session and rite-of-passage content",
     "HR-007: Third-party benchmark and copyright boundaries"
   ],
-  "last_updated": "2026-07-19T21:19:49+00:00",
-  "next_stage_status": "The Resource Library Index now includes a validation-backed Template Improvement Queue with twelve review-required template-improvement areas, Dashboard row 12 showing 12 pending items, Instructions row 10 and Quality Checks row 58. No source overwrite, canonical replacement, content approval, leader appointment, restricted-data movement, sharing change, website build, publication or launch-gate closure is approved.",
+  "last_updated": "2026-07-19T21:26:42+00:00",
+  "next_stage_status": "The operating hub prototype now mirrors the Resource Library Template Improvement Queue with TIQ IDs, pending count, output targets, owner roles, output formats, approval authorities and non-overwrite boundaries in the local HTML files and the existing Drive HTML artifact. Resource Library Quality Checks row 59 records the alignment as Done with validation. No source overwrite, canonical replacement, content approval, restricted-data movement, sharing change, website build, deployment, publication or launch-gate closure is approved.",
   "drive_review_artifacts": {
     "human_review_packets_folder": "https://drive.google.com/drive/folders/1qFvxr10Tto589PexueN34XK8AFvYMjTd",
     "pilot_evidence_folder": "https://drive.google.com/drive/folders/1v1_PtevCjMEL8bwnDOz9Z2JVyglH_CZJ",
@@ -244,6 +244,13 @@
     "template_improvement_queue_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit",
     "template_improvement_queue_local_csv": "templates/operations/template-improvement-queue.csv",
     "template_improvement_queue_local_guide": "templates/operations/template-improvement-queue.md",
-    "template_improvement_queue_sheet_title": "Template Improvement Queue"
+    "template_improvement_queue_sheet_title": "Template Improvement Queue",
+    "operating_hub_prototype_template_queue_drive_file": "https://drive.google.com/file/d/13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi/view",
+    "operating_hub_prototype_template_queue_modified_time": "2026-07-19T21:23:50.561Z",
+    "operating_hub_prototype_template_queue_size_bytes": "65081",
+    "operating_hub_prototype_template_queue_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit",
+    "operating_hub_prototype_template_queue_local_index": "site/index.html",
+    "operating_hub_prototype_template_queue_local_named_copy": "site/operating-hub-prototype.html",
+    "operating_hub_prototype_template_queue_test": "tests/test_site_prototype.py"
   }
 }
