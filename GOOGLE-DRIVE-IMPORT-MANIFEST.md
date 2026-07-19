@@ -114,6 +114,7 @@ Resource Library Index `current_drive_link` for these three rows points to the p
 | --- | --- | --- |
 | Journey V3 - Operating Hub Prototype.html | 04 Website Operating Hub | https://drive.google.com/file/d/13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi/view |
 | Journey V3 - Operating Hub Prototype.html access-view refresh | 04 Website Operating Hub | Updated in place on 2026-07-18; same file ID, modified time 2026-07-18T13:27:54.544Z, size 20170 bytes. |
+| Journey V3 - Operating Hub Prototype.html gate-review refresh | 04 Website Operating Hub | Updated in place on 2026-07-19; same file ID `13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi`, modified time 2026-07-19T18:10:13.509Z, size 22549 bytes. |
 
 ## Verification
 
@@ -535,3 +536,14 @@ Status: native Google Doc and local guide created on 2026-07-19.
 | Resource Library quality check | `Quality Checks!A39:E39` | Readback showed the launch gate review pack marked `Done` with owner, HR, pilot, data, access, publication and gate-closure boundaries. |
 
 The launch gate review pack supports human execution across the six remaining gates only. It does not appoint leaders, assign reviewers, approve HR gates, run the pilot, migrate restricted data, approve access, approve publication, broaden sharing, publish pages or close launch gates.
+
+## Operating Hub Gate Review Prototype Refresh
+
+Status: local HTML and Drive raw HTML artifact updated on 2026-07-19.
+
+| Artifact | Location | Verification |
+| --- | --- | --- |
+| Local operating hub prototype | `site/index.html`; `site/operating-hub-prototype.html` | Site prototype test readback showed `Launch Gate Review`, `gateRows` and `gateOpenCount` markers with no external URL dependency. |
+| Drive operating hub prototype | https://drive.google.com/file/d/13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi/view | Metadata readback showed same file ID `13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi`, parent `1V7VG7E2MuGg7KaLqjgncWefbXB0PkDbJ`, modified time 2026-07-19T18:10:13.509Z, size 22549 bytes and `text/html` MIME type. |
+
+The gate-review prototype refresh is a synthetic review surface only. It does not publish a production site, broaden Drive sharing, approve website access, approve human-review gates, appoint leaders, run a pilot, authorize restricted-data migration or close launch gates.

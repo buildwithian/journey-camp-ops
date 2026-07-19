@@ -45,7 +45,7 @@ Current live tracker state:
 - `Owner Evidence Review!A5:J13` lists nine private-source evidence reviews; Dashboard row 12 shows 9 owner evidence reviews pending.
 - `Website Access Review!A5:J18` lists 14 website-area access decisions; Dashboard row 13 shows 14 website access decisions pending.
 - `Governance Authority Review!A5:K16` lists 12 final-authority decisions; Dashboard row 14 shows 12 governance authority decisions pending.
-- The local operating-hub prototype and Drive HTML artifact include a synthetic Access view for these decisions; it is not a production deployment.
+- The local operating-hub prototype and Drive HTML artifact include synthetic Gate Review and Access views for launch gates and access decisions; it is not a production deployment.
 
 Do not publish the production website or broaden access until the access model, content review, copyright boundary and final operating authority are approved.
 
@@ -82,7 +82,7 @@ Current review, owner, pilot, data and launch artifacts:
 - Governance Authority Review tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 - Owner Appointment Routing tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 - Human Review Routing tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
-- Updated operating-hub prototype HTML artifact: https://drive.google.com/file/d/13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi/view
+- Updated operating-hub prototype HTML artifact with Gate Review view: https://drive.google.com/file/d/13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi/view (same file ID `13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi`, modified 2026-07-19T18:10:13.509Z, size 22549 bytes)
 - Pilot Log tab lives in the Leader Delegation and Readiness Tracker.
 - Pilot Cycle Plan tab lives in the Leader Delegation and Readiness Tracker: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 - Gate Evidence Checklist tab lives in the Leader Delegation and Readiness Tracker and is populated with 22 evidence rows: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
