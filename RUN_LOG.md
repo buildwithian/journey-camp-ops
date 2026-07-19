@@ -1,3 +1,11 @@
+## 2026-07-19T21:40:36+00:00
+
+- Updated local `site/index.html` and `site/operating-hub-prototype.html` with a Templates view section that mirrors the live Resource Library Template Acceptance Checklist for TAC-001 through TAC-012, pending count, canonical candidates, reviewer authorities, acceptance status, restricted-data checks, replacement targets and non-replacement boundaries.
+- Updated the existing Drive HTML artifact in place: https://drive.google.com/file/d/13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi/view (same file ID `13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi`, modified 2026-07-19T21:40:04.000Z, size 70951 bytes, parent `1V7VG7E2MuGg7KaLqjgncWefbXB0PkDbJ`).
+- Added Resource Library Index `Quality Checks!A61:E61` for the operating hub template acceptance view alignment and verified B61:C61 dropdown validation.
+- Validation: PASS: node --check extracted prototype script; python3 tests/test_site_prototype.py; prototype copy cmp; Drive HTML update metadata readback; Resource Library `Quality Checks!A61:E61` readback with B61:C61 dropdown validation; python3 tools/validate.py; bundled-python tests/test_spreadsheets.py; template-acceptance CSV/guide sentinel checks; python3 -c json load; git diff --check; source-original tracking check.
+- Issues: This is a non-production prototype refresh only; it does not approve source overwrite, canonical replacement, content approval, restricted-data movement, sharing changes, website build, deployment, publication, accepted-output replacement or launch-gate closure.
+
 ## 2026-07-19T21:33:50+00:00
 
 - Added validation-backed live Resource Library Index `Template Acceptance Checklist!A1:N16` with twelve TIQ-linked acceptance rows for canonical candidates, reviewer authorities, acceptance statuses, evidence requirements, replacement targets, source preservation, restricted-data checks and non-approval boundaries.

@@ -471,3 +471,10 @@
 - Status: accepted
 - Decision: Add a validation-backed Template Acceptance Checklist in the Resource Library Index before any improved template becomes canonical, replaces links, appears in website modules or moves into published use.
 - Rationale: The Template Improvement Queue identifies draft improvements, but acceptance needs its own evidence gate. The checklist makes reviewer authority, required proof, restricted-data handling, replacement targets and source preservation explicit while preserving that source overwrite, canonical replacement, content approval, restricted-data movement, sharing, build, publication and launch-gate closure remain human-gated.
+
+## ADR-045: Template acceptance prototype mirrors live Resource Library only
+
+- Date: 2026-07-19
+- Status: accepted
+- Decision: Mirror the Resource Library Template Acceptance Checklist inside the non-production operating hub prototype after the live checklist exists.
+- Rationale: The single website-shaped review surface should show acceptance evidence routing beside template improvement work before any canonical link, website module or Drive placement changes. The prototype remains synthetic and does not approve source overwrite, canonical replacement, restricted-data movement, sharing changes, build, publication, accepted-output replacement or launch-gate closure.

@@ -65,6 +65,11 @@ required = [
     'templateImprovementPendingCount',
     'dashboardTemplateImprovementCount',
     'TIQ-012',
+    'Template Acceptance Checklist',
+    'templateAcceptanceRows',
+    'templateAcceptancePendingCount',
+    'dashboardTemplateAcceptanceCount',
+    'TAC-012',
 ]
 for name in ('site/index.html', 'site/operating-hub-prototype.html'):
     html = root.joinpath(name).read_text(encoding='utf-8')
