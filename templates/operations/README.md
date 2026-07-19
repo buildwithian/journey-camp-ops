@@ -24,6 +24,7 @@ This section contains templates / operations templates.
 - [Gate Evidence Checklist](gate-evidence-checklist.md)
 - [Leadership Review Schedule](leadership-review-schedule.md)
 - [Leadership Review Outputs](leadership-review-outputs.md)
+- [Leadership Review Agenda](leadership-review-agenda.md)
 
 ## Use
 

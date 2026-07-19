@@ -189,3 +189,10 @@
 - Status: accepted
 - Decision: Add a leadership review outputs register before treating scheduled review meetings as completed or using them to update gate trackers.
 - Rationale: Review meetings need a traceable output, evidence link and follow-up owner role before downstream trackers change. This preserves a clean audit chain while keeping actual owner appointments, authority approvals, review decisions, pilot evidence, restricted-data approval, access approval and production publishing under human authority.
+
+## ADR-023: Leadership review agenda before live meeting execution
+
+- Date: 2026-07-19
+- Status: accepted
+- Decision: Add a leadership review agenda before running scheduled review sessions or treating schedule rows as executable.
+- Rationale: The review process needs prompts, required evidence, decision boundaries, expected outputs and time boxes before humans can safely use the control tracker. The agenda makes meetings executable while preserving that owner appointments, authority approvals, review decisions, pilot evidence, restricted-data approval, access approval and production publishing remain human-gated.

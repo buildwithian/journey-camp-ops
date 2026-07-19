@@ -268,3 +268,10 @@
 - Commands: create and populate live Leadership Review Outputs tab; add validation-backed output type, role, status and date fields; link Dashboard row 20, tracker Instructions row 20, Launch Gates evidence ranges and Resource Library Index Quality Checks row 29; create local CSV/Markdown recovery package; Sheets range/formula/validation readback verification
 - Validation: PASS: `Leadership Review Outputs!A1:N13` readback; Dashboard row 20 formula and formatted-value readback; Instructions row 20 readback; Launch Gates `F5:F10` evidence-link readback; Resource Library Index `Quality Checks!A27:E29` readback; Leadership Review Outputs validation metadata readback
 - Issues: All nine output rows remain pending human session/output completion; no leader names, authority approvals, review sign-offs, pilot evidence, restricted-data approval, website access approval or production publication were completed.
+
+## Post-release: Journey V3 leadership review agenda
+
+- Time: 2026-07-19T16:21:04+00:00
+- Commands: create and populate live Leadership Review Agenda tab; add validation-backed facilitator and status fields; link Dashboard row 21, tracker Instructions row 21, Launch Gates evidence ranges and Resource Library Index Quality Checks row 30; create local CSV/Markdown recovery package; Sheets range/formula/validation readback verification
+- Validation: PASS: `Leadership Review Agenda!A1:M31` readback; Dashboard row 21 formula and formatted-value readback; Instructions row 21 readback; Launch Gates `F5:F10` evidence-link readback; Resource Library Index `Quality Checks!A28:E30` readback; Leadership Review Agenda validation metadata readback
+- Issues: All 27 agenda rows remain pending, waiting for pilot run or blocked by prerequisites; no meeting dates, leader names, authority approvals, review sign-offs, pilot evidence, restricted-data approval, website access approval or production publication were completed.
