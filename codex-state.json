@@ -8,7 +8,7 @@
   "files_inventoried": 555,
   "tests_passed": 14,
   "tests_failed": 0,
-  "last_completed_task": "Implementation Session Pack tracker added",
+  "last_completed_task": "Operating hub implementation session prototype aligned",
   "technical_blockers": [],
   "human_review_items": [
     "HR-001: Safeguarding and child-protection material",
@@ -19,8 +19,8 @@
     "HR-006: Girls session and rite-of-passage content",
     "HR-007: Third-party benchmark and copyright boundaries"
   ],
-  "last_updated": "2026-07-19T22:11:15+00:00",
-  "next_stage_status": "The live Leader Delegation and Readiness Tracker now includes Implementation Session Pack!A1:N14 with ten leadership-session rows linked to OIB-001 through OIB-006. Dashboard row 28 reads 10 pending implementation session items, Instructions row 36 records the non-automation boundary and Resource Library Quality Checks row 64 records the tracker as Done with validation. This remains meeting-execution scaffolding only; no leader appointment, HR decision, pilot completion, restricted-data movement, access approval, website build, deployment, publication or launch-gate closure is approved.",
+  "last_updated": "2026-07-19T22:20:26+00:00",
+  "next_stage_status": "The local and Drive operating-hub prototype now mirrors the Implementation Session Pack with ISP IDs, dashboard session-items metric, Planning view table, workflow, next moves, resource card and review-packet summary. The existing Drive HTML artifact kept file ID 13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi and was modified 2026-07-19T22:17:03.625Z with size 79265 bytes. Resource Library Quality Checks row 65 records the alignment as Done with validation. This remains a non-production prototype; no leader appointment, HR decision, pilot completion, restricted-data movement, access approval, website build, deployment, publication or launch-gate closure is approved.",
   "drive_review_artifacts": {
     "human_review_packets_folder": "https://drive.google.com/drive/folders/1qFvxr10Tto589PexueN34XK8AFvYMjTd",
     "pilot_evidence_folder": "https://drive.google.com/drive/folders/1v1_PtevCjMEL8bwnDOz9Z2JVyglH_CZJ",
@@ -289,6 +289,13 @@
     "implementation_session_pack_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit",
     "implementation_session_pack_local_csv": "templates/operations/implementation-session-pack.csv",
     "implementation_session_pack_local_guide": "templates/operations/implementation-session-pack.md",
-    "implementation_session_pack_sheet_title": "Implementation Session Pack"
+    "implementation_session_pack_sheet_title": "Implementation Session Pack",
+    "operating_hub_prototype_implementation_session_drive_file": "https://drive.google.com/file/d/13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi/view",
+    "operating_hub_prototype_implementation_session_modified_time": "2026-07-19T22:17:03.625Z",
+    "operating_hub_prototype_implementation_session_size_bytes": "79265",
+    "operating_hub_prototype_implementation_session_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit",
+    "operating_hub_prototype_implementation_session_local_index": "site/index.html",
+    "operating_hub_prototype_implementation_session_local_named_copy": "site/operating-hub-prototype.html",
+    "operating_hub_prototype_implementation_session_test": "tests/test_site_prototype.py"
   }
 }

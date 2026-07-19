@@ -1,3 +1,9 @@
+## 2026-07-19T22:20:26+00:00
+
+- Added an Implementation Session Pack view to the non-production operating hub prototype so the single-site review surface mirrors the live ISP tracker rows.
+- Preserved the existing Drive HTML file ID and sharing state while replacing its bytes in place.
+- Recorded prototype alignment in Resource Library `Quality Checks!A65:E65` without changing any approval, access, build, publication or gate status.
+
 ## 2026-07-19T22:11:15+00:00
 
 - Added an Implementation Session Pack tab as the meeting-control layer between the Organizational Implementation Board and downstream tracker updates.
@@ -505,3 +511,9 @@
 - Status: accepted
 - Decision: Add a validation-backed Implementation Session Pack in the Leader Delegation tracker before OIB rows drive roster updates, HR outcomes, pilot evidence, restricted-data movement, website access or publication work.
 - Rationale: The Organizational Implementation Board identifies the remaining work, but the next safe step is a structured leadership meeting surface that captures authority, evidence, follow-up targets and non-approval boundaries before any human-gated tracker status changes.
+## ADR-049: Implementation session prototype mirrors the live pack only
+
+- Date: 2026-07-20
+- Status: accepted
+- Decision: Mirror the live Implementation Session Pack inside the non-production operating hub prototype after the live session pack exists.
+- Rationale: The single website-shaped review surface should show the ten implementation-session rows beside the Planning controls and Organizational Implementation Board. The prototype remains synthetic and does not appoint leaders, approve HR gates, run a pilot, move restricted data, approve access, build, deploy, publish or close launch gates.

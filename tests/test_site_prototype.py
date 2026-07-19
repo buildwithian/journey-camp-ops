@@ -76,6 +76,12 @@ required = [
     'dashboardImplementationCount',
     'OIB-006',
     'Non-automation boundary',
+    'Implementation Session Pack',
+    'sessionRows',
+    'sessionPendingCount',
+    'dashboardSessionCount',
+    'ISP-010',
+    'Session item',
 ]
 for name in ('site/index.html', 'site/operating-hub-prototype.html'):
     html = root.joinpath(name).read_text(encoding='utf-8')
