@@ -1,3 +1,13 @@
+## 2026-07-19T18:54:26+00:00
+
+- Created native Google Doc `Journey V3 - Website Content Approval Templates` in the Website Operating Hub folder: https://docs.google.com/document/d/1RgevIzRPXYjB1cJkECdt5R2szmOSp6oAZ_6a_vhOKYk/edit
+- Populated content-scope, public-safe summary, restricted-handling, media/copyright, dates/schedule, WCR row-update and publication handoff templates for WCR-001 through WCR-020.
+- Linked the Doc from live `Communications!A21:G21`, tracker `Instructions!A31:B31`, GATE-006 evidence and Resource Library Index `Quality Checks!A43:E43`.
+- Created local template twin `templates/operations/website-content-approval-templates.md` and added it to `templates/operations/README.md`.
+- Verified Google Docs text readback, Drive parent metadata, `Communications!A21:G21`, `Instructions!A31:B31`, `Launch Gates!F10:H10`, `Quality Checks!A43:E43` and native validation metadata on copied rows.
+- Validation: PASS: python3 tools/validate.py; python3 tests/test_site_prototype.py; bundled-python tests/test_spreadsheets.py; python3 -c json load and guide sentinel checks; git diff --check; source-original tracking check.
+- Issues: The templates do not approve content, copy Alpha assets, authorize media use, decide access, broaden sharing, deploy, publish, update DEC-006/TASK-016 or close GATE-006.
+
 ## 2026-07-19T18:40:46+00:00
 
 - Added live `Website Content Review` tab to the Journey V3 Leader Delegation and Readiness Tracker with 20 review-routing rows for proposed public, protected, restricted and withheld website areas.

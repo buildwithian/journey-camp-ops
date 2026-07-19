@@ -8,7 +8,7 @@
   "files_inventoried": 555,
   "tests_passed": 14,
   "tests_failed": 0,
-  "last_completed_task": "Website Content Review live tab, dashboard metric, GATE-006 linkage and local recovery package added without approving content or publication",
+  "last_completed_task": "Website Content Approval Templates Doc, live tracker links and local recovery guide added without approving content, access or publication",
   "technical_blockers": [],
   "human_review_items": [
     "HR-001: Safeguarding and child-protection material",
@@ -19,8 +19,8 @@
     "HR-006: Girls session and rite-of-passage content",
     "HR-007: Third-party benchmark and copyright boundaries"
   ],
-  "last_updated": "2026-07-19T18:40:46+00:00",
-  "next_stage_status": "The Leader Delegation tracker now includes a validation-backed Website Content Review tab with 20 proposed website content rows, Dashboard row 23 showing 20 pending content reviews, Instructions row 30 and GATE-006 evidence/dependency linkage; Resource Library Quality Checks row 42 records the refresh. Owner appointment, reviewer assignment, content approval, copyright permission, human-review decisions, pilot execution/evidence, restricted-data migration, access approval, sharing changes, DEC-006/TASK-016 updates, gate closure and production publishing remain pending accountable human approval.",
+  "last_updated": "2026-07-19T18:54:26+00:00",
+  "next_stage_status": "The Leader Delegation tracker now links a native Website Content Approval Templates Doc from Communications row 21, Instructions row 31 and GATE-006 evidence; Resource Library Quality Checks row 43 records the pack, and the local recovery guide is templates/operations/website-content-approval-templates.md. The templates support WCR-001 through WCR-020 content-scope, public-safe summary, restricted-handling, media/copyright, dates/schedule and publication-handoff review capture. Content approval, Alpha/copyright permission, access decisions, DEC-006/TASK-016 updates, sharing changes, gate closure and production publishing remain pending accountable human approval.",
   "drive_review_artifacts": {
     "human_review_packets_folder": "https://drive.google.com/drive/folders/1qFvxr10Tto589PexueN34XK8AFvYMjTd",
     "pilot_evidence_folder": "https://drive.google.com/drive/folders/1v1_PtevCjMEL8bwnDOz9Z2JVyglH_CZJ",
@@ -138,6 +138,12 @@
     "website_content_review_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit",
     "website_content_review_local_csv": "templates/operations/website-content-review.csv",
     "website_content_review_local_guide": "templates/operations/website-content-review.md",
-    "website_content_review_sheet_title": "Website Content Review"
+    "website_content_review_sheet_title": "Website Content Review",
+    "website_content_approval_templates_doc": "https://docs.google.com/document/d/1RgevIzRPXYjB1cJkECdt5R2szmOSp6oAZ_6a_vhOKYk/edit",
+    "website_content_approval_templates_local_guide": "templates/operations/website-content-approval-templates.md",
+    "website_content_approval_templates_communications_row": "https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit",
+    "website_content_approval_templates_instruction_row": "https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit",
+    "website_content_approval_templates_launch_gate_evidence": "https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit",
+    "website_content_approval_templates_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit"
   }
 }
