@@ -1,7 +1,7 @@
 # Next Stage Implementation
 
 Status: active organizational implementation, not automatic consolidation.
-Last updated: 2026-07-19T16:34:25+00:00
+Last updated: 2026-07-19T16:47:32+00:00
 
 ## Live Sources Of Truth
 
@@ -52,6 +52,7 @@ Last updated: 2026-07-19T16:34:25+00:00
 - Added validation-backed live `Leadership Review Outputs!A5:N13` with nine output rows, linked Dashboard row 20, Launch Gates evidence surfaces, tracker Instructions and Resource Library Index quality checks while leaving summaries, dates, evidence links and decisions pending.
 - Added validation-backed live `Leadership Review Agenda!A5:M31` with 27 agenda checkpoint rows, linked Dashboard row 21, Launch Gates evidence surfaces, tracker Instructions and Resource Library Index quality checks while leaving meetings, outputs and decisions human-gated.
 - Added validation-backed live `Leadership Review Communications!A5:N20` with 16 role-only outreach rows, linked Dashboard row 22, Launch Gates evidence surfaces, tracker Instructions and Resource Library Index quality checks while leaving message sending, recipients, responses, approvals and evidence capture human-gated.
+- Created the native Leadership Review Message Templates Doc and local guide for COMM-001 through COMM-016, linked from `Communications!A13:G13` and Resource Library Index quality checks while leaving all sending and approvals human-gated.
 
 ## Launch Gates Still Open
 
@@ -95,6 +96,8 @@ Last updated: 2026-07-19T16:34:25+00:00
 - Leadership Review Agenda local import template: `templates/operations/leadership-review-agenda.csv`
 - Leadership Review Communications live tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit (populated with 16 role-only outreach rows and Dashboard row 22)
 - Leadership Review Communications local import template: `templates/communications/leadership-review-communications.csv`
+- Leadership Review Message Templates Doc: https://docs.google.com/document/d/12cjo_XPoBuX0rbQnkhsEtp6jLe2batbzaMS--hpQLJU/edit
+- Leadership Review Message Templates local guide: `templates/communications/leadership-review-message-templates.md`
 
 | Gate | Packet |
 | --- | --- |
@@ -108,4 +111,4 @@ Last updated: 2026-07-19T16:34:25+00:00
 
 ## Operating Rule
 
-The Drive copy is now the practical source of truth for organizational review. Use the Launch Gates tab as the single weekly control view for the six open gates, use Owner Evidence Review for source-backed owner nominations before any names move into Leader Roster, use Owner Appointment Routing to nominate candidates and confirm backup coverage before Leader Roster entry, use Governance Authority Review to confirm final decision rights and escalation paths before HR-005 or DEC-003 can close, use Human Review Routing to assign reviewers and target dates before any HR-001 through HR-007 sign-off is entered, use Pilot Cycle Plan to schedule and track one leadership-team pilot before GATE-003 can close, use Gate Evidence Checklist to collect proof before any Launch Gates status moves to complete, use Leadership Review Schedule to set meeting dates and outputs for the open gates, use Leadership Review Agenda to run the scheduled reviews with explicit prompts and decision boundaries, use Leadership Review Outputs to record meeting outputs and route follow-up updates after scheduled reviews, use Leadership Review Communications to draft, send and follow up role-only outreach without storing contact details or treating outreach as approval, use Website Access Review to decide area-by-area public/protected/restricted treatment before DEC-004 can close, and treat the local/Drive HTML Access view as a synthetic prototype only. The local repository remains the audit trail, template source and recovery package. Do not publish the production website or broaden sharing until the live tracker shows the relevant approvals.
+The Drive copy is now the practical source of truth for organizational review. Use the Launch Gates tab as the single weekly control view for the six open gates, use Owner Evidence Review for source-backed owner nominations before any names move into Leader Roster, use Owner Appointment Routing to nominate candidates and confirm backup coverage before Leader Roster entry, use Governance Authority Review to confirm final decision rights and escalation paths before HR-005 or DEC-003 can close, use Human Review Routing to assign reviewers and target dates before any HR-001 through HR-007 sign-off is entered, use Pilot Cycle Plan to schedule and track one leadership-team pilot before GATE-003 can close, use Gate Evidence Checklist to collect proof before any Launch Gates status moves to complete, use Leadership Review Schedule to set meeting dates and outputs for the open gates, use Leadership Review Agenda to run the scheduled reviews with explicit prompts and decision boundaries, use Leadership Review Outputs to record meeting outputs and route follow-up updates after scheduled reviews, use Leadership Review Communications and the Leadership Review Message Templates Doc to draft, send and follow up role-only outreach without storing contact details or treating outreach as approval, use Website Access Review to decide area-by-area public/protected/restricted treatment before DEC-004 can close, and treat the local/Drive HTML Access view as a synthetic prototype only. The local repository remains the audit trail, template source and recovery package. Do not publish the production website or broaden sharing until the live tracker shows the relevant approvals.

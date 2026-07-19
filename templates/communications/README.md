@@ -22,6 +22,7 @@ This section contains templates / communications templates.
 - `communication-calendar.md` and `communication-calendar.csv`
 - `communication-model.md`
 - `leadership-review-communications.md` and `leadership-review-communications.csv`
+- `leadership-review-message-templates.md`
 
 ## Use
 

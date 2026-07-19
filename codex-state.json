@@ -8,7 +8,7 @@
   "files_inventoried": 555,
   "tests_passed": 14,
   "tests_failed": 0,
-  "last_completed_task": "Leadership Review Communications live tab populated and linked without sending messages or approving gates",
+  "last_completed_task": "Leadership Review Message Templates Doc created and linked without sending messages or approving gates",
   "technical_blockers": [],
   "human_review_items": [
     "HR-001: Safeguarding and child-protection material",
@@ -19,8 +19,8 @@
     "HR-006: Girls session and rite-of-passage content",
     "HR-007: Third-party benchmark and copyright boundaries"
   ],
-  "last_updated": "2026-07-19T16:34:25+00:00",
-  "next_stage_status": "Leadership Review Communications live tab is populated with 16 role-only outreach rows and linked to Dashboard row 22, Instructions, Launch Gates and Resource Library quality checks; Leadership Review Agenda live tab is populated with 27 agenda checkpoint rows; Leadership Review Outputs live tab is populated with nine output rows; Leadership Review Schedule live tab is populated with nine review-session rows; Gate Evidence Checklist live tab is populated with 22 evidence rows; Owner Appointment Routing tab, Human Review Routing tab, Governance Authority Review tab, Website Access Review tab, Pilot Cycle Plan tab and synthetic prototype Access view remain ready alongside Owner Evidence Review, Launch Gates, owner appointment packet, review packets, Human Review sign-off fields, Pilot Log, pilot run/debrief packet, restricted-data replacement checklist and website publication gate checklist; communication sending, response evidence links, agenda completion, output summaries, meeting dates, attendee confirmations, named owners, backup confirmations, qualified reviewer assignments, review outcomes, governance authority approval, real pilot execution/evidence, restricted real-data replacement, website access approval and production website publishing remain pending.",
+  "last_updated": "2026-07-19T16:47:32+00:00",
+  "next_stage_status": "Leadership Review Message Templates Doc is created in the Journey V3 Communications pack folder and linked from Communications row 13 plus Resource Library quality checks; Leadership Review Communications live tab remains populated with 16 role-only outreach rows and Dashboard row 22; Leadership Review Agenda, Outputs, Schedule, Gate Evidence Checklist, Owner Appointment Routing, Human Review Routing, Governance Authority Review, Website Access Review, Pilot Cycle Plan and synthetic prototype Access view remain ready; communication sending, recipient selection, response evidence links, agenda completion, output summaries, meeting dates, attendee confirmations, named owners, backup confirmations, qualified reviewer assignments, review outcomes, governance authority approval, real pilot execution/evidence, restricted real-data replacement, website access approval and production website publishing remain pending.",
   "drive_review_artifacts": {
     "human_review_packets_folder": "https://drive.google.com/drive/folders/1qFvxr10Tto589PexueN34XK8AFvYMjTd",
     "pilot_evidence_folder": "https://drive.google.com/drive/folders/1v1_PtevCjMEL8bwnDOz9Z2JVyglH_CZJ",
@@ -66,6 +66,8 @@
     "leadership_review_communications_live_tab": "https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit",
     "leadership_review_communications_dashboard_metric": "https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit",
     "leadership_review_communications_local_csv": "templates/communications/leadership-review-communications.csv",
-    "leadership_review_communications_local_guide": "templates/communications/leadership-review-communications.md"
+    "leadership_review_communications_local_guide": "templates/communications/leadership-review-communications.md",
+    "leadership_review_message_templates_doc": "https://docs.google.com/document/d/12cjo_XPoBuX0rbQnkhsEtp6jLe2batbzaMS--hpQLJU/edit",
+    "leadership_review_message_templates_local_guide": "templates/communications/leadership-review-message-templates.md"
   }
 }

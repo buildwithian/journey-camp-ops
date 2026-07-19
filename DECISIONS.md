@@ -204,3 +204,11 @@
 - Status: accepted
 - Decision: Add a validation-backed leadership review communications queue before treating scheduled reviews, reviewer requests, pilot debriefs, restricted-data review, website access review or publication prerequisites as actively routed.
 - Rationale: The open gates need real outreach, responses and evidence capture, but shared trackers must not store contact details or turn message-sending into approval. A role-only communications queue makes the next human action visible while preserving that named owners, reviewer decisions, pilot evidence, restricted-data approval, access approval and production publishing remain human-gated.
+
+
+## ADR-025: Message templates before leadership-review outreach
+
+- Date: 2026-07-19
+- Status: accepted
+- Decision: Add reusable role-only message templates before leaders send the communication queue items.
+- Rationale: The review queue needs consistent wording that makes boundaries explicit. A template pack helps human senders request reviews, meetings, pilot debriefs, access decisions and publication prerequisite checks without storing contacts, sending messages automatically or implying approval.

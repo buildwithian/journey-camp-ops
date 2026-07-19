@@ -26,6 +26,7 @@ Current live tracker state:
 - `Leadership Review Outputs!A5:N13` contains nine review-output rows; Dashboard row 20 shows 9 leadership review outputs pending.
 - `Leadership Review Agenda!A5:M31` contains 27 review-agenda checkpoint rows; Dashboard row 21 shows 27 leadership review agenda items pending.
 - `Leadership Review Communications!A5:N20` contains 16 role-only outreach rows; Dashboard row 22 shows 16 leadership review communications pending.
+- `Communications!A13:G13` links the Leadership Review Message Templates Doc as a ready role-only wording pack for COMM-001 through COMM-016.
 - `Launch Gates!A5:K10` consolidates the six remaining launch gates; Dashboard row 11 shows 6 launch gates not complete.
 - `Owner Evidence Review!A5:J13` lists nine private-source evidence reviews; Dashboard row 12 shows 9 owner evidence reviews pending.
 - `Website Access Review!A5:J18` lists 14 website-area access decisions; Dashboard row 13 shows 14 website access decisions pending.
@@ -64,5 +65,7 @@ Current review, owner, pilot, data and launch artifacts:
 - Leadership Review Agenda local import template: `templates/operations/leadership-review-agenda.csv`
 - Leadership Review Communications tab lives in the Leader Delegation and Readiness Tracker and is populated with 16 outreach rows: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 - Leadership Review Communications local import template: `templates/communications/leadership-review-communications.csv`
+- Leadership Review Message Templates Doc supports COMM-001 through COMM-016 with role-only send-ready wording: https://docs.google.com/document/d/12cjo_XPoBuX0rbQnkhsEtp6jLe2batbzaMS--hpQLJU/edit
+- Leadership Review Message Templates local guide: `templates/communications/leadership-review-message-templates.md`
 
-These artifacts prepare owner appointment routing, owner appointment, source-evidence review, governance authority review, human-review routing, human review, leadership-review agenda execution, leadership-review output capture, role-only leadership-review communications, pilot-cycle planning, pilot execution, restricted-data replacement decisions, website access review, website publication review and weekly launch-gate control but do not appoint leaders, copy private names into shared records, close any human-review gate, authorize restricted-data migration or authorize publication.
+These artifacts prepare owner appointment routing, owner appointment, source-evidence review, governance authority review, human-review routing, human review, leadership-review agenda execution, leadership-review output capture, role-only leadership-review communications, leadership-review message templates, pilot-cycle planning, pilot execution, restricted-data replacement decisions, website access review, website publication review and weekly launch-gate control but do not appoint leaders, copy private names into shared records, close any human-review gate, authorize restricted-data migration or authorize publication.

@@ -1,3 +1,13 @@
+## 2026-07-19T16:47:32+00:00
+
+- Created native Google Doc `Journey V3 - Leadership Review Message Templates` in the Communications pack folder.
+- Populated nine role-only message templates covering COMM-001 through COMM-016 plus status-discipline guidance.
+- Linked the Doc from live `Communications!A13:G13` as `Ready` and Resource Library Index `Quality Checks!A32:E32` as `Done`.
+- Created local template twin `templates/communications/leadership-review-message-templates.md`.
+- Verified Google Docs text readback, `Communications!A13:G13` and `Quality Checks!A32:E32`.
+- Validation: PASS: python3 tools/validate.py; python3 tests/test_site_prototype.py; bundled-python tests/test_spreadsheets.py; git diff --check; source-original tracking check.
+- Issues: The templates do not send messages, choose recipients, store contact details, approve gates, run the pilot, approve restricted data, approve access or publish the website.
+
 ## 2026-07-19T16:34:25+00:00
 
 - Added live `Leadership Review Communications` tab to the Journey V3 Leader Delegation and Readiness Tracker.
