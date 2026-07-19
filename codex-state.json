@@ -8,7 +8,7 @@
   "files_inventoried": 555,
   "tests_passed": 14,
   "tests_failed": 0,
-  "last_completed_task": "Website requirements and Drive runbook refreshed to v0.2 in local and native Docs",
+  "last_completed_task": "Strategy target state and Drive consolidation plan aligned to Journey V3 v0.2",
   "technical_blockers": [],
   "human_review_items": [
     "HR-001: Safeguarding and child-protection material",
@@ -19,8 +19,8 @@
     "HR-006: Girls session and rite-of-passage content",
     "HR-007: Third-party benchmark and copyright boundaries"
   ],
-  "last_updated": "2026-07-19T20:02:41+00:00",
-  "next_stage_status": "The foundational Website Operating Hub Requirements and Drive Copy Build Runbook now reflect current Journey V3 source-of-truth links, live tracker/prototype surfaces, Website Build Backlog dependencies, update sequence, validation commands and non-approval boundaries. Resource Library Quality Checks row 49 records the refresh. The docs remain review-required; no Google Drive permissions, owner names, human review gates, pilot completion, restricted-data migration, website access, third-party use, build start, deployment, publication, sharing changes or launch-gate closure are approved.",
+  "last_updated": "2026-07-19T20:06:26+00:00",
+  "next_stage_status": "The remaining strategy layer now reflects the current Journey V3 operating state: Alpha-Inspired Hub Target State v0.2, a new native Google Drive Consolidation And Resource Library Plan, refreshed local strategy index and Resource Library Quality Checks row 50. These documents guide structure and maintenance only; no Alpha content use, Drive permissions, owner names, human-review outcomes, restricted-data movement, website access, third-party use, build start, deployment, publication, sharing changes or launch-gate closure are approved.",
   "drive_review_artifacts": {
     "human_review_packets_folder": "https://drive.google.com/drive/folders/1qFvxr10Tto589PexueN34XK8AFvYMjTd",
     "pilot_evidence_folder": "https://drive.google.com/drive/folders/1v1_PtevCjMEL8bwnDOz9Z2JVyglH_CZJ",
@@ -185,6 +185,14 @@
     "drive_copy_build_runbook_doc": "https://docs.google.com/document/d/1LfzpzVf-zSI1cE_xWvLKrnXdB3qvS47qHKMOCu9Wkkk/edit",
     "drive_copy_build_runbook_revision": "ALtnJHwTv9rW4ch2Eu-v4G1oY-rnxqU4TACHKa-yL3rOqvBy8OsQ-HIoD1-eg-EhtWrCvHOXj7aIFZjxY9BdiZbOedTH2Q_iT_dp4LUoSmQ",
     "drive_copy_build_runbook_local": "docs/00-strategy/drive-copy-build-runbook.md",
-    "strategy_docs_refresh_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit"
+    "strategy_docs_refresh_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit",
+    "alpha_inspired_hub_target_state_doc": "https://docs.google.com/document/d/1oveb-aGPcG5kp66dUpfUYH6j8lrq-hvRluFlU_zhq60/edit",
+    "alpha_inspired_hub_target_state_revision": "ALtnJHw7riPdH_-2Tjy41POV-Gs3IytB_OGY0TvAjyNXDXQpS0sphoh-nFKbU6uuT7zXQJxbYxQCoF1cK_bcexOe5GIYno37Or9fovSKk6Q",
+    "alpha_inspired_hub_target_state_local": "docs/00-strategy/alpha-inspired-journey-operating-hub.md",
+    "google_drive_consolidation_plan_doc": "https://docs.google.com/document/d/1nJGoo9RYZfiLf_vQLyp8eCXRB8la3eQNVhn_6MpUmJI/edit",
+    "google_drive_consolidation_plan_revision": "ALtnJHyidshG34j413Uw5gNRP2Rm-_GSyaRhfL4BhJVdS_1E5vg7vFpWjyWNyQHzV6WdCZQa53s8aVobVoVmgQEwYmzn6OEeL8Crm2pMo0M",
+    "google_drive_consolidation_plan_local": "docs/00-strategy/google-drive-consolidation-and-resource-library-plan.md",
+    "strategy_index_local": "docs/00-strategy/README.md",
+    "strategy_target_consolidation_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit"
   }
 }

@@ -1,111 +1,105 @@
 ---
 title: "Google Drive Consolidation And Resource Library Plan"
 document_id: "STRATEGY-DRIVE-CONSOLIDATION"
-status: "draft"
+status: "review-required"
 owner_role: "Knowledge Management Lead"
-reviewers: []
-version: "0.1"
-last_reviewed: "2026-07-18"
+reviewers: ["Oversight Lead", "Accountable data owner"]
+version: "0.2"
+last_reviewed: "2026-07-19"
 next_review: ""
 programme: "general"
 sensitivity: "internal"
 content_layer: "core"
-source_references: []
+source_references:
+  - "Journey V3 root"
+  - "Resource Library Index"
+  - "Leader Delegation and Readiness Tracker"
+  - "GOOGLE-DRIVE-IMPORT-MANIFEST.md"
+  - "Drive Copy Build Runbook"
 ---
 
 # Google Drive Consolidation And Resource Library Plan
 
 ## Purpose
 
-Define how to turn the duplicated Journey Drive material into a clean, consolidated source-of-truth copy while preserving original source files and privacy boundaries.
+Define the current plan for maintaining the cleaned Journey V3 Drive library and resource index after the first consolidation pass. This refresh replaces the original future-tense copy plan with a live maintenance plan for summarized, improved, review-gated templates.
 
-## Operating Principle
+## Current Consolidation State
 
-The original Drive remains the source archive. The new consolidated Drive should become the working library for future Journey execution, containing improved templates, summaries and canonical operating documents.
+- A Journey V3 root folder exists as the trusted destination for the clean copy.
+- START HERE gives leaders a single entrypoint into the review and operating surfaces.
+- Resource Library Index tracks canonical resources, source provenance, access groups and quality checks.
+- Leader Delegation and Readiness Tracker holds tasks, decisions, event readiness, launch gates, review routing, content review, leadership decision capture and the website build backlog.
+- Core, programme/event, operations/control and library/provenance/media packs were consolidated into native Google Docs, native Google Sheets or folder-backed packs.
+- Original source files remain untouched and are not committed into the public/release repository.
 
-## Desired Drive Structure
+## Live Drive Structure
 
-Create a new Drive copy with this top-level structure:
+| Area | Current role |
+| --- | --- |
+| Journey V3 root | Source-of-truth doorway and START HERE location |
+| 01 Strategy and Runbooks | Strategy references, runbooks, requirements and import manifest |
+| 02 Canonical Resources | Consolidated packs 00 through 18, grouped by Journey operating purpose |
+| 03 Google Sheets Trackers | Resource Library Index and Leader Delegation tracker |
+| 04 Website Operating Hub | Non-production HTML prototype and website planning surfaces |
+| 05 Human Review and Governance | Review packets, owner appointment, pilot evidence, access and publication gates |
 
-- 00 Start Here
-- 01 Foundations
-- 02 Start a Journey
-- 03 Governance and Roles
-- 04 Leader Training
-- 05 Participant Onboarding
-- 06 Weekly Sessions
-- 07 Kickoff Camp
-- 08 Compass Evening
-- 09 Rite of Passage
-- 10 Administration
-- 11 Logistics and Equipment
-- 12 Finance
-- 13 Communications
-- 14 Safety and Safeguarding
-- 15 Quality and Impact
-- 16 Local Examples
-- 17 Archive Register
-- 18 Website Source Exports
+## Canonical Resource Principles
 
-## Consolidation Workflow
+- One canonical resource should exist for each operating purpose, even when several historical folders informed it.
+- Each canonical resource keeps a stable Drive link and a source reference trail.
+- Summaries should be practical and role-oriented rather than archival dumps.
+- Historical examples stay labelled as examples, not operating instructions.
+- Sensitive material stays restricted, synthetic or withheld until a qualified owner approves its use.
+- Google Sheets are preferred for live trackers, checklists and delegated operating queues.
+- Google Docs are preferred for guides, decision templates, review packets and runbooks.
 
-1. Inventory the current Drive and match files to the repository source inventory.
-2. Identify exact duplicates, probable duplicates and outdated variants.
-3. Select one canonical template per operational purpose.
-4. Convert useful Excel files into cleaned Google Sheets or improved XLSX templates.
-5. Convert useful Word and PowerPoint content into Google Docs, Slides or Markdown-derived pages.
-6. Keep sensitive trackers as private operational templates with synthetic examples only.
-7. Link each consolidated file to the website resource library.
-8. Preserve a source reference table that records which originals informed each consolidated file.
-9. Archive superseded files without deleting originals.
-10. Validate permissions, privacy and ownership before use.
+## Duplicate Handling
 
-## Template Improvement Rules
+1. Treat the private source archive as read-only evidence.
+2. Use source inventory, duplicate groups, conversion queue and source notes to understand provenance.
+3. Consolidate repeated templates into one improved canonical template per purpose.
+4. Preserve meaningful local variation as optional notes or local-example rows, not as competing canonical files.
+5. Record source-reference IDs privately where source detail is sensitive.
+6. Mark superseded, historical, review-required and approved states visibly in the Resource Library Index.
+7. Do not delete or overwrite originals during consolidation.
 
-Every consolidated template should have:
+## Template Improvement Standard
 
-- Clear title, purpose, owner role and version.
-- Instructions tab or opening section.
+Every maintained template should include:
+
+- Clear title, purpose, owner role, review status and version.
+- Instructions or an opening use section.
 - Synthetic example data only.
-- Frozen headers and filters where spreadsheet-based.
-- Useful validation lists for status, owner role and priority.
-- No real participant names, balances, phone numbers, email addresses, medical data or banking details.
-- A source reference field linking back to the inventory ID or original folder path held privately.
-- A review date and next-review field.
+- Role, status, priority and date fields where operationally useful.
+- Frozen headers, filters and validation lists for spreadsheet-based templates.
+- Source-reference and current Drive link fields where relevant.
+- Review date and next-review fields.
+- Explicit non-approval boundary when the template touches human gates, private data, copyright, safety, legal, medical, theology, finance or publication.
 
-## Website Integration
+## Access And Data Boundaries
 
-The website should not replace Drive immediately. It should sit above Drive as the navigable operating layer:
+- Public or broadly shared areas may contain only approved Journey-owned summary content.
+- Protected leader areas may contain operating guides, templates and dashboard summaries after access approval.
+- Restricted authenticated areas are required for participant, medical, safeguarding, finance, reviewer-condition and unresolved gate evidence.
+- Real names, contact details, private availability, participant data, banking/payment data, medical details, emergency contacts and credentials must not be copied into public files or synthetic templates.
+- Restricted-data replacement requires accountable data-owner approval of storage location, access group, field purpose and retention.
 
-- Website pages explain what to do and when.
-- Drive files hold editable operational templates.
-- Google Sheets hold live trackers for a specific Journey.
-- The resource library links from each process page to the current approved template.
-- Historical examples are labelled and kept separate from canonical templates.
+## Maintenance Sequence
 
-## Access Model
+1. Change the live Drive or Sheet source of truth first when the change affects operations.
+2. Read the target document, row or folder metadata before writing.
+3. Copy validation and formatting from nearby rows when extending Sheets.
+4. Keep rows role-based, blank, pending or blocked unless human evidence exists.
+5. Verify exact readback after each native Doc, Sheet or Drive update.
+6. Mirror recoverable templates and audit notes in the local repository.
+7. Update RUN_LOG, DECISIONS, PROJECT-HANDOFF, NEXT-STAGE-IMPLEMENTATION, GOOGLE-DRIVE-IMPORT-MANIFEST and codex-state.json.
+8. Run local validations, repair failures, commit the completed slice and confirm a clean tree.
 
-Use simple access groups:
+## Open Human Gates
 
-- Programme owners: approve canonical content and governance changes.
-- Journey leadership team: access operating documents and current Journey trackers.
-- Functional leads: edit their own workstream templates and trackers.
-- Helpers: view role-specific resources and assigned tasks.
-- External reviewers: limited access to safety, legal, medical, theology or governance review packs.
+The Drive copy is prepared, but organizational use remains gated by owner appointments, HR-001 through HR-007 reviews, pilot evidence, restricted-data approval, website access approval, content/media approval and publication authority. These gates are tracked in the live Leader Delegation and Readiness Tracker.
 
-## Data Protection
+## Non-Approval Boundary
 
-Do not put private participant or family records into the public website repository. Use Drive permissions, private operational folders and synthetic examples for shared templates. Participant, finance, medical and emergency contact records require a separate privacy-reviewed operating procedure.
-
-## Implementation Backlog
-
-- Map every source folder to the proposed consolidated Drive structure.
-- Define canonical template list by operational purpose.
-- Create Google Sheets versions of the Journey Oversight Tracker, attendance tracker, budget, equipment register and communications calendar.
-- Create a Drive index sheet with file owner, status, version, source reference and website URL.
-- Create permission groups and access rules.
-- Pilot the consolidated Drive with one Journey team before broader rollout.
-
-## Source References
-
-Use `archive-register/source-inventory.csv`, `archive-register/duplicate-groups.csv`, `archive-register/conversion-queue.csv` and `docs/00-source-notes/` as the starting evidence base.
+This plan does not approve Drive permissions, public sharing, owner names, human-review outcomes, restricted-data migration, website access, third-party content use, production build, deployment, publication, DEC-006/TASK-016 updates or launch-gate closure. It defines the maintenance standard for the prepared Journey V3 Drive copy.

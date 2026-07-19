@@ -1,103 +1,109 @@
 ---
 title: "Alpha-Inspired Journey Operating Hub Target State"
 document_id: "STRATEGY-ALPHA-INSPIRED-HUB"
-status: "draft"
+status: "review-required"
 owner_role: "Oversight Lead"
-reviewers: []
-version: "0.1"
-last_reviewed: "2026-07-18"
+reviewers: ["Website approving authority", "Production publishing authority"]
+version: "0.2"
+last_reviewed: "2026-07-19"
 next_review: ""
 programme: "general"
 sensitivity: "internal"
 content_layer: "core"
-source_references: []
+source_references:
+  - "Journey V3 START HERE"
+  - "Leader Delegation and Readiness Tracker"
+  - "Resource Library Index"
+  - "Operating Hub Prototype"
+  - "Alpha-Style Website Benchmark And Adaptation Brief"
+  - "Website Operating Hub Requirements"
+  - "Drive Copy Build Runbook"
 ---
 
 # Alpha-Inspired Journey Operating Hub Target State
 
 ## Purpose
 
-Define the desired future Journey operating experience using Alpha's public operating model as a benchmark pattern, without copying Alpha content, branding, theology, videos or proprietary materials.
+Define the desired Journey operating experience using Alpha's public run/host/resource-hub pattern as inspiration, without copying Alpha content, branding, theology, videos, course material, data model or proprietary assets. This is a target-state reference for Journey V3, not permission to build or publish.
 
-## Benchmark Observations
+## Current Source Of Truth
 
-Alpha's public support material describes a host journey built around a registered course, a dashboard, resource tabs, schedule management, promotion assets, team access and guest-facing tools. Relevant patterns to learn from are:
+- Journey V3 root: https://drive.google.com/drive/folders/1ozuTBQmr3b_Cd2VWYRXeF66aGtBy3Ygr
+- START HERE: https://docs.google.com/document/d/1yjYo1yQr59q7SwS5g_xzr8ldLKQAXlB3_mGzE41RGw8/edit
+- Resource Library Index: https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit
+- Leader Delegation and Readiness Tracker: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
+- Operating Hub Prototype: https://drive.google.com/file/d/13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi/view
+- Website Operating Hub Requirements: https://docs.google.com/document/d/15y0vZMqu5Dq0tse0eNUk9_4DDhsIwU-QCLDeg_wKNWo/edit
+- Drive Copy Build Runbook: https://docs.google.com/document/d/1LfzpzVf-zSI1cE_xWvLKrnXdB3qvS47qHKMOCu9Wkkk/edit
 
-- A host can register a course and then access a management and planning tool.
-- Course resources are grouped into practical areas such as series materials, schedule, promotion, team and guests.
-- Team members can be invited into the course so they can access the resources needed for their role.
-- Dates and schedules drive what guests and leaders see.
-- Promotional assets and guest-facing discovery can be separated from private leader resources.
-- Downloadable videos, notes, guides, checklists and training resources are presented as an integrated leader hub.
+## Benchmark Pattern To Adapt
 
-Sources used for benchmark context:
+Alpha's public host journey suggests an accessible operating pattern: a team registers or starts a run, opens a dashboard, uses resource tabs, manages dates, invites team members, accesses media and keeps public-facing discovery separate from private leader resources.
 
-- [Alpha USA: How do I find the resources to run my Alpha?](https://help.alphausa.org/en/articles/8903375-how-do-i-find-the-resources-to-run-my-alpha)
-- [Alpha USA: How do I set up my Alpha account?](https://help.alphausa.org/en/articles/8766150-how-do-i-set-up-my-alpha-account)
-- [Alpha USA: How do I share resources with my team?](https://help.alphausa.org/en/articles/10859383-how-do-i-share-resources-with-my-team)
-- [Alpha USA: Info for Alpha Team Members](https://help.alphausa.org/en/articles/10859709-info-for-alpha-team-members)
-- [Alpha USA: Run Alpha Online](https://alphausa.org/host/online/)
+Journey should adapt the pattern at the operating-system level:
 
-## Desired Journey Output
+- One first doorway for leaders, currently START HERE.
+- A public explanation layer only after content and access approval.
+- A protected leader resource layer backed by Drive and Google Sheets.
+- A current management layer for tasks, dates, owners, decisions, gate evidence and review outputs.
+- A resource library that links to canonical Docs, Sheets, templates, examples and media decisions.
+- A delegation layer that can later show leader names, backups and responsibilities after human approval.
+- A review and governance layer that keeps safety, legal, medical, theology, authority, girls-programme and copyright gates visible.
 
-The long-term Journey output should become a single operating website and resource hub that helps a trained team understand, plan, run and improve a Journey without digging through duplicated historical folders.
+## Target Experience
 
-The website should include:
+The finished Journey hub should let a trained leadership team do the following without digging through duplicated historical folders:
 
-- Public explanation of what The Journey is, who it serves and how it works.
-- Introductory videos and explanation content once approved and licensed.
-- A Start a Journey pathway for new city, church or country teams.
-- A private leader area for templates, guides, training and run materials.
-- A current Journey dashboard with dates, milestones, session plan and event readiness.
-- Leader roster and role assignment surfaces.
-- RACI-style delegation for administration, logistics, finance, communications, safety, sessions and pastoral care.
-- Resource library for canonical documents, local examples, templates and approved media.
-- Google Drive and Google Sheets links where Drive remains the operational source of truth.
-- Search across the approved operating system.
-- Status labels showing draft, review-required, approved, historical-example and local content.
-- Human-review gates for safeguarding, legal, medical, theological, governance, insurance and copyright decisions.
+- Understand The Journey, its rhythm, events, roles and review boundaries.
+- Start a new Journey pathway with approved public or protected content.
+- Open the current Journey dashboard and know which work is blocked, pending or ready.
+- Find the right template or guide from the resource library by role, event, workstream or gate.
+- Add and manage leaders only after owner appointment and authority gates are complete.
+- Delegate tasks to role-based owners with due dates, dependencies, resources and review status.
+- Route review packets, content approval, access decisions, restricted-data approvals and publication decisions to accountable humans.
+- Link back to Drive as the editable source of truth while the website stays a navigable operating layer.
 
-## Information Architecture
+## Website Modules
 
-Use Alpha's resource grouping as inspiration, adapted for Journey language:
+| Module | Purpose | Current source surface |
+| --- | --- | --- |
+| START HERE | Single leader doorway | START HERE Doc; prototype START HERE view |
+| Public overview | Future public explanation and start pathway | Website Content Review; Website Requirements |
+| Resource library | Canonical Docs, Sheets, templates and examples | Resource Library Index; canonical resource folders |
+| Planning and tasks | Delegated work and readiness flow | Leader Delegation tracker; prototype Planning view |
+| Team and roles | Owner names, backups and authority after approval | Leader Roster; Owner Appointment Routing; Governance Authority Review |
+| Events and dates | Event readiness and public-safe schedule summaries | Event Readiness; Leadership Review Schedule |
+| Templates | Role-specific packets and reusable decision wording | templates/operations; templates/communications; Drive Docs |
+| Review packets | Human gate execution and sign-off routing | Human Review; Human Review Routing; review packet Docs |
+| Access and content | Website area classification and approval | Website Access Review; Website Content Review |
+| Build backlog | Production-site work queue after prerequisites | Website Build Backlog; Website Requirements |
 
-- Foundations: purpose, programme map, principles, glossary and story.
-- Start: launch guide, readiness checklist, timeline and minimum team requirements.
-- Journey Dashboard: dates, milestones, decisions, blockers, owner assignments and readiness.
-- Sessions: weekly session packs for boys and girls, facilitator notes, questions, homework and review.
-- Events: kickoff camp, Compass Evening, rite of passage and celebration packs.
-- Team: leaders, roles, delegated responsibilities, backups, training status and access rules.
-- Operations: administration, finance, logistics, communications and equipment templates.
-- Safety: review-required safety, safeguarding, medical, transport and activity risk material.
-- Quality: reviews, feedback, impact measures, continuous improvement and alumni follow-up.
-- Library: approved templates, consolidated Drive files, historical examples and source provenance.
+## Operating Data Model
 
-## Management Requirements
+- Leader role: role name, accountable owner, backup, training status, authority status and access group.
+- Work item: task/build item, owner role, status, priority, dependency, due date and linked resource.
+- Event: event name, readiness status, risk, evidence link, owner role and public-safe summary status.
+- Resource: canonical ID, title, current Drive link, owner role, review status, sensitivity and source references.
+- Review gate: HR/GATE ID, qualified owner, packet, outcome, conditions, date and follow-up routing.
+- Decision: decision ID, required authority, proposed update, evidence, approval state and linked tracker rows.
+- Access area: website area, proposed visibility, required approvals, risk note and final access decision.
+- Content item: WCR row, content type, source surface, approval owner, media/copyright status and publication handoff.
 
-The website should support the following management workflows:
+## Implementation State
 
-- Add or edit leader names for the current Journey.
-- Assign each role to one accountable owner and optional supporting roles.
-- Track task status, due dates, dependencies and risks.
-- Link each task to the relevant canonical guide or template.
-- Show readiness by event and by workstream.
-- Record decisions and open human-review items.
-- Generate or link to Google Sheets trackers for day-to-day execution.
-- Preserve an audit trail of source references and template versions.
+Journey V3 already has the practical source-of-truth surfaces: a root Drive folder, START HERE, Resource Library Index, Leader Delegation and Readiness Tracker, review packets, template Docs, local recovery templates and a self-contained HTML operating hub prototype. The prototype now includes START HERE, Team, Tasks, Events, Library, Planning, Templates, Gate Review, Access, Content and Build views.
 
-## Content Boundaries
+This means the target state is no longer a blank future concept. The next step is human execution through the live tracker: appoint owners, assign reviewers, complete HR-001 through HR-007, run one pilot, approve restricted-data placement, approve website access, approve content/media and only then decide whether to build or publish production pages.
 
-Do not copy Alpha's content, media, design assets, course structure, names or proprietary resource files. The benchmark is useful as a product and operating-pattern reference only. Any use of third-party examples, screenshots, wording, videos or training concepts requires copyright and programme-owner review.
+## Launch Gates
 
-## MVP Evolution Path
+- GATE-001: real owner names, backups and authority evidence.
+- GATE-002: HR-001 through HR-007 qualified reviewer outcomes.
+- GATE-003: one real leadership-team pilot and accepted-change routing.
+- GATE-004: restricted-data storage, access, purpose and retention approval.
+- GATE-005: website access model and area-level access decisions.
+- GATE-006: publication authority, approved version, URL, rollback owner, validation evidence and launch conditions.
 
-1. v0.1.x: stabilize the current Markdown, CSV and XLSX Run Kit.
-2. v0.2.0: create a clean information architecture and Drive consolidation map.
-3. v0.3.0: produce consolidated Google Drive folders and Google Sheets templates.
-4. v0.4.0: build the private Journey operating website with leader dashboard and resource library.
-5. v0.5.0: add role assignment, readiness tracking and optional public Start a Journey pages.
-6. v1.0.0: release only after expert reviews, pilot feedback, privacy controls and governance approval.
+## Non-Approval Boundary
 
-## Source References
-
-This target state is based on public Alpha USA help and host pages as a benchmark pattern, plus the Journey v0.1.0 operating-system repository.
+This target-state document does not approve Alpha content use, public copy, videos, media, leader names, access changes, restricted-data movement, build start, deployment, publication, sharing changes, DEC-006/TASK-016 updates or launch-gate closure. It defines the desired operating shape once accountable human approvals exist.
