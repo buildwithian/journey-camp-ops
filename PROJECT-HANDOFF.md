@@ -37,6 +37,8 @@ Current live tracker state:
 - `Instructions!A26:B26` records the restricted-data template boundary: it supports approval capture but does not authorize migration or close GATE-004.
 - `Communications!A18:G18` links the Website Access Model Decision Templates Doc as `Ready` for the website approving authority before access decisions or publication work.
 - `Instructions!A27:B27` records the website access template boundary: it supports access-model decision capture but does not approve access, broaden sharing or publish production pages.
+- `Communications!A19:G19` links the Production Website Publication Approval Templates Doc as `Ready` for the production publishing authority after access, authority, copyright, content and data checks are accepted.
+- `Instructions!A28:B28` records the publication template boundary: it supports go/no-go capture but does not build, deploy, publish, broaden sharing or close GATE-006.
 - `Launch Gates!A5:K10` consolidates the six remaining launch gates; Dashboard row 11 shows 6 launch gates not complete.
 - `Owner Evidence Review!A5:J13` lists nine private-source evidence reviews; Dashboard row 12 shows 9 owner evidence reviews pending.
 - `Website Access Review!A5:J18` lists 14 website-area access decisions; Dashboard row 13 shows 14 website access decisions pending.
@@ -58,6 +60,8 @@ Current review, owner, pilot, data and launch artifacts:
 - Restricted Data Placement Approval Templates local guide: `templates/operations/restricted-data-placement-approval-templates.md`
 - Website Access Model Decision Templates Doc supports GATE-005/DEC-004 access-model and area-decision capture before production website work: https://docs.google.com/document/d/1YToT3HxWpQFXbe2npBRpKX75cAIwZ39zrgbu6bE1ZJc/edit
 - Website Access Model Decision Templates local guide: `templates/operations/website-access-model-decision-templates.md`
+- Production Website Publication Approval Templates Doc supports GATE-006/DEC-006/TASK-016 go/no-go capture before production build, deployment or publication work: https://docs.google.com/document/d/1rXpF56LMVwuHwVbqm0KKtuwHBMzY-ljbT-qnLi6BYE0/edit
+- Production Website Publication Approval Templates local guide: `templates/operations/production-website-publication-approval-templates.md`
 - Data Replacement and Access Cleanup folder: https://drive.google.com/drive/folders/1U0or80jBQFaDjXiAksyAzTzeE4HGyHKJ
 - Restricted Data Replacement Checklist: https://docs.google.com/document/d/1TZTJ2n5Y6JQqigvGZ0_F7yiYbLY4XY2HlApwo4mouCg/edit
 - Restricted Data Placement Approval Templates Doc: https://docs.google.com/document/d/1uDcHCA-BgeQb44zjpqt52kQx83cVGNDiVFXoRmLT8HU/edit
@@ -66,6 +70,8 @@ Current review, owner, pilot, data and launch artifacts:
 - Website Access Model Decision Templates Doc: https://docs.google.com/document/d/1YToT3HxWpQFXbe2npBRpKX75cAIwZ39zrgbu6bE1ZJc/edit
 - Website Access Model Decision Templates local guide: `templates/operations/website-access-model-decision-templates.md`
 - Production Website Publication Gate Checklist: https://docs.google.com/document/d/1Nokc8fgVHMZ9posIt0Vz3VHStl1q43XHZcS_DWn27DE/edit
+- Production Website Publication Approval Templates Doc: https://docs.google.com/document/d/1rXpF56LMVwuHwVbqm0KKtuwHBMzY-ljbT-qnLi6BYE0/edit
+- Production Website Publication Approval Templates local guide: `templates/operations/production-website-publication-approval-templates.md`
 - Launch Gates tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 - Owner Evidence Review tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
 - Website Access Review tab: https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit
@@ -94,4 +100,4 @@ Current review, owner, pilot, data and launch artifacts:
 - Pilot Evidence Capture Templates Doc supports GATE-003 observation, debrief and accepted-change routing during a real pilot: https://docs.google.com/document/d/1F3rh9hJd9FPXFAAHsrVnVeeH-3P8FilO6_9en3Z97W4/edit
 - Pilot Evidence Capture Templates local guide: `templates/operations/pilot-evidence-capture-templates.md`
 
-These artifacts prepare owner appointment routing, owner appointment, owner-appointment confirmation templates, source-evidence review, governance authority review, human-review routing, human review, leadership-review agenda execution, leadership-review output capture, role-only leadership-review communications, leadership-review message templates, human-review sign-off templates, pilot-cycle planning, pilot evidence capture templates, pilot execution, restricted-data placement approval templates, restricted-data replacement decisions, website access model decision templates, website access review, website publication review and weekly launch-gate control but do not appoint leaders, copy private names into shared records, close any human-review gate, authorize restricted-data migration or authorize publication.
+These artifacts prepare owner appointment routing, owner appointment, owner-appointment confirmation templates, source-evidence review, governance authority review, human-review routing, human review, leadership-review agenda execution, leadership-review output capture, role-only leadership-review communications, leadership-review message templates, human-review sign-off templates, pilot-cycle planning, pilot evidence capture templates, pilot execution, restricted-data placement approval templates, restricted-data replacement decisions, website access model decision templates, website access review, production website publication approval templates, website publication review and weekly launch-gate control but do not appoint leaders, copy private names into shared records, close any human-review gate, authorize restricted-data migration or authorize publication.

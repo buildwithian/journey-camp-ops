@@ -30,6 +30,7 @@ This section contains templates / operations templates.
 - [Pilot Evidence Capture Templates](pilot-evidence-capture-templates.md)
 - [Restricted Data Placement Approval Templates](restricted-data-placement-approval-templates.md)
 - [Website Access Model Decision Templates](website-access-model-decision-templates.md)
+- [Production Website Publication Approval Templates](production-website-publication-approval-templates.md)
 
 ## Use
 

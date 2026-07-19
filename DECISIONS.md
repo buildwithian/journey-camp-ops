@@ -1,3 +1,9 @@
+## 2026-07-19T17:48:56+00:00
+
+- Created reusable Production Website Publication Approval Templates before any production build, deployment or publication decision is recorded.
+- Kept DEC-006/TASK-016 updates, deployment, publication, sharing changes and GATE-006 closure pending accountable human publication authority.
+- Linked the template from Communications, Instructions, Launch Gates and Resource Library quality checks so publication authority can capture a go/no-go without treating the template as permission to publish.
+
 ## 2026-07-19T17:39:41+00:00
 
 - Created reusable Website Access Model Decision Templates before public/protected/restricted/withheld website access decisions are recorded.
@@ -277,3 +283,10 @@
 - Status: accepted
 - Decision: Add reusable website access model and area-decision templates before approving DEC-004 or closing GATE-005.
 - Rationale: The production site mixes public explanation, protected leader resources, authenticated tools, restricted data and withheld content. A decision template makes the selected model and WAR-001 through WAR-014 area decisions explicit while preserving that access approval, sharing changes, HR-005/HR-007 dependencies, GATE-005 closure and production publishing remain human-gated.
+
+## ADR-031: Publication approval templates before production publishing
+
+- Date: 2026-07-19
+- Status: accepted
+- Decision: Add reusable production website publication approval templates before updating DEC-006, TASK-016 or GATE-006 for production build, deployment or publication.
+- Rationale: Production publication depends on approved access, content scope, operating authority, copyright boundaries, restricted-data checks, technical validation, rollback ownership and accountable publishing authority. The template pack makes the go/no-go evidence explicit while preserving that build, deployment, publication, sharing changes, tracker closure and GATE-006 completion remain human-gated.

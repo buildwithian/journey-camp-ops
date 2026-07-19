@@ -505,3 +505,18 @@ Status: native Google Doc and local guide created on 2026-07-19.
 | Resource Library quality check | `Quality Checks!A37:E37` | Readback showed the website access model decision template pack marked `Done` with access approval, sharing-change, HR dependency, GATE-005 and production publication boundaries. |
 
 The website access model decision templates support DEC-004/GATE-005 decision capture only. They do not approve access, broaden Drive sharing, authorize authenticated tools, close GATE-005, unblock GATE-006, approve copyright use, authorize restricted-data collection or publish production pages.
+
+## Production Website Publication Approval Templates
+
+Status: native Google Doc and local guide created on 2026-07-19.
+
+| Artifact | Location | Verification |
+| --- | --- | --- |
+| Production Website Publication Approval Templates Doc | https://docs.google.com/document/d/1rXpF56LMVwuHwVbqm0KKtuwHBMzY-ljbT-qnLi6BYE0/edit | Google Docs text readback showed the title, publication boundary, approval record fields, decision wording blocks, publication evidence checklist, tracker update rule and non-approval statement. |
+| Local Production Website Publication Approval Templates guide | `templates/operations/production-website-publication-approval-templates.md` | Mirrors the publication go/no-go capture pack for repository recovery and future import/reference. |
+| Communications tracker row | `Communications!A19:G19` | Readback showed the Doc linked as `Ready` for the production publishing authority. |
+| Tracker instruction row | `Instructions!A28:B28` | Readback showed non-build, non-deploy, non-publication and non-GATE-006-closure guidance. |
+| Launch Gates evidence surface | `Launch Gates!A10:K10` | Readback showed GATE-006 evidence now includes the Production Website Publication Approval Templates Doc while status remains `Blocked`. |
+| Resource Library quality check | `Quality Checks!A38:E38` | Readback showed the production publication approval template pack marked `Done` with deployment, sharing-change, publication, DEC-006/TASK-016 and GATE-006 boundaries. |
+
+The production website publication approval templates support final go/no-go decision capture only. They do not approve access, approve content, approve copyright use, authorize restricted-data collection, update DEC-006/TASK-016, build, deploy, publish, broaden sharing or close GATE-006.

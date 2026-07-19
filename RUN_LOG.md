@@ -1,3 +1,13 @@
+## 2026-07-19T17:48:56+00:00
+
+- Created native Google Doc `Journey V3 - Production Website Publication Approval Templates` in the Website Operating Hub folder: https://docs.google.com/document/d/1rXpF56LMVwuHwVbqm0KKtuwHBMzY-ljbT-qnLi6BYE0/edit
+- Populated publication boundary, approval record fields, decision wording blocks, publication evidence checklist, tracker update rule and non-approval statement.
+- Linked the Doc from live `Communications!A19:G19`, tracker `Instructions!A28:B28`, GATE-006 evidence and Resource Library Index `Quality Checks!A38:E38`.
+- Created local template twin `templates/operations/production-website-publication-approval-templates.md` and added it to `templates/operations/README.md`.
+- Verified Google Docs text readback, Drive parent metadata, `Communications!A19:G19`, `Instructions!A28:B28`, `Launch Gates!A10:K10`, `Quality Checks!A38:E38` and native validation metadata on copied rows.
+- Validation: PASS: python3 tools/validate.py; python3 tests/test_site_prototype.py; bundled-python tests/test_spreadsheets.py; python3 -m json.tool codex-state.json; git diff --check; source-original tracking check.
+- Issues: The templates do not approve access, approve content, approve copyright use, authorize restricted data, update DEC-006/TASK-016, build, deploy, publish, broaden sharing or close GATE-006.
+
 ## 2026-07-19T17:39:41+00:00
 
 - Created native Google Doc `Journey V3 - Website Access Model Decision Templates` in the Website Operating Hub folder: https://docs.google.com/document/d/1YToT3HxWpQFXbe2npBRpKX75cAIwZ39zrgbu6bE1ZJc/edit
