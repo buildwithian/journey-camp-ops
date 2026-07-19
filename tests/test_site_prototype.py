@@ -54,6 +54,12 @@ required = [
     'strategyQueueCount',
     'Reviewing authority',
     'SRQ-006',
+    'Duplicate Resolution Queue',
+    'duplicateRows',
+    'duplicatePendingCount',
+    'dashboardDuplicateCount',
+    'DRQ-008',
+    'Non-deletion boundary',
 ]
 for name in ('site/index.html', 'site/operating-hub-prototype.html'):
     html = root.joinpath(name).read_text(encoding='utf-8')

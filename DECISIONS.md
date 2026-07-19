@@ -443,3 +443,10 @@
 - Status: accepted
 - Decision: Add a validation-backed Duplicate Resolution Queue in the Resource Library Index before any duplicate cleanup, archiving, rewriting, Drive moves, sharing changes or production-site consolidation.
 - Rationale: The user identified Drive duplication as a core friction point, but consolidation must not become accidental deletion or approval. A queue makes canonical-target selection, owner role, approval authority and non-deletion boundaries explicit while preserving that actual archive, move, rewrite, access, restricted-data and publication decisions remain human-gated.
+
+## ADR-041: Duplicate queue prototype mirrors live Resource Library only
+
+- Date: 2026-07-19
+- Status: accepted
+- Decision: Mirror the Resource Library Duplicate Resolution Queue inside the non-production operating hub prototype after the live queue exists.
+- Rationale: The single website-shaped review surface should show duplicate-resolution status beside the resource library so leaders can see consolidation work without opening another tab. The prototype remains synthetic and does not approve source deletion, archiving, moves, rewrites, sharing changes, restricted-data movement, access, build, publication or launch-gate closure.

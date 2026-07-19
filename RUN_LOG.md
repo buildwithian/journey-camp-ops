@@ -1,3 +1,11 @@
+## 2026-07-19T21:14:41+00:00
+
+- Updated local `site/index.html` and `site/operating-hub-prototype.html` with a Resource Library Duplicate Resolution Queue view showing DRQ-001 through DRQ-008, pending count, canonical targets, owner roles, approval authorities, quality evidence and non-deletion boundaries.
+- Updated the existing Drive HTML artifact in place: https://drive.google.com/file/d/13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi/view (same file ID `13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi`, modified 2026-07-19T21:14:10.175Z, size 59640 bytes, parent `1V7VG7E2MuGg7KaLqjgncWefbXB0PkDbJ`).
+- Added Resource Library Index `Quality Checks!A57:E57` for the operating hub duplicate queue view alignment and verified B57:C57 dropdown validation.
+- Validation: PASS: node --check extracted prototype script; python3 tests/test_site_prototype.py; prototype copy cmp; Drive HTML update metadata readback; Resource Library `Quality Checks!A57:E57` readback with B57:C57 dropdown validation.
+- Issues: This is a non-production prototype refresh only; it does not approve source deletion, archiving, moves, rewrites, sharing changes, Alpha asset use, restricted-data movement, website access, build, deployment, publication or launch-gate closure.
+
 ## 2026-07-19T21:09:08+00:00
 
 - Added validation-backed live Resource Library Index `Duplicate Resolution Queue!A1:N12` with eight duplicate-area rows for strategy, launch routing, owner/RACI, human review, pilot evidence, website release, restricted-data placement and communications consolidation.

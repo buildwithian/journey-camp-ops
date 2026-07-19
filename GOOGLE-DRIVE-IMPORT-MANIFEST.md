@@ -121,6 +121,7 @@ Resource Library Index `current_drive_link` for these three rows points to the p
 | Journey V3 - Operating Hub Prototype.html build backlog prototype refresh | 04 Website Operating Hub | Updated in place on 2026-07-19; same file ID `13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi`, modified time 2026-07-19T19:43:56.747Z, size 50598 bytes. |
 | Journey V3 - Operating Hub Prototype.html strategy view refresh | 04 Website Operating Hub | Updated in place on 2026-07-19; same file ID `13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi`, modified time 2026-07-19T20:22:01.561Z, size 53927 bytes. |
 | Journey V3 - Operating Hub Prototype.html strategy queue alignment refresh | 04 Website Operating Hub | Updated in place on 2026-07-19; same file ID `13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi`, modified time 2026-07-19T20:57:29.918Z, size 54999 bytes. |
+| Journey V3 - Operating Hub Prototype.html duplicate queue refresh | 04 Website Operating Hub | Updated in place on 2026-07-19; same file ID `13Qa-9QxZlA7e9U7qXHiwHp3i7mg5kDEi`, modified time 2026-07-19T21:14:10.175Z, size 59640 bytes. |
 
 ## Verification
 
@@ -167,6 +168,8 @@ Resource Library Index `current_drive_link` for these three rows points to the p
 - Operating hub strategy queue alignment refreshed the existing Drive HTML artifact in place with same file ID, modified 2026-07-19T20:57:29.918Z, size 54999 bytes, and added local SRQ ID, owner-role, reviewing-authority and queue-count markers in `site/index.html`, `site/operating-hub-prototype.html` and `tests/test_site_prototype.py`.
 - Resource index `Quality Checks!A55:E55` readback recorded the operating hub strategy queue alignment as `Done` with owner/status dropdown validation in B55:C55.
 - Resource index `Duplicate Resolution Queue!A1:N12`, `Dashboard!A11:C11`, `Instructions!A9:B9` and `Quality Checks!A56:E56` readback showed eight review-required duplicate-resolution rows, dashboard count 8, owner/status/approval validation and a non-deletion boundary.
+- Operating hub duplicate queue prototype refresh updated the existing Drive HTML artifact in place with same file ID, modified 2026-07-19T21:14:10.175Z, size 59640 bytes, and added local Duplicate Resolution Queue, DRQ ID, pending-count and non-deletion-boundary markers in `site/index.html`, `site/operating-hub-prototype.html` and `tests/test_site_prototype.py`.
+- Resource index `Quality Checks!A57:E57` readback recorded the operating hub duplicate queue prototype alignment as `Done` with owner/status dropdown validation in B57:C57.
 - Canonical Resources subfolder readback showed four newly created core subfolders.
 - Core resource Doc sentinel checks passed for Start Here Guide, Journey Purpose, Launch Readiness Checklist, Operating Model, Journey Lead, Decision Rights and Responsibility Matrix.
 - Resource index `Canonical Resources!A5:L9` readback showed current links to the four new core pack Docs.
