@@ -8,7 +8,7 @@
   "files_inventoried": 555,
   "tests_passed": 14,
   "tests_failed": 0,
-  "last_completed_task": "Owner Appointment Confirmation Templates Doc created and linked without naming leaders or approving authority",
+  "last_completed_task": "Pilot Evidence Capture Templates Doc created and linked without running the pilot or closing GATE-003",
   "technical_blockers": [],
   "human_review_items": [
     "HR-001: Safeguarding and child-protection material",
@@ -19,8 +19,8 @@
     "HR-006: Girls session and rite-of-passage content",
     "HR-007: Third-party benchmark and copyright boundaries"
   ],
-  "last_updated": "2026-07-19T17:07:50+00:00",
-  "next_stage_status": "Owner Appointment Confirmation Templates Doc is created in the Journey V3 Owner Appointment and Handoff folder and linked from Communications row 15, Instructions row 24, GATE-001 evidence and Resource Library quality checks; Human Review Sign-off Templates Doc, Leadership Review Message Templates Doc and Leadership Review Communications tab remain ready; Owner Appointment Routing, Leader Roster, Governance Authority Review, Human Review Routing, Human Review, Gate Evidence Checklist, Launch Gates, Leadership Review Agenda, Outputs, Schedule, Website Access Review, Pilot Cycle Plan and synthetic prototype Access view remain ready; candidate naming, backup confirmation, authority approval, roster entry, reviewer assignment, review outcomes, real pilot execution/evidence, restricted real-data replacement, website access approval and production website publishing remain pending.",
+  "last_updated": "2026-07-19T17:18:26+00:00",
+  "next_stage_status": "Pilot Evidence Capture Templates Doc is created in the Journey V3 Pilot Evidence folder and linked from Communications row 16, Instructions row 25, GATE-003 evidence and Resource Library quality checks; Owner Appointment Confirmation Templates Doc, Human Review Sign-off Templates Doc, Leadership Review Message Templates Doc and Leadership Review Communications tab remain ready; Owner Appointment Routing, Leader Roster, Governance Authority Review, Human Review Routing, Human Review, Gate Evidence Checklist, Launch Gates, Leadership Review Agenda, Outputs, Schedule, Website Access Review, Pilot Cycle Plan, Pilot Log and synthetic prototype Access view remain ready; candidate naming, backup confirmation, authority approval, roster entry, reviewer assignment, review outcomes, real pilot execution/evidence, pilot observation acceptance, restricted real-data replacement, website access approval and production website publishing remain pending.",
   "drive_review_artifacts": {
     "human_review_packets_folder": "https://drive.google.com/drive/folders/1qFvxr10Tto589PexueN34XK8AFvYMjTd",
     "pilot_evidence_folder": "https://drive.google.com/drive/folders/1v1_PtevCjMEL8bwnDOz9Z2JVyglH_CZJ",
@@ -79,6 +79,12 @@
     "owner_appointment_confirmation_templates_communications_row": "https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit",
     "owner_appointment_confirmation_templates_instruction_row": "https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit",
     "owner_appointment_confirmation_templates_launch_gate_evidence": "https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit",
-    "owner_appointment_confirmation_templates_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit"
+    "owner_appointment_confirmation_templates_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit",
+    "pilot_evidence_capture_templates_doc": "https://docs.google.com/document/d/1F3rh9hJd9FPXFAAHsrVnVeeH-3P8FilO6_9en3Z97W4/edit",
+    "pilot_evidence_capture_templates_local_guide": "templates/operations/pilot-evidence-capture-templates.md",
+    "pilot_evidence_capture_templates_communications_row": "https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit",
+    "pilot_evidence_capture_templates_instruction_row": "https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit",
+    "pilot_evidence_capture_templates_launch_gate_evidence": "https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit",
+    "pilot_evidence_capture_templates_quality_check": "https://docs.google.com/spreadsheets/d/1Yhva4WVNvBwzjZqKpG5tgmHymSNTMs5BBi3u2WCaVf0/edit"
   }
 }

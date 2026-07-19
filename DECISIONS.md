@@ -1,3 +1,9 @@
+## 2026-07-19T17:18:26+00:00
+
+- Created reusable Pilot Evidence Capture Templates before real pilot observations are accepted or routed into tracker changes.
+- Kept pilot execution, observation acceptance, debrief decisions, TASK-013/Event Readiness updates and GATE-003 closure pending human completion.
+- Prepared the template for Communications, Instructions, Launch Gates and Resource Library quality checks so the leadership team can capture evidence without treating the template as proof of pilot completion.
+
 ## 2026-07-19T17:07:50+00:00
 
 - Created reusable Owner Appointment Confirmation Templates before real candidates or backups are entered into shared tracker fields.
@@ -238,3 +244,10 @@
 - Status: accepted
 - Decision: Add reusable APP-001 through APP-012 owner appointment confirmation templates before any candidate names, backup confirmations or owner appointments are entered into Leader Roster.
 - Rationale: Owner appointments require programme-owner confirmation, backup coverage and HR-005 authority evidence. The template pack makes appointment capture consistent while preserving that candidate naming, authority approval, roster entry and GATE-001 closure remain human-gated.
+
+## ADR-028: Pilot evidence capture templates before pilot gate closure
+
+- Date: 2026-07-19
+- Status: accepted
+- Decision: Add reusable pilot observation, debrief and accepted-change routing templates before treating GATE-003 as ready for closure.
+- Rationale: A real pilot must produce non-sensitive observations, accountable debrief decisions and accepted-change evidence before tracker statuses move. The template pack makes capture consistent while preserving that pilot execution, observation acceptance, TASK-013/Event Readiness updates and GATE-003 closure remain human-gated.

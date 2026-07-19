@@ -27,6 +27,7 @@ This section contains templates / operations templates.
 - [Leadership Review Agenda](leadership-review-agenda.md)
 - [Human Review Sign-off Templates](human-review-sign-off-templates.md)
 - [Owner Appointment Confirmation Templates](owner-appointment-confirmation-templates.md)
+- [Pilot Evidence Capture Templates](pilot-evidence-capture-templates.md)
 
 ## Use
 
