@@ -170,6 +170,7 @@ Resource Library Index `current_drive_link` for these three rows points to the p
 - Resource index `Duplicate Resolution Queue!A1:N12`, `Dashboard!A11:C11`, `Instructions!A9:B9` and `Quality Checks!A56:E56` readback showed eight review-required duplicate-resolution rows, dashboard count 8, owner/status/approval validation and a non-deletion boundary.
 - Operating hub duplicate queue prototype refresh updated the existing Drive HTML artifact in place with same file ID, modified 2026-07-19T21:14:10.175Z, size 59640 bytes, and added local Duplicate Resolution Queue, DRQ ID, pending-count and non-deletion-boundary markers in `site/index.html`, `site/operating-hub-prototype.html` and `tests/test_site_prototype.py`.
 - Resource index `Quality Checks!A57:E57` readback recorded the operating hub duplicate queue prototype alignment as `Done` with owner/status dropdown validation in B57:C57.
+- Resource index `Template Improvement Queue!A1:N16`, `Dashboard!A12:C12`, `Instructions!A10:B10` and `Quality Checks!A58:E58` readback showed twelve review-required template-improvement rows, dashboard count 12, owner/status/output-format/approval validation and a non-overwrite boundary.
 - Canonical Resources subfolder readback showed four newly created core subfolders.
 - Core resource Doc sentinel checks passed for Start Here Guide, Journey Purpose, Launch Readiness Checklist, Operating Model, Journey Lead, Decision Rights and Responsibility Matrix.
 - Resource index `Canonical Resources!A5:L9` readback showed current links to the four new core pack Docs.
@@ -201,6 +202,7 @@ Status: active and review-gated as of 2026-07-18.
 | Surface | Range | Current state |
 | --- | --- | --- |
 | Resource Library Index | `Duplicate Resolution Queue!A5:N12` | Eight duplicate-area rows are populated as `Review required`; Dashboard row 11 shows 8 duplicate-resolution items pending before any cleanup, archive, move, rewrite, sharing change or publication dependency update. |
+| Resource Library Index | `Template Improvement Queue!A5:N16` | Twelve template-improvement rows are populated as `Review required`; Dashboard row 12 shows 12 template improvements pending before any canonical replacement, output publication, source overwrite or sharing change. |
 | Leader Delegation and Readiness Tracker | `Leader Roster!A5:H16` | All required owner roles are present; actual leader-name cells remain blank for programme owner completion. |
 | Leader Delegation and Readiness Tracker | `Owner Appointment Routing!A5:N16` | Twelve owner-appointment actions are present as `Needs candidate named`, with blank candidate-name, backup-confirmation and target-date fields for programme completion. |
 | Leader Delegation and Readiness Tracker | `Human Review!A5:N11` | HR-001 through HR-007 are present and open, with packet links and reviewer sign-off fields. |

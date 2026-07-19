@@ -450,3 +450,10 @@
 - Status: accepted
 - Decision: Mirror the Resource Library Duplicate Resolution Queue inside the non-production operating hub prototype after the live queue exists.
 - Rationale: The single website-shaped review surface should show duplicate-resolution status beside the resource library so leaders can see consolidation work without opening another tab. The prototype remains synthetic and does not approve source deletion, archiving, moves, rewrites, sharing changes, restricted-data movement, access, build, publication or launch-gate closure.
+
+## ADR-042: Template improvement queue before canonical replacement
+
+- Date: 2026-07-19
+- Status: accepted
+- Decision: Add a validation-backed Template Improvement Queue in the Resource Library Index before replacing rough, duplicate or source-derived templates with improved canonical outputs.
+- Rationale: The user wants summarized and improved Google Drive and Sheets templates, but draft improvement must stay separate from source deletion, restricted-data movement, content approval and publication. The queue makes owner role, output format, simplification goal, approval authority and placement explicit before any artifact becomes canonical.
