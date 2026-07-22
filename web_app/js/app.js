@@ -121,11 +121,11 @@ const state = {
   ],
 
   debriefMetrics: [
-    { metric: 'Overall Camp Experience', rating: 5, success: 'High engagement, strong spiritual connections made during Malachi session.', challenge: 'Timetable ran slightly behind by Saturday evening.' },
-    { metric: 'Safety & Water Supervision', rating: 5, success: 'Zero incidents. Safety & Welfare Lead maintained clear water boundary during dam swim.', challenge: 'Need extra throw rope at secondary swim spot.' },
-    { metric: 'Logistics & Camp Setup', rating: 4, success: 'Bivvies erected quickly; fire wood supply was plentiful.', challenge: 'Gas bottle fitting was tight; bring spare washer.' },
-    { metric: 'Food & Catering', rating: 5, success: 'Families enjoyed bringing their own meals; stokbrood was a highlight.', challenge: 'Suggest extra milk quantity for cold morning.' },
-    { metric: 'Spiritual & Emotional Impact', rating: 5, success: 'Communion and letter reading times were deeply moving for fathers and children.', challenge: 'Ensure 15 min buffer before quiet time.' }
+    { id: 'deb-1', metric: 'Overall Camp Experience', rating: 5, success: 'High engagement, strong spiritual connections made during Malachi session.', challenge: 'Timetable ran slightly behind by Saturday evening.', improvement: 'Add a 15-min buffer before sunset activities; ensure all leaders carry radios.', author: 'Ian Sinclair' },
+    { id: 'deb-2', metric: 'Safety & Water Supervision', rating: 5, success: 'Zero incidents. Safety & Welfare Lead maintained clear water boundary during dam swim.', challenge: 'Need extra throw rope at secondary swim spot.', improvement: 'Station secondary lifeguard on far side of dam bank during free swim.', author: 'Raldo Kruger' },
+    { id: 'deb-3', metric: 'Logistics & Camp Setup', rating: 4, success: 'Bivvies erected quickly; fire wood supply was plentiful.', challenge: 'Gas bottle fitting was tight; bring spare washer.', improvement: 'Pre-check gas regulators and bottle threads on Friday before packing vehicle.', author: 'Neil Harrower' },
+    { id: 'deb-4', metric: 'Food & Catering', rating: 5, success: 'Families enjoyed bringing their own meals; stokbrood was a highlight.', challenge: 'Suggest extra milk quantity for cold morning.', improvement: 'Increase milk order by 4L for hot morning coffee & mieliemeal.', author: 'Kevin de Wet' },
+    { id: 'deb-5', metric: 'Spiritual & Emotional Impact', rating: 5, success: 'Communion and letter reading times were deeply moving for fathers and children.', challenge: 'Ensure 15 min buffer before quiet time.', improvement: 'Keep communion background music playing continuously during quiet time.', author: 'Richard Walker' }
   ]
 };
 
@@ -815,16 +815,98 @@ function renderPlaybook() {
 
 function renderDebrief() {
   const container = document.getElementById('debriefMetricsContainer');
-  container.innerHTML = state.debriefMetrics.map(m => `
-    <div style="padding:1rem; background:rgba(30,41,59,0.6); border:1px solid var(--border-light); border-radius:12px; margin-bottom:1rem;">
-      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
-        <div style="font-weight:700; font-size:1.1rem; color:#FFF;">${m.metric}</div>
-        <div style="color:var(--gold-500); font-weight:800; font-size:1.2rem;">${'★'.repeat(m.rating)}${'☆'.repeat(5 - m.rating)} (${m.rating}/5)</div>
+  if (!container) return;
+
+  container.innerHTML = state.debriefMetrics.map(m => {
+    let starsHtml = '';
+    for (let i = 1; i <= 5; i++) {
+      starsHtml += `<i class="fa-solid fa-star debrief-card-star" data-id="${m.id}" data-rating="${i}" style="cursor:pointer; color:${i <= m.rating ? 'var(--gold-500)' : 'rgba(255,255,255,0.2)'}; font-size:1.1rem; margin-right:2px;"></i>`;
+    }
+
+    return `
+      <div class="card" style="margin-bottom:1rem; padding:1.25rem; border-left:4px solid var(--gold-500);">
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; margin-bottom:0.75rem;">
+          <div>
+            <div style="font-weight:700; font-size:1.1rem; color:#FFF;">${m.metric}</div>
+            <div style="font-size:0.775rem; color:var(--text-muted);">Submitted by: <strong style="color:var(--gold-400);">${m.author || 'Ian Sinclair'}</strong></div>
+          </div>
+          <div style="display:flex; align-items:center; gap:0.75rem;">
+            <div style="display:flex; align-items:center;">${starsHtml} <span style="font-weight:800; font-size:0.9rem; color:var(--gold-400); margin-left:0.4rem;">(${m.rating}/5)</span></div>
+            <button class="btn btn-secondary btn-edit-debrief" data-id="${m.id}" style="padding:0.25rem 0.5rem; font-size:0.75rem;"><i class="fa-solid fa-pen-to-square"></i> Edit</button>
+            <button class="btn btn-danger btn-delete-debrief" data-id="${m.id}" style="padding:0.25rem 0.5rem; font-size:0.75rem;"><i class="fa-solid fa-trash-can"></i></button>
+          </div>
+        </div>
+
+        <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:0.75rem; font-size:0.875rem;">
+          <div style="padding:0.75rem; background:rgba(46,125,50,0.15); border:1px solid rgba(46,125,50,0.3); border-radius:8px;">
+            <strong style="color:#81C784; display:flex; align-items:center; gap:0.35rem; margin-bottom:0.25rem;"><i class="fa-solid fa-circle-check"></i> What Worked Well (Successes)</strong>
+            <div style="color:var(--text-main); line-height:1.4;">${m.success || '—'}</div>
+          </div>
+          <div style="padding:0.75rem; background:rgba(192,84,47,0.15); border:1px solid rgba(192,84,47,0.3); border-radius:8px;">
+            <strong style="color:#FF8A65; display:flex; align-items:center; gap:0.35rem; margin-bottom:0.25rem;"><i class="fa-solid fa-circle-exclamation"></i> What Didn't Work (Challenges)</strong>
+            <div style="color:var(--text-main); line-height:1.4;">${m.challenge || '—'}</div>
+          </div>
+          <div style="padding:0.75rem; background:rgba(212,168,67,0.15); border:1px solid rgba(212,168,67,0.3); border-radius:8px;">
+            <strong style="color:var(--gold-400); display:flex; align-items:center; gap:0.35rem; margin-bottom:0.25rem;"><i class="fa-solid fa-lightbulb"></i> Improvements & Notes for Next Time</strong>
+            <div style="color:var(--text-main); line-height:1.4;">${m.improvement || '—'}</div>
+          </div>
+        </div>
       </div>
-      <div style="font-size:0.875rem; color:var(--teal-500); margin-bottom:0.2rem;"><strong>Successes:</strong> ${m.success}</div>
-      <div style="font-size:0.875rem; color:#FF8A65;"><strong>Challenges:</strong> ${m.challenge}</div>
-    </div>
-  `).join('');
+    `;
+  }).join('');
+
+  document.querySelectorAll('.debrief-card-star').forEach(star => {
+    star.addEventListener('click', (e) => {
+      const id = e.target.getAttribute('data-id');
+      const rating = parseInt(e.target.getAttribute('data-rating'));
+      const item = state.debriefMetrics.find(x => x.id === id);
+      if (item) {
+        item.rating = rating;
+        renderDebrief();
+      }
+    });
+  });
+
+  document.querySelectorAll('.btn-edit-debrief').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      const id = e.currentTarget.getAttribute('data-id');
+      openEditDebriefModal(id);
+    });
+  });
+
+  document.querySelectorAll('.btn-delete-debrief').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      const id = e.currentTarget.getAttribute('data-id');
+      state.debriefMetrics = state.debriefMetrics.filter(x => x.id !== id);
+      renderDebrief();
+    });
+  });
+}
+
+function openEditDebriefModal(id) {
+  const item = state.debriefMetrics.find(x => x.id === id);
+  if (!item) return;
+
+  document.getElementById('debriefModalTitle').innerHTML = '<i class="fa-solid fa-pen-to-square" style="color:var(--gold-500)"></i> Edit Debrief Reflection';
+  document.getElementById('inputDebriefId').value = item.id;
+  document.getElementById('inputDebriefMetric').value = item.metric || '';
+  document.getElementById('inputDebriefRating').value = item.rating || 5;
+  updateStarSelectorUI(item.rating || 5);
+  document.getElementById('inputDebriefSuccess').value = item.success || '';
+  document.getElementById('inputDebriefChallenge').value = item.challenge || '';
+  document.getElementById('inputDebriefImprovement').value = item.improvement || '';
+  
+  const authorSelect = document.getElementById('inputDebriefAuthor');
+  authorSelect.innerHTML = state.volunteers.map(v => `<option value="${v.name}" ${v.name === item.author ? 'selected' : ''}>${v.name}</option>`).join('');
+
+  document.getElementById('modalAddDebrief').style.display = 'flex';
+}
+
+function updateStarSelectorUI(ratingVal) {
+  document.querySelectorAll('#debriefStarSelector i').forEach(star => {
+    const v = parseInt(star.getAttribute('data-val'));
+    star.style.color = v <= ratingVal ? 'var(--gold-500)' : 'rgba(255,255,255,0.2)';
+  });
 }
 
 // --- Event Handlers & Sync ---
@@ -963,6 +1045,74 @@ function initEvents() {
     document.getElementById('inputEqNotes').value = '';
     document.getElementById('modalAddCampEq').style.display = 'none';
     renderCampEq();
+  });
+
+  // Add/Edit Debrief Modal Events
+  document.getElementById('btnOpenAddDebrief').addEventListener('click', () => {
+    document.getElementById('debriefModalTitle').innerHTML = '<i class="fa-solid fa-pen-to-square" style="color:var(--gold-500)"></i> Submit Debrief Reflection';
+    document.getElementById('inputDebriefId').value = '';
+    document.getElementById('inputDebriefMetric').value = '';
+    document.getElementById('inputDebriefRating').value = '5';
+    updateStarSelectorUI(5);
+    document.getElementById('inputDebriefSuccess').value = '';
+    document.getElementById('inputDebriefChallenge').value = '';
+    document.getElementById('inputDebriefImprovement').value = '';
+
+    const authorSelect = document.getElementById('inputDebriefAuthor');
+    authorSelect.innerHTML = state.volunteers.map(v => `<option value="${v.name}">${v.name}</option>`).join('');
+
+    document.getElementById('modalAddDebrief').style.display = 'flex';
+  });
+
+  document.querySelectorAll('#debriefStarSelector i').forEach(star => {
+    star.addEventListener('click', (e) => {
+      const val = parseInt(e.currentTarget.getAttribute('data-val'));
+      document.getElementById('inputDebriefRating').value = val;
+      updateStarSelectorUI(val);
+    });
+  });
+
+  document.getElementById('btnCloseAddDebrief').addEventListener('click', () => {
+    document.getElementById('modalAddDebrief').style.display = 'none';
+  });
+  document.getElementById('btnCancelAddDebrief').addEventListener('click', () => {
+    document.getElementById('modalAddDebrief').style.display = 'none';
+  });
+  document.getElementById('btnSaveDebrief').addEventListener('click', () => {
+    const id = document.getElementById('inputDebriefId').value;
+    const metric = document.getElementById('inputDebriefMetric').value.trim();
+    const rating = parseInt(document.getElementById('inputDebriefRating').value) || 5;
+    const success = document.getElementById('inputDebriefSuccess').value.trim();
+    const challenge = document.getElementById('inputDebriefChallenge').value.trim();
+    const improvement = document.getElementById('inputDebriefImprovement').value.trim();
+    const author = document.getElementById('inputDebriefAuthor').value;
+
+    if (!metric) return;
+
+    if (id) {
+      const existing = state.debriefMetrics.find(x => x.id === id);
+      if (existing) {
+        existing.metric = metric;
+        existing.rating = rating;
+        existing.success = success;
+        existing.challenge = challenge;
+        existing.improvement = improvement;
+        existing.author = author;
+      }
+    } else {
+      state.debriefMetrics.push({
+        id: `deb-${Date.now()}`,
+        metric,
+        rating,
+        success,
+        challenge,
+        improvement,
+        author
+      });
+    }
+
+    document.getElementById('modalAddDebrief').style.display = 'none';
+    renderDebrief();
   });
 
   // Search Filters

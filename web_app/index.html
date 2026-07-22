@@ -391,7 +391,11 @@
       <div id="tab-debrief" class="tab-pane">
         <div class="card">
           <div class="card-header">
-            <h2 class="card-title"><i class="fa-solid fa-pen-to-square" style="color:var(--teal-500)"></i> Post-Camp Debrief & Rating</h2>
+            <div>
+              <h2 class="card-title"><i class="fa-solid fa-pen-to-square" style="color:var(--teal-500)"></i> Post-Camp Debrief & Review</h2>
+              <div style="font-size:0.8rem; color:var(--text-muted);">Record reflections: what worked, what didn't, rating, and notes for next time</div>
+            </div>
+            <button class="btn btn-primary" id="btnOpenAddDebrief"><i class="fa-solid fa-plus"></i> Submit Debrief Reflection</button>
           </div>
           <div id="debriefMetricsContainer">
             <!-- Ratings and evaluation rendered dynamically -->
@@ -566,6 +570,54 @@
       <div style="display:flex; justify-content:flex-end; gap:0.5rem; margin-top:1.5rem;">
         <button class="btn btn-secondary" id="btnCancelAddCampEq">Cancel</button>
         <button class="btn btn-primary" id="btnSaveCampEq">Save Item</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add/Edit Debrief Modal -->
+  <div id="modalAddDebrief" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.8); z-index:200; backdrop-filter:blur(8px); align-items:center; justify-content:center;">
+    <div class="card" style="width: 540px; max-width: 90vw; max-height: 90vh; overflow-y: auto;">
+      <div class="card-header">
+        <h3 class="card-title" id="debriefModalTitle"><i class="fa-solid fa-pen-to-square" style="color:var(--gold-500)"></i> Submit Debrief Reflection</h3>
+        <button class="btn btn-secondary" id="btnCloseAddDebrief"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <input type="hidden" id="inputDebriefId">
+      <div class="form-group">
+        <label class="form-label">Debrief Category / Area</label>
+        <input type="text" id="inputDebriefMetric" class="form-control" placeholder="e.g. Safety & Water Supervision, Food, Malachi Talk">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Star Rating (1 to 5 Stars)</label>
+        <div id="debriefStarSelector" style="display:flex; gap:0.5rem; font-size:1.5rem; color:var(--gold-500); cursor:pointer;">
+          <i class="fa-solid fa-star" data-val="1"></i>
+          <i class="fa-solid fa-star" data-val="2"></i>
+          <i class="fa-solid fa-star" data-val="3"></i>
+          <i class="fa-solid fa-star" data-val="4"></i>
+          <i class="fa-solid fa-star" data-val="5"></i>
+        </div>
+        <input type="hidden" id="inputDebriefRating" value="5">
+      </div>
+      <div class="form-group">
+        <label class="form-label" style="color:#81C784;"><i class="fa-solid fa-circle-check"></i> What Worked Well (Successes)</label>
+        <textarea id="inputDebriefSuccess" class="form-control" rows="2" placeholder="Describe what went right..."></textarea>
+      </div>
+      <div class="form-group">
+        <label class="form-label" style="color:#FF8A65;"><i class="fa-solid fa-circle-exclamation"></i> What Didn't Work (Challenges)</label>
+        <textarea id="inputDebriefChallenge" class="form-control" rows="2" placeholder="Describe challenges or bottlenecks..."></textarea>
+      </div>
+      <div class="form-group">
+        <label class="form-label" style="color:var(--gold-400);"><i class="fa-solid fa-lightbulb"></i> Improvements & Notes for Next Time</label>
+        <textarea id="inputDebriefImprovement" class="form-control" rows="2" placeholder="Actionable recommendations for next camp..."></textarea>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Submitted By</label>
+        <select id="inputDebriefAuthor" class="form-control">
+          <!-- Rendered dynamically -->
+        </select>
+      </div>
+      <div style="display:flex; justify-content:flex-end; gap:0.5rem; margin-top:1.5rem;">
+        <button class="btn btn-secondary" id="btnCancelAddDebrief">Cancel</button>
+        <button class="btn btn-primary" id="btnSaveDebrief">Save Reflection</button>
       </div>
     </div>
   </div>
