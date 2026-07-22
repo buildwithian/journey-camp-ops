@@ -4,8 +4,14 @@
  * ============================================================================
  */
 
-// Initial App State (v14 Data Model)
-const state = {
+/**
+ * ============================================================================
+ * JOURNEY CAMP OPERATIONS HUB — CLIENT ENGINE & SYNC MANAGER
+ * ============================================================================
+ */
+
+// Master Default Dataset (v14 Failsafe Model)
+const DEFAULT_DATA = {
   campTrack: 'Father & Daughter Camp',
   startTime: '15:00',
   activePlan: 'PlanA',
@@ -129,6 +135,53 @@ const state = {
   ]
 };
 
+// Active Live State initialized from Master Default
+let state = JSON.parse(JSON.stringify(DEFAULT_DATA));
+
+function loadAndValidateState() {
+  try {
+    const savedRaw = localStorage.getItem('journey_app_state_v14');
+    if (savedRaw) {
+      const saved = JSON.parse(savedRaw);
+      if (saved && typeof saved === 'object') {
+        if (saved.campTrack) state.campTrack = saved.campTrack;
+        if (saved.startTime) state.startTime = saved.startTime;
+        if (saved.activePlan) state.activePlan = saved.activePlan;
+        if (saved.attendance) state.attendance = saved.attendance;
+        if (saved.gasUrl) state.gasUrl = saved.gasUrl;
+
+        if (Array.isArray(saved.volunteers) && saved.volunteers.length > 0) state.volunteers = saved.volunteers;
+        if (Array.isArray(saved.roles) && saved.roles.length > 0) state.roles = saved.roles;
+        if (Array.isArray(saved.timetable) && saved.timetable.length > 0) state.timetable = saved.timetable;
+        if (Array.isArray(saved.tasks) && saved.tasks.length > 0) state.tasks = saved.tasks;
+        if (Array.isArray(saved.campEq) && saved.campEq.length > 0) state.campEq = saved.campEq;
+        if (Array.isArray(saved.actEq) && saved.actEq.length > 0) state.actEq = saved.actEq;
+        if (Array.isArray(saved.debriefMetrics) && saved.debriefMetrics.length > 0) state.debriefMetrics = saved.debriefMetrics;
+      }
+    }
+  } catch (e) {
+    console.warn('Error restoring state from localStorage, using defaults:', e);
+    state = JSON.parse(JSON.stringify(DEFAULT_DATA));
+  }
+}
+
+function saveState() {
+  try {
+    localStorage.setItem('journey_app_state_v14', JSON.stringify(state));
+  } catch (e) {
+    console.error('Error saving state:', e);
+  }
+}
+
+function restoreAllDefaultData() {
+  if (confirm('Are you sure you want to restore all master default data? This will bring back all original volunteers, roles, tasks, equipment, timetable, and debrief entries.')) {
+    localStorage.removeItem('journey_app_state_v14');
+    state = JSON.parse(JSON.stringify(DEFAULT_DATA));
+    renderApp();
+    alert('Master default data successfully restored!');
+  }
+}
+
 // Calculated Total Participants
 function getTotalParticipants() {
   return state.attendance.dads + state.attendance.children + state.attendance.helpers;
@@ -153,19 +206,21 @@ function parseTimeToMins(timeStr) {
 
 // --- DOM Rendering Engine ---
 function renderApp() {
-  document.getElementById('statTotalParticipants').textContent = getTotalParticipants();
+  saveState();
+  const statEl = document.getElementById('statTotalParticipants');
+  if (statEl) statEl.textContent = getTotalParticipants();
   
-  renderVolunteers();
-  renderRoster();
-  renderTimetable();
-  renderVisualSchedule();
-  renderTasks();
-  renderEmergencyHub();
-  renderCampEq();
-  renderActEq();
-  renderFood();
-  renderPlaybook();
-  renderDebrief();
+  try { renderVolunteers(); } catch(e) { console.error('Error renderVolunteers:', e); }
+  try { renderRoster(); } catch(e) { console.error('Error renderRoster:', e); }
+  try { renderTimetable(); } catch(e) { console.error('Error renderTimetable:', e); }
+  try { renderVisualSchedule(); } catch(e) { console.error('Error renderVisualSchedule:', e); }
+  try { renderTasks(); } catch(e) { console.error('Error renderTasks:', e); }
+  try { renderEmergencyHub(); } catch(e) { console.error('Error renderEmergencyHub:', e); }
+  try { renderCampEq(); } catch(e) { console.error('Error renderCampEq:', e); }
+  try { renderActEq(); } catch(e) { console.error('Error renderActEq:', e); }
+  try { renderFood(); } catch(e) { console.error('Error renderFood:', e); }
+  try { renderPlaybook(); } catch(e) { console.error('Error renderPlaybook:', e); }
+  try { renderDebrief(); } catch(e) { console.error('Error renderDebrief:', e); }
 }
 
 function renderVolunteers() {
@@ -323,7 +378,10 @@ function switchTab(tabId) {
 
 function renderTimetable() {
   let currMins = parseTimeToMins(state.startTime);
+  let lastDay = 'Saturday';
   const tbody = document.getElementById('tblTimetableBody');
+  if (!tbody) return;
+
   const isPlanB = state.activePlan === 'PlanB';
 
   const alertBanner = document.getElementById('planBAlertBanner');
@@ -332,6 +390,11 @@ function renderTimetable() {
   }
 
   tbody.innerHTML = state.timetable.map(t => {
+    if (t.day !== lastDay) {
+      currMins = parseTimeToMins('06:30');
+      lastDay = t.day;
+    }
+
     const startStr = formatMinutes(currMins);
     const endMins = currMins + t.min;
     const endStr = formatMinutes(endMins);
@@ -378,6 +441,7 @@ function renderTimetable() {
       const act = e.target.getAttribute('data-activity');
       const item = state.timetable.find(x => x.activity === act);
       if (item) item.leader = e.target.value;
+      saveState();
     });
   });
 
@@ -398,12 +462,19 @@ function renderTimetable() {
 
 function renderVisualSchedule() {
   let currMinsSat = parseTimeToMins(state.startTime);
+  let currMinsSun = parseTimeToMins('06:30');
   let satHtml = '';
   let sunHtml = '';
   
   state.timetable.forEach(t => {
-    const startStr = formatMinutes(currMinsSat);
-    currMinsSat += t.min;
+    let startStr = '';
+    if (t.day === 'Saturday') {
+      startStr = formatMinutes(currMinsSat);
+      currMinsSat += t.min;
+    } else {
+      startStr = formatMinutes(currMinsSun);
+      currMinsSun += t.min;
+    }
     
     const card = `
       <div class="schedule-card-compact">
@@ -419,8 +490,10 @@ function renderVisualSchedule() {
     else sunHtml += card;
   });
 
-  document.getElementById('visSatContainer').innerHTML = satHtml;
-  document.getElementById('visSunContainer').innerHTML = sunHtml;
+  const satContainer = document.getElementById('visSatContainer');
+  const sunContainer = document.getElementById('visSunContainer');
+  if (satContainer) satContainer.innerHTML = satHtml;
+  if (sunContainer) sunContainer.innerHTML = sunHtml;
 }
 
 function renderPlaybook() {
@@ -1172,23 +1245,25 @@ function initEvents() {
     });
   });
 
-  // Settings Modal
-  document.getElementById('btnSettings').addEventListener('click', () => {
+  // Settings Modal & Master Reset
+  document.getElementById('btnSettings')?.addEventListener('click', () => {
     document.getElementById('modalSettings').style.display = 'flex';
     document.getElementById('inputGasUrl').value = state.gasUrl;
   });
-  document.getElementById('btnCloseModal').addEventListener('click', () => {
+  document.getElementById('btnCloseModal')?.addEventListener('click', () => {
     document.getElementById('modalSettings').style.display = 'none';
   });
-  document.getElementById('btnSaveGasUrl').addEventListener('click', () => {
+  document.getElementById('btnSaveGasUrl')?.addEventListener('click', () => {
     state.gasUrl = document.getElementById('inputGasUrl').value.trim();
     localStorage.setItem('journey_gas_url', state.gasUrl);
     document.getElementById('modalSettings').style.display = 'none';
     checkGasSyncStatus();
+    saveState();
   });
+  document.getElementById('btnRestoreDefaults')?.addEventListener('click', restoreAllDefaultData);
 
   // Export
-  document.getElementById('btnExport').addEventListener('click', exportAppData);
+  document.getElementById('btnExport')?.addEventListener('click', exportAppData);
 }
 
 function checkGasSyncStatus() {
@@ -1196,11 +1271,11 @@ function checkGasSyncStatus() {
   const text = document.getElementById('syncText');
   
   if (state.gasUrl) {
-    badge.classList.remove('offline');
-    text.textContent = 'Google Sheet Sync Active';
+    if (badge) badge.classList.remove('offline');
+    if (text) text.textContent = 'Google Sheet Sync Active';
   } else {
-    badge.classList.add('offline');
-    text.textContent = 'Local Mode';
+    if (badge) badge.classList.add('offline');
+    if (text) text.textContent = 'Local Mode';
   }
 }
 
@@ -1225,9 +1300,16 @@ function exportAppData() {
   downloadAnchor.remove();
 }
 
-// Initialize on Load
-document.addEventListener('DOMContentLoaded', () => {
+// Initialize Engine Failsafe
+function initApp() {
+  loadAndValidateState();
   initEvents();
   checkGasSyncStatus();
   renderApp();
-});
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initApp);
+} else {
+  initApp();
+}
