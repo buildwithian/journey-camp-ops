@@ -369,8 +369,9 @@
       <!-- TAB 7: Playbook -->
       <div id="tab-playbook" class="tab-pane">
         <div class="card">
-          <div class="card-header">
+          <div class="card-header" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem;">
             <h2 class="card-title"><i class="fa-solid fa-book-open" style="color:var(--gold-400)"></i> Activity Playbook & Weather Plan B</h2>
+            <label style="font-size: 0.85rem; cursor:pointer; color:var(--text-main);"><input type="checkbox" checked id="togglePlaybookPlanB" style="margin-right:0.3rem;"> Show Plan B</label>
           </div>
           <div id="playbookAccordionContainer">
             <!-- Accordion cards rendered dynamically -->
@@ -381,18 +382,18 @@
       <!-- TAB 8: Detailed Timetable -->
       <div id="tab-timetable" class="tab-pane">
         <div class="card">
-          <div class="card-header">
+          <div class="card-header" style="flex-direction:column; align-items:flex-start; gap:0.5rem;">
             <div>
               <h2 class="card-title"><i class="fa-solid fa-list-check" style="color:var(--gold-500)"></i> Detailed Operations Timetable</h2>
               <div style="font-size:0.8rem; color:var(--text-muted);">Combined time windows, assigned leaders, and interactive Playbook / Equipment links</div>
             </div>
-            <div style="display:flex; gap:0.35rem;" id="timetablePlanToggle">
-              <button class="btn btn-secondary plan-toggle-btn active" data-plan="PlanA" style="padding:0.35rem 0.75rem; font-size:0.8rem;"><i class="fa-solid fa-sun" style="color:var(--gold-400)"></i> Plan A (Standard)</button>
-              <button class="btn btn-secondary plan-toggle-btn" data-plan="PlanB" style="padding:0.35rem 0.75rem; font-size:0.8rem;"><i class="fa-solid fa-cloud-showers-heavy" style="color:#FF8A65"></i> Plan B (Weather Contingencies)</button>
+            <div class="column-filters" style="display:flex; gap: 1rem; font-size: 0.85rem; flex-wrap: wrap; margin-top:0.5rem; color:var(--text-main);">
+              <strong style="color:#FFF;">Show/Hide Columns:</strong>
+              <label style="cursor:pointer;"><input type="checkbox" checked id="toggleColEq" style="margin-right:0.3rem;"> Linked Equipment</label>
+              <label style="cursor:pointer;"><input type="checkbox" checked id="toggleColRole" style="margin-right:0.3rem;"> Assigned Role</label>
+              <label style="cursor:pointer;"><input type="checkbox" checked id="toggleColLeader" style="margin-right:0.3rem;"> Assigned Leader</label>
+              <label style="cursor:pointer;"><input type="checkbox" checked id="toggleColPlanB" style="margin-right:0.3rem;"> Plan B (Contingency)</label>
             </div>
-          </div>
-          <div id="planBAlertBanner" style="display:none; padding:0.75rem 1rem; background:rgba(192,84,47,0.2); border:1px solid var(--coral-600); border-radius:var(--radius-sm); margin-bottom:1rem; color:#FF8A65; font-size:0.85rem; font-weight:600;">
-            <i class="fa-solid fa-triangle-exclamation"></i> <strong>WEATHER PLAN B ACTIVE:</strong> Review indoor venue transfers & weather contingencies highlighted below. Click Plan B links to jump directly to Playbook steps!
           </div>
           <div class="table-container">
             <table class="data-table" data-table-id="timetable">

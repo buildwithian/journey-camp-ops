@@ -1498,28 +1498,29 @@ function initEvents() {
     });
   });
 
-  // Timetable Plan A / Plan B Toggle
-  document.querySelectorAll('#timetablePlanToggle .plan-toggle-btn').forEach(btn => {
-    btn.addEventListener('click', (e) => {
-      document.querySelectorAll('#timetablePlanToggle .plan-toggle-btn').forEach(b => {
-        b.classList.remove('active');
-        b.style.background = 'rgba(255, 255, 255, 0.08)';
-        b.style.color = 'var(--text-main)';
-      });
-      const plan = e.currentTarget.getAttribute('data-plan');
-      e.currentTarget.classList.add('active');
-      state.activePlan = plan;
-      
-      if (plan === 'PlanB') {
-        e.currentTarget.style.background = 'linear-gradient(135deg, var(--coral-600), #C0542F)';
-        e.currentTarget.style.color = '#FFF';
-      } else {
-        e.currentTarget.style.background = 'linear-gradient(135deg, var(--gold-500), #B88E2D)';
-        e.currentTarget.style.color = 'var(--navy-900)';
-      }
+  // Playbook Plan B Toggle
+  document.getElementById('togglePlaybookPlanB')?.addEventListener('change', (e) => {
+    const container = document.getElementById('playbookAccordionContainer');
+    if (e.target.checked) {
+      container.classList.remove('hide-playbook-planb');
+    } else {
+      container.classList.add('hide-playbook-planb');
+    }
+  });
 
-      renderTimetable();
-    });
+  // Timetable Column Toggles
+  const ttTable = document.querySelector('[data-table-id="timetable"]');
+  document.getElementById('toggleColEq')?.addEventListener('change', (e) => {
+    if (ttTable) e.target.checked ? ttTable.classList.remove('hide-col-eq') : ttTable.classList.add('hide-col-eq');
+  });
+  document.getElementById('toggleColRole')?.addEventListener('change', (e) => {
+    if (ttTable) e.target.checked ? ttTable.classList.remove('hide-col-role') : ttTable.classList.add('hide-col-role');
+  });
+  document.getElementById('toggleColLeader')?.addEventListener('change', (e) => {
+    if (ttTable) e.target.checked ? ttTable.classList.remove('hide-col-leader') : ttTable.classList.add('hide-col-leader');
+  });
+  document.getElementById('toggleColPlanB')?.addEventListener('change', (e) => {
+    if (ttTable) e.target.checked ? ttTable.classList.remove('hide-col-planb') : ttTable.classList.add('hide-col-planb');
   });
 
   // Settings Modal & Master Reset

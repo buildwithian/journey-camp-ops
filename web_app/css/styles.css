@@ -423,8 +423,16 @@ h1, h2, h3, h4, .brand-title {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 1rem;
-  padding: 1rem;
 }
+
+/* Column Toggle Classes for Timetable */
+table.hide-col-eq th:nth-child(5), table.hide-col-eq td:nth-child(5) { display: none; }
+table.hide-col-role th:nth-child(6), table.hide-col-role td:nth-child(6) { display: none; }
+table.hide-col-leader th:nth-child(7), table.hide-col-leader td:nth-child(7) { display: none; }
+table.hide-col-planb th:nth-child(8), table.hide-col-planb td:nth-child(8) { display: none; }
+
+/* Playbook Toggle */
+#playbookAccordionContainer.hide-playbook-planb .plan-b-box { display: none; }
 
 .data-table th:nth-child(2) {
   /* Give the Description / Item column more space to avoid text wrap */
