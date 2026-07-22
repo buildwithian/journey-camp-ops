@@ -367,6 +367,7 @@ h1, h2, h3, h4, .brand-title {
 /* --- Data Tables --- */
 .table-container {
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
   border-radius: var(--radius-md);
   border: 1px solid var(--border-light);
 }
@@ -421,7 +422,7 @@ h1, h2, h3, h4, .brand-title {
 
 .two-column-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 1rem;
 }
 
@@ -665,6 +666,12 @@ table.hide-col-planb th:nth-child(8), table.hide-col-planb td:nth-child(8) { dis
   .card { padding: 1rem; margin-bottom: 1rem; }
   .data-table th, .data-table td { padding: 0.5rem 0.65rem; font-size: 0.825rem; }
   .form-control { padding: 0.45rem 0.65rem; font-size: 0.85rem; }
+}
+
+@media (max-width: 768px) {
+  .app-header { flex-direction: column; align-items: flex-start; gap: 0.5rem; padding: 1rem; }
+  .column-filters { flex-direction: column; gap: 0.5rem; }
+  .two-column-grid { grid-template-columns: 1fr; }
 }
 
 /* Compact Table Controls & Checklist Styling */
