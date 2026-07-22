@@ -198,12 +198,15 @@
         </div>
       </div>
 
-      <!-- TAB 3: Pre-Camp Tasks -->
+      <!-- TAB 3: Pre-Camp & Post-Camp Tasks -->
       <div id="tab-tasks" class="tab-pane">
         <div class="card">
           <div class="card-header">
-            <h2 class="card-title"><i class="fa-solid fa-square-check" style="color:var(--teal-500)"></i> Pre-Camp Task Checklist</h2>
-            <input type="text" id="searchTasks" class="form-control" placeholder="Search tasks..." style="width: 240px;">
+            <h2 class="card-title"><i class="fa-solid fa-square-check" style="color:var(--teal-500)"></i> Pre-Camp & Post-Camp Task Checklist</h2>
+            <div style="display:flex; gap:0.5rem; align-items:center;">
+              <input type="text" id="searchTasks" class="form-control" placeholder="Search tasks..." style="width: 200px;">
+              <button class="btn btn-primary" id="btnOpenAddTask"><i class="fa-solid fa-plus"></i> Add Task</button>
+            </div>
           </div>
           <div class="table-container">
             <table class="data-table">
@@ -212,7 +215,9 @@
                   <th>Category</th>
                   <th>Task Description</th>
                   <th>Assigned Role</th>
+                  <th>Responsible Leader</th>
                   <th>Status</th>
+                  <th style="text-align:center;">Action</th>
                 </tr>
               </thead>
               <tbody id="tblTasksBody">
@@ -228,16 +233,22 @@
         <div class="card">
           <div class="card-header">
             <h2 class="card-title"><i class="fa-solid fa-campground" style="color:var(--gold-400)"></i> General Camp & Safety Equipment</h2>
-            <input type="text" id="searchCampEq" class="form-control" placeholder="Search camp gear..." style="width: 240px;">
+            <div style="display:flex; gap:0.5rem; align-items:center;">
+              <input type="text" id="searchCampEq" class="form-control" placeholder="Search camp gear..." style="width: 200px;">
+              <button class="btn btn-primary" id="btnOpenAddCampEq"><i class="fa-solid fa-plus"></i> Add Item</button>
+            </div>
           </div>
           <div class="table-container">
             <table class="data-table">
               <thead>
                 <tr>
                   <th>Item Description</th>
-                  <th>Qty</th>
+                  <th style="text-align:center;">Qty</th>
                   <th>Assigned Role</th>
+                  <th>Responsible Leader</th>
                   <th>Status</th>
+                  <th>Notes</th>
+                  <th style="text-align:center;">Action</th>
                 </tr>
               </thead>
               <tbody id="tblCampEqBody">
@@ -252,18 +263,19 @@
       <div id="tab-act-eq" class="tab-pane">
         <div class="card">
           <div class="card-header">
-            <h2 class="card-title"><i class="fa-solid fa-bullseye" style="color:var(--teal-500)"></i> Activity Equipment (Auto-Calculated)</h2>
+            <h2 class="card-title"><i class="fa-solid fa-bullseye" style="color:var(--teal-500)"></i> Activity Equipment</h2>
           </div>
           <div class="table-container">
             <table class="data-table">
               <thead>
                 <tr>
                   <th>Item Description</th>
-                  <th>Scaling Rule</th>
-                  <th>Calc. Qty</th>
+                  <th style="text-align:center;">Calc. Qty</th>
                   <th>Linked Activity</th>
                   <th>Assigned Role</th>
+                  <th>Responsible for bringing</th>
                   <th>Status</th>
+                  <th>Notes</th>
                 </tr>
               </thead>
               <tbody id="tblActEqBody">
@@ -424,6 +436,93 @@
       <div style="display:flex; justify-content:flex-end; gap:0.5rem; margin-top:1.5rem;">
         <button class="btn btn-secondary" id="btnCancelAddVolunteer">Cancel</button>
         <button class="btn btn-primary" id="btnSaveVolunteer">Add to Directory</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add Task Modal -->
+  <div id="modalAddTask" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.8); z-index:200; backdrop-filter:blur(8px); align-items:center; justify-content:center;">
+    <div class="card" style="width: 480px; max-width: 90vw;">
+      <div class="card-header">
+        <h3 class="card-title"><i class="fa-solid fa-plus-circle" style="color:var(--teal-500)"></i> Add New Task</h3>
+        <button class="btn btn-secondary" id="btnCloseAddTask"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Task Phase / Category</label>
+        <select id="inputTaskCategory" class="form-control">
+          <option value="Pre-Camp">Pre-Camp Task</option>
+          <option value="Post-Camp">Post-Camp Task</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Task Description</label>
+        <input type="text" id="inputTaskDesc" class="form-control" placeholder="e.g. Download Malachi video">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Assigned Role</label>
+        <select id="inputTaskRole" class="form-control">
+          <option value="Session Coordinator">Session Coordinator</option>
+          <option value="Logistics Lead">Logistics Lead</option>
+          <option value="Administration">Administration</option>
+          <option value="Catering / Fire Lead">Catering / Fire Lead</option>
+          <option value="Safety & Welfare Lead">Safety & Welfare Lead</option>
+          <option value="Spiritual Oversight / Prayer Lead">Spiritual Oversight / Prayer Lead</option>
+          <option value="Pastoral Care Lead">Pastoral Care Lead</option>
+          <option value="Activity Facilitator">Activity Facilitator</option>
+          <option value="Communion Sub-Leader">Communion Sub-Leader</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Responsible Leader</label>
+        <select id="inputTaskLeader" class="form-control">
+          <!-- Rendered dynamically -->
+        </select>
+      </div>
+      <div style="display:flex; justify-content:flex-end; gap:0.5rem; margin-top:1.5rem;">
+        <button class="btn btn-secondary" id="btnCancelAddTask">Cancel</button>
+        <button class="btn btn-primary" id="btnSaveTask">Save Task</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add Camp Equipment Modal -->
+  <div id="modalAddCampEq" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.8); z-index:200; backdrop-filter:blur(8px); align-items:center; justify-content:center;">
+    <div class="card" style="width: 480px; max-width: 90vw;">
+      <div class="card-header">
+        <h3 class="card-title"><i class="fa-solid fa-plus-circle" style="color:var(--gold-500)"></i> Add Camp Equipment Item</h3>
+        <button class="btn btn-secondary" id="btnCloseAddCampEq"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Item Description</label>
+        <input type="text" id="inputEqItem" class="form-control" placeholder="e.g. Spare Gas Cylinder">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Quantity</label>
+        <input type="number" id="inputEqQty" class="form-control" value="1" min="1">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Assigned Role</label>
+        <select id="inputEqRole" class="form-control">
+          <option value="Logistics Lead">Logistics Lead</option>
+          <option value="Catering / Fire Lead">Catering / Fire Lead</option>
+          <option value="Safety & Welfare Lead">Safety & Welfare Lead</option>
+          <option value="Session Coordinator">Session Coordinator</option>
+          <option value="Administration">Administration</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Responsible Leader</label>
+        <select id="inputEqLeader" class="form-control">
+          <!-- Rendered dynamically -->
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Notes (Optional)</label>
+        <input type="text" id="inputEqNotes" class="form-control" placeholder="e.g. Ensure full bottle">
+      </div>
+      <div style="display:flex; justify-content:flex-end; gap:0.5rem; margin-top:1.5rem;">
+        <button class="btn btn-secondary" id="btnCancelAddCampEq">Cancel</button>
+        <button class="btn btn-primary" id="btnSaveCampEq">Save Item</button>
       </div>
     </div>
   </div>

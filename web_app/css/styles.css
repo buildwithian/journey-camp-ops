@@ -615,4 +615,25 @@ h1, h2, h3, h4, .brand-title {
   .sidebar-nav { width: 100%; flex-direction: row; overflow-x: auto; border-right: none; border-bottom: 1px solid var(--border-light); }
   .visual-schedule-grid { grid-template-columns: 1fr; }
   .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
+  .main-content { padding: 1rem; }
+  .card { padding: 1rem; margin-bottom: 1rem; }
+  .data-table th, .data-table td { padding: 0.5rem 0.65rem; font-size: 0.825rem; }
+  .form-control { padding: 0.45rem 0.65rem; font-size: 0.85rem; }
 }
+
+/* Compact Table Controls & Checklist Styling */
+.task-leader-select, .task-status-select,
+.campeq-leader-select, .campeq-status-select,
+.acteq-leader-select, .acteq-status-select {
+  padding: 0.35rem 0.6rem;
+  font-size: 0.825rem;
+  border-radius: 6px;
+  background: rgba(15, 23, 42, 0.9);
+}
+
+.campeq-notes-input, .acteq-notes-input {
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: var(--gold-400);
+}
+

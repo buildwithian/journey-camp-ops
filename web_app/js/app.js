@@ -68,52 +68,55 @@ const state = {
   ],
 
   tasks: [
-    { category: 'Pre-Planning', desc: 'Finalize RSVP list and dietary requirements', role: 'Administration', status: 'Not Started' },
-    { category: 'Pre-Planning', desc: 'Review medical forms, emergency contacts & allergy flags', role: 'Safety & Welfare Lead', status: 'Not Started' },
-    { category: 'Pre-Planning', desc: 'Confirm Water Safety Leads assigned & certified', role: 'Safety & Welfare Lead', status: 'Not Started' },
-    { category: 'Pre-Planning', desc: 'Inspect water safety equipment (throw ropes, life buoys, first aid kit)', role: 'Safety & Welfare Lead', status: 'Not Started' },
-    { category: 'Pre-Planning', desc: 'Confirm venue emergency contacts & directions to nearest hospital', role: 'Administration', status: 'Not Started' },
-    { category: 'Pre-Planning', desc: 'Purchase all communal shopping list items (see Food tab)', role: 'Catering / Fire Lead', status: 'Not Started' },
-    { category: 'Pre-Planning', desc: 'Print name tags and laminate question cards', role: 'Administration', status: 'Not Started' },
-    { category: 'Pre-Planning', desc: 'Confirm venue access codes and agree on final camp & weather Plan B layout', role: 'Logistics Lead', status: 'Not Started' },
-    { category: 'Pre-Planning', desc: 'Pack all camp equipment, tents, bivvies, and activity gear', role: 'Logistics Lead', status: 'Not Started' },
-    { category: 'Pre-Planning', desc: 'Download YouTube Malachi scripture video to a device', role: 'Session Coordinator', status: 'Not Started' },
-    { category: 'Pre-Planning', desc: 'Test projector and speaker with downloaded video', role: 'Session Coordinator', status: 'Not Started' },
-    { category: 'Pre-Planning', desc: 'Communicate final packing list & weather Plan B to all fathers', role: 'Administration', status: 'Not Started' },
-    { category: 'Pre-Planning', desc: 'Prepare communion elements (bread loaf, grape juice)', role: 'Communion Sub-Leader', status: 'Not Started' },
-    { category: 'Pre-Planning', desc: 'Conduct team pre-camp prayer and spiritual prep session', role: 'Spiritual Oversight / Prayer Lead', status: 'Not Started' }
+    { id: 'task-1', category: 'Pre-Camp', desc: 'Download YouTube Malachi scripture video to a device', role: 'Session Coordinator', leader: 'Marvin Welby-Solomon', status: 'Pending' },
+    { id: 'task-2', category: 'Pre-Camp', desc: 'Test audio speaker & projector with downloaded video', role: 'Session Coordinator', leader: 'Marvin Welby-Solomon', status: 'Pending' },
+    { id: 'task-3', category: 'Pre-Camp', desc: 'Finalize RSVP list and dietary requirements', role: 'Administration', leader: 'Paul Barter', status: 'Pending' },
+    { id: 'task-4', category: 'Pre-Camp', desc: 'Review medical forms, emergency contacts & allergy flags', role: 'Safety & Welfare Lead', leader: 'Raldo Kruger', status: 'Pending' },
+    { id: 'task-5', category: 'Pre-Camp', desc: 'Confirm Water Safety Leads assigned & certified', role: 'Safety & Welfare Lead', leader: 'Raldo Kruger', status: 'Pending' },
+    { id: 'task-6', category: 'Pre-Camp', desc: 'Inspect water safety equipment (life buoy, first aid kit)', role: 'Safety & Welfare Lead', leader: 'Raldo Kruger', status: 'Pending' },
+    { id: 'task-7', category: 'Pre-Camp', desc: 'Confirm venue emergency contacts & directions to nearest hospital', role: 'Administration', leader: 'Paul Barter', status: 'Pending' },
+    { id: 'task-8', category: 'Pre-Camp', desc: 'Purchase all communal shopping list items (see Food tab)', role: 'Catering / Fire Lead', leader: 'Kevin de Wet', status: 'Pending' },
+    { id: 'task-9', category: 'Pre-Camp', desc: 'Print name tags and laminate question cards', role: 'Administration', leader: 'Paul Barter', status: 'Pending' },
+    { id: 'task-10', category: 'Pre-Camp', desc: 'Confirm venue access codes & agree on weather Plan B layout', role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending' },
+    { id: 'task-11', category: 'Pre-Camp', desc: 'Pack all camp equipment, tents, bivvies, and activity gear', role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending' },
+    { id: 'task-12', category: 'Pre-Camp', desc: 'Communicate final packing list & weather Plan B to all fathers', role: 'Administration', leader: 'Paul Barter', status: 'Pending' },
+    { id: 'task-13', category: 'Pre-Camp', desc: 'Prepare communion elements (bread loaf, grape juice)', role: 'Communion Sub-Leader', leader: 'Richard Walker', status: 'Pending' },
+    { id: 'task-14', category: 'Pre-Camp', desc: 'Conduct team pre-camp prayer and spiritual prep session', role: 'Spiritual Oversight / Prayer Lead', leader: 'Ian Sinclair', status: 'Pending' },
+    
+    { id: 'task-15', category: 'Post-Camp', desc: 'Conduct post-camp facilitator debrief session & metrics review', role: 'Oversight Lead', leader: 'Ian Sinclair', status: 'Pending' },
+    { id: 'task-16', category: 'Post-Camp', desc: 'Inspect, clean, and return all borrowed camp & activity equipment', role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending' },
+    { id: 'task-17', category: 'Post-Camp', desc: 'Follow up with fathers for post-camp pastoral feedback and referrals', role: 'Pastoral Care Lead', leader: 'Richard Walker', status: 'Pending' },
+    { id: 'task-18', category: 'Post-Camp', desc: 'Finalize camp expenditure & financial reconciliation', role: 'Administration', leader: 'Paul Barter', status: 'Pending' }
   ],
 
   campEq: [
-    { item: 'First aid kit (Comprehensive)', qty: 1, role: 'Safety & Welfare Lead', status: 'To Buy' },
-    { item: 'Life Buoy / Rescue Ring', qty: 1, role: 'Safety & Welfare Lead', status: 'To Buy' },
-    { item: 'Water Rescue Throw Rope (20m)', qty: 1, role: 'Safety & Welfare Lead', status: 'To Buy' },
-    { item: 'Lifeguard Whistles (High-decibel)', qty: 2, role: 'Safety & Welfare Lead', status: 'To Buy' },
-    { item: 'High-Vis Lifeguard Vests', qty: 2, role: 'Safety & Welfare Lead', status: 'To Buy' },
-    { item: 'Washing bowl', qty: 1, role: 'Logistics Lead', status: 'To Buy' },
-    { item: 'Dish towel', qty: 2, role: 'Logistics Lead', status: 'To Buy' },
-    { item: 'Dish cloth', qty: 5, role: 'Logistics Lead', status: 'To Buy' },
-    { item: 'Dish scourers', qty: 5, role: 'Logistics Lead', status: 'To Buy' },
-    { item: 'Dish washing liquid', qty: 1, role: 'Logistics Lead', status: 'To Buy' },
-    { item: 'Chopping board (wooden)', qty: 4, role: 'Catering / Fire Lead', status: 'To Buy' },
-    { item: 'Garbage bags', qty: 5, role: 'Logistics Lead', status: 'To Buy' },
-    { item: 'Spade', qty: 1, role: 'Logistics Lead', status: 'To Buy' },
-    { item: 'Water Carrier', qty: 1, role: 'Logistics Lead', status: 'To Buy' },
-    { item: 'Gas bottles', qty: 2, role: 'Logistics Lead', status: 'To Buy' },
-    { item: 'Gas kettle (Large)', qty: 1, role: 'Logistics Lead', status: 'To Buy' },
-    { item: 'Gas plate', qty: 2, role: 'Logistics Lead', status: 'To Buy' },
-    { item: 'Gas kettle (small)', qty: 1, role: 'Logistics Lead', status: 'To Buy' },
-    { item: 'Gas two-plater', qty: 1, role: 'Logistics Lead', status: 'To Buy' },
-    { item: 'Cutlery set', qty: 1, role: 'Catering / Fire Lead', status: 'To Buy' },
-    { item: 'Gas fire starter (rod)', qty: 1, role: 'Logistics Lead', status: 'To Buy' },
-    { item: 'Tongs', qty: 4, role: 'Catering / Fire Lead', status: 'To Buy' },
-    { item: 'Bodum', qty: 1, role: 'Catering / Fire Lead', status: 'To Buy' },
-    { item: 'Braai grid (large)', qty: 1, role: 'Logistics Lead', status: 'To Buy' },
-    { item: 'Journey Banner', qty: 1, role: 'Logistics Lead', status: 'To Buy' },
-    { item: 'Fire lighter', qty: 1, role: 'Logistics Lead', status: 'To Buy' },
-    { item: 'Camping mats', qty: 6, role: 'Logistics Lead', status: 'To Buy' },
-    { item: 'Axe', qty: 1, role: 'Logistics Lead', status: 'To Buy' },
-    { item: 'Mallet', qty: 1, role: 'Logistics Lead', status: 'To Buy' }
+    { item: 'Washing bowl', qty: 1, role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending', notes: '' },
+    { item: 'Dish towel', qty: 2, role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending', notes: '' },
+    { item: 'Dish cloth', qty: 5, role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending', notes: '' },
+    { item: 'Dish scourers', qty: 5, role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending', notes: '' },
+    { item: 'Dish washing liquid', qty: 1, role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending', notes: '' },
+    { item: 'Chopping board (wooden)', qty: 4, role: 'Catering / Fire Lead', leader: 'Kevin de Wet', status: 'Pending', notes: '' },
+    { item: 'Garbage bags', qty: 5, role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending', notes: '' },
+    { item: 'Spade', qty: 1, role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending', notes: '' },
+    { item: 'Water Carrier', qty: 1, role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending', notes: '' },
+    { item: 'Gas bottles', qty: 2, role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending', notes: '' },
+    { item: 'Gas kettle (Large)', qty: 1, role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending', notes: '' },
+    { item: 'Gas plate', qty: 2, role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending', notes: '' },
+    { item: 'Gas kettle (small)', qty: 1, role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending', notes: '' },
+    { item: 'Gas two plater', qty: 1, role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending', notes: '' },
+    { item: 'Cutlery set', qty: 1, role: 'Catering / Fire Lead', leader: 'Kevin de Wet', status: 'Pending', notes: '' },
+    { item: 'Gas fire starter (rod)', qty: 1, role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending', notes: '' },
+    { item: 'First aid kit', qty: 1, role: 'Safety & Welfare Lead', leader: 'Raldo Kruger', status: 'Pending', notes: '' },
+    { item: 'Tongs', qty: 4, role: 'Catering / Fire Lead', leader: 'Kevin de Wet', status: 'Pending', notes: '' },
+    { item: 'Bodum', qty: 1, role: 'Catering / Fire Lead', leader: 'Kevin de Wet', status: 'Pending', notes: '' },
+    { item: 'Braai grid (large)', qty: 1, role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending', notes: '' },
+    { item: 'Journey Banner', qty: 1, role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending', notes: '' },
+    { item: 'Fire lighter', qty: 1, role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending', notes: '' },
+    { item: 'Camping mats', qty: 6, role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending', notes: '' },
+    { item: 'Axe', qty: 1, role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending', notes: '' },
+    { item: 'Mallet', qty: 1, role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending', notes: '' },
+    { item: 'Prop for earth shaking', qty: 1, role: 'Session Coordinator', leader: 'Marvin Welby-Solomon', status: 'Pending', notes: '' },
+    { item: 'Life Buoy / Rescue Ring', qty: 1, role: 'Safety & Welfare Lead', leader: 'Raldo Kruger', status: 'Pending', notes: '' }
   ],
 
   debriefMetrics: [
@@ -322,27 +325,68 @@ function renderVisualSchedule() {
 }
 
 function renderTasks() {
+  const searchVal = (document.getElementById('searchTasks')?.value || '').toLowerCase();
   const tbody = document.getElementById('tblTasksBody');
-  tbody.innerHTML = state.tasks.map(t => `
-    <tr>
-      <td style="color:var(--text-muted);">${t.category}</td>
-      <td style="font-weight:600; color:#FFF;">${t.desc}</td>
-      <td><span class="badge badge-pending">${t.role}</span></td>
-      <td>
-        <select class="form-control task-status-select" data-desc="${t.desc}">
-          <option value="Not Started" ${t.status === 'Not Started' ? 'selected' : ''}>Not Started</option>
-          <option value="Pending" ${t.status === 'Pending' ? 'selected' : ''}>Pending</option>
-          <option value="Done" ${t.status === 'Done' ? 'selected' : ''}>Done</option>
-        </select>
-      </td>
-    </tr>
-  `).join('');
+  
+  const filtered = state.tasks.filter(t => 
+    t.desc.toLowerCase().includes(searchVal) || 
+    t.role.toLowerCase().includes(searchVal) ||
+    t.category.toLowerCase().includes(searchVal)
+  );
+
+  tbody.innerHTML = filtered.map(t => {
+    const isPost = t.category.includes('Post');
+    const badgeStyle = isPost 
+      ? 'background:rgba(229,115,115,0.2); border:1px solid rgba(229,115,115,0.4); color:#FF8A65;' 
+      : 'background:rgba(34,153,136,0.2); border:1px solid rgba(34,153,136,0.4); color:var(--teal-500);';
+    
+    return `
+      <tr>
+        <td><span class="badge" style="${badgeStyle}">${t.category}</span></td>
+        <td style="font-weight:600; color:#FFF;">${t.desc}</td>
+        <td><span class="badge badge-pending">${t.role}</span></td>
+        <td>
+          <select class="form-control task-leader-select" data-id="${t.id}">
+            ${state.volunteers.map(v => `<option value="${v.name}" ${v.name === t.leader ? 'selected' : ''}>${v.name}</option>`).join('')}
+          </select>
+        </td>
+        <td>
+          <select class="form-control task-status-select" data-id="${t.id}">
+            <option value="Pending" ${t.status === 'Pending' ? 'selected' : ''}>Pending</option>
+            <option value="In Progress" ${t.status === 'In Progress' ? 'selected' : ''}>In Progress</option>
+            <option value="Completed" ${t.status === 'Completed' ? 'selected' : ''}>Completed</option>
+          </select>
+        </td>
+        <td style="text-align:center;">
+          <button class="btn btn-danger btn-delete-task" data-id="${t.id}" style="padding:0.25rem 0.5rem; font-size:0.75rem;">
+            <i class="fa-solid fa-trash-can"></i>
+          </button>
+        </td>
+      </tr>
+    `;
+  }).join('');
+
+  document.querySelectorAll('.task-leader-select').forEach(sel => {
+    sel.addEventListener('change', (e) => {
+      const id = e.target.getAttribute('data-id');
+      const t = state.tasks.find(x => x.id === id);
+      if (t) t.leader = e.target.value;
+    });
+  });
 
   document.querySelectorAll('.task-status-select').forEach(sel => {
     sel.addEventListener('change', (e) => {
-      const desc = e.target.getAttribute('data-desc');
-      const t = state.tasks.find(x => x.desc === desc);
+      const id = e.target.getAttribute('data-id');
+      const t = state.tasks.find(x => x.id === id);
       if (t) t.status = e.target.value;
+    });
+  });
+
+  document.querySelectorAll('.btn-delete-task').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      const id = e.currentTarget.getAttribute('data-id');
+      state.tasks = state.tasks.filter(x => x.id !== id);
+      renderTasks();
     });
   });
 }
@@ -408,54 +452,151 @@ function renderEmergencyHub() {
 }
 
 function renderCampEq() {
+  const searchVal = (document.getElementById('searchCampEq')?.value || '').toLowerCase();
   const tbody = document.getElementById('tblCampEqBody');
-  tbody.innerHTML = state.campEq.map(e => `
+  
+  const filtered = state.campEq.filter(e => 
+    e.item.toLowerCase().includes(searchVal) || 
+    e.role.toLowerCase().includes(searchVal)
+  );
+
+  tbody.innerHTML = filtered.map((e, idx) => `
     <tr>
       <td style="font-weight:600; color:#FFF;">${e.item}</td>
       <td style="font-weight:700; text-align:center;">${e.qty}</td>
       <td><span class="badge badge-pending">${e.role}</span></td>
       <td>
-        <select class="form-control eq-status-select" data-item="${e.item}">
-          <option value="To Buy" ${e.status === 'To Buy' ? 'selected' : ''}>To Buy</option>
+        <select class="form-control campeq-leader-select" data-item="${e.item}">
+          ${state.volunteers.map(v => `<option value="${v.name}" ${v.name === e.leader ? 'selected' : ''}>${v.name}</option>`).join('')}
+        </select>
+      </td>
+      <td>
+        <select class="form-control campeq-status-select" data-item="${e.item}">
           <option value="Pending" ${e.status === 'Pending' ? 'selected' : ''}>Pending</option>
           <option value="Packed" ${e.status === 'Packed' ? 'selected' : ''}>Packed</option>
+          <option value="Completed" ${e.status === 'Completed' ? 'selected' : ''}>Completed</option>
         </select>
+      </td>
+      <td>
+        <input type="text" class="form-control campeq-notes-input" data-item="${e.item}" value="${e.notes || ''}" placeholder="Add note..." style="font-size:0.825rem; padding:0.35rem 0.6rem;">
+      </td>
+      <td style="text-align:center;">
+        <button class="btn btn-danger btn-delete-campeq" data-item="${e.item}" style="padding:0.25rem 0.5rem; font-size:0.75rem;">
+          <i class="fa-solid fa-trash-can"></i>
+        </button>
       </td>
     </tr>
   `).join('');
+
+  document.querySelectorAll('.campeq-leader-select').forEach(sel => {
+    sel.addEventListener('change', (ev) => {
+      const item = ev.target.getAttribute('data-item');
+      const eq = state.campEq.find(x => x.item === item);
+      if (eq) eq.leader = ev.target.value;
+    });
+  });
+
+  document.querySelectorAll('.campeq-status-select').forEach(sel => {
+    sel.addEventListener('change', (ev) => {
+      const item = ev.target.getAttribute('data-item');
+      const eq = state.campEq.find(x => x.item === item);
+      if (eq) eq.status = ev.target.value;
+    });
+  });
+
+  document.querySelectorAll('.campeq-notes-input').forEach(inp => {
+    inp.addEventListener('input', (ev) => {
+      const item = ev.target.getAttribute('data-item');
+      const eq = state.campEq.find(x => x.item === item);
+      if (eq) eq.notes = ev.target.value;
+    });
+  });
+
+  document.querySelectorAll('.btn-delete-campeq').forEach(btn => {
+    btn.addEventListener('click', (ev) => {
+      const item = ev.currentTarget.getAttribute('data-item');
+      state.campEq = state.campEq.filter(x => x.item !== item);
+      renderCampEq();
+    });
+  });
 }
 
 function renderActEq() {
   const tot = getTotalParticipants();
-  const actEqList = [
-    { item: 'Prop for earth shaking', rule: 'Static', qty: 1, act: 'Malachi', role: 'Session Coordinator' },
-    { item: 'Speaker', rule: 'Static', qty: 1, act: 'Malachi', role: 'Logistics Lead' },
-    { item: 'Projector', rule: 'Static', qty: 1, act: 'Malachi', role: 'Logistics Lead' },
-    { item: 'Downloaded Malachi video', rule: 'Static', qty: 1, act: 'Malachi', role: 'Session Coordinator' },
-    { item: 'Child & dad question cards', rule: '1 per pair', qty: state.attendance.dads, act: 'Stokbrood', role: 'Session Coordinator' },
-    { item: 'Stokbrood sticks', rule: '1 per person', qty: tot, act: 'Stokbrood', role: 'Logistics Lead' },
-    { item: 'Tug of war rope', rule: 'Static', qty: 1, act: 'Tug of War', role: 'Activity Facilitator' },
-    { item: 'Communion cups', rule: '1 per person', qty: tot, act: 'Communion', role: 'Communion Sub-Leader' },
-    { item: 'Claylatt', rule: '1 per person', qty: tot, act: 'Clay Latte', role: 'Activity Facilitator' },
-    { item: 'Clay — bag', rule: 'Static', qty: 1, act: 'Clay Latte', role: 'Activity Facilitator' },
-    { item: "Bivvy's (Shelter)", rule: 'Total ÷ 2', qty: Math.ceil(tot / 2), act: 'Camp Setup', role: 'Logistics Lead' },
-    { item: 'Latte short (Shelter)', rule: '1 per person', qty: tot, act: 'Camp Setup', role: 'Logistics Lead' },
-    { item: 'Latte long (Shelter)', rule: '1 per person', qty: tot, act: 'Camp Setup', role: 'Logistics Lead' },
-    { item: 'Guy ropes (Shelter)', rule: '2 per person', qty: tot * 2, act: 'Camp Setup', role: 'Logistics Lead' },
-    { item: 'Pegs (Shelter)', rule: '2 per person', qty: tot * 2, act: 'Camp Setup', role: 'Logistics Lead' }
-  ];
+  if (!state.actEq) {
+    state.actEq = [
+      { item: 'Audio Speaker & Projector', qty: 1, act: 'Malachi', role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending', notes: '' },
+      { item: 'Downloaded Malachi video', qty: 1, act: 'Malachi', role: 'Session Coordinator', leader: 'Marvin Welby-Solomon', status: 'Pending', notes: '' },
+      { item: 'Prop for earth shaking', qty: 1, act: 'Malachi', role: 'Session Coordinator', leader: 'Marvin Welby-Solomon', status: 'Pending', notes: '' },
+      { item: 'Child & dad question cards', qty: state.attendance.dads, act: 'Stokbrood', role: 'Session Coordinator', leader: 'Marvin Welby-Solomon', status: 'Pending', notes: '' },
+      { item: 'Stokbrood sticks', qty: tot, act: 'Stokbrood', role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending', notes: '' },
+      { item: 'Tug of war rope', qty: 1, act: 'Tug of War', role: 'Activity Facilitator', leader: 'Kingsley Williams', status: 'Pending', notes: '' },
+      { item: 'Communion cups', qty: tot, act: 'Communion', role: 'Communion Sub-Leader', leader: 'Richard Walker', status: 'Pending', notes: '' },
+      { item: 'Claylatt', qty: tot, act: 'Clay Latte', role: 'Activity Facilitator', leader: 'Kingsley Williams', status: 'Pending', notes: '' },
+      { item: "Bivvy's (Shelter)", qty: Math.ceil(tot / 2), act: 'Camp Setup', role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending', notes: '' },
+      { item: 'Latte short (Shelter)', qty: tot, act: 'Camp Setup', role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending', notes: '' },
+      { item: 'Latte long (Shelter)', qty: tot, act: 'Camp Setup', role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending', notes: '' },
+      { item: 'Guy ropes (Shelter)', qty: tot * 2, act: 'Camp Setup', role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending', notes: '' },
+      { item: 'Pegs (Shelter)', qty: tot * 2, act: 'Camp Setup', role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending', notes: '' }
+    ];
+  } else {
+    // Dynamic recalculation of quantities based on attendance
+    state.actEq.forEach(e => {
+      if (e.item === 'Child & dad question cards') e.qty = state.attendance.dads;
+      if (['Stokbrood sticks', 'Communion cups', 'Claylatt', 'Latte short (Shelter)', 'Latte long (Shelter)'].includes(e.item)) e.qty = tot;
+      if (e.item === "Bivvy's (Shelter)") e.qty = Math.ceil(tot / 2);
+      if (['Guy ropes (Shelter)', 'Pegs (Shelter)'].includes(e.item)) e.qty = tot * 2;
+    });
+  }
 
   const tbody = document.getElementById('tblActEqBody');
-  tbody.innerHTML = actEqList.map(e => `
+  tbody.innerHTML = state.actEq.map(e => `
     <tr>
       <td style="font-weight:600; color:#FFF;">${e.item}</td>
-      <td style="color:var(--text-muted); font-size:0.85rem;">${e.rule}</td>
       <td style="font-weight:800; color:var(--teal-500); text-align:center;">${e.qty}</td>
       <td style="font-weight:700;">${e.act}</td>
       <td><span class="badge badge-pending">${e.role}</span></td>
-      <td><span class="badge badge-tobuy">To Buy</span></td>
+      <td>
+        <select class="form-control acteq-leader-select" data-item="${e.item}">
+          ${state.volunteers.map(v => `<option value="${v.name}" ${v.name === e.leader ? 'selected' : ''}>${v.name}</option>`).join('')}
+        </select>
+      </td>
+      <td>
+        <select class="form-control acteq-status-select" data-item="${e.item}">
+          <option value="Pending" ${e.status === 'Pending' ? 'selected' : ''}>Pending</option>
+          <option value="Packed" ${e.status === 'Packed' ? 'selected' : ''}>Packed</option>
+          <option value="Completed" ${e.status === 'Completed' ? 'selected' : ''}>Completed</option>
+        </select>
+      </td>
+      <td>
+        <input type="text" class="form-control acteq-notes-input" data-item="${e.item}" value="${e.notes || ''}" placeholder="Add note..." style="font-size:0.825rem; padding:0.35rem 0.6rem;">
+      </td>
     </tr>
   `).join('');
+
+  document.querySelectorAll('.acteq-leader-select').forEach(sel => {
+    sel.addEventListener('change', (ev) => {
+      const item = ev.target.getAttribute('data-item');
+      const eq = state.actEq.find(x => x.item === item);
+      if (eq) eq.leader = ev.target.value;
+    });
+  });
+
+  document.querySelectorAll('.acteq-status-select').forEach(sel => {
+    sel.addEventListener('change', (ev) => {
+      const item = ev.target.getAttribute('data-item');
+      const eq = state.actEq.find(x => x.item === item);
+      if (eq) eq.status = ev.target.value;
+    });
+  });
+
+  document.querySelectorAll('.acteq-notes-input').forEach(inp => {
+    inp.addEventListener('input', (ev) => {
+      const item = ev.target.getAttribute('data-item');
+      const eq = state.actEq.find(x => x.item === item);
+      if (eq) eq.notes = ev.target.value;
+    });
+  });
 }
 
 function renderFood() {
@@ -575,8 +716,8 @@ function initEvents() {
     renderVisualSchedule();
   });
 
-  // Volunteer Modal Events
-  document.getElementById('btnAddVolunteerModal').addEventListener('click', () => {
+  // Add Volunteer Modal Events
+  document.getElementById('btnOpenAddVolunteer').addEventListener('click', () => {
     document.getElementById('modalAddVolunteer').style.display = 'flex';
   });
   document.getElementById('btnCloseAddVolunteer').addEventListener('click', () => {
@@ -595,6 +736,77 @@ function initEvents() {
     document.getElementById('inputVolEmail').value = '';
     document.getElementById('modalAddVolunteer').style.display = 'none';
   });
+
+  // Add Task Modal Events
+  document.getElementById('btnOpenAddTask').addEventListener('click', () => {
+    const leaderSelect = document.getElementById('inputTaskLeader');
+    leaderSelect.innerHTML = state.volunteers.map(v => `<option value="${v.name}">${v.name}</option>`).join('');
+    document.getElementById('modalAddTask').style.display = 'flex';
+  });
+  document.getElementById('btnCloseAddTask').addEventListener('click', () => {
+    document.getElementById('modalAddTask').style.display = 'none';
+  });
+  document.getElementById('btnCancelAddTask').addEventListener('click', () => {
+    document.getElementById('modalAddTask').style.display = 'none';
+  });
+  document.getElementById('btnSaveTask').addEventListener('click', () => {
+    const category = document.getElementById('inputTaskCategory').value;
+    const desc = document.getElementById('inputTaskDesc').value.trim();
+    const role = document.getElementById('inputTaskRole').value;
+    const leader = document.getElementById('inputTaskLeader').value;
+    if (!desc) return;
+    
+    state.tasks.push({
+      id: `task-${Date.now()}`,
+      category,
+      desc,
+      role,
+      leader,
+      status: 'Pending'
+    });
+    document.getElementById('inputTaskDesc').value = '';
+    document.getElementById('modalAddTask').style.display = 'none';
+    renderTasks();
+  });
+
+  // Add Camp Equipment Modal Events
+  document.getElementById('btnOpenAddCampEq').addEventListener('click', () => {
+    const leaderSelect = document.getElementById('inputEqLeader');
+    leaderSelect.innerHTML = state.volunteers.map(v => `<option value="${v.name}">${v.name}</option>`).join('');
+    document.getElementById('modalAddCampEq').style.display = 'flex';
+  });
+  document.getElementById('btnCloseAddCampEq').addEventListener('click', () => {
+    document.getElementById('modalAddCampEq').style.display = 'none';
+  });
+  document.getElementById('btnCancelAddCampEq').addEventListener('click', () => {
+    document.getElementById('modalAddCampEq').style.display = 'none';
+  });
+  document.getElementById('btnSaveCampEq').addEventListener('click', () => {
+    const item = document.getElementById('inputEqItem').value.trim();
+    const qty = parseInt(document.getElementById('inputEqQty').value) || 1;
+    const role = document.getElementById('inputEqRole').value;
+    const leader = document.getElementById('inputEqLeader').value;
+    const notes = document.getElementById('inputEqNotes').value.trim();
+    if (!item) return;
+
+    state.campEq.push({
+      item,
+      qty,
+      role,
+      leader,
+      status: 'Pending',
+      notes
+    });
+    document.getElementById('inputEqItem').value = '';
+    document.getElementById('inputEqQty').value = '1';
+    document.getElementById('inputEqNotes').value = '';
+    document.getElementById('modalAddCampEq').style.display = 'none';
+    renderCampEq();
+  });
+
+  // Search Filters
+  document.getElementById('searchTasks')?.addEventListener('input', renderTasks);
+  document.getElementById('searchCampEq')?.addEventListener('input', renderCampEq);
 
   // Settings Modal
   document.getElementById('btnSettings').addEventListener('click', () => {
