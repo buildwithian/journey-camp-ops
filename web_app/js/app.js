@@ -142,6 +142,26 @@ const DEFAULT_DATA = {
     { id: 'deb-3', metric: 'Logistics & Camp Setup', rating: 4, success: 'Bivvies erected quickly; fire wood supply was plentiful.', challenge: 'Gas bottle fitting was tight; bring spare washer.', improvement: 'Pre-check gas regulators and bottle threads on Friday before packing vehicle.', author: 'Neil Harrower' },
     { id: 'deb-4', metric: 'Food & Catering', rating: 5, success: 'Families enjoyed bringing their own meals; stokbrood was a highlight.', challenge: 'Suggest extra milk quantity for cold morning.', improvement: 'Increase milk order by 4L for hot morning coffee & mieliemeal.', author: 'Kevin de Wet' },
     { id: 'deb-5', metric: 'Spiritual & Emotional Impact', rating: 5, success: 'Communion and letter reading times were deeply moving for fathers and children.', challenge: 'Ensure 15 min buffer before quiet time.', improvement: 'Keep communion background music playing continuously during quiet time.', author: 'Richard Walker' }
+  ],
+  food: [
+    { id: 'f-1', item: 'Dough for stokbrood', leader: 'Kevin de Wet', status: 'To Buy' },
+    { id: 'f-2', item: 'Coffee Instant', leader: 'Kevin de Wet', status: 'To Buy' },
+    { id: 'f-3', item: 'Coffee Ground', leader: 'Kevin de Wet', status: 'To Buy' },
+    { id: 'f-4', item: 'Long life milk', leader: 'Kevin de Wet', status: 'To Buy' },
+    { id: 'f-5', item: 'Sugar', leader: 'Kevin de Wet', status: 'To Buy' },
+    { id: 'f-6', item: 'Rusks', leader: 'Kevin de Wet', status: 'To Buy' },
+    { id: 'f-7', item: 'Braai Brood (stokbrood)', leader: 'Kevin de Wet', status: 'To Buy' },
+    { id: 'f-8', item: 'Marshmallows', leader: 'Kevin de Wet', status: 'To Buy' },
+    { id: 'f-9', item: 'Mieliemeal', leader: 'Kevin de Wet', status: 'To Buy' },
+    { id: 'f-10', item: 'Rooibos tea', leader: 'Kevin de Wet', status: 'To Buy' },
+    { id: 'f-11', item: 'Ceylon tea', leader: 'Kevin de Wet', status: 'To Buy' },
+    { id: 'f-12', item: 'Hot chocolate', leader: 'Kevin de Wet', status: 'To Buy' },
+    { id: 'f-13', item: 'Marie biscuits', leader: 'Kevin de Wet', status: 'To Buy' },
+    { id: 'f-14', item: 'Tomato sauce', leader: 'Kevin de Wet', status: 'To Buy' },
+    { id: 'f-15', item: 'Syrup', leader: 'Kevin de Wet', status: 'To Buy' },
+    { id: 'f-16', item: 'Communion juice (Grape)', leader: 'Kevin de Wet', status: 'To Buy' },
+    { id: 'f-17', item: 'Butro Butter', leader: 'Kevin de Wet', status: 'To Buy' },
+    { id: 'f-18', item: 'Communion loaf', leader: 'Richard Walker', status: 'To Buy' }
   ]
 };
 
@@ -169,6 +189,7 @@ function loadAndValidateState() {
         if (Array.isArray(saved.campEq) && saved.campEq.length > 0) state.campEq = saved.campEq;
         if (Array.isArray(saved.actEq) && saved.actEq.length > 0) state.actEq = saved.actEq;
         if (Array.isArray(saved.debriefMetrics) && saved.debriefMetrics.length > 0) state.debriefMetrics = saved.debriefMetrics;
+        if (Array.isArray(saved.food) && saved.food.length > 0) state.food = saved.food;
       }
     }
   } catch (e) {
@@ -888,38 +909,89 @@ function renderActEq() {
   });
 }
 
+function getFoodQty(item, tot) {
+  switch(item) {
+    case 'Dough for stokbrood': return `${tot} portions`;
+    case 'Coffee Instant': return `${Math.ceil(tot / 20)} jars`;
+    case 'Coffee Ground': return `${Math.ceil(tot / 40)} Kg`;
+    case 'Long life milk': return `${Math.ceil(tot * 0.28)} L`;
+    case 'Sugar': return '1 kg';
+    case 'Rusks': return `${Math.ceil(tot / 6)} boxes`;
+    case 'Braai Brood (stokbrood)': return `${Math.ceil(tot / 7)} bags`;
+    case 'Marshmallows': return `${Math.ceil(tot / 14)} × 300g pkts`;
+    case 'Mieliemeal': return '1 kg';
+    case 'Rooibos tea': return '1 box';
+    case 'Ceylon tea': return '1 box';
+    case 'Hot chocolate': return `${Math.ceil(tot / 40)} × 500g pkts`;
+    case 'Marie biscuits': return `${Math.ceil(tot / 10)} pkts`;
+    case 'Tomato sauce': return '2 bottles';
+    case 'Syrup': return '1 × 500g';
+    case 'Communion juice (Grape)': return `${Math.ceil(tot / 20)} L`;
+    case 'Butro Butter': return '500g';
+    case 'Communion loaf': return '1 loaf';
+    default: return '-';
+  }
+}
+
 function renderFood() {
   const tot = getTotalParticipants();
-  const foodList = [
-    { item: 'Dough for stokbrood', qty: `${tot} portions`, role: 'Catering / Fire Lead' },
-    { item: 'Coffee Instant', qty: `${Math.ceil(tot / 20)} jars`, role: 'Catering / Fire Lead' },
-    { item: 'Coffee Ground', qty: `${Math.ceil(tot / 40)} Kg`, role: 'Catering / Fire Lead' },
-    { item: 'Long life milk', qty: `${Math.ceil(tot * 0.28)} L`, role: 'Catering / Fire Lead' },
-    { item: 'Sugar', qty: '1 kg', role: 'Catering / Fire Lead' },
-    { item: 'Rusks', qty: `${Math.ceil(tot / 6)} boxes`, role: 'Catering / Fire Lead' },
-    { item: 'Braai Brood (stokbrood)', qty: `${Math.ceil(tot / 7)} bags`, role: 'Catering / Fire Lead' },
-    { item: 'Marshmallows', qty: `${Math.ceil(tot / 14)} × 300g pkts`, role: 'Catering / Fire Lead' },
-    { item: 'Mieliemeal', qty: '1 kg', role: 'Catering / Fire Lead' },
-    { item: 'Rooibos tea', qty: '1 box', role: 'Catering / Fire Lead' },
-    { item: 'Ceylon tea', qty: '1 box', role: 'Catering / Fire Lead' },
-    { item: 'Hot chocolate', qty: `${Math.ceil(tot / 40)} × 500g pkts`, role: 'Catering / Fire Lead' },
-    { item: 'Marie biscuits', qty: `${Math.ceil(tot / 10)} pkts`, role: 'Catering / Fire Lead' },
-    { item: 'Tomato sauce', qty: '2 bottles', role: 'Catering / Fire Lead' },
-    { item: 'Syrup', qty: '1 × 500g', role: 'Catering / Fire Lead' },
-    { item: 'Communion juice (Grape)', qty: `${Math.ceil(tot / 20)} L`, role: 'Catering / Fire Lead' },
-    { item: 'Butro Butter', qty: '500g', role: 'Catering / Fire Lead' },
-    { item: 'Communion loaf', qty: '1 loaf', role: 'Communion Sub-Leader' }
-  ];
+  
+  const hdrEl = document.getElementById('foodTotalCount');
+  if (hdrEl) hdrEl.textContent = tot;
+
+  if (!state.food || state.food.length === 0) {
+    state.food = JSON.parse(JSON.stringify(DEFAULT_DATA.food));
+  }
 
   const tbody = document.getElementById('tblFoodBody');
-  tbody.innerHTML = foodList.map(f => `
-    <tr>
-      <td style="font-weight:600; color:#FFF;">${f.item}</td>
-      <td style="font-weight:800; color:var(--teal-500); text-align:center;">${f.qty}</td>
-      <td><span class="badge badge-pending">${f.role}</span></td>
-      <td><span class="badge badge-tobuy">To Buy</span></td>
-    </tr>
-  `).join('');
+  tbody.innerHTML = state.food.map(f => {
+    const qty = getFoodQty(f.item, tot);
+    
+    let badgeStyle = '';
+    if (f.status === 'To Buy') badgeStyle = 'badge-tobuy';
+    else if (f.status === 'Bought') badgeStyle = 'badge-done';
+    else badgeStyle = 'badge-pending';
+    
+    return `
+      <tr>
+        <td style="font-weight:600; color:#FFF;">${f.item}</td>
+        <td style="font-weight:800; color:var(--teal-500); text-align:center;">${qty}</td>
+        <td>
+          <select class="form-control food-leader-select" data-id="${f.id}">
+            ${state.volunteers.map(v => `<option value="${v.name}" ${v.name === f.leader ? 'selected' : ''}>${v.name}</option>`).join('')}
+          </select>
+        </td>
+        <td>
+          <select class="form-control food-status-select badge ${badgeStyle}" data-id="${f.id}" style="padding:0.25rem 0.5rem; height:auto;">
+            <option value="To Buy" ${f.status === 'To Buy' ? 'selected' : ''}>To Buy</option>
+            <option value="Pending" ${f.status === 'Pending' ? 'selected' : ''}>Pending</option>
+            <option value="Bought" ${f.status === 'Bought' ? 'selected' : ''}>Bought</option>
+          </select>
+        </td>
+      </tr>
+    `;
+  }).join('');
+  
+  document.querySelectorAll('.food-leader-select').forEach(sel => {
+    sel.addEventListener('change', (e) => {
+      const id = e.target.getAttribute('data-id');
+      const f = state.food.find(x => x.id === id);
+      if (f) f.leader = e.target.value;
+      saveState();
+    });
+  });
+
+  document.querySelectorAll('.food-status-select').forEach(sel => {
+    sel.addEventListener('change', (e) => {
+      const id = e.target.getAttribute('data-id');
+      const f = state.food.find(x => x.id === id);
+      if (f) {
+        f.status = e.target.value;
+        saveState();
+        renderFood();
+      }
+    });
+  });
 }
 
 function renderPlaybook() {
