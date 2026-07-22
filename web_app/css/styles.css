@@ -207,15 +207,27 @@ h1, h2, h3, h4, .brand-title {
   overflow: hidden;
 }
 
+/* --- Navigation Sidebar --- */
+.mobile-nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--text-main);
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
 .sidebar-nav {
-  width: 260px;
+  width: 250px;
   background: rgba(15, 23, 42, 0.6);
-  backdrop-filter: blur(12px);
   border-right: 1px solid var(--border-light);
-  padding: 1.25rem 0.75rem;
+  padding: 1.5rem 1rem;
   display: flex;
   flex-direction: column;
-  gap: 0.35rem;
+  gap: 0.5rem;
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
   overflow-y: auto;
 }
 
@@ -659,7 +671,6 @@ table.hide-col-planb th:nth-child(8), table.hide-col-planb td:nth-child(8) { dis
 /* --- Responsive --- */
 @media (max-width: 1024px) {
   .app-container { flex-direction: column; }
-  .sidebar-nav { width: 100%; flex-direction: row; overflow-x: auto; border-right: none; border-bottom: 1px solid var(--border-light); }
   .visual-schedule-grid { grid-template-columns: 1fr; }
   .grid-2, .grid-3, .grid-4, .grid-settings-layout { grid-template-columns: 1fr; }
   .main-content { padding: 1rem; }
@@ -669,9 +680,41 @@ table.hide-col-planb th:nth-child(8), table.hide-col-planb td:nth-child(8) { dis
 }
 
 @media (max-width: 768px) {
-  .app-header { flex-direction: column; align-items: flex-start; gap: 0.5rem; padding: 1rem; }
+  .app-header { flex-direction: row; align-items: center; justify-content: space-between; gap: 0.5rem; padding: 1rem; }
+  .header-actions { display: none; /* Hide export/settings on mobile header to save space, or put in menu */ }
+  .mobile-nav-toggle { display: block; }
+  
+  .sidebar-nav { 
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 200;
+    background: var(--navy-900);
+    transform: translateX(-100%);
+    width: 280px;
+    padding-top: 5rem;
+    box-shadow: 4px 0 15px rgba(0,0,0,0.5);
+    border-right: none;
+  }
+  .sidebar-nav.active {
+    transform: translateX(0);
+  }
+  .nav-item { padding: 1rem; font-size: 1rem; }
+
   .column-filters { flex-direction: column; gap: 0.5rem; }
   .two-column-grid { grid-template-columns: 1fr; }
+  
+  .mobile-filter-accordion summary {
+    background: var(--navy-700);
+    padding: 0.6rem 1rem;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: var(--gold-400);
+    list-style: none;
+  }
+  .mobile-filter-accordion summary::-webkit-details-marker { display: none; }
 }
 
 /* Compact Table Controls & Checklist Styling */

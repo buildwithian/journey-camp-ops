@@ -21,6 +21,7 @@
   <!-- Top Header -->
   <header class="app-header">
     <div class="brand-wrapper">
+      <button id="mobileNavToggle" class="mobile-nav-toggle" aria-label="Toggle Navigation"><i class="fa-solid fa-bars"></i></button>
       <div class="brand-logo">
         <img src="journey_logo.png" alt="The Journey Logo" style="max-height: 32px; display: block; border-radius: 4px;" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
         <span style="display:none;">🔥</span>
@@ -371,7 +372,12 @@
         <div class="card">
           <div class="card-header" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem;">
             <h2 class="card-title"><i class="fa-solid fa-book-open" style="color:var(--gold-400)"></i> Activity Playbook & Weather Plan B</h2>
-            <label style="font-size: 0.85rem; cursor:pointer; color:var(--text-main);"><input type="checkbox" checked id="togglePlaybookPlanB" style="margin-right:0.3rem;"> Show Plan B</label>
+            <details class="mobile-filter-accordion">
+              <summary><i class="fa-solid fa-sliders"></i> Filter Options</summary>
+              <div style="padding-top: 0.5rem;">
+                <label style="font-size: 0.85rem; cursor:pointer; color:var(--text-main);"><input type="checkbox" checked id="togglePlaybookPlanB" style="margin-right:0.3rem;"> Show Plan B</label>
+              </div>
+            </details>
           </div>
           <div id="playbookAccordionContainer">
             <!-- Accordion cards rendered dynamically -->
@@ -387,13 +393,15 @@
               <h2 class="card-title"><i class="fa-solid fa-list-check" style="color:var(--gold-500)"></i> Detailed Operations Timetable</h2>
               <div style="font-size:0.8rem; color:var(--text-muted);">Combined time windows, assigned leaders, and interactive Playbook / Equipment links</div>
             </div>
-            <div class="column-filters" style="display:flex; gap: 1rem; font-size: 0.85rem; flex-wrap: wrap; margin-top:0.5rem; color:var(--text-main);">
-              <strong style="color:#FFF;">Show/Hide Columns:</strong>
-              <label style="cursor:pointer;"><input type="checkbox" checked id="toggleColEq" style="margin-right:0.3rem;"> Linked Equipment</label>
-              <label style="cursor:pointer;"><input type="checkbox" checked id="toggleColRole" style="margin-right:0.3rem;"> Assigned Role</label>
-              <label style="cursor:pointer;"><input type="checkbox" checked id="toggleColLeader" style="margin-right:0.3rem;"> Assigned Leader</label>
-              <label style="cursor:pointer;"><input type="checkbox" checked id="toggleColPlanB" style="margin-right:0.3rem;"> Plan B (Contingency)</label>
-            </div>
+            <details class="mobile-filter-accordion" style="width:100%; margin-top:0.5rem;">
+              <summary><i class="fa-solid fa-table-columns"></i> View Options & Columns</summary>
+              <div class="column-filters" style="display:flex; gap: 1rem; font-size: 0.85rem; flex-wrap: wrap; margin-top:0.5rem; color:var(--text-main); padding-top:0.25rem;">
+                <label style="cursor:pointer;"><input type="checkbox" checked id="toggleColEq" style="margin-right:0.3rem;"> Linked Equipment</label>
+                <label style="cursor:pointer;"><input type="checkbox" checked id="toggleColRole" style="margin-right:0.3rem;"> Assigned Role</label>
+                <label style="cursor:pointer;"><input type="checkbox" checked id="toggleColLeader" style="margin-right:0.3rem;"> Assigned Leader</label>
+                <label style="cursor:pointer;"><input type="checkbox" checked id="toggleColPlanB" style="margin-right:0.3rem;"> Plan B (Contingency)</label>
+              </div>
+            </details>
           </div>
           <div class="table-container">
             <table class="data-table" data-table-id="timetable">

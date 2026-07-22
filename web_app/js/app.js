@@ -1195,10 +1195,24 @@ function updateStarSelectorUI(ratingVal) {
 
 // --- Event Handlers & Sync ---
 function initEvents() {
+  const mobileNavToggle = document.getElementById('mobileNavToggle');
+  const sidebarNav = document.querySelector('.sidebar-nav');
+  
+  if (mobileNavToggle && sidebarNav) {
+    mobileNavToggle.addEventListener('click', () => {
+      sidebarNav.classList.toggle('active');
+    });
+  }
+
   // Navigation
   document.querySelectorAll('.nav-item').forEach(nav => {
     nav.addEventListener('click', (e) => {
       e.preventDefault();
+      
+      if (sidebarNav) {
+        sidebarNav.classList.remove('active');
+      }
+
       document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
       document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
       
