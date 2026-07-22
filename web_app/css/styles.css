@@ -427,28 +427,53 @@ h1, h2, h3, h4, .brand-title {
   border: 1px solid rgba(192, 84, 47, 0.4);
 }
 
-/* --- Visual Schedule Dashboard Cards --- */
+.nav-section-title {
+  font-size: 0.675rem;
+  font-weight: 800;
+  color: var(--gold-500);
+  letter-spacing: 0.08em;
+  padding: 0.4rem 0.75rem 0.2rem 0.75rem;
+  text-transform: uppercase;
+}
+
+.nav-item-emergency {
+  background: rgba(192, 84, 47, 0.18) !important;
+  border: 1px solid rgba(192, 84, 47, 0.4) !important;
+  color: #FF8A65 !important;
+  font-weight: 600;
+  margin-top: auto;
+}
+
+.nav-item-emergency:hover, .nav-item-emergency.active {
+  background: rgba(192, 84, 47, 0.4) !important;
+  border-color: #FF8A65 !important;
+  color: #FFF !important;
+  box-shadow: 0 0 12px rgba(192, 84, 47, 0.4);
+}
+
+/* --- Visual Schedule Dashboard Cards (Single-View Layout) --- */
 .visual-schedule-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .day-column {
   background: rgba(15, 23, 42, 0.6);
-  border-radius: var(--radius-lg);
-  padding: 1.5rem;
+  border-radius: var(--radius-md);
+  padding: 0.75rem 1rem;
   border: 1px solid var(--border-light);
 }
 
 .day-header {
-  padding: 0.75rem 1.25rem;
-  border-radius: var(--radius-md);
-  font-size: 1.25rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.95rem;
   font-weight: 800;
   text-align: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.6rem;
   color: #FFF;
+  letter-spacing: 0.05em;
 }
 
 .day-header.sat {
@@ -459,36 +484,58 @@ h1, h2, h3, h4, .brand-title {
   background: linear-gradient(135deg, var(--coral-600), var(--amber-600));
 }
 
-.schedule-card {
-  background: rgba(30, 41, 59, 0.8);
-  border-left: 4px solid var(--gold-500);
-  border-radius: var(--radius-md);
-  padding: 1rem 1.25rem;
-  margin-bottom: 1rem;
-  transition: transform 0.2s ease;
+.schedule-card-compact {
+  background: rgba(30, 41, 59, 0.6);
+  border-left: 3px solid var(--gold-500);
+  border-radius: 6px;
+  padding: 0.4rem 0.65rem;
+  margin-bottom: 0.35rem;
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  transition: all 0.15s ease;
 }
 
-.schedule-card:hover {
-  transform: translateX(4px);
+.schedule-card-compact:hover {
+  background: rgba(30, 41, 59, 0.9);
+  border-left-color: var(--teal-500);
 }
 
-.schedule-time {
-  font-size: 1.1rem;
+.schedule-time-pill {
+  font-size: 0.775rem;
   font-weight: 800;
   color: var(--gold-400);
+  font-family: monospace;
+  background: rgba(15, 23, 42, 0.8);
+  padding: 0.15rem 0.45rem;
+  border-radius: 4px;
+  white-space: nowrap;
 }
 
-.schedule-title {
-  font-size: 1.15rem;
+.schedule-info {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  min-width: 0;
+}
+
+.schedule-title-text {
+  font-size: 0.875rem;
   font-weight: 700;
   color: #FFF;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-.schedule-leader {
-  font-size: 0.85rem;
+.schedule-role-text {
+  font-size: 0.75rem;
   color: var(--text-muted);
-  font-style: italic;
-  margin-top: 0.25rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* --- Accordions for Playbook --- */

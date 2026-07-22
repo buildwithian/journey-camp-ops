@@ -239,6 +239,28 @@ function renderRoster() {
   });
 }
 
+const timetableEqMap = {
+  'Arrival': ['Name Tags', 'RSVP List'],
+  'Ice Breaker': ['Name Game Cards', 'Ice Breaker Props'],
+  'Clay Latte': ['Claylatts', 'Clay Bags', 'First Aid Kit', 'Life Buoy', 'Throw Rope', 'Whistles'],
+  'Camp Setup': ['Bivvies (Shelter)', 'Latte Short', 'Latte Long', 'Guy Ropes', 'Pegs', 'Spade', 'Camping Mats', 'Axe', 'Mallet', 'Journey Banner'],
+  'Dinner Prep': ['Gas Bottles', 'Gas Plate', 'Braai Grid', 'Tongs', 'Chopping Boards', 'Fire Lighters', 'Fire Wood'],
+  'Dinner': ['Cutlery Set', 'Washing Bowl', 'Dish Towel/Liquid', 'Garbage Bags'],
+  'Stokbrood': ['Stokbrood Sticks', 'Stokbrood Dough', 'Question Cards', 'Marshmallows', 'Gas Starter'],
+  'Skits & Debrief': ['Carvings', 'Skit Props', 'Journey Banner'],
+  'Bed Time': ['Camping Mats', 'Flashlights'],
+  'Wake Up': ['Gas Kettles', 'Bodum', 'Coffee', 'Tea', 'Milk', 'Water Carrier'],
+  'Malachi': ['Earth Shaking Prop', 'Speaker', 'Projector', 'Downloaded Video'],
+  'Communion': ['Communion Cups', 'Communion Loaf', 'Grape Juice'],
+  'Quiet Time': ['Question Cards', 'Notebooks / Pens'],
+  'Breakfast': ['Gas Two-Plater', 'Gas Kettle', 'Cutlery', 'Tongs', 'Rusks', 'Mieliemeal', 'Butter'],
+  'Manhood Talk': ['Separate Room Setup', 'Audio Speaker'],
+  'Final Debrief': ['Carvings', 'Reflection Notes'],
+  'Pack Up': ['Tarps', 'Spade', 'Garbage Bags'],
+  'Tug of War': ['Tug of War Rope', 'Whistles', 'Life Buoy', 'Throw Rope'],
+  'Departure': ['Check-out List', 'Gate Access Code']
+};
+
 function renderTimetable() {
   let currMins = parseTimeToMins(state.startTime);
   const tbody = document.getElementById('tblTimetableBody');
@@ -249,6 +271,13 @@ function renderTimetable() {
     const endStr = formatMinutes(endMins);
     currMins = endMins;
     
+    const eqList = timetableEqMap[t.activity] || ['Standard Activity Gear'];
+    const eqBadges = eqList.map(item => `
+      <span class="badge" style="background:rgba(26,122,109,0.2); border:1px solid rgba(26,122,109,0.4); color:#80CBC4; font-size:0.725rem; padding:0.15rem 0.45rem; margin:0.1rem; display:inline-flex; align-items:center; gap:0.25rem; white-space:nowrap;">
+        <i class="fa-solid fa-toolbox" style="font-size:0.65rem; color:var(--teal-500);"></i> ${item}
+      </span>
+    `).join('');
+
     return `
       <tr>
         <td style="font-weight:700; color:${t.day === 'Saturday' ? 'var(--gold-400)' : '#FF8A65'};">${t.day}</td>
@@ -257,6 +286,7 @@ function renderTimetable() {
         <td style="font-weight:700;">${t.min}</td>
         <td style="font-weight:700; color:#FFF;">${t.activity}</td>
         <td style="font-size:0.85rem;">${t.desc}</td>
+        <td style="max-width:240px;"><div style="display:flex; flex-wrap:wrap; gap:0.2rem;">${eqBadges}</div></td>
         <td><span class="badge badge-pending">${t.role}</span></td>
         <td style="font-size:0.8rem; color:#FF8A65; font-style:italic;">${t.planB}</td>
       </tr>
@@ -274,10 +304,12 @@ function renderVisualSchedule() {
     currMinsSat += t.min;
     
     const card = `
-      <div class="schedule-card">
-        <div class="schedule-time">${startStr}</div>
-        <div class="schedule-title">${t.activity}</div>
-        <div class="schedule-leader">Led by: ${t.role}</div>
+      <div class="schedule-card-compact">
+        <span class="schedule-time-pill">${startStr}</span>
+        <div class="schedule-info">
+          <div class="schedule-title-text">${t.activity}</div>
+          <div class="schedule-role-text">${t.role.split('/')[0].trim()}</div>
+        </div>
       </div>
     `;
     

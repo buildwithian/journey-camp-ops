@@ -44,9 +44,9 @@
 
   <!-- App Layout -->
   <div class="app-container">
-    
-    <!-- Sidebar Navigation -->
+      <!-- Sidebar Navigation -->
     <nav class="sidebar-nav">
+      <div class="nav-section-title">PREREQUISITES</div>
       <a class="nav-item active" data-tab="tab-settings">
         <span class="nav-icon"><i class="fa-solid fa-sliders"></i></span>
         <span>Settings & Attendance</span>
@@ -55,21 +55,9 @@
         <span class="nav-icon"><i class="fa-solid fa-users"></i></span>
         <span>Roster & Roles</span>
       </a>
-      <a class="nav-item" data-tab="tab-timetable">
-        <span class="nav-icon"><i class="fa-solid fa-list-check"></i></span>
-        <span>Detailed Timetable</span>
-      </a>
-      <a class="nav-item" data-tab="tab-visual-schedule">
-        <span class="nav-icon"><i class="fa-solid fa-calendar-days"></i></span>
-        <span>Visual Schedule</span>
-      </a>
       <a class="nav-item" data-tab="tab-tasks">
         <span class="nav-icon"><i class="fa-solid fa-square-check"></i></span>
         <span>Pre-Camp Tasks</span>
-      </a>
-      <a class="nav-item" data-tab="tab-emergency">
-        <span class="nav-icon"><i class="fa-solid fa-truck-medical"></i></span>
-        <span>Emergency & Safety</span>
       </a>
       <a class="nav-item" data-tab="tab-camp-eq">
         <span class="nav-icon"><i class="fa-solid fa-campground"></i></span>
@@ -83,13 +71,29 @@
         <span class="nav-icon"><i class="fa-solid fa-utensils"></i></span>
         <span>Food Shopping List</span>
       </a>
+
+      <div class="nav-section-title" style="margin-top:0.75rem;">RUN & EXECUTION</div>
       <a class="nav-item" data-tab="tab-playbook">
         <span class="nav-icon"><i class="fa-solid fa-book-open"></i></span>
         <span>Activity Playbook</span>
       </a>
+      <a class="nav-item" data-tab="tab-timetable">
+        <span class="nav-icon"><i class="fa-solid fa-list-check"></i></span>
+        <span>Detailed Timetable</span>
+      </a>
+      <a class="nav-item" data-tab="tab-visual-schedule">
+        <span class="nav-icon"><i class="fa-solid fa-calendar-days"></i></span>
+        <span>Visual Schedule</span>
+      </a>
       <a class="nav-item" data-tab="tab-debrief">
         <span class="nav-icon"><i class="fa-solid fa-pen-to-square"></i></span>
         <span>Post-Camp Debrief</span>
+      </a>
+
+      <!-- Emergency & Safety pinned at bottom -->
+      <a class="nav-item nav-item-emergency" data-tab="tab-emergency">
+        <span class="nav-icon"><i class="fa-solid fa-truck-medical"></i></span>
+        <span>Emergency & Safety</span>
       </a>
     </nav>
 
@@ -120,33 +124,37 @@
         <div class="grid-2">
           <div class="card">
             <div class="card-header">
-              <h2 class="card-title"><i class="fa-solid fa-user-group" style="color:var(--teal-500)"></i> Attendance Variables</h2>
+              <h2 class="card-title"><i class="fa-solid fa-calculator" style="color:var(--teal-500)"></i> Attendance & Ratios</h2>
             </div>
-            <div class="form-group">
-              <label class="form-label">Number of Dads</label>
-              <input type="number" id="numDads" class="form-control" value="16" min="1">
+            <div class="grid-3">
+              <div class="form-group">
+                <label class="form-label">Fathers (Dads)</label>
+                <input type="number" id="inputDads" class="form-control" value="16">
+              </div>
+              <div class="form-group">
+                <label class="form-label">Children</label>
+                <input type="number" id="inputChildren" class="form-control" value="16">
+              </div>
+              <div class="form-group">
+                <label class="form-label">Leaders / Helpers</label>
+                <input type="number" id="inputHelpers" class="form-control" value="11">
+              </div>
             </div>
-            <div class="form-group">
-              <label class="form-label">Number of Children (Daughters / Sons)</label>
-              <input type="number" id="numChildren" class="form-control" value="16" min="1">
-            </div>
-            <div class="form-group">
-              <label class="form-label">Helpers / Volunteers / Lifeguards</label>
-              <input type="number" id="numHelpers" class="form-control" value="11" min="1">
-            </div>
-            <div class="card" style="background: rgba(26, 122, 109, 0.2); border-color: var(--teal-500); margin-top: 1rem;">
-              <div style="font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase;">Total Calculated Participants</div>
-              <div id="statTotalParticipants" style="font-size: 2.25rem; font-weight: 800; color: #FFF;">43</div>
-              <div style="font-size: 0.8rem; color: var(--teal-500);">Auto-scales all equipment & food quantities across app</div>
+            <div style="margin-top: 1rem; padding: 1rem; background: rgba(15,23,42,0.8); border-radius: var(--radius-md); display: flex; justify-content: space-between; align-items: center;">
+              <div>
+                <div style="font-size:0.85rem; color:var(--text-muted);">TOTAL HEADCOUNT</div>
+                <div style="font-size:1.75rem; font-weight:800; color:var(--gold-400);" id="statTotalParticipants">43</div>
+              </div>
+              <span class="badge badge-done"><i class="fa-solid fa-check"></i> Ratios Balanced</span>
             </div>
           </div>
 
           <div class="card">
             <div class="card-header">
-              <h2 class="card-title"><i class="fa-solid fa-address-book" style="color:var(--gold-400)"></i> Available Volunteers Directory</h2>
-              <button class="btn btn-primary" id="btnAddVolunteerModal"><i class="fa-solid fa-user-plus"></i> Add Volunteer</button>
+              <h2 class="card-title"><i class="fa-solid fa-address-book" style="color:var(--gold-500)"></i> Available Volunteers Directory</h2>
+              <button class="btn btn-primary" id="btnOpenAddVolunteer"><i class="fa-solid fa-user-plus"></i> Add Volunteer</button>
             </div>
-            <div class="table-container" style="max-height: 380px; overflow-y: auto;">
+            <div class="table-container" style="max-height: 220px; overflow-y: auto;">
               <table class="data-table">
                 <thead>
                   <tr>
@@ -190,55 +198,7 @@
         </div>
       </div>
 
-      <!-- TAB 3: Detailed Timetable -->
-      <div id="tab-timetable" class="tab-pane">
-        <div class="card">
-          <div class="card-header">
-            <h2 class="card-title"><i class="fa-solid fa-list-check" style="color:var(--gold-500)"></i> Detailed Run Sheet & Plan B</h2>
-          </div>
-          <div class="table-container">
-            <table class="data-table">
-              <thead>
-                <tr>
-                  <th>Day</th>
-                  <th>Start</th>
-                  <th>End</th>
-                  <th>Min</th>
-                  <th>Activity</th>
-                  <th>Description</th>
-                  <th>Assigned Role</th>
-                  <th>Plan B (Weather Contingency)</th>
-                </tr>
-              </thead>
-              <tbody id="tblTimetableBody">
-                <!-- Rendered dynamically -->
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-
-      <!-- TAB 4: Visual Schedule -->
-      <div id="tab-visual-schedule" class="tab-pane">
-        <div class="card">
-          <div class="card-header">
-            <h2 class="card-title"><i class="fa-solid fa-calendar-days" style="color:var(--gold-400)"></i> Visual Camp Schedule Dashboard</h2>
-            <div style="font-size: 0.85rem; color: var(--text-muted);">Mobile-friendly overview</div>
-          </div>
-          <div class="visual-schedule-grid">
-            <div class="day-column">
-              <div class="day-header sat">☀ SATURDAY</div>
-              <div id="visSatContainer"></div>
-            </div>
-            <div class="day-column">
-              <div class="day-header sun">🌅 SUNDAY</div>
-              <div id="visSunContainer"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- TAB 5: Pre-Camp Tasks -->
+      <!-- TAB 3: Pre-Camp Tasks -->
       <div id="tab-tasks" class="tab-pane">
         <div class="card">
           <div class="card-header">
@@ -263,35 +223,7 @@
         </div>
       </div>
 
-      <!-- TAB 6: Emergency & Safety -->
-      <div id="tab-emergency" class="tab-pane">
-        <div class="card" style="border-color: rgba(192, 84, 47, 0.5);">
-          <div class="card-header">
-            <h2 class="card-title" style="color: #FF8A65;"><i class="fa-solid fa-truck-medical"></i> 1-Tap Emergency Call & Rescue Hub</h2>
-          </div>
-          <div class="grid-3" id="emergencyButtonsGrid">
-            <!-- 1-Tap Call Buttons rendered dynamically -->
-          </div>
-        </div>
-
-        <div class="grid-2">
-          <div class="card">
-            <div class="card-header">
-              <h2 class="card-title"><i class="fa-solid fa-water-ladder" style="color:var(--teal-500)"></i> Water Safety & Dam Protocol</h2>
-            </div>
-            <div id="waterRulesContainer"></div>
-          </div>
-
-          <div class="card">
-            <div class="card-header">
-              <h2 class="card-title"><i class="fa-solid fa-heart-pulse" style="color:var(--coral-500)"></i> Medical Decision Tree</h2>
-            </div>
-            <div id="medicalDecisionContainer"></div>
-          </div>
-        </div>
-      </div>
-
-      <!-- TAB 7: Camp Equipment -->
+      <!-- TAB 4: Camp Equipment -->
       <div id="tab-camp-eq" class="tab-pane">
         <div class="card">
           <div class="card-header">
@@ -316,7 +248,7 @@
         </div>
       </div>
 
-      <!-- TAB 8: Activity Equipment -->
+      <!-- TAB 5: Activity Equipment -->
       <div id="tab-act-eq" class="tab-pane">
         <div class="card">
           <div class="card-header">
@@ -342,7 +274,7 @@
         </div>
       </div>
 
-      <!-- TAB 9: Food Shopping -->
+      <!-- TAB 6: Food Shopping -->
       <div id="tab-food" class="tab-pane">
         <div class="card">
           <div class="card-header">
@@ -366,7 +298,7 @@
         </div>
       </div>
 
-      <!-- TAB 10: Playbook -->
+      <!-- TAB 7: Playbook -->
       <div id="tab-playbook" class="tab-pane">
         <div class="card">
           <div class="card-header">
@@ -378,7 +310,56 @@
         </div>
       </div>
 
-      <!-- TAB 11: Debrief -->
+      <!-- TAB 8: Detailed Timetable -->
+      <div id="tab-timetable" class="tab-pane">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title"><i class="fa-solid fa-list-check" style="color:var(--gold-500)"></i> Detailed Run Sheet & Equipment Link</h2>
+          </div>
+          <div class="table-container">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Day</th>
+                  <th>Start</th>
+                  <th>End</th>
+                  <th>Min</th>
+                  <th>Activity</th>
+                  <th>Description</th>
+                  <th>Linked Equipment & Gear</th>
+                  <th>Assigned Role</th>
+                  <th>Plan B (Weather Contingency)</th>
+                </tr>
+              </thead>
+              <tbody id="tblTimetableBody">
+                <!-- Rendered dynamically -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB 9: Visual Schedule -->
+      <div id="tab-visual-schedule" class="tab-pane">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title"><i class="fa-solid fa-calendar-days" style="color:var(--gold-400)"></i> Visual Camp Schedule Dashboard</h2>
+            <div style="font-size: 0.85rem; color: var(--text-muted);">Single-page high-level overview</div>
+          </div>
+          <div class="visual-schedule-grid">
+            <div class="day-column">
+              <div class="day-header sat">☀ SATURDAY</div>
+              <div id="visSatContainer"></div>
+            </div>
+            <div class="day-column">
+              <div class="day-header sun">🌅 SUNDAY</div>
+              <div id="visSunContainer"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB 10: Debrief -->
       <div id="tab-debrief" class="tab-pane">
         <div class="card">
           <div class="card-header">
@@ -386,6 +367,34 @@
           </div>
           <div id="debriefMetricsContainer">
             <!-- Ratings and evaluation rendered dynamically -->
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB 11: Emergency & Safety -->
+      <div id="tab-emergency" class="tab-pane">
+        <div class="card" style="border-color: rgba(192, 84, 47, 0.5);">
+          <div class="card-header">
+            <h2 class="card-title" style="color: #FF8A65;"><i class="fa-solid fa-truck-medical"></i> 1-Tap Emergency Call & Rescue Hub</h2>
+          </div>
+          <div class="grid-3" id="emergencyButtonsGrid">
+            <!-- 1-Tap Call Buttons rendered dynamically -->
+          </div>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <div class="card-header">
+              <h2 class="card-title"><i class="fa-solid fa-water-ladder" style="color:var(--teal-500)"></i> Water Safety & Dam Protocol</h2>
+            </div>
+            <div id="waterRulesContainer"></div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <h2 class="card-title"><i class="fa-solid fa-heart-pulse" style="color:var(--coral-500)"></i> Medical Decision Tree</h2>
+            </div>
+            <div id="medicalDecisionContainer"></div>
           </div>
         </div>
       </div>

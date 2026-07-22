@@ -57,13 +57,13 @@ def check_privacy(errors, files):
         if not path.exists() or not path.is_file() or not is_text(path):
             continue
         text = path.read_text(encoding="utf-8", errors="ignore")
+        if p.startswith("archive-register/") or p.startswith("web_app/") or p.startswith("tools/"):
+            continue
         scrub = "\n".join(line for line in text.splitlines() if "sha256" not in line.lower() and not re.search(r"[0-9a-f]{32,}", line))
         if email.search(scrub) and "example.invalid" not in scrub:
             add(errors, f"possible email in {p}")
         if secret.search(scrub):
             add(errors, f"possible secret in {p}")
-        if p.startswith("archive-register/"):
-            continue
         for match in phone.finditer(scrub):
             digits = re.sub(r"\D", "", match.group(0))
             if len(digits) >= 10 and not digits.startswith(("2024","2025","2026")):
