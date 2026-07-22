@@ -24,15 +24,10 @@
       <div class="brand-logo">🔥</div>
       <div>
         <h1 class="brand-title">JOURNEY CAMP OPERATIONS</h1>
-        <div class="brand-subtitle">Universal Master System (v14)</div>
       </div>
     </div>
     
     <div class="header-actions">
-      <div id="syncBadge" class="sync-badge offline">
-        <span class="sync-dot"></span>
-        <span id="syncText">Local Mode</span>
-      </div>
       <button class="btn btn-secondary" id="btnSettings">
         <i class="fa-solid fa-gear"></i> Sync Settings
       </button>
@@ -126,7 +121,7 @@
             <div class="card-header">
               <h2 class="card-title"><i class="fa-solid fa-calculator" style="color:var(--teal-500)"></i> Attendance & Ratios</h2>
             </div>
-            <div style="display:flex; flex-direction:column; gap:0.75rem;">
+            <div style="display:grid; grid-template-columns: repeat(3, 1fr); gap:0.5rem;">
               <div class="form-group">
                 <label class="form-label">Fathers (Dads)</label>
                 <input type="number" id="inputDads" class="form-control" value="16">
@@ -136,7 +131,7 @@
                 <input type="number" id="inputChildren" class="form-control" value="16">
               </div>
               <div class="form-group">
-                <label class="form-label">Leaders / Helpers</label>
+                <label class="form-label">Leaders</label>
                 <input type="number" id="inputHelpers" class="form-control" value="11">
               </div>
             </div>
@@ -528,6 +523,52 @@
       <div style="display:flex; justify-content:flex-end; gap:0.5rem; margin-top:1.5rem;">
         <button class="btn btn-secondary" id="btnCancelAddTask">Cancel</button>
         <button class="btn btn-primary" id="btnSaveTask">Save Task</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Edit Task Modal -->
+  <div id="modalEditTask" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.8); z-index:200; backdrop-filter:blur(8px); align-items:center; justify-content:center;">
+    <div class="card" style="width: 480px; max-width: 90vw;">
+      <div class="card-header">
+        <h3 class="card-title"><i class="fa-solid fa-pen-to-square" style="color:var(--teal-500)"></i> Edit Task</h3>
+        <button class="btn btn-secondary" id="btnCloseEditTask"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <input type="hidden" id="editTaskId">
+      <div class="form-group">
+        <label class="form-label">Task Phase / Category</label>
+        <select id="inputEditTaskCategory" class="form-control">
+          <option value="Pre-Camp">Pre-Camp Task</option>
+          <option value="Post-Camp">Post-Camp Task</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Task Description</label>
+        <input type="text" id="inputEditTaskDesc" class="form-control" placeholder="e.g. Download Malachi video">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Assigned Role</label>
+        <select id="inputEditTaskRole" class="form-control">
+          <option value="Session Coordinator">Session Coordinator</option>
+          <option value="Logistics Lead">Logistics Lead</option>
+          <option value="Administration">Administration</option>
+          <option value="Catering / Fire Lead">Catering / Fire Lead</option>
+          <option value="Safety & Welfare Lead">Safety & Welfare Lead</option>
+          <option value="Spiritual Oversight / Prayer Lead">Spiritual Oversight / Prayer Lead</option>
+          <option value="Pastoral Care Lead">Pastoral Care Lead</option>
+          <option value="Activity Facilitator">Activity Facilitator</option>
+          <option value="Communion Sub-Leader">Communion Sub-Leader</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Responsible Leader</label>
+        <select id="inputEditTaskLeader" class="form-control">
+          <!-- Rendered dynamically -->
+        </select>
+      </div>
+      <div style="display:flex; justify-content:flex-end; gap:0.5rem; margin-top:1.5rem;">
+        <button class="btn btn-secondary" id="btnCancelEditTask">Cancel</button>
+        <button class="btn btn-primary" id="btnSaveEditTask">Save Changes</button>
       </div>
     </div>
   </div>

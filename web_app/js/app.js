@@ -620,7 +620,10 @@ function renderTasks() {
             <option value="Completed" ${t.status === 'Completed' ? 'selected' : ''}>Completed</option>
           </select>
         </td>
-        <td style="text-align:center;">
+        <td style="text-align:center; white-space:nowrap;">
+          <button class="btn btn-secondary btn-edit-task" data-id="${t.id}" style="padding:0.25rem 0.5rem; font-size:0.75rem; margin-right:0.25rem;">
+            <i class="fa-solid fa-pen-to-square"></i>
+          </button>
           <button class="btn btn-danger btn-delete-task" data-id="${t.id}" style="padding:0.25rem 0.5rem; font-size:0.75rem;">
             <i class="fa-solid fa-trash-can"></i>
           </button>
@@ -645,6 +648,13 @@ function renderTasks() {
     });
   });
 
+  document.querySelectorAll('.btn-edit-task').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      const id = e.currentTarget.getAttribute('data-id');
+      openEditTaskModal(id);
+    });
+  });
+
   document.querySelectorAll('.btn-delete-task').forEach(btn => {
     btn.addEventListener('click', (e) => {
       const id = e.currentTarget.getAttribute('data-id');
@@ -652,6 +662,22 @@ function renderTasks() {
       renderTasks();
     });
   });
+}
+
+function openEditTaskModal(id) {
+  const t = state.tasks.find(x => x.id === id);
+  if (!t) return;
+  document.getElementById('editTaskId').value = t.id;
+  document.getElementById('inputEditTaskCategory').value = t.category;
+  document.getElementById('inputEditTaskDesc').value = t.desc;
+  document.getElementById('inputEditTaskRole').value = t.role;
+  
+  const leaderSelect = document.getElementById('inputEditTaskLeader');
+  if (leaderSelect) {
+    leaderSelect.innerHTML = state.volunteers.map(v => `<option value="${v.name}" ${v.name === t.leader ? 'selected' : ''}>${v.name}</option>`).join('');
+  }
+  
+  document.getElementById('modalEditTask').style.display = 'flex';
 }
 
 function renderEmergencyHub() {
@@ -1127,6 +1153,33 @@ function initEvents() {
     });
     document.getElementById('inputTaskDesc').value = '';
     document.getElementById('modalAddTask').style.display = 'none';
+    renderTasks();
+  });
+
+  // Edit Task Modal Events
+  document.getElementById('btnCloseEditTask')?.addEventListener('click', () => {
+    document.getElementById('modalEditTask').style.display = 'none';
+  });
+  document.getElementById('btnCancelEditTask')?.addEventListener('click', () => {
+    document.getElementById('modalEditTask').style.display = 'none';
+  });
+  document.getElementById('btnSaveEditTask')?.addEventListener('click', () => {
+    const id = document.getElementById('editTaskId').value;
+    const category = document.getElementById('inputEditTaskCategory').value;
+    const desc = document.getElementById('inputEditTaskDesc').value.trim();
+    const role = document.getElementById('inputEditTaskRole').value;
+    const leader = document.getElementById('inputEditTaskLeader').value;
+    if (!desc) return;
+    
+    const t = state.tasks.find(x => x.id === id);
+    if (t) {
+      t.category = category;
+      t.desc = desc;
+      t.role = role;
+      t.leader = leader;
+    }
+    
+    document.getElementById('modalEditTask').style.display = 'none';
     renderTasks();
   });
 
