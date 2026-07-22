@@ -943,10 +943,12 @@ function renderFood() {
     state.food = JSON.parse(JSON.stringify(DEFAULT_DATA.food));
   }
 
-  const tbody = document.getElementById('tblFoodBody');
-  tbody.innerHTML = state.food.map(f => {
+  const half = Math.ceil(state.food.length / 2);
+  const leftHalf = state.food.slice(0, half);
+  const rightHalf = state.food.slice(half);
+
+  const renderRow = (f) => {
     const qty = getFoodQty(f.item, tot);
-    
     let badgeStyle = '';
     if (f.status === 'To Buy') badgeStyle = 'badge-tobuy';
     else if (f.status === 'Bought') badgeStyle = 'badge-done';
@@ -970,7 +972,13 @@ function renderFood() {
         </td>
       </tr>
     `;
-  }).join('');
+  };
+
+  const tbodyLeft = document.getElementById('tblFoodBodyLeft');
+  if (tbodyLeft) tbodyLeft.innerHTML = leftHalf.map(renderRow).join('');
+  
+  const tbodyRight = document.getElementById('tblFoodBodyRight');
+  if (tbodyRight) tbodyRight.innerHTML = rightHalf.map(renderRow).join('');
   
   document.querySelectorAll('.food-leader-select').forEach(sel => {
     sel.addEventListener('change', (e) => {

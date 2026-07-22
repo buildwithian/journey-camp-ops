@@ -288,20 +288,37 @@
             <h2 class="card-title"><i class="fa-solid fa-utensils" style="color:var(--coral-500)"></i> Communal Food & Catering Shopping List</h2>
             <div style="font-size: 0.85rem; color: var(--text-muted);"><i class="fa-solid fa-calculator"></i> Calculated for a Total Headcount of: <strong id="foodTotalCount" style="color:var(--gold-400);">43</strong> participants based on Settings.</div>
           </div>
-          <div class="table-container">
-            <table class="data-table" data-table-id="food">
-              <thead>
-                <tr>
-                  <th>Item</th>
-                  <th>Calc Qty Needed</th>
-                  <th>Assigned Leader</th>
-                  <th>Status</th>
-                </tr>
-              </thead>
-              <tbody id="tblFoodBody">
-                <!-- Rendered dynamically -->
-              </tbody>
-            </table>
+          <div class="food-grid-container">
+            <div class="table-container" style="padding: 0;">
+              <table class="data-table data-table-compact" data-table-id="food-left">
+                <thead>
+                  <tr>
+                    <th>Item</th>
+                    <th>Qty</th>
+                    <th>Leader</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody id="tblFoodBodyLeft">
+                  <!-- Rendered dynamically -->
+                </tbody>
+              </table>
+            </div>
+            <div class="table-container" style="padding: 0;">
+              <table class="data-table data-table-compact" data-table-id="food-right">
+                <thead>
+                  <tr>
+                    <th>Item</th>
+                    <th>Qty</th>
+                    <th>Leader</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody id="tblFoodBodyRight">
+                  <!-- Rendered dynamically -->
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>

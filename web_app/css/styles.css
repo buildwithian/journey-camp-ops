@@ -403,6 +403,28 @@ h1, h2, h3, h4, .brand-title {
   background: rgba(255, 255, 255, 0.06);
 }
 
+.data-table.data-table-compact th {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.7rem;
+}
+
+.data-table.data-table-compact td {
+  padding: 0.2rem 0.5rem;
+  font-size: 0.75rem;
+}
+
+.data-table.data-table-compact select.form-control {
+  padding: 0.1rem 0.2rem;
+  font-size: 0.75rem;
+}
+
+.food-grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
 /* --- Badges --- */
 .badge {
   display: inline-flex;
