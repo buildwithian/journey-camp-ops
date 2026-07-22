@@ -4,12 +4,6 @@
  * ============================================================================
  */
 
-/**
- * ============================================================================
- * JOURNEY CAMP OPERATIONS HUB — CLIENT ENGINE & SYNC MANAGER
- * ============================================================================
- */
-
 // Master Default Dataset (v14 Failsafe Model)
 const DEFAULT_DATA = {
   campTrack: 'Father & Daughter Camp',
@@ -124,6 +118,22 @@ const DEFAULT_DATA = {
     { item: 'Mallet', qty: 1, role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending', notes: '' },
     { item: 'Prop for earth shaking', qty: 1, role: 'Session Coordinator', leader: 'Marvin Welby-Solomon', status: 'Pending', notes: '' },
     { item: 'Life Buoy / Rescue Ring', qty: 1, role: 'Safety & Welfare Lead', leader: 'Raldo Kruger', status: 'Pending', notes: '' }
+  ],
+
+  actEq: [
+    { item: 'Audio Speaker & Projector', qty: 1, act: 'Malachi', role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending', notes: '' },
+    { item: 'Downloaded Malachi video', qty: 1, act: 'Malachi', role: 'Session Coordinator', leader: 'Marvin Welby-Solomon', status: 'Pending', notes: '' },
+    { item: 'Prop for earth shaking', qty: 1, act: 'Malachi', role: 'Session Coordinator', leader: 'Marvin Welby-Solomon', status: 'Pending', notes: '' },
+    { item: 'Child & dad question cards', qty: 16, act: 'Stokbrood', role: 'Session Coordinator', leader: 'Marvin Welby-Solomon', status: 'Pending', notes: '' },
+    { item: 'Stokbrood sticks', qty: 43, act: 'Stokbrood', role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending', notes: '' },
+    { item: 'Tug of war rope', qty: 1, act: 'Tug of War', role: 'Activity Facilitator', leader: 'Kingsley Williams', status: 'Pending', notes: '' },
+    { item: 'Communion cups', qty: 43, act: 'Communion', role: 'Communion Sub-Leader', leader: 'Richard Walker', status: 'Pending', notes: '' },
+    { item: 'Claylatt', qty: 43, act: 'Clay Latte', role: 'Activity Facilitator', leader: 'Kingsley Williams', status: 'Pending', notes: '' },
+    { item: "Bivvy's (Shelter)", qty: 22, act: 'Camp Setup', role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending', notes: '' },
+    { item: 'Latte short (Shelter)', qty: 43, act: 'Camp Setup', role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending', notes: '' },
+    { item: 'Latte long (Shelter)', qty: 43, act: 'Camp Setup', role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending', notes: '' },
+    { item: 'Guy ropes (Shelter)', qty: 86, act: 'Camp Setup', role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending', notes: '' },
+    { item: 'Pegs (Shelter)', qty: 86, act: 'Camp Setup', role: 'Logistics Lead', leader: 'Neil Harrower', status: 'Pending', notes: '' }
   ],
 
   debriefMetrics: [
@@ -998,35 +1008,35 @@ function initEvents() {
   });
 
   // Inputs & Attendance
-  document.getElementById('numDads').addEventListener('input', (e) => {
+  document.getElementById('inputDads')?.addEventListener('input', (e) => {
     state.attendance.dads = parseInt(e.target.value) || 0;
     renderApp();
   });
-  document.getElementById('numChildren').addEventListener('input', (e) => {
+  document.getElementById('inputChildren')?.addEventListener('input', (e) => {
     state.attendance.children = parseInt(e.target.value) || 0;
     renderApp();
   });
-  document.getElementById('numHelpers').addEventListener('input', (e) => {
+  document.getElementById('inputHelpers')?.addEventListener('input', (e) => {
     state.attendance.helpers = parseInt(e.target.value) || 0;
     renderApp();
   });
-  document.getElementById('inputCampStartTime').addEventListener('change', (e) => {
+  document.getElementById('inputCampStartTime')?.addEventListener('change', (e) => {
     state.startTime = e.target.value;
     renderTimetable();
     renderVisualSchedule();
   });
 
   // Add Volunteer Modal Events
-  document.getElementById('btnOpenAddVolunteer').addEventListener('click', () => {
+  document.getElementById('btnOpenAddVolunteer')?.addEventListener('click', () => {
     document.getElementById('modalAddVolunteer').style.display = 'flex';
   });
-  document.getElementById('btnCloseAddVolunteer').addEventListener('click', () => {
+  document.getElementById('btnCloseAddVolunteer')?.addEventListener('click', () => {
     document.getElementById('modalAddVolunteer').style.display = 'none';
   });
-  document.getElementById('btnCancelAddVolunteer').addEventListener('click', () => {
+  document.getElementById('btnCancelAddVolunteer')?.addEventListener('click', () => {
     document.getElementById('modalAddVolunteer').style.display = 'none';
   });
-  document.getElementById('btnSaveVolunteer').addEventListener('click', () => {
+  document.getElementById('btnSaveVolunteer')?.addEventListener('click', () => {
     const name = document.getElementById('inputVolName').value;
     const phone = document.getElementById('inputVolPhone').value;
     const email = document.getElementById('inputVolEmail').value;
@@ -1038,13 +1048,13 @@ function initEvents() {
   });
 
   // Edit Volunteer Modal Events
-  document.getElementById('btnCloseEditVolunteer').addEventListener('click', () => {
+  document.getElementById('btnCloseEditVolunteer')?.addEventListener('click', () => {
     document.getElementById('modalEditVolunteer').style.display = 'none';
   });
-  document.getElementById('btnCancelEditVolunteer').addEventListener('click', () => {
+  document.getElementById('btnCancelEditVolunteer')?.addEventListener('click', () => {
     document.getElementById('modalEditVolunteer').style.display = 'none';
   });
-  document.getElementById('btnSaveEditVolunteer').addEventListener('click', () => {
+  document.getElementById('btnSaveEditVolunteer')?.addEventListener('click', () => {
     const origName = document.getElementById('editVolOriginalName').value;
     const newName = document.getElementById('editVolName').value;
     const phone = document.getElementById('editVolPhone').value;
@@ -1054,18 +1064,18 @@ function initEvents() {
   });
 
   // Add Task Modal Events
-  document.getElementById('btnOpenAddTask').addEventListener('click', () => {
+  document.getElementById('btnOpenAddTask')?.addEventListener('click', () => {
     const leaderSelect = document.getElementById('inputTaskLeader');
-    leaderSelect.innerHTML = state.volunteers.map(v => `<option value="${v.name}">${v.name}</option>`).join('');
+    if (leaderSelect) leaderSelect.innerHTML = state.volunteers.map(v => `<option value="${v.name}">${v.name}</option>`).join('');
     document.getElementById('modalAddTask').style.display = 'flex';
   });
-  document.getElementById('btnCloseAddTask').addEventListener('click', () => {
+  document.getElementById('btnCloseAddTask')?.addEventListener('click', () => {
     document.getElementById('modalAddTask').style.display = 'none';
   });
-  document.getElementById('btnCancelAddTask').addEventListener('click', () => {
+  document.getElementById('btnCancelAddTask')?.addEventListener('click', () => {
     document.getElementById('modalAddTask').style.display = 'none';
   });
-  document.getElementById('btnSaveTask').addEventListener('click', () => {
+  document.getElementById('btnSaveTask')?.addEventListener('click', () => {
     const category = document.getElementById('inputTaskCategory').value;
     const desc = document.getElementById('inputTaskDesc').value.trim();
     const role = document.getElementById('inputTaskRole').value;
@@ -1086,18 +1096,18 @@ function initEvents() {
   });
 
   // Add Camp Equipment Modal Events
-  document.getElementById('btnOpenAddCampEq').addEventListener('click', () => {
+  document.getElementById('btnOpenAddCampEq')?.addEventListener('click', () => {
     const leaderSelect = document.getElementById('inputEqLeader');
-    leaderSelect.innerHTML = state.volunteers.map(v => `<option value="${v.name}">${v.name}</option>`).join('');
+    if (leaderSelect) leaderSelect.innerHTML = state.volunteers.map(v => `<option value="${v.name}">${v.name}</option>`).join('');
     document.getElementById('modalAddCampEq').style.display = 'flex';
   });
-  document.getElementById('btnCloseAddCampEq').addEventListener('click', () => {
+  document.getElementById('btnCloseAddCampEq')?.addEventListener('click', () => {
     document.getElementById('modalAddCampEq').style.display = 'none';
   });
-  document.getElementById('btnCancelAddCampEq').addEventListener('click', () => {
+  document.getElementById('btnCancelAddCampEq')?.addEventListener('click', () => {
     document.getElementById('modalAddCampEq').style.display = 'none';
   });
-  document.getElementById('btnSaveCampEq').addEventListener('click', () => {
+  document.getElementById('btnSaveCampEq')?.addEventListener('click', () => {
     const item = document.getElementById('inputEqItem').value.trim();
     const qty = parseInt(document.getElementById('inputEqQty').value) || 1;
     const role = document.getElementById('inputEqRole').value;
@@ -1121,7 +1131,7 @@ function initEvents() {
   });
 
   // Add/Edit Debrief Modal Events
-  document.getElementById('btnOpenAddDebrief').addEventListener('click', () => {
+  document.getElementById('btnOpenAddDebrief')?.addEventListener('click', () => {
     document.getElementById('debriefModalTitle').innerHTML = '<i class="fa-solid fa-pen-to-square" style="color:var(--gold-500)"></i> Submit Debrief Reflection';
     document.getElementById('inputDebriefId').value = '';
     document.getElementById('inputDebriefMetric').value = '';
@@ -1132,7 +1142,7 @@ function initEvents() {
     document.getElementById('inputDebriefImprovement').value = '';
 
     const authorSelect = document.getElementById('inputDebriefAuthor');
-    authorSelect.innerHTML = state.volunteers.map(v => `<option value="${v.name}">${v.name}</option>`).join('');
+    if (authorSelect) authorSelect.innerHTML = state.volunteers.map(v => `<option value="${v.name}">${v.name}</option>`).join('');
 
     document.getElementById('modalAddDebrief').style.display = 'flex';
   });
@@ -1145,13 +1155,13 @@ function initEvents() {
     });
   });
 
-  document.getElementById('btnCloseAddDebrief').addEventListener('click', () => {
+  document.getElementById('btnCloseAddDebrief')?.addEventListener('click', () => {
     document.getElementById('modalAddDebrief').style.display = 'none';
   });
-  document.getElementById('btnCancelAddDebrief').addEventListener('click', () => {
+  document.getElementById('btnCancelAddDebrief')?.addEventListener('click', () => {
     document.getElementById('modalAddDebrief').style.display = 'none';
   });
-  document.getElementById('btnSaveDebrief').addEventListener('click', () => {
+  document.getElementById('btnSaveDebrief')?.addEventListener('click', () => {
     const id = document.getElementById('inputDebriefId').value;
     const metric = document.getElementById('inputDebriefMetric').value.trim();
     const rating = parseInt(document.getElementById('inputDebriefRating').value) || 5;
