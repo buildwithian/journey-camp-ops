@@ -8,6 +8,7 @@
 const state = {
   campTrack: 'Father & Daughter Camp',
   startTime: '15:00',
+  activePlan: 'PlanA',
   attendance: {
     dads: 16,
     children: 16,
@@ -45,26 +46,26 @@ const state = {
   ],
 
   timetable: [
-    { day: 'Saturday', min: 30, activity: 'Arrival', desc: 'Arrive at camp, name tags, get to know contacts', role: 'Administration', planB: 'Plan A operates in all weather (indoor check-in)' },
-    { day: 'Saturday', min: 30, activity: 'Ice Breaker', desc: 'Get to know each other (Child introduces Father, name game)', role: 'Activity Facilitator', planB: 'Move under covered veranda or main hall if raining' },
-    { day: 'Saturday', min: 90, activity: 'Clay Latte', desc: 'Father-child activities & Dam swim (Water safety active)', role: 'Activity Facilitator / Safety Lead', planB: 'If rain: Cancel dam swim. Move clay building under veranda.' },
-    { day: 'Saturday', min: 90, activity: 'Camp Setup', desc: 'Set-up shelters, bivvy equipment, prepare fire', role: 'Logistics Lead', planB: 'If heavy rain: Erect tarps overhead / setup inside main hall.' },
-    { day: 'Saturday', min: 60, activity: 'Dinner Prep', desc: 'Ensure fire is started on time with enough coals for cooking', role: 'Catering / Fire Lead', planB: 'If rain: Use covered braai area or gas stoves under gazebo.' },
-    { day: 'Saturday', min: 30, activity: 'Dinner', desc: 'Dads and children cook and have supper together', role: 'Oversight Lead', planB: 'Eat under covered dining veranda / hall.' },
-    { day: 'Saturday', min: 60, activity: 'Stokbrood', desc: 'Marshmallows and stokbrood at fire, chat about question cards', role: 'Session Coordinator', planB: 'Move stokbrood to gas stoves; sit inside for question cards.' },
-    { day: 'Saturday', min: 60, activity: 'Skits & Debrief', desc: 'Present skits and carving, end of evening debrief', role: 'Oversight Lead', planB: 'Move inside main hall / large marquee.' },
-    { day: 'Saturday', min: 0, activity: 'Bed Time', desc: 'Lights out', role: 'Oversight Lead', planB: 'If severe storm: Move sleeping inside indoor hall/vehicles.' },
+    { day: 'Saturday', min: 30, activity: 'Arrival', desc: 'Arrive at camp, name tags, get to know contacts', role: 'Administration', leader: 'Paul Barter', planB: 'Plan A operates in all weather (indoor check-in)' },
+    { day: 'Saturday', min: 30, activity: 'Ice Breaker', desc: 'Get to know each other (Child introduces Father, name game)', role: 'Activity Facilitator', leader: 'Kingsley Williams', planB: 'Move under covered veranda or main hall if raining' },
+    { day: 'Saturday', min: 90, activity: 'Clay Latte', desc: 'Father-child activities & Dam swim (Water safety active)', role: 'Activity Facilitator / Safety Lead', leader: 'Kingsley Williams', planB: 'If rain: Cancel dam swim. Move clay building under veranda.' },
+    { day: 'Saturday', min: 90, activity: 'Camp Setup', desc: 'Set-up shelters, bivvy equipment, prepare fire', role: 'Logistics Lead', leader: 'Neil Harrower', planB: 'If heavy rain: Erect tarps overhead / setup inside main hall.' },
+    { day: 'Saturday', min: 60, activity: 'Dinner Prep', desc: 'Ensure fire is started on time with enough coals for cooking', role: 'Catering / Fire Lead', leader: 'Kevin de Wet', planB: 'If rain: Use covered braai area or gas stoves under gazebo.' },
+    { day: 'Saturday', min: 30, activity: 'Dinner', desc: 'Dads and children cook and have supper together', role: 'Oversight Lead', leader: 'Ian Sinclair', planB: 'Eat under covered dining veranda / hall.' },
+    { day: 'Saturday', min: 60, activity: 'Stokbrood', desc: 'Marshmallows and stokbrood at fire, chat about question cards', role: 'Session Coordinator', leader: 'Marvin Welby-Solomon', planB: 'Move stokbrood to gas stoves; sit inside for question cards.' },
+    { day: 'Saturday', min: 60, activity: 'Skits & Debrief', desc: 'Present skits and carving, end of evening debrief', role: 'Oversight Lead', leader: 'Ian Sinclair', planB: 'Move inside main hall / large marquee.' },
+    { day: 'Saturday', min: 0, activity: 'Bed Time', desc: 'Lights out', role: 'Oversight Lead', leader: 'Ian Sinclair', planB: 'If severe storm: Move sleeping inside indoor hall/vehicles.' },
     
-    { day: 'Sunday', min: 45, activity: 'Wake Up', desc: 'Wake up, dam swim (Water safety active), boil kettles, coffee', role: 'Logistics Lead / Safety Lead', planB: 'If rain: Cancel dam swim. Hot coffee & kettles under veranda.' },
-    { day: 'Sunday', min: 90, activity: 'Malachi', desc: 'Malachi discussion (sand demo) and scripture video', role: 'Session Coordinator', planB: 'Move inside main hall with projector.' },
-    { day: 'Sunday', min: 30, activity: 'Communion', desc: 'Administer communion elements', role: 'Communion Sub-Leader', planB: 'Perform inside hall with soft lighting.' },
-    { day: 'Sunday', min: 15, activity: 'Quiet Time', desc: 'Father-child quiet time (reflect on Malachi)', role: 'Spiritual Oversight / Prayer Lead', planB: 'Sit on covered porch / inside main hall.' },
-    { day: 'Sunday', min: 60, activity: 'Breakfast', desc: 'Fire ready, boiling water. Families prepare own breakfast.', role: 'Catering / Fire Lead', planB: 'Use covered kitchen area / gas burners under gazebo.' },
-    { day: 'Sunday', min: 60, activity: 'Manhood Talk', desc: "Dad's talk and children's talk split", role: 'Session Coordinator', planB: 'Split into two separate indoor rooms.' },
-    { day: 'Sunday', min: 15, activity: 'Final Debrief', desc: 'Reflection on the sleepover, present carving', role: 'Oversight Lead', planB: 'Inside main hall.' },
-    { day: 'Sunday', min: 60, activity: 'Pack Up', desc: 'Pack up camp', role: 'Logistics Lead', planB: 'Use tarps over gear while packing into vehicles.' },
-    { day: 'Sunday', min: 45, activity: 'Tug of War', desc: 'Father-child activity (Tug of war, Dam swim - Water safety active)', role: 'Activity Facilitator / Safety Lead', planB: 'If rain: Cancel dam swim. Mud tug-of-war if light rain, or indoor arm wrestling.' },
-    { day: 'Sunday', min: 0, activity: 'Departure', desc: 'Depart from camp', role: 'Administration', planB: 'Final departure from venue.' }
+    { day: 'Sunday', min: 45, activity: 'Wake Up', desc: 'Wake up, dam swim (Water safety active), boil kettles, coffee', role: 'Logistics Lead / Safety Lead', leader: 'Neil Harrower', planB: 'If rain: Cancel dam swim. Hot coffee & kettles under veranda.' },
+    { day: 'Sunday', min: 90, activity: 'Malachi', desc: 'Malachi discussion (sand demo) and scripture video', role: 'Session Coordinator', leader: 'Marvin Welby-Solomon', planB: 'Move inside main hall with projector.' },
+    { day: 'Sunday', min: 30, activity: 'Communion', desc: 'Administer communion elements', role: 'Communion Sub-Leader', leader: 'Richard Walker', planB: 'Perform inside hall with soft lighting.' },
+    { day: 'Sunday', min: 15, activity: 'Quiet Time', desc: 'Father-child quiet time (reflect on Malachi)', role: 'Spiritual Oversight / Prayer Lead', leader: 'Ian Sinclair', planB: 'Sit on covered porch / inside main hall.' },
+    { day: 'Sunday', min: 60, activity: 'Breakfast', desc: 'Fire ready, boiling water. Families prepare own breakfast.', role: 'Catering / Fire Lead', leader: 'Kevin de Wet', planB: 'Use covered kitchen area / gas burners under gazebo.' },
+    { day: 'Sunday', min: 60, activity: 'Manhood Talk', desc: "Dad's talk and children's talk split", role: 'Session Coordinator', leader: 'Marvin Welby-Solomon', planB: 'Split into two separate indoor rooms.' },
+    { day: 'Sunday', min: 15, activity: 'Final Debrief', desc: 'Reflection on the sleepover, present carving', role: 'Oversight Lead', leader: 'Ian Sinclair', planB: 'Inside main hall.' },
+    { day: 'Sunday', min: 60, activity: 'Pack Up', desc: 'Pack up camp', role: 'Logistics Lead', leader: 'Neil Harrower', planB: 'Use tarps over gear while packing into vehicles.' },
+    { day: 'Sunday', min: 45, activity: 'Tug of War', desc: 'Father-child activity (Tug of war, Dam swim - Water safety active)', role: 'Activity Facilitator / Safety Lead', leader: 'Kingsley Williams', planB: 'If rain: Cancel dam swim. Mud tug-of-war if light rain, or indoor arm wrestling.' },
+    { day: 'Sunday', min: 0, activity: 'Departure', desc: 'Depart from camp', role: 'Administration', leader: 'Paul Barter', planB: 'Final departure from venue.' }
   ],
 
   tasks: [
@@ -309,10 +310,27 @@ const timetableEqMap = {
   'Departure': ['Check-out List', 'Gate Access Code']
 };
 
+function switchTab(tabId) {
+  document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+  document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
+  
+  const targetNav = document.querySelector(`.nav-item[data-tab="${tabId}"]`);
+  if (targetNav) targetNav.classList.add('active');
+  const targetPane = document.getElementById(tabId);
+  if (targetPane) targetPane.classList.add('active');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
 function renderTimetable() {
   let currMins = parseTimeToMins(state.startTime);
   const tbody = document.getElementById('tblTimetableBody');
-  
+  const isPlanB = state.activePlan === 'PlanB';
+
+  const alertBanner = document.getElementById('planBAlertBanner');
+  if (alertBanner) {
+    alertBanner.style.display = isPlanB ? 'block' : 'none';
+  }
+
   tbody.innerHTML = state.timetable.map(t => {
     const startStr = formatMinutes(currMins);
     const endMins = currMins + t.min;
@@ -321,25 +339,61 @@ function renderTimetable() {
     
     const eqList = timetableEqMap[t.activity] || ['Standard Activity Gear'];
     const eqBadges = eqList.map(item => `
-      <span class="badge" style="background:rgba(26,122,109,0.2); border:1px solid rgba(26,122,109,0.4); color:#80CBC4; font-size:0.725rem; padding:0.15rem 0.45rem; margin:0.1rem; display:inline-flex; align-items:center; gap:0.25rem; white-space:nowrap;">
+      <a class="badge eq-badge-link" data-tab="tab-act-eq" style="background:rgba(26,122,109,0.25); border:1px solid rgba(26,122,109,0.5); color:#80CBC4; font-size:0.725rem; padding:0.15rem 0.45rem; margin:0.1rem; display:inline-flex; align-items:center; gap:0.25rem; white-space:nowrap; text-decoration:none; cursor:pointer;">
         <i class="fa-solid fa-toolbox" style="font-size:0.65rem; color:var(--teal-500);"></i> ${item}
-      </span>
+      </a>
     `).join('');
+
+    const planBStyle = isPlanB 
+      ? 'background:rgba(192,84,47,0.2); color:#FF8A65; font-weight:700; font-size:0.825rem;'
+      : 'color:var(--text-muted); font-size:0.8rem; font-style:italic;';
 
     return `
       <tr>
         <td style="font-weight:700; color:${t.day === 'Saturday' ? 'var(--gold-400)' : '#FF8A65'};">${t.day}</td>
-        <td style="font-weight:800; color:var(--teal-500);">${startStr}</td>
-        <td style="color:var(--text-muted);">${endStr}</td>
-        <td style="font-weight:700;">${t.min}</td>
+        <td>
+          <div style="font-weight:800; color:var(--teal-500); font-family:monospace; white-space:nowrap;">${startStr} – ${endStr}</div>
+          <div style="font-size:0.75rem; color:var(--gold-400); font-weight:700;">${t.min > 0 ? t.min + ' mins' : '—'}</div>
+        </td>
         <td style="font-weight:700; color:#FFF;">${t.activity}</td>
         <td style="font-size:0.85rem;">${t.desc}</td>
         <td style="max-width:240px;"><div style="display:flex; flex-wrap:wrap; gap:0.2rem;">${eqBadges}</div></td>
         <td><span class="badge badge-pending">${t.role}</span></td>
-        <td style="font-size:0.8rem; color:#FF8A65; font-style:italic;">${t.planB}</td>
+        <td>
+          <select class="form-control timetable-leader-select" data-activity="${t.activity}" style="padding:0.3rem 0.5rem; font-size:0.825rem;">
+            ${state.volunteers.map(v => `<option value="${v.name}" ${v.name === (t.leader || 'Ian Sinclair') ? 'selected' : ''}>${v.name}</option>`).join('')}
+          </select>
+        </td>
+        <td style="${planBStyle}">
+          <a class="planb-jump-link" data-activity="${t.activity}" style="color:inherit; text-decoration:none; cursor:pointer; display:flex; align-items:center; gap:0.35rem;">
+            <i class="fa-solid fa-person-shelter" style="color:#FF8A65;"></i> ${t.planB}
+          </a>
+        </td>
       </tr>
     `;
   }).join('');
+
+  document.querySelectorAll('.timetable-leader-select').forEach(sel => {
+    sel.addEventListener('change', (e) => {
+      const act = e.target.getAttribute('data-activity');
+      const item = state.timetable.find(x => x.activity === act);
+      if (item) item.leader = e.target.value;
+    });
+  });
+
+  document.querySelectorAll('.eq-badge-link').forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      switchTab('tab-act-eq');
+    });
+  });
+
+  document.querySelectorAll('.planb-jump-link').forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      switchTab('tab-playbook');
+    });
+  });
 }
 
 function renderVisualSchedule() {
@@ -356,7 +410,7 @@ function renderVisualSchedule() {
         <span class="schedule-time-pill">${startStr}</span>
         <div class="schedule-info">
           <div class="schedule-title-text">${t.activity}</div>
-          <div class="schedule-role-text">${t.role.split('/')[0].trim()}</div>
+          <div class="schedule-role-text">${(t.leader || t.role).split('/')[0].trim()}</div>
         </div>
       </div>
     `;
@@ -367,6 +421,52 @@ function renderVisualSchedule() {
 
   document.getElementById('visSatContainer').innerHTML = satHtml;
   document.getElementById('visSunContainer').innerHTML = sunHtml;
+}
+
+function renderPlaybook() {
+  const container = document.getElementById('playbookAccordionContainer');
+  const playbookData = [
+    { title: 'Ice Breaker', goal: 'Break initial tension and get everyone laughing.', steps: '1. Children introduce fathers to group.\n2. Play Name Game or Two Truths and a Lie.', planB: 'Move under covered veranda / main hall if raining.' },
+    { title: 'Clay Latte', goal: 'Draw fathers and children together through physical teamwork.', steps: '1. Tie dad and child together at ankles.\n2. Set up obstacle course & dam swim (Lifeguards active on bank).', planB: 'Cancel dam swim if lightning/rain. Move clay building under veranda.' },
+    { title: 'Stokbrood', goal: 'Quality guided conversational time in relaxed setting.', steps: '1. Lay out dough, stokke, syrup, marshmallows near fire.\n2. Dads and children cook stokbrood and discuss question cards.', planB: 'Move stokbrood cooking to gas stoves under covered gazebo.' },
+    { title: 'Skits & Debrief', goal: 'Lighthearted fun followed by grounding day experiences.', steps: '1. Groups prepare short funny skit.\n2. Present carving and summarize Saturday takeaways.', planB: 'Fully operable indoors inside main hall.' },
+    { title: 'Malachi', goal: 'Spiritual reflection on restoration and turning of hearts.', steps: '1. Show YouTube Malachi scripture video on projector.\n2. Sand Demo showing how things naturally drift.', planB: 'Move inside main hall with projector.' },
+    { title: 'Communion', goal: 'Spiritual reflection, forgiveness, and covenant.', steps: '1. Provide grape juice and bread loaf.\n2. Read 1 Cor 11:23-26. Fathers pray blessing over children.', planB: 'Administer inside main hall with soft lanterns/lighting.' }
+  ];
+
+  container.innerHTML = playbookData.map((p, idx) => `
+    <div class="accordion-item ${idx === 0 ? 'open' : ''}">
+      <div class="accordion-header">
+        <div style="font-weight:700; font-size:1.1rem; color:#FFF;">${p.title}</div>
+        <div style="font-size:0.85rem; color:var(--gold-400);">${p.goal}</div>
+      </div>
+      <div class="accordion-body">
+        <div style="font-weight:600; color:var(--teal-500); margin-bottom:0.4rem;">STEPS & LEAD CONSIDERATIONS:</div>
+        <div style="white-space:pre-line; color:var(--text-main);">${p.steps}</div>
+        <div class="plan-b-box">
+          <div class="plan-b-title"><i class="fa-solid fa-cloud-showers-heavy"></i> PLAN B (RAIN / WEATHER CONTINGENCY)</div>
+          <div>${p.planB}</div>
+        </div>
+        <div style="margin-top:0.75rem; display:flex; gap:0.5rem;">
+          <button class="btn btn-secondary btn-jump-acteq" style="font-size:0.775rem; padding:0.25rem 0.6rem;">
+            <i class="fa-solid fa-bullseye" style="color:var(--teal-500);"></i> View Activity Equipment for ${p.title}
+          </button>
+        </div>
+      </div>
+    </div>
+  `).join('');
+
+  document.querySelectorAll('.accordion-header').forEach(hdr => {
+    hdr.addEventListener('click', () => {
+      hdr.parentElement.classList.toggle('open');
+    });
+  });
+
+  document.querySelectorAll('.btn-jump-acteq').forEach(btn => {
+    btn.addEventListener('click', () => {
+      switchTab('tab-act-eq');
+    });
+  });
 }
 
 function renderTasks() {
@@ -895,6 +995,30 @@ function initEvents() {
         colSat.style.display = 'block';
         colSun.style.display = 'block';
       }
+    });
+  });
+
+  // Timetable Plan A / Plan B Toggle
+  document.querySelectorAll('#timetablePlanToggle .plan-toggle-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      document.querySelectorAll('#timetablePlanToggle .plan-toggle-btn').forEach(b => {
+        b.classList.remove('active');
+        b.style.background = 'rgba(255, 255, 255, 0.08)';
+        b.style.color = 'var(--text-main)';
+      });
+      const plan = e.currentTarget.getAttribute('data-plan');
+      e.currentTarget.classList.add('active');
+      state.activePlan = plan;
+      
+      if (plan === 'PlanB') {
+        e.currentTarget.style.background = 'linear-gradient(135deg, var(--coral-600), #C0542F)';
+        e.currentTarget.style.color = '#FFF';
+      } else {
+        e.currentTarget.style.background = 'linear-gradient(135deg, var(--gold-500), #B88E2D)';
+        e.currentTarget.style.color = 'var(--navy-900)';
+      }
+
+      renderTimetable();
     });
   });
 

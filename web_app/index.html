@@ -326,20 +326,29 @@
       <div id="tab-timetable" class="tab-pane">
         <div class="card">
           <div class="card-header">
-            <h2 class="card-title"><i class="fa-solid fa-list-check" style="color:var(--gold-500)"></i> Detailed Run Sheet & Equipment Link</h2>
+            <div>
+              <h2 class="card-title"><i class="fa-solid fa-list-check" style="color:var(--gold-500)"></i> Detailed Operations Timetable</h2>
+              <div style="font-size:0.8rem; color:var(--text-muted);">Combined time windows, assigned leaders, and interactive Playbook / Equipment links</div>
+            </div>
+            <div style="display:flex; gap:0.35rem;" id="timetablePlanToggle">
+              <button class="btn btn-secondary plan-toggle-btn active" data-plan="PlanA" style="padding:0.35rem 0.75rem; font-size:0.8rem;"><i class="fa-solid fa-sun" style="color:var(--gold-400)"></i> Plan A (Standard)</button>
+              <button class="btn btn-secondary plan-toggle-btn" data-plan="PlanB" style="padding:0.35rem 0.75rem; font-size:0.8rem;"><i class="fa-solid fa-cloud-showers-heavy" style="color:#FF8A65"></i> Plan B (Weather Contingencies)</button>
+            </div>
+          </div>
+          <div id="planBAlertBanner" style="display:none; padding:0.75rem 1rem; background:rgba(192,84,47,0.2); border:1px solid var(--coral-600); border-radius:var(--radius-sm); margin-bottom:1rem; color:#FF8A65; font-size:0.85rem; font-weight:600;">
+            <i class="fa-solid fa-triangle-exclamation"></i> <strong>WEATHER PLAN B ACTIVE:</strong> Review indoor venue transfers & weather contingencies highlighted below. Click Plan B links to jump directly to Playbook steps!
           </div>
           <div class="table-container">
             <table class="data-table">
               <thead>
                 <tr>
                   <th>Day</th>
-                  <th>Start</th>
-                  <th>End</th>
-                  <th>Min</th>
+                  <th>Time Window & Duration</th>
                   <th>Activity</th>
                   <th>Description</th>
                   <th>Linked Equipment & Gear</th>
                   <th>Assigned Role</th>
+                  <th>Assigned Leader</th>
                   <th>Plan B (Weather Contingency)</th>
                 </tr>
               </thead>
