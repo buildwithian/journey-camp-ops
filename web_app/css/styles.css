@@ -426,6 +426,15 @@ h1, h2, h3, h4, .brand-title {
   padding: 1rem;
 }
 
+.data-table th:nth-child(2) {
+  /* Give the Description / Item column more space to avoid text wrap */
+  width: 35%;
+}
+.data-table-compact th:nth-child(1) {
+  /* In compact equipment tables, the Item is the 1st column */
+  width: 35%;
+}
+
 /* --- Badges --- */
 .badge {
   display: inline-flex;

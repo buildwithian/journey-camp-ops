@@ -673,6 +673,64 @@
     </div>
   </div>
 
+  <!-- Edit Camp Equipment Modal -->
+  <div id="modalEditCampEq" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.8); z-index:200; backdrop-filter:blur(8px); align-items:center; justify-content:center;">
+    <div class="card" style="width: 480px; max-width: 90vw;">
+      <div class="card-header">
+        <h3 class="card-title"><i class="fa-solid fa-pen-to-square" style="color:var(--gold-500)"></i> Edit Camp Equipment</h3>
+        <button class="btn btn-secondary" id="btnCloseEditCampEq"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <input type="hidden" id="editCampEqId">
+      <div class="form-group">
+        <label class="form-label">Item Description</label>
+        <input type="text" id="inputEditCampEqItem" class="form-control">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Quantity</label>
+        <input type="text" id="inputEditCampEqQty" class="form-control">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Assigned Role</label>
+        <input type="text" id="inputEditCampEqRole" class="form-control">
+      </div>
+      <div style="display:flex; justify-content:flex-end; gap:0.5rem; margin-top:1.5rem;">
+        <button class="btn btn-secondary" id="btnCancelEditCampEq">Cancel</button>
+        <button class="btn btn-primary" id="btnSaveEditCampEq">Save Changes</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Edit Activity Equipment Modal -->
+  <div id="modalEditActEq" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.8); z-index:200; backdrop-filter:blur(8px); align-items:center; justify-content:center;">
+    <div class="card" style="width: 480px; max-width: 90vw;">
+      <div class="card-header">
+        <h3 class="card-title"><i class="fa-solid fa-pen-to-square" style="color:var(--teal-500)"></i> Edit Activity Equipment</h3>
+        <button class="btn btn-secondary" id="btnCloseEditActEq"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <input type="hidden" id="editActEqId">
+      <div class="form-group">
+        <label class="form-label">Item Description</label>
+        <input type="text" id="inputEditActEqItem" class="form-control">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Quantity</label>
+        <input type="text" id="inputEditActEqQty" class="form-control">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Linked Activity</label>
+        <input type="text" id="inputEditActEqAct" class="form-control">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Assigned Role</label>
+        <input type="text" id="inputEditActEqRole" class="form-control">
+      </div>
+      <div style="display:flex; justify-content:flex-end; gap:0.5rem; margin-top:1.5rem;">
+        <button class="btn btn-secondary" id="btnCancelEditActEq">Cancel</button>
+        <button class="btn btn-primary" id="btnSaveEditActEq">Save Changes</button>
+      </div>
+    </div>
+  </div>
+
   <!-- Add/Edit Debrief Modal -->
   <div id="modalAddDebrief" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.8); z-index:200; backdrop-filter:blur(8px); align-items:center; justify-content:center;">
     <div class="card" style="width: 540px; max-width: 90vw; max-height: 90vh; overflow-y: auto;">

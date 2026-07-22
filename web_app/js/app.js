@@ -794,7 +794,10 @@ function renderCampEq() {
       <td>
         <input type="text" class="form-control campeq-notes-input" data-item="${e.item}" value="${e.notes || ''}" placeholder="Add note..." style="font-size:0.75rem; padding:0.2rem 0.4rem; width:100px;">
       </td>
-      <td style="text-align:center;">
+      <td style="text-align:center; white-space:nowrap;">
+        <button class="btn btn-secondary btn-edit-campeq" data-item="${e.item}" style="padding:0.2rem 0.4rem; font-size:0.7rem; margin-right:0.25rem;">
+          <i class="fa-solid fa-pen-to-square"></i>
+        </button>
         <button class="btn btn-danger btn-delete-campeq" data-item="${e.item}" style="padding:0.2rem 0.4rem; font-size:0.7rem;">
           <i class="fa-solid fa-trash-can"></i>
         </button>
@@ -829,6 +832,13 @@ function renderCampEq() {
       const item = ev.target.getAttribute('data-item');
       const eq = state.campEq.find(x => x.item === item);
       if (eq) eq.notes = ev.target.value;
+    });
+  });
+
+  document.querySelectorAll('.btn-edit-campeq').forEach(btn => {
+    btn.addEventListener('click', (ev) => {
+      const item = ev.currentTarget.getAttribute('data-item');
+      openEditCampEqModal(item);
     });
   });
 
@@ -891,8 +901,11 @@ function renderActEq() {
           <option value="Completed" ${e.status === 'Completed' ? 'selected' : ''}>Completed</option>
         </select>
       </td>
-      <td>
-        <input type="text" class="form-control acteq-notes-input" data-item="${e.item}" value="${e.notes || ''}" placeholder="Add note..." style="font-size:0.75rem; padding:0.2rem 0.4rem; width:100px;">
+      <td style="white-space:nowrap;">
+        <input type="text" class="form-control acteq-notes-input" data-item="${e.item}" value="${e.notes || ''}" placeholder="Add note..." style="font-size:0.75rem; padding:0.2rem 0.4rem; width:100px; display:inline-block;">
+        <button class="btn btn-secondary btn-edit-acteq" data-item="${e.item}" style="padding:0.2rem 0.4rem; font-size:0.7rem; margin-left:0.25rem;">
+          <i class="fa-solid fa-pen-to-square"></i>
+        </button>
       </td>
     </tr>
   `;
@@ -926,6 +939,34 @@ function renderActEq() {
       if (eq) eq.notes = ev.target.value;
     });
   });
+
+  document.querySelectorAll('.btn-edit-acteq').forEach(btn => {
+    btn.addEventListener('click', (ev) => {
+      const item = ev.currentTarget.getAttribute('data-item');
+      openEditActEqModal(item);
+    });
+  });
+}
+
+function openEditCampEqModal(itemName) {
+  const eq = state.campEq.find(x => x.item === itemName);
+  if (!eq) return;
+  document.getElementById('editCampEqId').value = eq.item; 
+  document.getElementById('inputEditCampEqItem').value = eq.item;
+  document.getElementById('inputEditCampEqQty').value = eq.qty;
+  document.getElementById('inputEditCampEqRole').value = eq.role;
+  document.getElementById('modalEditCampEq').style.display = 'flex';
+}
+
+function openEditActEqModal(itemName) {
+  const eq = state.actEq.find(x => x.item === itemName);
+  if (!eq) return;
+  document.getElementById('editActEqId').value = eq.item;
+  document.getElementById('inputEditActEqItem').value = eq.item;
+  document.getElementById('inputEditActEqQty').value = eq.qty;
+  document.getElementById('inputEditActEqAct').value = eq.act;
+  document.getElementById('inputEditActEqRole').value = eq.role;
+  document.getElementById('modalEditActEq').style.display = 'flex';
 }
 
 function getFoodQty(item, tot) {
@@ -1310,11 +1351,50 @@ function initEvents() {
       status: 'Pending',
       notes
     });
-    document.getElementById('inputEqItem').value = '';
-    document.getElementById('inputEqQty').value = '1';
     document.getElementById('inputEqNotes').value = '';
     document.getElementById('modalAddCampEq').style.display = 'none';
     renderCampEq();
+  });
+
+  // Edit Camp Eq Modal Events
+  document.getElementById('btnCloseEditCampEq')?.addEventListener('click', () => {
+    document.getElementById('modalEditCampEq').style.display = 'none';
+  });
+  document.getElementById('btnCancelEditCampEq')?.addEventListener('click', () => {
+    document.getElementById('modalEditCampEq').style.display = 'none';
+  });
+  document.getElementById('btnSaveEditCampEq')?.addEventListener('click', () => {
+    const id = document.getElementById('editCampEqId').value;
+    const eq = state.campEq.find(x => x.item === id);
+    if (!eq) return;
+
+    eq.item = document.getElementById('inputEditCampEqItem').value.trim();
+    eq.qty = parseInt(document.getElementById('inputEditCampEqQty').value) || eq.qty;
+    eq.role = document.getElementById('inputEditCampEqRole').value.trim();
+
+    document.getElementById('modalEditCampEq').style.display = 'none';
+    renderCampEq();
+  });
+
+  // Edit Act Eq Modal Events
+  document.getElementById('btnCloseEditActEq')?.addEventListener('click', () => {
+    document.getElementById('modalEditActEq').style.display = 'none';
+  });
+  document.getElementById('btnCancelEditActEq')?.addEventListener('click', () => {
+    document.getElementById('modalEditActEq').style.display = 'none';
+  });
+  document.getElementById('btnSaveEditActEq')?.addEventListener('click', () => {
+    const id = document.getElementById('editActEqId').value;
+    const eq = state.actEq.find(x => x.item === id);
+    if (!eq) return;
+
+    eq.item = document.getElementById('inputEditActEqItem').value.trim();
+    eq.qty = parseInt(document.getElementById('inputEditActEqQty').value) || eq.qty;
+    eq.act = document.getElementById('inputEditActEqAct').value.trim();
+    eq.role = document.getElementById('inputEditActEqRole').value.trim();
+
+    document.getElementById('modalEditActEq').style.display = 'none';
+    renderActEq();
   });
 
   // Add/Edit Debrief Modal Events
