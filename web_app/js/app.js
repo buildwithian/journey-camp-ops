@@ -808,6 +808,35 @@ function initEvents() {
   document.getElementById('searchTasks')?.addEventListener('input', renderTasks);
   document.getElementById('searchCampEq')?.addEventListener('input', renderCampEq);
 
+  // Visual Schedule Day Toggle
+  document.querySelectorAll('.schedule-toggle-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      document.querySelectorAll('.schedule-toggle-btn').forEach(b => {
+        b.classList.remove('active');
+        b.style.background = 'rgba(255, 255, 255, 0.08)';
+        b.style.borderColor = 'var(--border-light)';
+      });
+      const day = e.currentTarget.getAttribute('data-day');
+      e.currentTarget.classList.add('active');
+      e.currentTarget.style.background = 'linear-gradient(135deg, var(--gold-500), #B88E2D)';
+      e.currentTarget.style.color = 'var(--navy-900)';
+      
+      const colSat = document.getElementById('colSat');
+      const colSun = document.getElementById('colSun');
+      
+      if (day === 'Saturday') {
+        colSat.style.display = 'block';
+        colSun.style.display = 'none';
+      } else if (day === 'Sunday') {
+        colSat.style.display = 'none';
+        colSun.style.display = 'block';
+      } else {
+        colSat.style.display = 'block';
+        colSun.style.display = 'block';
+      }
+    });
+  });
+
   // Settings Modal
   document.getElementById('btnSettings').addEventListener('click', () => {
     document.getElementById('modalSettings').style.display = 'flex';

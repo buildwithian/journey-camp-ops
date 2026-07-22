@@ -355,16 +355,23 @@
       <div id="tab-visual-schedule" class="tab-pane">
         <div class="card">
           <div class="card-header">
-            <h2 class="card-title"><i class="fa-solid fa-calendar-days" style="color:var(--gold-400)"></i> Visual Camp Schedule Dashboard</h2>
-            <div style="font-size: 0.85rem; color: var(--text-muted);">Single-page high-level overview</div>
+            <div>
+              <h2 class="card-title"><i class="fa-solid fa-calendar-days" style="color:var(--gold-400)"></i> Visual Camp Schedule Dashboard</h2>
+              <div style="font-size: 0.8rem; color: var(--text-muted);">Compact single-page high-level view</div>
+            </div>
+            <div style="display:flex; gap:0.35rem;" id="scheduleDayToggle">
+              <button class="btn btn-secondary schedule-toggle-btn active" data-day="Saturday" style="padding:0.35rem 0.75rem; font-size:0.8rem;"><i class="fa-solid fa-sun" style="color:var(--gold-400)"></i> Saturday</button>
+              <button class="btn btn-secondary schedule-toggle-btn" data-day="Sunday" style="padding:0.35rem 0.75rem; font-size:0.8rem;"><i class="fa-solid fa-sun-plant-wilt" style="color:#FF8A65"></i> Sunday</button>
+              <button class="btn btn-secondary schedule-toggle-btn" data-day="Both" style="padding:0.35rem 0.75rem; font-size:0.8rem;"><i class="fa-solid fa-calendar-week"></i> Both Days</button>
+            </div>
           </div>
           <div class="visual-schedule-grid">
-            <div class="day-column">
-              <div class="day-header sat">☀ SATURDAY</div>
+            <div class="day-column" id="colSat">
+              <div class="day-header sat">☀ SATURDAY PROGRAMME</div>
               <div id="visSatContainer"></div>
             </div>
-            <div class="day-column">
-              <div class="day-header sun">🌅 SUNDAY</div>
+            <div class="day-column" id="colSun" style="display:none;">
+              <div class="day-header sun">🌅 SUNDAY PROGRAMME</div>
               <div id="visSunContainer"></div>
             </div>
           </div>
