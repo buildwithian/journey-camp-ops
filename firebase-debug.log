@@ -1,0 +1,71 @@
+[debug] [2026-07-22T05:54:05.260Z] ----------------------------------------------------------------------
+[debug] [2026-07-22T05:54:05.262Z] Command:       /Users/iansinclair/.hermes/node/bin/node /Users/iansinclair/.npm/_npx/ba4f1959e38407b5/node_modules/.bin/firebase projects:addfirebase journey-camp-ops
+[debug] [2026-07-22T05:54:05.262Z] CLI Version:   15.24.0
+[debug] [2026-07-22T05:54:05.262Z] Platform:      darwin
+[debug] [2026-07-22T05:54:05.262Z] Node Version:  v22.22.3
+[debug] [2026-07-22T05:54:05.263Z] Detected Agent: antigravity
+[debug] [2026-07-22T05:54:05.263Z] Time:          Wed Jul 22 2026 07:54:05 GMT+0200 (South Africa Standard Time)
+[debug] [2026-07-22T05:54:05.263Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-07-22T05:54:05.271Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2026-07-22T05:54:05.385Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-07-22T05:54:05.385Z] > authorizing via signed-in user (sinclairian2408@gmail.com)
+[debug] [2026-07-22T05:54:05.386Z] Checked if tokens are valid: true, expires at: 1784703079798
+[debug] [2026-07-22T05:54:05.387Z] Checked if tokens are valid: true, expires at: 1784703079798
+[debug] [2026-07-22T05:54:05.387Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/journey-camp-ops:addFirebase [none]
+[debug] [2026-07-22T05:54:05.415Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): Error: self-signed certificate in certificate chain
+[warn] ⚠  Unable to fetch the CLI MOTD and remote config. This is not a fatal error, but may indicate an issue with your network connection. 
+[debug] [2026-07-22T05:54:05.416Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2026-07-22T05:54:06.148Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/journey-camp-ops:addFirebase 403
+[debug] [2026-07-22T05:54:06.149Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/journey-camp-ops:addFirebase {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2026-07-22T05:54:06.149Z] Request to https://firebase.googleapis.com/v1beta1/projects/journey-camp-ops:addFirebase had HTTP Error: 403, The caller does not have permission
+[debug] [2026-07-22T05:54:06.150Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/journey-camp-ops:addFirebase had HTTP Error: 403, The caller does not have permission
+    at responseToError (/Users/iansinclair/.npm/_npx/ba4f1959e38407b5/node_modules/firebase-tools/lib/responseToError.js:53:12)
+    at RetryOperation._fn (/Users/iansinclair/.npm/_npx/ba4f1959e38407b5/node_modules/firebase-tools/lib/apiv2.js:415:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[error] 
+[error] Error: Failed to add Firebase to Google Cloud Platform project. See firebase-debug.log for more info.
+[debug] [2026-07-22T05:54:21.799Z] ----------------------------------------------------------------------
+[debug] [2026-07-22T05:54:21.801Z] Command:       /Users/iansinclair/.hermes/node/bin/node /Users/iansinclair/.npm/_npx/ba4f1959e38407b5/node_modules/.bin/firebase projects:create journey-camp-ops-hub --display-name Journey Camp Operations
+[debug] [2026-07-22T05:54:21.801Z] CLI Version:   15.24.0
+[debug] [2026-07-22T05:54:21.801Z] Platform:      darwin
+[debug] [2026-07-22T05:54:21.801Z] Node Version:  v22.22.3
+[debug] [2026-07-22T05:54:21.801Z] Detected Agent: antigravity
+[debug] [2026-07-22T05:54:21.801Z] Time:          Wed Jul 22 2026 07:54:21 GMT+0200 (South Africa Standard Time)
+[debug] [2026-07-22T05:54:21.801Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-07-22T05:54:21.810Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2026-07-22T05:54:21.916Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-07-22T05:54:21.916Z] > authorizing via signed-in user (sinclairian2408@gmail.com)
+[debug] [2026-07-22T05:54:21.919Z] Checked if tokens are valid: true, expires at: 1784703079798
+[debug] [2026-07-22T05:54:21.919Z] Checked if tokens are valid: true, expires at: 1784703079798
+[debug] [2026-07-22T05:54:21.920Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2026-07-22T05:54:21.920Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"journey-camp-ops-hub","name":"Journey Camp Operations"}
+[debug] [2026-07-22T05:54:21.948Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): Error: self-signed certificate in certificate chain
+[warn] ⚠  Unable to fetch the CLI MOTD and remote config. This is not a fatal error, but may indicate an issue with your network connection. 
+[debug] [2026-07-22T05:54:21.949Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2026-07-22T05:54:23.672Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2026-07-22T05:54:23.672Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/create_project.global.6813762022958737343"}
+[debug] [2026-07-22T05:54:23.673Z] Checked if tokens are valid: true, expires at: 1784703079798
+[debug] [2026-07-22T05:54:23.673Z] Checked if tokens are valid: true, expires at: 1784703079798
+[debug] [2026-07-22T05:54:23.673Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.6813762022958737343 [none]
+[debug] [2026-07-22T05:54:25.150Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.6813762022958737343 200
+[debug] [2026-07-22T05:54:25.150Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.6813762022958737343 {"name":"operations/create_project.global.6813762022958737343"}
+[debug] [2026-07-22T05:54:25.651Z] [Project Creation Poller] Retrying task index 0
+[debug] [2026-07-22T05:54:25.651Z] Checked if tokens are valid: true, expires at: 1784703079798
+[debug] [2026-07-22T05:54:25.651Z] Checked if tokens are valid: true, expires at: 1784703079798
+[debug] [2026-07-22T05:54:25.652Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.6813762022958737343 [none]
+[debug] [2026-07-22T05:54:25.961Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.6813762022958737343 200
+[debug] [2026-07-22T05:54:25.961Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.6813762022958737343 {"name":"operations/create_project.global.6813762022958737343","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"885889176064","projectId":"journey-camp-ops-hub","lifecycleState":"ACTIVE","name":"Journey Camp Operations","createTime":"2026-07-22T05:54:23.676Z"}}
+[debug] [2026-07-22T05:54:25.961Z] Checked if tokens are valid: true, expires at: 1784703079798
+[debug] [2026-07-22T05:54:25.961Z] Checked if tokens are valid: true, expires at: 1784703079798
+[debug] [2026-07-22T05:54:25.961Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/journey-camp-ops-hub:addFirebase [none]
+[debug] [2026-07-22T05:54:27.440Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/journey-camp-ops-hub:addFirebase 403
+[debug] [2026-07-22T05:54:27.440Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/journey-camp-ops-hub:addFirebase {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2026-07-22T05:54:27.441Z] Request to https://firebase.googleapis.com/v1beta1/projects/journey-camp-ops-hub:addFirebase had HTTP Error: 403, The caller does not have permission
+[debug] [2026-07-22T05:54:27.441Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/journey-camp-ops-hub:addFirebase had HTTP Error: 403, The caller does not have permission
+    at responseToError (/Users/iansinclair/.npm/_npx/ba4f1959e38407b5/node_modules/firebase-tools/lib/responseToError.js:53:12)
+    at RetryOperation._fn (/Users/iansinclair/.npm/_npx/ba4f1959e38407b5/node_modules/firebase-tools/lib/apiv2.js:415:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[error] 
+[error] Error: Failed to add Firebase to Google Cloud Platform project. See firebase-debug.log for more info.

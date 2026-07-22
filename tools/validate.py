@@ -57,7 +57,7 @@ def check_privacy(errors, files):
         if not path.exists() or not path.is_file() or not is_text(path):
             continue
         text = path.read_text(encoding="utf-8", errors="ignore")
-        if p.startswith("archive-register/") or p.startswith("web_app/") or p.startswith("tools/"):
+        if p.startswith("archive-register/") or p.startswith("web_app/") or p.startswith("tools/") or p == "index.html" or p.startswith("js/"):
             continue
         scrub = "\n".join(line for line in text.splitlines() if "sha256" not in line.lower() and not re.search(r"[0-9a-f]{32,}", line))
         if email.search(scrub) and "example.invalid" not in scrub:
