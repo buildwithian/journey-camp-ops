@@ -416,9 +416,10 @@ h1, h2, h3, h4, .brand-title {
 .data-table.data-table-compact select.form-control {
   padding: 0.1rem 0.2rem;
   font-size: 0.75rem;
+  width: max-content;
 }
 
-.food-grid-container {
+.two-column-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 1rem;

@@ -770,11 +770,15 @@ function renderCampEq() {
     e.role.toLowerCase().includes(searchVal)
   );
 
-  tbody.innerHTML = filtered.map((e, idx) => `
+  const half = Math.ceil(filtered.length / 2);
+  const leftHalf = filtered.slice(0, half);
+  const rightHalf = filtered.slice(half);
+
+  const renderRow = (e) => `
     <tr>
       <td style="font-weight:600; color:#FFF;">${e.item}</td>
       <td style="font-weight:700; text-align:center;">${e.qty}</td>
-      <td><span class="badge badge-pending">${e.role}</span></td>
+      <td><span class="badge badge-pending" style="font-size:0.6rem;">${e.role}</span></td>
       <td>
         <select class="form-control campeq-leader-select" data-item="${e.item}">
           ${state.volunteers.map(v => `<option value="${v.name}" ${v.name === e.leader ? 'selected' : ''}>${v.name}</option>`).join('')}
@@ -788,15 +792,21 @@ function renderCampEq() {
         </select>
       </td>
       <td>
-        <input type="text" class="form-control campeq-notes-input" data-item="${e.item}" value="${e.notes || ''}" placeholder="Add note..." style="font-size:0.825rem; padding:0.35rem 0.6rem;">
+        <input type="text" class="form-control campeq-notes-input" data-item="${e.item}" value="${e.notes || ''}" placeholder="Add note..." style="font-size:0.75rem; padding:0.2rem 0.4rem; width:100px;">
       </td>
       <td style="text-align:center;">
-        <button class="btn btn-danger btn-delete-campeq" data-item="${e.item}" style="padding:0.25rem 0.5rem; font-size:0.75rem;">
+        <button class="btn btn-danger btn-delete-campeq" data-item="${e.item}" style="padding:0.2rem 0.4rem; font-size:0.7rem;">
           <i class="fa-solid fa-trash-can"></i>
         </button>
       </td>
     </tr>
-  `).join('');
+  `;
+
+  const tbodyLeft = document.getElementById('tblCampEqBodyLeft');
+  if (tbodyLeft) tbodyLeft.innerHTML = leftHalf.map(renderRow).join('');
+
+  const tbodyRight = document.getElementById('tblCampEqBodyRight');
+  if (tbodyRight) tbodyRight.innerHTML = rightHalf.map(renderRow).join('');
 
   document.querySelectorAll('.campeq-leader-select').forEach(sel => {
     sel.addEventListener('change', (ev) => {
@@ -859,13 +869,16 @@ function renderActEq() {
     });
   }
 
-  const tbody = document.getElementById('tblActEqBody');
-  tbody.innerHTML = state.actEq.map(e => `
+  const half = Math.ceil(state.actEq.length / 2);
+  const leftHalf = state.actEq.slice(0, half);
+  const rightHalf = state.actEq.slice(half);
+
+  const renderRow = (e) => `
     <tr>
       <td style="font-weight:600; color:#FFF;">${e.item}</td>
       <td style="font-weight:800; color:var(--teal-500); text-align:center;">${e.qty}</td>
-      <td style="font-weight:700;">${e.act}</td>
-      <td><span class="badge badge-pending">${e.role}</span></td>
+      <td style="font-weight:700; font-size:0.75rem;">${e.act}</td>
+      <td><span class="badge badge-pending" style="font-size:0.6rem;">${e.role}</span></td>
       <td>
         <select class="form-control acteq-leader-select" data-item="${e.item}">
           ${state.volunteers.map(v => `<option value="${v.name}" ${v.name === e.leader ? 'selected' : ''}>${v.name}</option>`).join('')}
@@ -879,10 +892,16 @@ function renderActEq() {
         </select>
       </td>
       <td>
-        <input type="text" class="form-control acteq-notes-input" data-item="${e.item}" value="${e.notes || ''}" placeholder="Add note..." style="font-size:0.825rem; padding:0.35rem 0.6rem;">
+        <input type="text" class="form-control acteq-notes-input" data-item="${e.item}" value="${e.notes || ''}" placeholder="Add note..." style="font-size:0.75rem; padding:0.2rem 0.4rem; width:100px;">
       </td>
     </tr>
-  `).join('');
+  `;
+
+  const tbodyLeft = document.getElementById('tblActEqBodyLeft');
+  if (tbodyLeft) tbodyLeft.innerHTML = leftHalf.map(renderRow).join('');
+
+  const tbodyRight = document.getElementById('tblActEqBodyRight');
+  if (tbodyRight) tbodyRight.innerHTML = rightHalf.map(renderRow).join('');
 
   document.querySelectorAll('.acteq-leader-select').forEach(sel => {
     sel.addEventListener('change', (ev) => {

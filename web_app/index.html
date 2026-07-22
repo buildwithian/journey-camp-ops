@@ -233,23 +233,43 @@
               <button class="btn btn-primary" id="btnOpenAddCampEq"><i class="fa-solid fa-plus"></i> Add Item</button>
             </div>
           </div>
-          <div class="table-container">
-            <table class="data-table" data-table-id="campEq">
-              <thead>
-                <tr>
-                  <th>Item Description</th>
-                  <th style="text-align:center;">Qty</th>
-                  <th>Assigned Role</th>
-                  <th>Responsible Leader</th>
-                  <th>Status</th>
-                  <th>Notes</th>
-                  <th style="text-align:center;">Action</th>
-                </tr>
-              </thead>
-              <tbody id="tblCampEqBody">
-                <!-- Rendered dynamically -->
-              </tbody>
-            </table>
+          <div class="two-column-grid">
+            <div class="table-container" style="padding: 0;">
+              <table class="data-table data-table-compact" data-table-id="campEq-left">
+                <thead>
+                  <tr>
+                    <th>Item</th>
+                    <th style="text-align:center;">Qty</th>
+                    <th>Role</th>
+                    <th>Leader</th>
+                    <th>Status</th>
+                    <th>Notes</th>
+                    <th style="text-align:center;">Action</th>
+                  </tr>
+                </thead>
+                <tbody id="tblCampEqBodyLeft">
+                  <!-- Rendered dynamically -->
+                </tbody>
+              </table>
+            </div>
+            <div class="table-container" style="padding: 0;">
+              <table class="data-table data-table-compact" data-table-id="campEq-right">
+                <thead>
+                  <tr>
+                    <th>Item</th>
+                    <th style="text-align:center;">Qty</th>
+                    <th>Role</th>
+                    <th>Leader</th>
+                    <th>Status</th>
+                    <th>Notes</th>
+                    <th style="text-align:center;">Action</th>
+                  </tr>
+                </thead>
+                <tbody id="tblCampEqBodyRight">
+                  <!-- Rendered dynamically -->
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>
@@ -260,23 +280,43 @@
           <div class="card-header">
             <h2 class="card-title"><i class="fa-solid fa-bullseye" style="color:var(--teal-500)"></i> Activity Equipment</h2>
           </div>
-          <div class="table-container">
-            <table class="data-table" data-table-id="actEq">
-              <thead>
-                <tr>
-                  <th>Item Description</th>
-                  <th style="text-align:center;">Calc. Qty</th>
-                  <th>Linked Activity</th>
-                  <th>Assigned Role</th>
-                  <th>Responsible for bringing</th>
-                  <th>Status</th>
-                  <th>Notes</th>
-                </tr>
-              </thead>
-              <tbody id="tblActEqBody">
-                <!-- Rendered dynamically -->
-              </tbody>
-            </table>
+          <div class="two-column-grid">
+            <div class="table-container" style="padding: 0;">
+              <table class="data-table data-table-compact" data-table-id="actEq-left">
+                <thead>
+                  <tr>
+                    <th>Item</th>
+                    <th style="text-align:center;">Qty</th>
+                    <th>Activity</th>
+                    <th>Role</th>
+                    <th>Leader</th>
+                    <th>Status</th>
+                    <th>Notes</th>
+                  </tr>
+                </thead>
+                <tbody id="tblActEqBodyLeft">
+                  <!-- Rendered dynamically -->
+                </tbody>
+              </table>
+            </div>
+            <div class="table-container" style="padding: 0;">
+              <table class="data-table data-table-compact" data-table-id="actEq-right">
+                <thead>
+                  <tr>
+                    <th>Item</th>
+                    <th style="text-align:center;">Qty</th>
+                    <th>Activity</th>
+                    <th>Role</th>
+                    <th>Leader</th>
+                    <th>Status</th>
+                    <th>Notes</th>
+                  </tr>
+                </thead>
+                <tbody id="tblActEqBodyRight">
+                  <!-- Rendered dynamically -->
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>
@@ -288,7 +328,7 @@
             <h2 class="card-title"><i class="fa-solid fa-utensils" style="color:var(--coral-500)"></i> Communal Food & Catering Shopping List</h2>
             <div style="font-size: 0.85rem; color: var(--text-muted);"><i class="fa-solid fa-calculator"></i> Calculated for a Total Headcount of: <strong id="foodTotalCount" style="color:var(--gold-400);">43</strong> participants based on Settings.</div>
           </div>
-          <div class="food-grid-container">
+          <div class="two-column-grid">
             <div class="table-container" style="padding: 0;">
               <table class="data-table data-table-compact" data-table-id="food-left">
                 <thead>
