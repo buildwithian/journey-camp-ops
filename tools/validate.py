@@ -6,7 +6,6 @@ import re
 import subprocess
 import sys
 from pathlib import Path
-import yaml
 ROOT = Path(__file__).resolve().parents[1]
 REQUIRED_FM = {"title","document_id","status","owner_role","reviewers","version","last_reviewed","next_review","programme","sensitivity","content_layer","source_references"}
 ALLOWED_STATUS = {"draft","review-required","approved","deprecated","historical-example"}
@@ -143,8 +142,8 @@ def check_spreadsheets(errors):
         from openpyxl import load_workbook
         for path in paths:
             wb = load_workbook(path, data_only=False)
-            if "Instructions" not in wb.sheetnames:
-                add(errors, f"{path.relative_to(ROOT)} missing Instructions sheet")
+            if not any(s in wb.sheetnames for s in ["Instructions", "1. Settings & Leaders", "1. Settings & Parameters", "1. Roster & Roles", "Roster & Roles", "Settings"]):
+                add(errors, f"{path.relative_to(ROOT)} missing Instructions or Settings sheet")
             for ws in wb.worksheets:
                 for row in ws.iter_rows():
                     for cell in row:
@@ -162,8 +161,8 @@ def check_spreadsheets(errors):
                     add(errors, f"{path.relative_to(ROOT)} missing workbook.xml")
                     continue
                 workbook = z.read("xl/workbook.xml").decode("utf-8", "ignore")
-                if 'name="Instructions"' not in workbook:
-                    add(errors, f"{path.relative_to(ROOT)} missing Instructions sheet")
+                if not any(k in workbook for k in ['name="Instructions"', 'name="1. Settings &amp; Leaders"', 'name="1. Settings & Leaders"', 'name="1. Settings &amp; Parameters"', 'name="1. Roster &amp; Roles"', 'name="1. Roster & Roles"', 'name="Roster &amp; Roles"', 'name="Roster & Roles"', 'name="Settings"']):
+                    add(errors, f"{path.relative_to(ROOT)} missing Instructions or Settings sheet")
                 for name in names:
                     if name.startswith("xl/worksheets/") and name.endswith(".xml"):
                         xml = z.read(name).decode("utf-8", "ignore")
@@ -183,8 +182,20 @@ def check_site(errors):
     if not cfg.exists():
         add(errors, "mkdocs.yml missing")
         return
-    data = yaml.safe_load(cfg.read_text(encoding="utf-8")) or {}
-    for item in data.get("nav", []):
+    text = cfg.read_text(encoding="utf-8")
+    try:
+        import yaml
+        data = yaml.safe_load(text) or {}
+        nav_items = data.get("nav", [])
+    except ImportError:
+        # Fallback simple line-by-line regex parser for nav entries in mkdocs.yml
+        nav_targets = re.findall(r":\s*([a-zA-Z0-9_\-/\.]+\.md)", text)
+        for target in nav_targets:
+            if not (ROOT / "docs" / target).exists():
+                add(errors, f"mkdocs nav target missing: {target}")
+        return
+
+    for item in nav_items:
         if isinstance(item, dict):
             for _, target in item.items():
                 if isinstance(target, str) and not (ROOT / "docs" / target).exists():

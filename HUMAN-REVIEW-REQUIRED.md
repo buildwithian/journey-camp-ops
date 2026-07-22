@@ -5,7 +5,7 @@ This file contains only decisions requiring qualified human or expert review.
 ## Live Tracker Alignment
 
 - Source of truth: Journey V3 Leader Delegation and Readiness Tracker, `Human Review!A5:N11` (https://docs.google.com/spreadsheets/d/1G7DDdtDafQILPNAi7izYmlmlc7zxDibOhErycwcxv5A/edit).
-- Current status: all seven review gates are open; HR-005 and HR-006 are now present in the live tracker alongside HR-001 through HR-004 and HR-007.
+- Current status: all eight review gates are recorded; HR-008 is added for Water Safety & Emergency Readiness.
 - Routing queue: use `Human Review Routing!A5:M11` in the live tracker to assign qualified reviewers, target dates and packet-routing status before final sign-off; this queue does not approve any gate.
 - Rule: do not mark any gate approved without the named qualified reviewer or programme authority recording reviewer name, authority, decision, date and any conditions/required changes.
 - Privacy rule: do not record private reviewer contact details in the shared tracker.
@@ -24,8 +24,9 @@ This file contains only decisions requiring qualified human or expert review.
 | HR-003 | Medical Readiness Review Packet: https://docs.google.com/document/d/1iTsga4rXo9AL4lGQ3vtDaZylt25BBQHE_jPKdOb8GAE/edit |
 | HR-004 | Theology Review Packet: https://docs.google.com/document/d/1s2F1hNAYgm8Amo-dwRsM91nPRv6-XSq1NrKN-jo17yQ/edit |
 | HR-005 | Operating Authority Review Packet: https://docs.google.com/document/d/1cgh2cEx6gKN9uDEwFuX1LEXQ-DXYeX2aLVVPryChebs/edit |
-| HR-006 | Girls Programme Content Review Packet: https://docs.google.com/document/d/1MKDo9_SywF2KErlKvtN2oSr0IZxzqahfBxCh7JSEz1s/edit |
+| HR-006 | Girls Session and Rite-of-Passage Content Review Packet: https://docs.google.com/document/d/1MKDo9_SywF2KErlKvtN2oSr0IZxzqahfBxCh7JSEz1s/edit |
 | HR-007 | Copyright Boundary Review Packet: https://docs.google.com/document/d/1T_MKdInk66JzB5GaOnHOsL3b5CYjihVkUn_ZTjGRPgE/edit |
+| HR-008 | Water Safety & Lifeguard Protocol Review Packet |
 
 ## HR-001: Safeguarding and child-protection material
 
@@ -72,6 +73,13 @@ This file contains only decisions requiring qualified human or expert review.
 ## HR-007: Third-party benchmark and copyright boundaries
 
 - Category: Copyright permission
-- Reason: The Alpha website and help material may be used only as a benchmark pattern unless explicit permission is granted for any copied wording, screenshots, media, design assets, course concepts or branded materials.
+- Reason: Benchmark materials may be used only within copyright boundaries.
 - Required reviewer: Programme owner and qualified copyright/legal reviewer
+- Status: open
+
+## HR-008: Water Safety, Lifeguard Roster & Emergency Protocol
+
+- Category: Medical & Safety approval
+- Reason: Protocols for dam/water activities, dedicated lifeguard supervision ratios, emergency evacuation vehicles, and medical decision trees require qualified safety authority review.
+- Required reviewer: Qualified Lifeguard / Water Safety Instructor & Medical Readiness lead
 - Status: open
