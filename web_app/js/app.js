@@ -174,7 +174,10 @@ function renderVolunteers() {
       <td style="font-weight:600; color:#FFF;">${v.name}</td>
       <td style="color:var(--gold-400); font-family:monospace;">${v.phone || '—'}</td>
       <td style="color:var(--teal-500); font-size:0.85rem;">${v.email || '—'}</td>
-      <td style="text-align:center;">
+      <td style="text-align:center; white-space:nowrap;">
+        <button class="btn btn-secondary btn-edit-vol" data-name="${v.name}" style="padding:0.25rem 0.5rem; font-size:0.75rem; margin-right:0.25rem;">
+          <i class="fa-solid fa-pen-to-square"></i> Edit
+        </button>
         <button class="btn btn-danger btn-delete-vol" data-name="${v.name}" style="padding:0.25rem 0.5rem; font-size:0.75rem;">
           <i class="fa-solid fa-trash-can"></i>
         </button>
@@ -182,12 +185,54 @@ function renderVolunteers() {
     </tr>
   `).join('');
 
+  document.querySelectorAll('.btn-edit-vol').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      const volName = e.currentTarget.getAttribute('data-name');
+      openEditVolunteerModal(volName);
+    });
+  });
+
   document.querySelectorAll('.btn-delete-vol').forEach(btn => {
     btn.addEventListener('click', (e) => {
       const volName = e.currentTarget.getAttribute('data-name');
       deleteVolunteer(volName);
     });
   });
+}
+
+function openEditVolunteerModal(name) {
+  const vol = state.volunteers.find(v => v.name === name);
+  if (!vol) return;
+  document.getElementById('editVolOriginalName').value = vol.name;
+  document.getElementById('editVolName').value = vol.name;
+  document.getElementById('editVolPhone').value = vol.phone || '';
+  document.getElementById('editVolEmail').value = vol.email || '';
+  document.getElementById('modalEditVolunteer').style.display = 'flex';
+}
+
+function editVolunteer(origName, newName, phone, email) {
+  const vol = state.volunteers.find(v => v.name === origName);
+  if (!vol) return;
+
+  const trimmedNew = newName.trim();
+  if (!trimmedNew) return;
+
+  vol.name = trimmedNew;
+  vol.phone = phone.trim();
+  vol.email = email.trim();
+
+  // Cascade updates if the name was changed
+  if (origName !== trimmedNew) {
+    state.roles.forEach(r => { if (r.leader === origName) r.leader = trimmedNew; });
+    state.tasks.forEach(t => { if (t.leader === origName) t.leader = trimmedNew; });
+    state.campEq.forEach(e => { if (e.leader === origName) e.leader = trimmedNew; });
+    if (state.actEq) {
+      state.actEq.forEach(e => { if (e.leader === origName) e.leader = trimmedNew; });
+    }
+  }
+
+  renderApp();
+  syncToGoogleSheet('editVolunteer', { origName, newName: trimmedNew, phone, email });
 }
 
 function addVolunteer(name, phone, email) {
@@ -199,7 +244,7 @@ function addVolunteer(name, phone, email) {
 
 function deleteVolunteer(name) {
   state.volunteers = state.volunteers.filter(v => v.name !== name);
-  // Reset roles assigned to this volunteer to unassigned or default
+  // Reset roles assigned to this volunteer to default
   state.roles.forEach(r => {
     if (r.leader === name) {
       r.leader = state.volunteers.length > 0 ? state.volunteers[0].name : '';
@@ -735,6 +780,22 @@ function initEvents() {
     document.getElementById('inputVolPhone').value = '';
     document.getElementById('inputVolEmail').value = '';
     document.getElementById('modalAddVolunteer').style.display = 'none';
+  });
+
+  // Edit Volunteer Modal Events
+  document.getElementById('btnCloseEditVolunteer').addEventListener('click', () => {
+    document.getElementById('modalEditVolunteer').style.display = 'none';
+  });
+  document.getElementById('btnCancelEditVolunteer').addEventListener('click', () => {
+    document.getElementById('modalEditVolunteer').style.display = 'none';
+  });
+  document.getElementById('btnSaveEditVolunteer').addEventListener('click', () => {
+    const origName = document.getElementById('editVolOriginalName').value;
+    const newName = document.getElementById('editVolName').value;
+    const phone = document.getElementById('editVolPhone').value;
+    const email = document.getElementById('editVolEmail').value;
+    editVolunteer(origName, newName, phone, email);
+    document.getElementById('modalEditVolunteer').style.display = 'none';
   });
 
   // Add Task Modal Events

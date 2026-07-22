@@ -121,12 +121,12 @@
           </div>
         </div>
 
-        <div class="grid-2">
+        <div class="grid-settings-layout">
           <div class="card">
             <div class="card-header">
               <h2 class="card-title"><i class="fa-solid fa-calculator" style="color:var(--teal-500)"></i> Attendance & Ratios</h2>
             </div>
-            <div class="grid-3">
+            <div style="display:flex; flex-direction:column; gap:0.75rem;">
               <div class="form-group">
                 <label class="form-label">Fathers (Dads)</label>
                 <input type="number" id="inputDads" class="form-control" value="16">
@@ -140,12 +140,12 @@
                 <input type="number" id="inputHelpers" class="form-control" value="11">
               </div>
             </div>
-            <div style="margin-top: 1rem; padding: 1rem; background: rgba(15,23,42,0.8); border-radius: var(--radius-md); display: flex; justify-content: space-between; align-items: center;">
+            <div style="margin-top: 1rem; padding: 0.85rem; background: rgba(15,23,42,0.8); border-radius: var(--radius-md); display: flex; justify-content: space-between; align-items: center;">
               <div>
-                <div style="font-size:0.85rem; color:var(--text-muted);">TOTAL HEADCOUNT</div>
-                <div style="font-size:1.75rem; font-weight:800; color:var(--gold-400);" id="statTotalParticipants">43</div>
+                <div style="font-size:0.75rem; color:var(--text-muted);">TOTAL HEADCOUNT</div>
+                <div style="font-size:1.6rem; font-weight:800; color:var(--gold-400);" id="statTotalParticipants">43</div>
               </div>
-              <span class="badge badge-done"><i class="fa-solid fa-check"></i> Ratios Balanced</span>
+              <span class="badge badge-done" style="font-size:0.7rem;"><i class="fa-solid fa-check"></i> Balanced</span>
             </div>
           </div>
 
@@ -154,7 +154,7 @@
               <h2 class="card-title"><i class="fa-solid fa-address-book" style="color:var(--gold-500)"></i> Available Volunteers Directory</h2>
               <button class="btn btn-primary" id="btnOpenAddVolunteer"><i class="fa-solid fa-user-plus"></i> Add Volunteer</button>
             </div>
-            <div class="table-container" style="max-height: 220px; overflow-y: auto;">
+            <div class="table-container" style="max-height: 260px; overflow-y: auto;">
               <table class="data-table">
                 <thead>
                   <tr>
@@ -443,6 +443,33 @@
       <div style="display:flex; justify-content:flex-end; gap:0.5rem; margin-top:1.5rem;">
         <button class="btn btn-secondary" id="btnCancelAddVolunteer">Cancel</button>
         <button class="btn btn-primary" id="btnSaveVolunteer">Add to Directory</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Edit Volunteer Modal -->
+  <div id="modalEditVolunteer" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.8); z-index:200; backdrop-filter:blur(8px); align-items:center; justify-content:center;">
+    <div class="card" style="width: 480px; max-width: 90vw;">
+      <div class="card-header">
+        <h3 class="card-title"><i class="fa-solid fa-user-pen" style="color:var(--gold-500)"></i> Edit Volunteer Details</h3>
+        <button class="btn btn-secondary" id="btnCloseEditVolunteer"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <input type="hidden" id="editVolOriginalName">
+      <div class="form-group">
+        <label class="form-label">Volunteer Full Name</label>
+        <input type="text" id="editVolName" class="form-control" placeholder="e.g. Sarah Jenkins">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Contact Phone Number</label>
+        <input type="text" id="editVolPhone" class="form-control" placeholder="e.g. +27 82 555 1234">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Email Address</label>
+        <input type="email" id="editVolEmail" class="form-control" placeholder="e.g. sarah@journey.org">
+      </div>
+      <div style="display:flex; justify-content:flex-end; gap:0.5rem; margin-top:1.5rem;">
+        <button class="btn btn-secondary" id="btnCancelEditVolunteer">Cancel</button>
+        <button class="btn btn-primary" id="btnSaveEditVolunteer">Save Changes</button>
       </div>
     </div>
   </div>

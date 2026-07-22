@@ -306,6 +306,12 @@ h1, h2, h3, h4, .brand-title {
   gap: 1.5rem;
 }
 
+.grid-settings-layout {
+  display: grid;
+  grid-template-columns: 28% 72%;
+  gap: 1.25rem;
+}
+
 .grid-3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -614,7 +620,7 @@ h1, h2, h3, h4, .brand-title {
   .app-container { flex-direction: column; }
   .sidebar-nav { width: 100%; flex-direction: row; overflow-x: auto; border-right: none; border-bottom: 1px solid var(--border-light); }
   .visual-schedule-grid { grid-template-columns: 1fr; }
-  .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
+  .grid-2, .grid-3, .grid-4, .grid-settings-layout { grid-template-columns: 1fr; }
   .main-content { padding: 1rem; }
   .card { padding: 1rem; margin-bottom: 1rem; }
   .data-table th, .data-table td { padding: 0.5rem 0.65rem; font-size: 0.825rem; }
