@@ -131,7 +131,7 @@
               <input type="number" id="numChildren" class="form-control" value="16" min="1">
             </div>
             <div class="form-group">
-              <label class="form-label">Helpers / Leaders / Lifeguards</label>
+              <label class="form-label">Helpers / Volunteers / Lifeguards</label>
               <input type="number" id="numHelpers" class="form-control" value="11" min="1">
             </div>
             <div class="card" style="background: rgba(26, 122, 109, 0.2); border-color: var(--teal-500); margin-top: 1rem;">
@@ -143,18 +143,20 @@
 
           <div class="card">
             <div class="card-header">
-              <h2 class="card-title"><i class="fa-solid fa-address-book" style="color:var(--gold-400)"></i> Available Leaders Directory</h2>
-              <button class="btn btn-secondary" id="btnAddLeader"><i class="fa-solid fa-plus"></i> Add Leader</button>
+              <h2 class="card-title"><i class="fa-solid fa-address-book" style="color:var(--gold-400)"></i> Available Volunteers Directory</h2>
+              <button class="btn btn-primary" id="btnAddVolunteerModal"><i class="fa-solid fa-user-plus"></i> Add Volunteer</button>
             </div>
-            <div class="table-container" style="max-height: 340px; overflow-y: auto;">
+            <div class="table-container" style="max-height: 380px; overflow-y: auto;">
               <table class="data-table">
                 <thead>
                   <tr>
                     <th>Name</th>
                     <th>Contact Phone</th>
+                    <th>Email Address</th>
+                    <th style="text-align:center;">Action</th>
                   </tr>
                 </thead>
-                <tbody id="tblLeadersBody">
+                <tbody id="tblVolunteersBody">
                   <!-- Rendered dynamically -->
                 </tbody>
               </table>
@@ -175,8 +177,9 @@
                 <tr>
                   <th>Role Title</th>
                   <th>Description & Default Duties</th>
-                  <th>Assigned Leader</th>
+                  <th>Assigned Volunteer</th>
                   <th>Auto-Filled Contact</th>
+                  <th>Auto-Filled Email</th>
                 </tr>
               </thead>
               <tbody id="tblRosterBody">
@@ -388,6 +391,32 @@
       </div>
 
     </main>
+  </div>
+
+  <!-- Add Volunteer Modal -->
+  <div id="modalAddVolunteer" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.8); z-index:200; backdrop-filter:blur(8px); align-items:center; justify-content:center;">
+    <div class="card" style="width: 480px; max-width: 90vw;">
+      <div class="card-header">
+        <h3 class="card-title"><i class="fa-solid fa-user-plus" style="color:var(--gold-500)"></i> Add New Volunteer</h3>
+        <button class="btn btn-secondary" id="btnCloseAddVolunteer"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Volunteer Full Name</label>
+        <input type="text" id="inputVolName" class="form-control" placeholder="e.g. Sarah Jenkins">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Contact Phone Number</label>
+        <input type="text" id="inputVolPhone" class="form-control" placeholder="e.g. +27 82 555 1234">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Email Address</label>
+        <input type="email" id="inputVolEmail" class="form-control" placeholder="e.g. sarah@journey.org">
+      </div>
+      <div style="display:flex; justify-content:flex-end; gap:0.5rem; margin-top:1.5rem;">
+        <button class="btn btn-secondary" id="btnCancelAddVolunteer">Cancel</button>
+        <button class="btn btn-primary" id="btnSaveVolunteer">Add to Directory</button>
+      </div>
+    </div>
   </div>
 
   <!-- Settings Modal -->

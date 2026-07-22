@@ -15,18 +15,18 @@ const state = {
   },
   gasUrl: localStorage.getItem('journey_gas_url') || '',
   
-  leaders: [
-    { name: 'Ian Sinclair', phone: '+27 63 893 9452' },
-    { name: 'Neil Harrower', phone: '+27 71 950 8363' },
-    { name: 'Marvin Welby-Solomon', phone: '' },
-    { name: 'Kingsley Williams', phone: '+27 83 260 5311' },
-    { name: 'Kevin de Wet', phone: '+27 82 908 2460' },
-    { name: 'Paul Barter', phone: '' },
-    { name: 'Raldo Kruger (Lifeguard Lead)', phone: '+27 84 511 8606' },
-    { name: 'Gavin Graham (Lifeguard 2)', phone: '+27 82 123 4567' },
-    { name: 'Richard Walker', phone: '' },
-    { name: 'Youth Track Leader A', phone: '' },
-    { name: 'Youth Track Leader B', phone: '' }
+  volunteers: [
+    { name: 'Ian Sinclair', phone: '+27 63 893 9452', email: 'ian@journey.org' },
+    { name: 'Neil Harrower', phone: '+27 71 950 8363', email: 'neil@journey.org' },
+    { name: 'Marvin Welby-Solomon', phone: '', email: 'marvin@journey.org' },
+    { name: 'Kingsley Williams', phone: '+27 83 260 5311', email: 'kingsley@journey.org' },
+    { name: 'Kevin de Wet', phone: '+27 82 908 2460', email: 'kevin@journey.org' },
+    { name: 'Paul Barter', phone: '', email: 'paul@journey.org' },
+    { name: 'Raldo Kruger (Lifeguard Lead)', phone: '+27 84 511 8606', email: 'raldo@journey.org' },
+    { name: 'Gavin Graham (Lifeguard 2)', phone: '+27 82 123 4567', email: 'gavin@journey.org' },
+    { name: 'Richard Walker', phone: '', email: 'richard@journey.org' },
+    { name: 'Youth Track Leader A', phone: '', email: 'youth1@journey.org' },
+    { name: 'Youth Track Leader B', phone: '', email: 'youth2@journey.org' }
   ],
 
   roles: [
@@ -151,7 +151,7 @@ function parseTimeToMins(timeStr) {
 function renderApp() {
   document.getElementById('statTotalParticipants').textContent = getTotalParticipants();
   
-  renderSettings();
+  renderVolunteers();
   renderRoster();
   renderTimetable();
   renderVisualSchedule();
@@ -164,33 +164,66 @@ function renderApp() {
   renderDebrief();
 }
 
-function renderSettings() {
-  const tbody = document.getElementById('tblLeadersBody');
-  tbody.innerHTML = state.leaders.map(l => `
+function renderVolunteers() {
+  const tbody = document.getElementById('tblVolunteersBody');
+  tbody.innerHTML = state.volunteers.map(v => `
     <tr>
-      <td style="font-weight:600; color:#FFF;">${l.name}</td>
-      <td style="color:var(--gold-400); font-family:monospace;">${l.phone || '—'}</td>
+      <td style="font-weight:600; color:#FFF;">${v.name}</td>
+      <td style="color:var(--gold-400); font-family:monospace;">${v.phone || '—'}</td>
+      <td style="color:var(--teal-500); font-size:0.85rem;">${v.email || '—'}</td>
+      <td style="text-align:center;">
+        <button class="btn btn-danger btn-delete-vol" data-name="${v.name}" style="padding:0.25rem 0.5rem; font-size:0.75rem;">
+          <i class="fa-solid fa-trash-can"></i>
+        </button>
+      </td>
     </tr>
   `).join('');
+
+  document.querySelectorAll('.btn-delete-vol').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      const volName = e.currentTarget.getAttribute('data-name');
+      deleteVolunteer(volName);
+    });
+  });
+}
+
+function addVolunteer(name, phone, email) {
+  if (!name.trim()) return;
+  state.volunteers.push({ name: name.trim(), phone: phone.trim(), email: email.trim() });
+  renderApp();
+  syncToGoogleSheet('addVolunteer', { name, phone, email });
+}
+
+function deleteVolunteer(name) {
+  state.volunteers = state.volunteers.filter(v => v.name !== name);
+  // Reset roles assigned to this volunteer to unassigned or default
+  state.roles.forEach(r => {
+    if (r.leader === name) {
+      r.leader = state.volunteers.length > 0 ? state.volunteers[0].name : '';
+    }
+  });
+  renderApp();
+  syncToGoogleSheet('deleteVolunteer', { name });
 }
 
 function renderRoster() {
   const tbody = document.getElementById('tblRosterBody');
-  const leaderOpts = state.leaders.map(l => `<option value="${l.name}">${l.name}</option>`).join('');
   
   tbody.innerHTML = state.roles.map(r => {
-    const leaderObj = state.leaders.find(l => l.name === r.leader);
-    const phone = leaderObj ? leaderObj.phone : '—';
+    const volObj = state.volunteers.find(v => v.name === r.leader);
+    const phone = volObj ? volObj.phone : '—';
+    const email = volObj ? volObj.email : '—';
     return `
       <tr>
         <td style="font-weight:700; color:#FFF;">${r.title}</td>
         <td style="color:var(--text-muted); font-size:0.85rem;">${r.desc.replace(/\n/g, '<br>')}</td>
         <td>
           <select class="form-control role-assign-select" data-role="${r.title}">
-            ${state.leaders.map(l => `<option value="${l.name}" ${l.name === r.leader ? 'selected' : ''}>${l.name}</option>`).join('')}
+            ${state.volunteers.map(v => `<option value="${v.name}" ${v.name === r.leader ? 'selected' : ''}>${v.name}</option>`).join('')}
           </select>
         </td>
-        <td style="font-family:monospace; color:var(--gold-400);">${phone}</td>
+        <td style="font-family:monospace; color:var(--gold-400);">${phone || '—'}</td>
+        <td style="font-size:0.85rem; color:var(--teal-500);">${email || '—'}</td>
       </tr>
     `;
   }).join('');
@@ -510,7 +543,28 @@ function initEvents() {
     renderVisualSchedule();
   });
 
-  // Modal Settings
+  // Volunteer Modal Events
+  document.getElementById('btnAddVolunteerModal').addEventListener('click', () => {
+    document.getElementById('modalAddVolunteer').style.display = 'flex';
+  });
+  document.getElementById('btnCloseAddVolunteer').addEventListener('click', () => {
+    document.getElementById('modalAddVolunteer').style.display = 'none';
+  });
+  document.getElementById('btnCancelAddVolunteer').addEventListener('click', () => {
+    document.getElementById('modalAddVolunteer').style.display = 'none';
+  });
+  document.getElementById('btnSaveVolunteer').addEventListener('click', () => {
+    const name = document.getElementById('inputVolName').value;
+    const phone = document.getElementById('inputVolPhone').value;
+    const email = document.getElementById('inputVolEmail').value;
+    addVolunteer(name, phone, email);
+    document.getElementById('inputVolName').value = '';
+    document.getElementById('inputVolPhone').value = '';
+    document.getElementById('inputVolEmail').value = '';
+    document.getElementById('modalAddVolunteer').style.display = 'none';
+  });
+
+  // Settings Modal
   document.getElementById('btnSettings').addEventListener('click', () => {
     document.getElementById('modalSettings').style.display = 'flex';
     document.getElementById('inputGasUrl').value = state.gasUrl;
