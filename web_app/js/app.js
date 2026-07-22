@@ -31,18 +31,18 @@ const DEFAULT_DATA = {
   ],
 
   roles: [
-    { title: 'Oversight Lead', desc: 'Carries ultimate authority for the camp weekend. Sets tone & atmosphere, resolves live issues, escalates emergencies, and ensures every session aligns with Journey heart.', leader: 'Ian Sinclair' },
-    { title: 'Session Coordinator', desc: 'Holds the spiritual and emotional heartbeat of the weekend. Leads the Malachi discussion, facilitates father-child reflection moments, and coordinates Sunday programme.', leader: 'Marvin Welby-Solomon' },
-    { title: 'Logistics Lead', desc: 'Owns physical setup and breakdown, bivvy/shelter allocation, firewood supply, venue layout, and camp environment setup.', leader: 'Neil Harrower' },
-    { title: 'Administration', desc: 'Manages RSVPs, attendance, name tags, emergency contact lists, gate access, and welcome check-in.', leader: 'Paul Barter' },
-    { title: 'Activity Facilitator', desc: 'Creates the environment of fun, play, and adventure. Leads all physical activities (Clay Latte, Tug of War, ice breakers) and ensures every child feels included.', leader: 'Kingsley Williams' },
-    { title: 'Catering / Fire Lead', desc: 'Oversees food logistics and communal fire management. Ensures cooking coals, hot water, and stokbrood fires are ready on schedule.', leader: 'Kevin de Wet' },
-    { title: 'Safety & Welfare Lead', desc: 'Accountable for physical safety and welfare across all camp activities. Conducts venue risk assessment, manages water safety & lifeguards, and holds first aid kit.', leader: 'Raldo Kruger' },
-    { title: 'Spiritual Oversight / Prayer Lead', desc: 'Carries the spiritual atmosphere and prayer foundation. Gathers team for prayer, stays aware of spiritual dynamics, and assists with communion.', leader: 'Ian Sinclair' },
-    { title: 'Pastoral Care Lead', desc: 'Provides 1-on-1 pastoral support for fathers or children processing intense emotions. Debriefs facilitators and coordinates post-camp referrals.', leader: 'Richard Walker' },
-    { title: 'Youth Track Leader 1', desc: 'Dedicated to the children experience. Leads parallel youth track during dad talks, keeping children engaged and active.', leader: 'Youth Track Leader A' },
-    { title: 'Youth Track Leader 2', desc: 'Co-leads youth programme alongside Youth Track Leader 1, supporting group dynamics and smooth transitions.', leader: 'Youth Track Leader B' },
-    { title: 'Communion Sub-Leader', desc: 'Prepares and administers communion elements on Sunday morning with reverence and intentionality.', leader: 'Richard Walker' }
+    { title: 'Oversight Lead', desc: 'Serves as the primary shepherd for the camp weekend. Gently guides the tone and atmosphere, supports the team through challenges, and ensures every moment reflects the restorative heart of the Journey.', leader: 'Ian Sinclair' },
+    { title: 'Session Coordinator', desc: 'Nurtures the spiritual and emotional heartbeat of the weekend. Facilitates the Malachi discussion and creates safe spaces for fathers and children to connect deeply.', leader: 'Marvin Welby-Solomon' },
+    { title: 'Logistics Lead', desc: 'Serves the camp through practical stewardship. Oversees the physical environment, from shelter allocation to the warmth of the campfires, ensuring a welcoming space for families.', leader: 'Neil Harrower' },
+    { title: 'Administration', desc: 'Provides a warm welcome and seamless organization. Cares for the details of RSVPs, attendance, and check-in so that fathers can focus entirely on their children.', leader: 'Paul Barter' },
+    { title: 'Activity Facilitator', desc: 'Fosters connection through joy and adventure. Leads physical activities with enthusiasm, ensuring every child feels seen, included, and celebrated.', leader: 'Kingsley Williams' },
+    { title: 'Catering / Fire Lead', desc: 'Nourishes the community through food and fellowship. Tends to the communal fires and oversees meals, creating a hearth for connection and storytelling.', leader: 'Kevin de Wet' },
+    { title: 'Safety & Welfare Lead', desc: 'Protects the physical wellbeing of the camp. Proactively manages risk, oversees water safety, and ensures a secure environment so families can rest and play freely.', leader: 'Raldo Kruger' },
+    { title: 'Spiritual Oversight / Prayer Lead', desc: 'Stewards the spiritual atmosphere through prayer. Intercedes for the fathers and children, encourages the team, and helps anchor the weekend in faith.', leader: 'Ian Sinclair' },
+    { title: 'Pastoral Care Lead', desc: 'Offers a compassionate presence for those processing deep emotions. Comes alongside fathers and children with pastoral support, active listening, and gentle guidance.', leader: 'Richard Walker' },
+    { title: 'Youth Track Leader 1', desc: 'Champions the children\'s experience. Leads the youth track with energy and care, ensuring the kids are engaged, safe, and having fun while the fathers meet.', leader: 'Youth Track Leader A' },
+    { title: 'Youth Track Leader 2', desc: 'Partners in guiding the youth programme. Supports group dynamics, helps children who need extra attention, and ensures smooth transitions.', leader: 'Youth Track Leader B' },
+    { title: 'Communion Sub-Leader', desc: 'Facilitates a sacred moment of communion. Prepares the elements with intentionality, helping fathers and children share in a meaningful spiritual milestone.', leader: 'Richard Walker' }
   ],
 
   timetable: [
