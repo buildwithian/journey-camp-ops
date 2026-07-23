@@ -47,25 +47,25 @@ const DEFAULT_DATA = {
 
   timetable: [
     { day: 'Saturday', min: 30, activity: 'Arrival', desc: 'Arrive at camp, name tags, get to know contacts', role: 'Administration', leader: 'Paul Barter', planB: 'Plan A operates in all weather (indoor check-in)' },
-    { day: 'Saturday', min: 30, activity: 'Ice Breaker', desc: 'Get to know each other (Child introduces Father, name game)', role: 'Activity Facilitator', leader: 'Kingsley Williams', planB: 'Move under covered veranda or main hall if raining' },
-    { day: 'Saturday', min: 90, activity: 'Clay Latte', desc: 'Father-child activities & Dam swim (Water safety active)', role: 'Activity Facilitator / Safety Lead', leader: 'Kingsley Williams', planB: 'If rain: Cancel dam swim. Move clay building under veranda.' },
-    { day: 'Saturday', min: 90, activity: 'Camp Setup', desc: 'Set-up shelters, bivvy equipment, prepare fire', role: 'Logistics Lead', leader: 'Neil Harrower', planB: 'If heavy rain: Erect tarps overhead / setup inside main hall.' },
-    { day: 'Saturday', min: 60, activity: 'Dinner Prep', desc: 'Ensure fire is started on time with enough coals for cooking', role: 'Catering / Fire Lead', leader: 'Kevin de Wet', planB: 'If rain: Use covered braai area or gas stoves under gazebo.' },
-    { day: 'Saturday', min: 30, activity: 'Dinner', desc: 'Dads and children cook and have supper together', role: 'Oversight Lead', leader: 'Ian Sinclair', planB: 'Eat under covered dining veranda / hall.' },
-    { day: 'Saturday', min: 60, activity: 'Stokbrood', desc: 'Marshmallows and stokbrood at fire, chat about question cards', role: 'Session Coordinator', leader: 'Marvin Welby-Solomon', planB: 'Move stokbrood to gas stoves; sit inside for question cards.' },
-    { day: 'Saturday', min: 60, activity: 'Skits & Debrief', desc: 'Present skits and carving, end of evening debrief', role: 'Oversight Lead', leader: 'Ian Sinclair', planB: 'Move inside main hall / large marquee.' },
-    { day: 'Saturday', min: 0, activity: 'Bed Time', desc: 'Lights out', role: 'Oversight Lead', leader: 'Ian Sinclair', planB: 'If severe storm: Move sleeping inside indoor hall/vehicles.' },
+    { day: 'Saturday', min: 30, activity: 'Ice Breaker', desc: 'Get to know each other (Boys introduce Fathers, good character traits, funniest moment, name game).', role: 'Activity Facilitator', leader: 'Kingsley Williams', planB: 'Move under covered veranda or main hall if raining' },
+    { day: 'Saturday', min: 90, activity: 'Clay Latte', desc: 'Father and son activities (Dad and son tied with guy rope) & Dam swim.', role: 'Activity Facilitator / Safety Lead', leader: 'Kingsley Williams', planB: 'If rain: Cancel dam swim. Move clay building under veranda.' },
+    { day: 'Saturday', min: 90, activity: 'Camp Setup', desc: 'Set-up shelters, bivvie equipment laid out, and wood carving/skit challenge prep.', role: 'Logistics Lead', leader: 'Neil Harrower', planB: 'If heavy rain: Erect tarps overhead / setup inside main hall.' },
+    { day: 'Saturday', min: 60, activity: 'Dinner Prep', desc: 'Prepare and cook supper (ensure fire is ready to braai).', role: 'Catering / Fire Lead', leader: 'Kevin de Wet', planB: 'If rain: Use covered braai area or gas stoves under gazebo.' },
+    { day: 'Saturday', min: 30, activity: 'Dinner', desc: 'Dads and sons have supper together (quality time together / printed questions).', role: 'Oversight Lead', leader: 'Ian Sinclair', planB: 'Eat under covered dining veranda / hall.' },
+    { day: 'Saturday', min: 60, activity: 'Stokbrood', desc: 'Marshmallows and stokbrood at fire, chat about dad and son questions.', role: 'Session Coordinator', leader: 'Marvin Welby-Solomon', planB: 'Move stokbrood to gas stoves; sit inside for question cards.' },
+    { day: 'Saturday', min: 60, activity: 'Skits & Debrief', desc: 'Present skits and carving, end of evening debrief and get to bed.', role: 'Oversight Lead', leader: 'Ian Sinclair', planB: 'Move inside main hall / large marquee.' },
+    { day: 'Saturday', min: 0, activity: 'Bed Time', desc: 'Day ends', role: 'Oversight Lead', leader: 'Ian Sinclair', planB: 'If severe storm: Move sleeping inside indoor hall/vehicles.' },
     
-    { day: 'Sunday', min: 45, activity: 'Wake Up', desc: 'Wake up, dam swim (Water safety active), boil kettles, coffee', role: 'Logistics Lead / Safety Lead', leader: 'Neil Harrower', planB: 'If rain: Cancel dam swim. Hot coffee & kettles under veranda.' },
-    { day: 'Sunday', min: 90, activity: 'Malachi', desc: 'Malachi discussion (sand demo) and scripture video', role: 'Session Coordinator', leader: 'Marvin Welby-Solomon', planB: 'Move inside main hall with projector.' },
+    { day: 'Sunday', min: 45, activity: 'Wake Up', desc: 'Wake up, dam swim, kettles boiled for coffee.', role: 'Logistics Lead / Safety Lead', leader: 'Neil Harrower', planB: 'If rain: Cancel dam swim. Hot coffee & kettles under veranda.' },
+    { day: 'Sunday', min: 90, activity: 'Malachi', desc: 'Malachi discussion (sand in tray demo: Fathers turn to children and vice versa) and communion.', role: 'Session Coordinator', leader: 'Marvin Welby-Solomon', planB: 'Move inside main hall with projector.' },
     { day: 'Sunday', min: 30, activity: 'Communion', desc: 'Administer communion elements', role: 'Communion Sub-Leader', leader: 'Richard Walker', planB: 'Perform inside hall with soft lighting.' },
-    { day: 'Sunday', min: 15, activity: 'Quiet Time', desc: 'Father-child quiet time (reflect on Malachi)', role: 'Spiritual Oversight / Prayer Lead', leader: 'Ian Sinclair', planB: 'Sit on covered porch / inside main hall.' },
-    { day: 'Sunday', min: 60, activity: 'Breakfast', desc: 'Fire ready, boiling water. Families prepare own breakfast.', role: 'Catering / Fire Lead', leader: 'Kevin de Wet', planB: 'Use covered kitchen area / gas burners under gazebo.' },
-    { day: 'Sunday', min: 60, activity: 'Manhood Talk', desc: "Dad's talk and children's talk split", role: 'Session Coordinator', leader: 'Marvin Welby-Solomon', planB: 'Split into two separate indoor rooms.' },
-    { day: 'Sunday', min: 15, activity: 'Final Debrief', desc: 'Reflection on the sleepover, present carving', role: 'Oversight Lead', leader: 'Ian Sinclair', planB: 'Inside main hall.' },
-    { day: 'Sunday', min: 60, activity: 'Pack Up', desc: 'Pack up camp', role: 'Logistics Lead', leader: 'Neil Harrower', planB: 'Use tarps over gear while packing into vehicles.' },
-    { day: 'Sunday', min: 45, activity: 'Tug of War', desc: 'Father-child activity (Tug of war, Dam swim - Water safety active)', role: 'Activity Facilitator / Safety Lead', leader: 'Kingsley Williams', planB: 'If rain: Cancel dam swim. Mud tug-of-war if light rain, or indoor arm wrestling.' },
-    { day: 'Sunday', min: 0, activity: 'Departure', desc: 'Depart from camp', role: 'Administration', leader: 'Paul Barter', planB: 'Final departure from venue.' }
+    { day: 'Sunday', min: 15, activity: 'Quiet Time', desc: 'Father and Son Quiet time (reflect on Malachi message).', role: 'Spiritual Oversight / Prayer Lead', leader: 'Ian Sinclair', planB: 'Sit on covered porch / inside main hall.' },
+    { day: 'Sunday', min: 60, activity: 'Breakfast', desc: 'Breakfast', role: 'Catering / Fire Lead', leader: 'Kevin de Wet', planB: 'Use covered kitchen area / gas burners under gazebo.' },
+    { day: 'Sunday', min: 60, activity: 'Manhood Talk', desc: "Dad's talk and sons talk split 'manhood'", role: 'Session Coordinator', leader: 'Marvin Welby-Solomon', planB: 'Split into two separate indoor rooms.' },
+    { day: 'Sunday', min: 15, activity: 'Final Debrief', desc: 'Reflection on the sleepover, present carving.', role: 'Oversight Lead', leader: 'Ian Sinclair', planB: 'Inside main hall.' },
+    { day: 'Sunday', min: 60, activity: 'Pack Up', desc: 'Pack up camp.', role: 'Logistics Lead', leader: 'Neil Harrower', planB: 'Use tarps over gear while packing into vehicles.' },
+    { day: 'Sunday', min: 45, activity: 'Tug of War', desc: 'Father and Son Activity (Tug of war, Swim).', role: 'Activity Facilitator / Safety Lead', leader: 'Kingsley Williams', planB: 'If rain: Cancel dam swim. Mud tug-of-war if light rain, or indoor arm wrestling.' },
+    { day: 'Sunday', min: 0, activity: 'Departure', desc: 'Depart from camp.', role: 'Administration', leader: 'Paul Barter', planB: 'Final departure from venue.' }
   ],
 
   tasks: [
@@ -168,6 +168,27 @@ const DEFAULT_DATA = {
 // Active Live State initialized from Master Default
 let state = JSON.parse(JSON.stringify(DEFAULT_DATA));
 
+// --- Firebase Initialization ---
+const firebaseConfig = {
+    apiKey: "AIzaSyCSQbsOIerc5RxG84r8kOcR1DVhk--FNFk",
+    authDomain: "the-journey---kickoff-camp-ops.firebaseapp.com",
+    projectId: "the-journey---kickoff-camp-ops",
+    storageBucket: "the-journey---kickoff-camp-ops.firebasestorage.app",
+    messagingSenderId: "140587133777",
+    appId: "1:140587133777:web:0e73e4e65b70c91fb38170",
+    measurementId: "G-ZH1F0WBVWJ"
+};
+
+// Initialize Firebase if not already initialized
+if (!firebase.apps.length) {
+    firebase.initializeApp(firebaseConfig);
+}
+const db = firebase.firestore();
+
+let isRemoteUpdate = false;
+let unsubscribeFirestore = null;
+// ------------------------------
+
 function loadAndValidateState() {
   try {
     const savedRaw = localStorage.getItem('journey_app_state_v14');
@@ -196,11 +217,47 @@ function loadAndValidateState() {
     console.warn('Error restoring state from localStorage, using defaults:', e);
     state = JSON.parse(JSON.stringify(DEFAULT_DATA));
   }
+
+  // Attach Real-time Firestore Listener
+  db.collection('camps').doc('default').onSnapshot((doc) => {
+    if (doc.exists) {
+      isRemoteUpdate = true;
+      const data = doc.data();
+      
+      // Sync incoming server data to local state
+      if (data.campTrack) state.campTrack = data.campTrack;
+      if (data.startTime) state.startTime = data.startTime;
+      if (data.activePlan) state.activePlan = data.activePlan;
+      if (data.attendance) state.attendance = data.attendance;
+      if (data.gasUrl) state.gasUrl = data.gasUrl;
+      if (data.columnVisibility !== undefined) state.columnVisibility = data.columnVisibility;
+      if (data.showScheduleLeaders !== undefined) state.showScheduleLeaders = data.showScheduleLeaders;
+      if (data.volunteers) state.volunteers = data.volunteers;
+      if (data.roles) state.roles = data.roles;
+      if (data.timetable) state.timetable = data.timetable;
+      if (data.tasks) state.tasks = data.tasks;
+      if (data.campEq) state.campEq = data.campEq;
+      if (data.actEq) state.actEq = data.actEq;
+      if (data.debriefMetrics) state.debriefMetrics = data.debriefMetrics;
+      if (data.food) state.food = data.food;
+
+      renderApp();
+      isRemoteUpdate = false;
+    } else {
+      console.log('No default camp data found on server. Initializing with local data...');
+      db.collection('camps').doc('default').set(state);
+    }
+  }, (error) => {
+    console.error("Firestore sync error:", error);
+  });
 }
 
 function saveState() {
+  if (isRemoteUpdate) return; // Prevent infinite sync loops
+  
   try {
-    localStorage.setItem('journey_app_state_v14', JSON.stringify(state));
+    localStorage.setItem('journey_app_state_v14', JSON.stringify(state)); // local cache
+    db.collection('camps').doc('default').set(state); // push to server
   } catch (e) {
     console.error('Error saving state:', e);
   }
@@ -210,6 +267,7 @@ function restoreAllDefaultData() {
   if (confirm('Are you sure you want to restore all master default data? This will bring back all original volunteers, roles, tasks, equipment, timetable, and debrief entries.')) {
     localStorage.removeItem('journey_app_state_v14');
     state = JSON.parse(JSON.stringify(DEFAULT_DATA));
+    saveState();
     renderApp();
     alert('Master default data successfully restored!');
   }
@@ -237,12 +295,32 @@ function parseTimeToMins(timeStr) {
   return h * 60 + m;
 }
 
+const STATUS_ORDER = {
+  'Pending': 1, 'To Buy': 1,
+  'In Progress': 2, 'Packed': 2,
+  'Completed': 3, 'Bought': 3, 'Done': 3
+};
+
+function getStatusSortIndex(status) {
+  return STATUS_ORDER[status] || 99;
+}
+
+function getRowStyleByStatus(status) {
+  if (status === 'Pending' || status === 'To Buy') {
+    return 'background-color: rgba(253, 224, 71, 0.15);';
+  } else if (status === 'Completed' || status === 'Bought' || status === 'Done') {
+    return 'background-color: rgba(34, 197, 94, 0.15);';
+  }
+  return '';
+}
+
 // --- DOM Rendering Engine ---
 function renderApp() {
   saveState();
   const statEl = document.getElementById('statTotalParticipants');
   if (statEl) statEl.textContent = getTotalParticipants();
   
+  try { renderDashboard(); } catch(e) { console.error('Error renderDashboard:', e); }
   try { renderVolunteers(); } catch(e) { console.error('Error renderVolunteers:', e); }
   try { renderRoster(); } catch(e) { console.error('Error renderRoster:', e); }
   try { renderTimetable(); } catch(e) { console.error('Error renderTimetable:', e); }
@@ -256,14 +334,44 @@ function renderApp() {
   try { renderDebrief(); } catch(e) { console.error('Error renderDebrief:', e); }
 }
 
+function renderDashboard() {
+  const container = document.getElementById('dashboardWidgets');
+  if (!container) return;
+
+  const pendingTasks = state.tasks.filter(t => t.status === 'Pending').length;
+  const unassignedCampEq = state.campEq.filter(t => !t.leader || t.leader === '').length;
+  const unassignedActEq = state.actEq.filter(t => !t.leader || t.leader === '').length;
+  const unassignedEq = unassignedCampEq + unassignedActEq;
+  const pendingFood = state.food.filter(t => t.status === 'To Buy').length;
+
+  container.innerHTML = `
+    <div style="background:var(--navy-800); border:1px solid var(--border-light); padding:1rem; border-radius:var(--radius-md); text-align:center;">
+      <div style="font-size:0.8rem; color:var(--text-muted);">PENDING TASKS</div>
+      <div style="font-size:2rem; font-weight:700; color:var(--coral-500);">${pendingTasks}</div>
+    </div>
+    <div style="background:var(--navy-800); border:1px solid var(--border-light); padding:1rem; border-radius:var(--radius-md); text-align:center;">
+      <div style="font-size:0.8rem; color:var(--text-muted);">UNASSIGNED EQUIPMENT</div>
+      <div style="font-size:2rem; font-weight:700; color:var(--gold-400);">${unassignedEq}</div>
+    </div>
+    <div style="background:var(--navy-800); border:1px solid var(--border-light); padding:1rem; border-radius:var(--radius-md); text-align:center;">
+      <div style="font-size:0.8rem; color:var(--text-muted);">FOOD TO BUY</div>
+      <div style="font-size:2rem; font-weight:700; color:var(--amber-600);">${pendingFood}</div>
+    </div>
+    <div style="background:var(--navy-800); border:1px solid var(--border-light); padding:1rem; border-radius:var(--radius-md); text-align:center;">
+      <div style="font-size:0.8rem; color:var(--text-muted);">TOTAL HEADCOUNT</div>
+      <div style="font-size:2rem; font-weight:700; color:var(--teal-500);">${getTotalParticipants()}</div>
+    </div>
+  `;
+}
+
 function renderVolunteers() {
   const tbody = document.getElementById('tblVolunteersBody');
   tbody.innerHTML = state.volunteers.map(v => `
     <tr>
-      <td style="font-weight:600; color:#FFF;">${v.name}</td>
-      <td style="color:var(--gold-400); font-family:monospace;">${v.phone || '—'}</td>
-      <td style="color:var(--teal-500); font-size:0.85rem;">${v.email || '—'}</td>
-      <td style="text-align:center; white-space:nowrap;">
+      <td data-label="Name" style="font-weight:600; color:#FFF;">${v.name}</td>
+      <td data-label="Contact Phone" style="color:var(--gold-400); font-family:monospace;">${v.phone || '—'}</td>
+      <td data-label="Email Address" style="color:var(--teal-500); font-size:0.85rem;">${v.email || '—'}</td>
+      <td data-label="Action" style="text-align:center; white-space:nowrap;">
         <button class="btn btn-secondary btn-edit-vol" data-name="${v.name}" style="padding:0.25rem 0.5rem; font-size:0.75rem; margin-right:0.25rem;">
           <i class="fa-solid fa-pen-to-square"></i> Edit
         </button>
@@ -347,20 +455,18 @@ function renderRoster() {
   const tbody = document.getElementById('tblRosterBody');
   
   tbody.innerHTML = state.roles.map(r => {
-    const volObj = state.volunteers.find(v => v.name === r.leader);
-    const phone = volObj ? volObj.phone : '—';
-    const email = volObj ? volObj.email : '—';
+    const vol = state.volunteers.find(v => v.name === r.leader);
     return `
       <tr>
-        <td style="font-weight:700; color:#FFF;">${r.title}</td>
-        <td style="color:var(--text-muted); font-size:0.85rem;">${r.desc.replace(/\n/g, '<br>')}</td>
-        <td>
+        <td data-label="Role Title" style="font-weight:700; color:#FFF;">${r.title}</td>
+        <td data-label="Description" style="color:var(--text-muted); font-size:0.85rem;">${r.desc.replace(/\n/g, '<br>')}</td>
+        <td data-label="Volunteer">
           <select class="form-control role-assign-select" data-role="${r.title}">
             ${state.volunteers.map(v => `<option value="${v.name}" ${v.name === r.leader ? 'selected' : ''}>${v.name}</option>`).join('')}
           </select>
         </td>
-        <td style="font-family:monospace; color:var(--gold-400);">${phone || '—'}</td>
-        <td style="font-size:0.85rem; color:var(--teal-500);">${email || '—'}</td>
+        <td data-label="Phone" style="font-family:monospace; color:var(--gold-400);">${vol ? vol.phone : '—'}</td>
+        <td data-label="Email" style="font-size:0.85rem; color:var(--teal-500);">${vol ? vol.email : '—'}</td>
       </tr>
     `;
   }).join('');
@@ -445,22 +551,22 @@ function renderTimetable() {
       : 'color:var(--text-muted); font-size:0.8rem; font-style:italic;';
 
     return `
-      <tr>
-        <td style="font-weight:700; color:${t.day === 'Saturday' ? 'var(--gold-400)' : '#FF8A65'};">${t.day}</td>
-        <td>
+      <tr class="${t.day === 'Saturday' ? 'row-saturday' : 'row-sunday'}">
+        <td data-label="Day" style="font-weight:700; color:${t.day === 'Saturday' ? 'var(--gold-400)' : '#FF8A65'};">${t.day}</td>
+        <td data-label="Time">
           <div style="font-weight:800; color:var(--teal-500); font-family:monospace; white-space:nowrap;">${startStr} – ${endStr}</div>
           <div style="font-size:0.75rem; color:var(--gold-400); font-weight:700;">${t.min > 0 ? t.min + ' mins' : '—'}</div>
         </td>
-        <td style="font-weight:700; color:#FFF;">${t.activity}</td>
-        <td style="font-size:0.85rem;">${t.desc}</td>
-        <td style="max-width:240px;"><div style="display:flex; flex-wrap:wrap; gap:0.2rem;">${eqBadges}</div></td>
-        <td><span class="badge badge-pending">${t.role}</span></td>
-        <td>
+        <td data-label="Activity" style="font-weight:700; color:#FFF;">${t.activity}</td>
+        <td data-label="Description" style="font-size:0.85rem;">${t.desc}</td>
+        <td data-label="Equipment" style="max-width:240px;"><div style="display:flex; flex-wrap:wrap; gap:0.2rem;">${eqBadges}</div></td>
+        <td data-label="Role"><span class="badge badge-pending">${t.role}</span></td>
+        <td data-label="Leader">
           <select class="form-control timetable-leader-select" data-activity="${t.activity}" style="padding:0.3rem 0.5rem; font-size:0.825rem;">
             ${state.volunteers.map(v => `<option value="${v.name}" ${v.name === (t.leader || 'Ian Sinclair') ? 'selected' : ''}>${v.name}</option>`).join('')}
           </select>
         </td>
-        <td style="${planBStyle}">
+        <td data-label="Plan B" style="${planBStyle}">
           <a class="planb-jump-link" data-activity="${t.activity}" style="color:inherit; text-decoration:none; cursor:pointer; display:flex; align-items:center; gap:0.35rem;">
             <i class="fa-solid fa-person-shelter" style="color:#FF8A65;"></i> ${t.planB}
           </a>
@@ -565,12 +671,12 @@ function renderVisualSchedule() {
 function renderPlaybook() {
   const container = document.getElementById('playbookAccordionContainer');
   const playbookData = [
-    { title: 'Ice Breaker', goal: 'Break initial tension and get everyone laughing.', steps: '1. Children introduce fathers to group.\n2. Play Name Game or Two Truths and a Lie.', planB: 'Move under covered veranda / main hall if raining.' },
-    { title: 'Clay Latte', goal: 'Draw fathers and children together through physical teamwork.', steps: '1. Tie dad and child together at ankles.\n2. Set up obstacle course & dam swim (Lifeguards active on bank).', planB: 'Cancel dam swim if lightning/rain. Move clay building under veranda.' },
-    { title: 'Stokbrood', goal: 'Quality guided conversational time in relaxed setting.', steps: '1. Lay out dough, stokke, syrup, marshmallows near fire.\n2. Dads and children cook stokbrood and discuss question cards.', planB: 'Move stokbrood cooking to gas stoves under covered gazebo.' },
-    { title: 'Skits & Debrief', goal: 'Lighthearted fun followed by grounding day experiences.', steps: '1. Groups prepare short funny skit.\n2. Present carving and summarize Saturday takeaways.', planB: 'Fully operable indoors inside main hall.' },
-    { title: 'Malachi', goal: 'Spiritual reflection on restoration and turning of hearts.', steps: '1. Show YouTube Malachi scripture video on projector.\n2. Sand Demo showing how things naturally drift.', planB: 'Move inside main hall with projector.' },
-    { title: 'Communion', goal: 'Spiritual reflection, forgiveness, and covenant.', steps: '1. Provide grape juice and bread loaf.\n2. Read 1 Cor 11:23-26. Fathers pray blessing over children.', planB: 'Administer inside main hall with soft lanterns/lighting.' }
+    { title: 'Ice Breaker', goal: 'Get to know each other, Focus on God, Draw fathers and sons together, Have fun.', steps: '1. Boys introduce Fathers and say a few good character traits and funniest moment.\n2. Do name game (each person repeats previous). Keep it brief, give heads up before.\n3. Hand out name tags.', planB: 'Move under covered veranda / main hall if raining.' },
+    { title: 'Clay Latte', goal: 'Draw fathers and sons together.', steps: '1. Dad and son tied together with a guy rope (mixed teams, middle line).\n2. Obstacle course & dam swim (Lifeguards active on bank).', planB: 'Cancel dam swim if lightning/rain. Move clay building under veranda.' },
+    { title: 'Camp Setup', goal: 'Prep for the night.', steps: '1. Bivvie equipment laid out and ready.\n2. Set-up shelters.\n3. Wood carving challenge or skit challenge preparation.', planB: 'If heavy rain: Erect tarps overhead / setup inside main hall.' },
+    { title: 'Dinner & Quality Time', goal: 'Quality time together with printed questions.', steps: '1. Ensure fire is ready to braai.\n2. Prepare and Cook Supper.\n3. Dads and sons have supper together.\n4. Ask questions from laminated question cards.', planB: 'Eat under covered dining veranda / hall.' },
+    { title: 'Stokbrood & Skits', goal: 'Chat about questions and enjoy skits.', steps: '1. Layout Tables, Maize meal, Dough, Stokke, Syrup, Marshmallows.\n2. Marshmallows and stockbrood at fire, chat about questions.\n3. Present skits and carving.\n4. End of evening debrief and get to bed.', planB: 'Move stokbrood cooking to gas stoves under covered gazebo. Present skits indoors.' },
+    { title: 'Malachi & Communion', goal: 'Spiritual reflection on restoration.', steps: '1. Malachi discussion (Shaking demo with sand in tray - solution is Fathers turn towards children and vice versa).\n2. Provide grape juice and bread loaf for Communion.\n3. Fathers pray blessing over children.', planB: 'Move inside main hall with projector.' }
   ];
 
   container.innerHTML = playbookData.map((p, idx) => `
@@ -618,6 +724,8 @@ function renderTasks() {
     t.category.toLowerCase().includes(searchVal)
   );
 
+  filtered.sort((a, b) => getStatusSortIndex(a.status) - getStatusSortIndex(b.status));
+
   tbody.innerHTML = filtered.map(t => {
     const isPost = t.category.includes('Post');
     const badgeStyle = isPost 
@@ -625,23 +733,23 @@ function renderTasks() {
       : 'background:rgba(34,153,136,0.2); border:1px solid rgba(34,153,136,0.4); color:var(--teal-500);';
     
     return `
-      <tr>
-        <td><span class="badge" style="${badgeStyle}">${t.category}</span></td>
-        <td style="font-weight:600; color:#FFF;">${t.desc}</td>
-        <td><span class="badge badge-pending">${t.role}</span></td>
-        <td>
+      <tr style="${getRowStyleByStatus(t.status)}">
+        <td data-label="Category"><span class="badge" style="${badgeStyle}">${t.category}</span></td>
+        <td data-label="Task Description" style="font-weight:600; color:#FFF;">${t.desc}</td>
+        <td data-label="Role"><span class="badge badge-pending">${t.role}</span></td>
+        <td data-label="Leader">
           <select class="form-control task-leader-select" data-id="${t.id}">
             ${state.volunteers.map(v => `<option value="${v.name}" ${v.name === t.leader ? 'selected' : ''}>${v.name}</option>`).join('')}
           </select>
         </td>
-        <td>
+        <td data-label="Status">
           <select class="form-control task-status-select" data-id="${t.id}">
             <option value="Pending" ${t.status === 'Pending' ? 'selected' : ''}>Pending</option>
             <option value="In Progress" ${t.status === 'In Progress' ? 'selected' : ''}>In Progress</option>
             <option value="Completed" ${t.status === 'Completed' ? 'selected' : ''}>Completed</option>
           </select>
         </td>
-        <td style="text-align:center; white-space:nowrap;">
+        <td data-label="Action" style="text-align:center; white-space:nowrap;">
           <button class="btn btn-secondary btn-edit-task" data-id="${t.id}" style="padding:0.25rem 0.5rem; font-size:0.75rem; margin-right:0.25rem;">
             <i class="fa-solid fa-pen-to-square"></i>
           </button>
@@ -657,7 +765,10 @@ function renderTasks() {
     sel.addEventListener('change', (e) => {
       const id = e.target.getAttribute('data-id');
       const t = state.tasks.find(x => x.id === id);
-      if (t) t.leader = e.target.value;
+      if (t) {
+        t.leader = e.target.value;
+        renderApp();
+      }
     });
   });
 
@@ -665,7 +776,10 @@ function renderTasks() {
     sel.addEventListener('change', (e) => {
       const id = e.target.getAttribute('data-id');
       const t = state.tasks.find(x => x.id === id);
-      if (t) t.status = e.target.value;
+      if (t) {
+        t.status = e.target.value;
+        renderApp();
+      }
     });
   });
 
@@ -770,31 +884,29 @@ function renderCampEq() {
     e.role.toLowerCase().includes(searchVal)
   );
 
+  filtered.sort((a, b) => getStatusSortIndex(a.status) - getStatusSortIndex(b.status));
+
   const half = Math.ceil(filtered.length / 2);
   const leftHalf = filtered.slice(0, half);
   const rightHalf = filtered.slice(half);
 
   const renderRow = (e) => `
-    <tr>
-      <td style="font-weight:600; color:#FFF;">${e.item}</td>
-      <td style="font-weight:700; text-align:center;">${e.qty}</td>
-      <td><span class="badge badge-pending" style="font-size:0.6rem;">${e.role}</span></td>
-      <td>
+    <tr style="${getRowStyleByStatus(e.status)}">
+      <td data-label="Item" style="font-weight:600; color:#FFF;">${e.item}</td>
+      <td data-label="Qty" style="font-weight:700; text-align:center;">${e.qty}</td>
+      <td data-label="Leader">
         <select class="form-control campeq-leader-select" data-item="${e.item}">
           ${state.volunteers.map(v => `<option value="${v.name}" ${v.name === e.leader ? 'selected' : ''}>${v.name}</option>`).join('')}
         </select>
       </td>
-      <td>
+      <td data-label="Status">
         <select class="form-control campeq-status-select" data-item="${e.item}">
           <option value="Pending" ${e.status === 'Pending' ? 'selected' : ''}>Pending</option>
           <option value="Packed" ${e.status === 'Packed' ? 'selected' : ''}>Packed</option>
           <option value="Completed" ${e.status === 'Completed' ? 'selected' : ''}>Completed</option>
         </select>
       </td>
-      <td>
-        <input type="text" class="form-control campeq-notes-input" data-item="${e.item}" value="${e.notes || ''}" placeholder="Add note..." style="font-size:0.75rem; padding:0.2rem 0.4rem; width:100px;">
-      </td>
-      <td style="text-align:center; white-space:nowrap;">
+      <td data-label="Action" style="text-align:center; white-space:nowrap;">
         <button class="btn btn-secondary btn-edit-campeq" data-item="${e.item}" style="padding:0.2rem 0.4rem; font-size:0.7rem; margin-right:0.25rem;">
           <i class="fa-solid fa-pen-to-square"></i>
         </button>
@@ -815,7 +927,10 @@ function renderCampEq() {
     sel.addEventListener('change', (ev) => {
       const item = ev.target.getAttribute('data-item');
       const eq = state.campEq.find(x => x.item === item);
-      if (eq) eq.leader = ev.target.value;
+      if (eq) {
+        eq.leader = ev.target.value;
+        renderApp();
+      }
     });
   });
 
@@ -823,7 +938,10 @@ function renderCampEq() {
     sel.addEventListener('change', (ev) => {
       const item = ev.target.getAttribute('data-item');
       const eq = state.campEq.find(x => x.item === item);
-      if (eq) eq.status = ev.target.value;
+      if (eq) {
+        eq.status = ev.target.value;
+        renderApp();
+      }
     });
   });
 
@@ -879,31 +997,31 @@ function renderActEq() {
     });
   }
 
+  state.actEq.sort((a, b) => getStatusSortIndex(a.status) - getStatusSortIndex(b.status));
+
   const half = Math.ceil(state.actEq.length / 2);
   const leftHalf = state.actEq.slice(0, half);
   const rightHalf = state.actEq.slice(half);
 
   const renderRow = (e) => `
-    <tr>
-      <td style="font-weight:600; color:#FFF;">${e.item}</td>
-      <td style="font-weight:800; color:var(--teal-500); text-align:center;">${e.qty}</td>
-      <td style="font-weight:700; font-size:0.75rem;">${e.act}</td>
-      <td><span class="badge badge-pending" style="font-size:0.6rem;">${e.role}</span></td>
-      <td>
+    <tr style="${getRowStyleByStatus(e.status)}">
+      <td data-label="Item" style="font-weight:600; color:#FFF;">${e.item}</td>
+      <td data-label="Qty" style="font-weight:800; color:var(--teal-500); text-align:center;">${e.qty}</td>
+      <td data-label="Activity" style="font-weight:700; font-size:0.75rem;">${e.act}</td>
+      <td data-label="Leader">
         <select class="form-control acteq-leader-select" data-item="${e.item}">
           ${state.volunteers.map(v => `<option value="${v.name}" ${v.name === e.leader ? 'selected' : ''}>${v.name}</option>`).join('')}
         </select>
       </td>
-      <td>
+      <td data-label="Status">
         <select class="form-control acteq-status-select" data-item="${e.item}">
           <option value="Pending" ${e.status === 'Pending' ? 'selected' : ''}>Pending</option>
           <option value="Packed" ${e.status === 'Packed' ? 'selected' : ''}>Packed</option>
           <option value="Completed" ${e.status === 'Completed' ? 'selected' : ''}>Completed</option>
         </select>
       </td>
-      <td style="white-space:nowrap;">
-        <input type="text" class="form-control acteq-notes-input" data-item="${e.item}" value="${e.notes || ''}" placeholder="Add note..." style="font-size:0.75rem; padding:0.2rem 0.4rem; width:100px; display:inline-block;">
-        <button class="btn btn-secondary btn-edit-acteq" data-item="${e.item}" style="padding:0.2rem 0.4rem; font-size:0.7rem; margin-left:0.25rem;">
+      <td data-label="Action" style="text-align:center; white-space:nowrap;">
+        <button class="btn btn-secondary btn-edit-acteq" data-item="${e.item}" style="padding:0.2rem 0.4rem; font-size:0.7rem; margin-right:0.25rem;">
           <i class="fa-solid fa-pen-to-square"></i>
         </button>
       </td>
@@ -920,7 +1038,10 @@ function renderActEq() {
     sel.addEventListener('change', (ev) => {
       const item = ev.target.getAttribute('data-item');
       const eq = state.actEq.find(x => x.item === item);
-      if (eq) eq.leader = ev.target.value;
+      if (eq) {
+        eq.leader = ev.target.value;
+        renderApp();
+      }
     });
   });
 
@@ -928,7 +1049,10 @@ function renderActEq() {
     sel.addEventListener('change', (ev) => {
       const item = ev.target.getAttribute('data-item');
       const eq = state.actEq.find(x => x.item === item);
-      if (eq) eq.status = ev.target.value;
+      if (eq) {
+        eq.status = ev.target.value;
+        renderApp();
+      }
     });
   });
 
@@ -999,9 +1123,17 @@ function renderFood() {
   const hdrEl = document.getElementById('foodTotalCount');
   if (hdrEl) hdrEl.textContent = tot;
 
+  const bulkLeaderSelect = document.getElementById('bulkFoodLeaderSelect');
+  if (bulkLeaderSelect) {
+    bulkLeaderSelect.innerHTML = `<option value="">-- Select Leader --</option>` +
+      state.volunteers.map(v => `<option value="${v.name}">${v.name}</option>`).join('');
+  }
+
   if (!state.food || state.food.length === 0) {
     state.food = JSON.parse(JSON.stringify(DEFAULT_DATA.food));
   }
+
+  state.food.sort((a, b) => getStatusSortIndex(a.status) - getStatusSortIndex(b.status));
 
   const half = Math.ceil(state.food.length / 2);
   const leftHalf = state.food.slice(0, half);
@@ -1015,15 +1147,15 @@ function renderFood() {
     else badgeStyle = 'badge-pending';
     
     return `
-      <tr>
-        <td style="font-weight:600; color:#FFF;">${f.item}</td>
-        <td style="font-weight:800; color:var(--teal-500); text-align:center;">${qty}</td>
-        <td>
+      <tr style="${getRowStyleByStatus(f.status)}">
+        <td data-label="Item" style="font-weight:600; color:#FFF;">${f.item}</td>
+        <td data-label="Qty" style="font-weight:800; color:var(--teal-500); text-align:center;">${qty}</td>
+        <td data-label="Leader">
           <select class="form-control food-leader-select" data-id="${f.id}">
             ${state.volunteers.map(v => `<option value="${v.name}" ${v.name === f.leader ? 'selected' : ''}>${v.name}</option>`).join('')}
           </select>
         </td>
-        <td>
+        <td data-label="Status">
           <select class="form-control food-status-select badge ${badgeStyle}" data-id="${f.id}" style="padding:0.25rem 0.5rem; height:auto;">
             <option value="To Buy" ${f.status === 'To Buy' ? 'selected' : ''}>To Buy</option>
             <option value="Pending" ${f.status === 'Pending' ? 'selected' : ''}>Pending</option>
@@ -1055,47 +1187,13 @@ function renderFood() {
       const f = state.food.find(x => x.id === id);
       if (f) {
         f.status = e.target.value;
-        saveState();
-        renderFood();
+        renderApp();
       }
     });
   });
 }
 
-function renderPlaybook() {
-  const container = document.getElementById('playbookAccordionContainer');
-  const playbookData = [
-    { title: 'Ice Breaker', goal: 'Break initial tension and get everyone laughing.', steps: '1. Children introduce fathers to group.\n2. Play Name Game or Two Truths and a Lie.', planB: 'Move under covered veranda / main hall if raining.' },
-    { title: 'Clay Latte', goal: 'Draw fathers and children together through physical teamwork.', steps: '1. Tie dad and child together at ankles.\n2. Set up obstacle course & dam swim (Lifeguards active on bank).', planB: 'Cancel dam swim if lightning/rain. Move clay building under veranda.' },
-    { title: 'Stokbrood', goal: 'Quality guided conversational time in relaxed setting.', steps: '1. Lay out dough, stokke, syrup, marshmallows near fire.\n2. Dads and children cook stokbrood and discuss question cards.', planB: 'Move stokbrood cooking to gas stoves under covered gazebo.' },
-    { title: 'Skits & Debrief', goal: 'Lighthearted fun followed by grounding day experiences.', steps: '1. Groups prepare short funny skit.\n2. Present carving and summarize Saturday takeaways.', planB: 'Fully operable indoors inside main hall.' },
-    { title: 'Malachi', goal: 'Spiritual reflection on restoration and turning of hearts.', steps: '1. Show YouTube Malachi scripture video on projector.\n2. Sand Demo showing how things naturally drift.', planB: 'Move inside main hall with projector.' },
-    { title: 'Communion', goal: 'Spiritual reflection, forgiveness, and covenant.', steps: '1. Provide grape juice and bread loaf.\n2. Read 1 Cor 11:23-26. Fathers pray blessing over children.', planB: 'Administer inside main hall with soft lanterns/lighting.' }
-  ];
 
-  container.innerHTML = playbookData.map((p, idx) => `
-    <div class="accordion-item ${idx === 0 ? 'open' : ''}">
-      <div class="accordion-header">
-        <div style="font-weight:700; font-size:1.1rem; color:#FFF;">${p.title}</div>
-        <div style="font-size:0.85rem; color:var(--gold-400);">${p.goal}</div>
-      </div>
-      <div class="accordion-body">
-        <div style="font-weight:600; color:var(--teal-500); margin-bottom:0.4rem;">STEPS & LEAD CONSIDERATIONS:</div>
-        <div style="white-space:pre-line; color:var(--text-main);">${p.steps}</div>
-        <div class="plan-b-box">
-          <div class="plan-b-title"><i class="fa-solid fa-cloud-showers-heavy"></i> PLAN B (RAIN / WEATHER CONTINGENCY)</div>
-          <div>${p.planB}</div>
-        </div>
-      </div>
-    </div>
-  `).join('');
-
-  document.querySelectorAll('.accordion-header').forEach(hdr => {
-    hdr.addEventListener('click', () => {
-      hdr.parentElement.classList.toggle('open');
-    });
-  });
-}
 
 function renderDebrief() {
   const container = document.getElementById('debriefMetricsContainer');
@@ -1522,19 +1620,35 @@ function initEvents() {
     }
   });
 
-  // Timetable Column Toggles
-  const ttTable = document.querySelector('[data-table-id="timetable"]');
-  document.getElementById('toggleColEq')?.addEventListener('change', (e) => {
-    if (ttTable) e.target.checked ? ttTable.classList.remove('hide-col-eq') : ttTable.classList.add('hide-col-eq');
+  // Generic Column Toggles across all tables
+  document.querySelectorAll('.col-toggle').forEach(chk => {
+    chk.addEventListener('change', (e) => {
+      const tableIds = e.target.dataset.tableId.split(',');
+      const colIdx = e.target.dataset.col;
+      tableIds.forEach(tId => {
+        const table = document.querySelector(`.data-table[data-table-id="${tId}"]`);
+        if (table) {
+          if (e.target.checked) {
+            table.classList.remove(`hide-col-${colIdx}`);
+          } else {
+            table.classList.add(`hide-col-${colIdx}`);
+          }
+        }
+      });
+    });
   });
-  document.getElementById('toggleColRole')?.addEventListener('change', (e) => {
-    if (ttTable) e.target.checked ? ttTable.classList.remove('hide-col-role') : ttTable.classList.add('hide-col-role');
-  });
-  document.getElementById('toggleColLeader')?.addEventListener('change', (e) => {
-    if (ttTable) e.target.checked ? ttTable.classList.remove('hide-col-leader') : ttTable.classList.add('hide-col-leader');
-  });
-  document.getElementById('toggleColPlanB')?.addEventListener('change', (e) => {
-    if (ttTable) e.target.checked ? ttTable.classList.remove('hide-col-planb') : ttTable.classList.add('hide-col-planb');
+
+  // Bulk Food Leader Change
+  document.getElementById('btnBulkFoodLeader')?.addEventListener('click', () => {
+    const leader = document.getElementById('bulkFoodLeaderSelect').value;
+    if (!leader) {
+      alert('Please select a leader first.');
+      return;
+    }
+    if (confirm(`Are you sure you want to change ALL food items to be assigned to ${leader}?`)) {
+      state.food.forEach(f => f.leader = leader);
+      renderApp();
+    }
   });
 
   // Settings Modal & Master Reset
@@ -1596,6 +1710,7 @@ function exportAppData() {
 function initApp() {
   loadAndValidateState();
   initEvents();
+  initColumnResize();
   checkGasSyncStatus();
   renderApp();
 }

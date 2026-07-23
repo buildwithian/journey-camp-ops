@@ -438,11 +438,14 @@ h1, h2, h3, h4, .brand-title {
   gap: 1rem;
 }
 
-/* Column Toggle Classes for Timetable */
-table.hide-col-eq th:nth-child(5), table.hide-col-eq td:nth-child(5) { display: none; }
-table.hide-col-role th:nth-child(6), table.hide-col-role td:nth-child(6) { display: none; }
-table.hide-col-leader th:nth-child(7), table.hide-col-leader td:nth-child(7) { display: none; }
-table.hide-col-planb th:nth-child(8), table.hide-col-planb td:nth-child(8) { display: none; }
+/* Generic Column Toggle Classes */
+table.hide-col-2 th:nth-child(2), table.hide-col-2 td:nth-child(2) { display: none !important; }
+table.hide-col-3 th:nth-child(3), table.hide-col-3 td:nth-child(3) { display: none !important; }
+table.hide-col-4 th:nth-child(4), table.hide-col-4 td:nth-child(4) { display: none !important; }
+table.hide-col-5 th:nth-child(5), table.hide-col-5 td:nth-child(5) { display: none !important; }
+table.hide-col-6 th:nth-child(6), table.hide-col-6 td:nth-child(6) { display: none !important; }
+table.hide-col-7 th:nth-child(7), table.hide-col-7 td:nth-child(7) { display: none !important; }
+table.hide-col-8 th:nth-child(8), table.hide-col-8 td:nth-child(8) { display: none !important; }
 
 /* Playbook Toggle */
 #playbookAccordionContainer.hide-playbook-planb .plan-b-box { display: none; }
@@ -715,6 +718,47 @@ table.hide-col-planb th:nth-child(8), table.hide-col-planb td:nth-child(8) { dis
     list-style: none;
   }
   .mobile-filter-accordion summary::-webkit-details-marker { display: none; }
+
+  /* --- Mobile Card Layout for Data Tables --- */
+  .data-table thead { 
+    display: none; /* Hide table headers */
+  }
+  .data-table, .data-table tbody, .data-table tr, .data-table td { 
+    display: block; 
+    width: 100%; 
+  }
+  .data-table tr { 
+    margin-bottom: 1rem; 
+    background: rgba(15, 23, 42, 0.6); 
+    border-radius: var(--radius-sm); 
+    border: 1px solid var(--border-light); 
+    padding: 0.5rem; 
+  }
+  .data-table td { 
+    text-align: right; 
+    padding: 0.5rem; 
+    position: relative; 
+    border-bottom: 1px solid rgba(255,255,255,0.05); 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    min-height: 40px;
+  }
+  .data-table td:last-child { 
+    border-bottom: 0; 
+  }
+  .data-table td::before { 
+    content: attr(data-label); 
+    font-weight: 600; 
+    color: var(--text-muted); 
+    padding-right: 1rem; 
+    text-align: left; 
+    font-size: 0.8rem;
+    text-transform: uppercase;
+  }
+  .data-table td > select, .data-table td > input {
+    max-width: 150px;
+  }
 }
 
 /* Compact Table Controls & Checklist Styling */

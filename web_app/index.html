@@ -17,20 +17,22 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-
   <!-- Top Header -->
   <header class="app-header">
     <div class="brand-wrapper">
       <button id="mobileNavToggle" class="mobile-nav-toggle" aria-label="Toggle Navigation"><i class="fa-solid fa-bars"></i></button>
-      <div class="brand-logo">
-        <img src="journey_logo.png" alt="The Journey Logo" style="max-height: 32px; display: block; border-radius: 4px;" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-        <span style="display:none;">🔥</span>
-      </div>
       <div>
         <h1 class="brand-title">KickOff Camp Planner</h1>
       </div>
     </div>
     
+    <div class="header-center-logo" style="position: absolute; left: 50%; transform: translateX(-50%);">
+      <div class="brand-logo" style="background: none; box-shadow: none; width: auto; height: auto;">
+        <img src="journey_logo.png" alt="The Journey Logo" style="max-height: 40px; display: block; border-radius: 4px;" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+        <span style="display:none; font-size: 1.5rem;">🔥</span>
+      </div>
+    </div>
+
     <div class="header-actions">
       <button class="btn btn-secondary" id="btnSettings">
         <i class="fa-solid fa-gear"></i> Sync Settings
@@ -45,8 +47,18 @@
   <div class="app-container">
       <!-- Sidebar Navigation -->
     <nav class="sidebar-nav">
-      <div class="nav-section-title">PREREQUISITES</div>
-      <a class="nav-item active" data-tab="tab-settings">
+      <div class="nav-section-title">OVERVIEW</div>
+      <a class="nav-item active" data-tab="tab-dashboard">
+        <span class="nav-icon"><i class="fa-solid fa-chart-pie"></i></span>
+        <span>Dashboard</span>
+      </a>
+      <a class="nav-item" data-tab="tab-participant-briefing">
+        <span class="nav-icon"><i class="fa-solid fa-chalkboard-user"></i></span>
+        <span>Participant Briefing</span>
+      </a>
+
+      <div class="nav-section-title" style="margin-top:0.75rem;">PREREQUISITES</div>
+      <a class="nav-item" data-tab="tab-settings">
         <span class="nav-icon"><i class="fa-solid fa-sliders"></i></span>
         <span>Settings & Attendance</span>
       </a>
@@ -99,8 +111,99 @@
     <!-- Main Content Area -->
     <main class="main-content">
       
+      <!-- TAB 0: Dashboard -->
+      <div id="tab-dashboard" class="tab-pane active">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title"><i class="fa-solid fa-chart-pie" style="color:var(--teal-500)"></i> Camp Operations Dashboard</h2>
+          </div>
+          <div style="padding: 1.5rem; background: rgba(30,41,59,0.3); border-bottom: 1px solid rgba(255,255,255,0.1); font-size: 0.95rem; line-height: 1.6;">
+            <strong style="color:var(--gold-400); font-size: 1.1rem; display:block; margin-bottom: 0.5rem;">The Journey Begins Here: Kick Off Camp Overview</strong>
+            The Kick Off Camp is a foundational weekend experience designed to ignite connection between fathers and their children. Through intentional shared challenges—like managing a tight food budget, blind packing for each other, and collaborating on camp setup—participants step out of their comfort zones. It is not just about fun; it’s about taking ownership, overcoming obstacles together, and building lasting memories. As leaders, our role is to seamlessly facilitate these experiences so families can focus entirely on relationship-building.
+          </div>
+          <div class="grid-4" id="dashboardWidgets" style="display:grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap:1rem;">
+            <!-- Rendered dynamically via JS -->
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB 0.5: Participant Briefing -->
+      <div id="tab-participant-briefing" class="tab-pane">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title"><i class="fa-solid fa-chalkboard-user" style="color:var(--coral-500)"></i> Participant Briefing & Challenges</h2>
+          </div>
+          <div style="padding: 1.5rem;">
+            <p style="color:var(--text-muted); margin-bottom:1.5rem;">This information is sent directly to the Fathers and Children prior to the camp. It outlines the core challenges they must complete before and during their journey to the campsite.</p>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
+              
+              <!-- Location Card -->
+              <div style="background: rgba(30,41,59,0.5); border: 1px solid var(--border-light); border-radius: 8px; padding: 1.5rem;">
+                <h3 style="color:var(--teal-500); margin-bottom: 1rem; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 0.5rem;"><i class="fa-solid fa-map-location-dot"></i> Logistics: Taaibosch</h3>
+                <ul style="list-style:none; padding:0; margin:0; line-height: 1.8;">
+                  <li><strong style="color:#FFF;">Location:</strong> Klein Phisantekraal Farm</li>
+                  <li><strong style="color:#FFF;">Area:</strong> Adderly Road, Durbanville</li>
+                  <li style="color:var(--text-muted); font-size:0.85rem; margin-bottom:0.5rem;">(Detailed directions posted on the group)</li>
+                  <li><strong style="color:#FFF;">Arrive:</strong> 3:00 PM (31st Jan)</li>
+                  <li><strong style="color:#FFF;">Depart:</strong> 12:00 PM (1st Feb)</li>
+                </ul>
+              </div>
+
+              <!-- Budget Challenge Card -->
+              <div style="background: rgba(30,41,59,0.5); border: 1px solid var(--border-light); border-radius: 8px; padding: 1.5rem;">
+                <h3 style="color:var(--gold-400); margin-bottom: 1rem; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 0.5rem;"><i class="fa-solid fa-receipt"></i> Budget Challenge</h3>
+                <div style="display:flex; justify-content: space-between; align-items:center; margin-bottom: 1rem;">
+                  <strong style="color:#FFF; font-size:1.1rem;">Max Budget: R160</strong>
+                  <span class="badge" style="background:rgba(249,168,37,0.2); color:var(--gold-500); border:1px solid var(--gold-500);">Per Dad & Son/Daughter</span>
+                </div>
+                <ul style="list-style:disc; padding-left:1.5rem; line-height: 1.6; color:var(--text-muted); font-size:0.9rem;">
+                  <li><strong style="color:#FFF;">What to buy:</strong> Food for dinner & breakfast, snacks, drinks (venue prohibits alcohol).</li>
+                  <li><strong style="color:#FFF;">The Rule:</strong> Children oversee spending. Dads may advise, but the final decision is with the child.</li>
+                  <li>Receipts must be posted on the group chat before arriving at the camp.</li>
+                  <li>Dads are allowed to bring dry braai spices.</li>
+                </ul>
+              </div>
+
+              <!-- Pack Challenge Card -->
+              <div style="background: rgba(30,41,59,0.5); border: 1px solid var(--border-light); border-radius: 8px; padding: 1.5rem;">
+                <h3 style="color:#FF8A65; margin-bottom: 1rem; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 0.5rem;"><i class="fa-solid fa-backpack"></i> Pack Challenge</h3>
+                <p style="color:#FFF; font-weight:600; margin-bottom:0.5rem;">Without consulting with each other:</p>
+                <ul style="list-style:circle; padding-left:1.5rem; line-height: 1.6; color:var(--text-muted); font-size:0.9rem; margin-bottom:1rem;">
+                  <li>Child packs an overnight bag for Dad.</li>
+                  <li>Dad packs an overnight bag for Child.</li>
+                </ul>
+                <p style="color:#FFF; font-weight:600; margin-bottom:0.5rem;">What they need to pack (Provided by us):</p>
+                <p style="color:var(--text-muted); font-size:0.85rem; margin-bottom:0;"><em>We provide:</em> Braai drum, grid, kettle, gas cooker, coffee, tea.</p>
+                <p style="color:var(--text-muted); font-size:0.85rem; margin-top:0.5rem;"><em>They must pack:</em> Tent, sunscreen, hat, sleeping bag, mattress, head torches, spare dirty clothes, blindfold, pen knife, swimming gear, cutlery & plates.</p>
+              </div>
+
+              <!-- Music Challenge Card -->
+              <div style="background: rgba(30,41,59,0.5); border: 1px solid var(--border-light); border-radius: 8px; padding: 1.5rem;">
+                <h3 style="color:#BA68C8; margin-bottom: 1rem; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 0.5rem;"><i class="fa-solid fa-music"></i> NEW! Music Challenge</h3>
+                <p style="color:#FFF; font-weight:600; margin-bottom:0.5rem;">Choose and share your favorite songs.</p>
+                <p style="color:var(--text-muted); font-size:0.9rem; margin-bottom:1rem;">Play them in the car on the way to the camp together.</p>
+                <div style="display:flex; gap: 1rem;">
+                  <div style="flex:1; background:rgba(255,255,255,0.05); padding:1rem; border-radius:6px; text-align:center;">
+                    <i class="fa-solid fa-child" style="color:var(--teal-400); font-size:1.5rem; margin-bottom:0.5rem;"></i>
+                    <div style="color:#FFF; font-weight:bold;">Child's Music</div>
+                    <div style="color:var(--teal-400); font-size:1.2rem; font-weight:800;">× 2 Songs</div>
+                  </div>
+                  <div style="flex:1; background:rgba(255,255,255,0.05); padding:1rem; border-radius:6px; text-align:center;">
+                    <i class="fa-solid fa-person" style="color:var(--gold-400); font-size:1.5rem; margin-bottom:0.5rem;"></i>
+                    <div style="color:#FFF; font-weight:bold;">Dad's Music</div>
+                    <div style="color:var(--gold-400); font-size:1.2rem; font-weight:800;">× 2 Songs</div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- TAB 1: Settings & Attendance -->
-      <div id="tab-settings" class="tab-pane active">
+      <div id="tab-settings" class="tab-pane">
         <div class="card">
           <div class="card-header">
             <h2 class="card-title"><i class="fa-solid fa-sliders" style="color:var(--gold-500)"></i> Camp Settings & Track Selector</h2>
@@ -123,11 +226,11 @@
         <div class="grid-settings-layout">
           <div class="card">
             <div class="card-header">
-              <h2 class="card-title"><i class="fa-solid fa-calculator" style="color:var(--teal-500)"></i> Attendance & Ratios</h2>
+              <h2 class="card-title"><i class="fa-solid fa-calculator" style="color:var(--teal-500)"></i> Attendance</h2>
             </div>
-            <div style="display:grid; grid-template-columns: repeat(3, 1fr); gap:0.5rem;">
+            <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(90px, 1fr)); gap:1rem;">
               <div class="form-group">
-                <label class="form-label">Fathers (Dads)</label>
+                <label class="form-label" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" title="Fathers (Dads)">Fathers (Dads)</label>
                 <input type="number" id="inputDads" class="form-control" value="16">
               </div>
               <div class="form-group">
@@ -178,6 +281,13 @@
           <div class="card-header">
             <h2 class="card-title"><i class="fa-solid fa-users" style="color:var(--teal-500)"></i> Roles & Volunteer Roster</h2>
           </div>
+          <div class="column-filters" style="display:flex; gap: 1.5rem; font-size: 0.85rem; flex-wrap: wrap; margin-bottom:1rem; padding: 0 1.25rem; color:var(--text-main);">
+            <div style="font-weight:600; color:var(--gold-400); margin-right:0.5rem;"><i class="fa-solid fa-table-columns"></i> View Options:</div>
+            <label style="cursor:pointer;"><input type="checkbox" checked class="col-toggle" data-table-id="roster" data-col="2" style="margin-right:0.3rem;"> Description & Duties</label>
+            <label style="cursor:pointer;"><input type="checkbox" checked class="col-toggle" data-table-id="roster" data-col="3" style="margin-right:0.3rem;"> Assigned Volunteer</label>
+            <label style="cursor:pointer;"><input type="checkbox" checked class="col-toggle" data-table-id="roster" data-col="4" style="margin-right:0.3rem;"> Auto-Filled Contact</label>
+            <label style="cursor:pointer;"><input type="checkbox" checked class="col-toggle" data-table-id="roster" data-col="5" style="margin-right:0.3rem;"> Auto-Filled Email</label>
+          </div>
           <div class="table-container">
             <table class="data-table" data-table-id="roster">
               <thead>
@@ -202,11 +312,18 @@
         <div class="card">
           <div class="card-header">
             <h2 class="card-title"><i class="fa-solid fa-square-check" style="color:var(--teal-500)"></i> Pre-Camp & Post-Camp Task Checklist</h2>
-            <div style="display:flex; gap:0.5rem; align-items:center;">
+          </div>
+          <div class="column-filters" style="display:flex; gap: 1.5rem; font-size: 0.85rem; flex-wrap: wrap; margin-bottom:1rem; padding: 0 1.25rem; color:var(--text-main);">
+            <div style="font-weight:600; color:var(--gold-400); margin-right:0.5rem;"><i class="fa-solid fa-table-columns"></i> View Options:</div>
+            <label style="cursor:pointer;"><input type="checkbox" checked class="col-toggle" data-table-id="tasks" data-col="2" style="margin-right:0.3rem;"> Task Description</label>
+            <label style="cursor:pointer;"><input type="checkbox" checked class="col-toggle" data-table-id="tasks" data-col="3" style="margin-right:0.3rem;"> Assigned Role</label>
+            <label style="cursor:pointer;"><input type="checkbox" checked class="col-toggle" data-table-id="tasks" data-col="4" style="margin-right:0.3rem;"> Responsible Leader</label>
+            <label style="cursor:pointer;"><input type="checkbox" checked class="col-toggle" data-table-id="tasks" data-col="5" style="margin-right:0.3rem;"> Status</label>
+          </div>
+          <div style="display:flex; gap:0.5rem; align-items:center; padding: 0 1.25rem 1rem;">
               <input type="text" id="searchTasks" class="form-control" placeholder="Search tasks..." style="width: 200px;">
               <button class="btn btn-primary" id="btnOpenAddTask"><i class="fa-solid fa-plus"></i> Add Task</button>
             </div>
-          </div>
           <div class="table-container">
             <table class="data-table" data-table-id="tasks">
               <thead>
@@ -232,11 +349,16 @@
         <div class="card">
           <div class="card-header">
             <h2 class="card-title"><i class="fa-solid fa-campground" style="color:var(--gold-400)"></i> General Camp & Safety Equipment</h2>
-            <div style="display:flex; gap:0.5rem; align-items:center;">
+          </div>
+          <div class="column-filters" style="display:flex; gap: 1.5rem; font-size: 0.85rem; flex-wrap: wrap; margin-bottom:1rem; padding: 0 1.25rem; color:var(--text-main);">
+            <div style="font-weight:600; color:var(--gold-400); margin-right:0.5rem;"><i class="fa-solid fa-table-columns"></i> View Options:</div>
+            <label style="cursor:pointer;"><input type="checkbox" checked class="col-toggle" data-table-id="campEq-left,campEq-right" data-col="2" style="margin-right:0.3rem;"> Leader</label>
+            <label style="cursor:pointer;"><input type="checkbox" checked class="col-toggle" data-table-id="campEq-left,campEq-right" data-col="3" style="margin-right:0.3rem;"> Status</label>
+          </div>
+          <div style="display:flex; gap:0.5rem; align-items:center; padding: 0 1.25rem 1rem;">
               <input type="text" id="searchCampEq" class="form-control" placeholder="Search camp gear..." style="width: 200px;">
               <button class="btn btn-primary" id="btnOpenAddCampEq"><i class="fa-solid fa-plus"></i> Add Item</button>
             </div>
-          </div>
           <div class="two-column-grid">
             <div class="table-container" style="padding: 0;">
               <table class="data-table data-table-compact" data-table-id="campEq-left">
@@ -244,10 +366,8 @@
                   <tr>
                     <th>Item</th>
                     <th style="text-align:center;">Qty</th>
-                    <th>Role</th>
                     <th>Leader</th>
                     <th>Status</th>
-                    <th>Notes</th>
                     <th style="text-align:center;">Action</th>
                   </tr>
                 </thead>
@@ -262,10 +382,8 @@
                   <tr>
                     <th>Item</th>
                     <th style="text-align:center;">Qty</th>
-                    <th>Role</th>
                     <th>Leader</th>
                     <th>Status</th>
-                    <th>Notes</th>
                     <th style="text-align:center;">Action</th>
                   </tr>
                 </thead>
@@ -284,6 +402,12 @@
           <div class="card-header">
             <h2 class="card-title"><i class="fa-solid fa-bullseye" style="color:var(--teal-500)"></i> Activity Equipment</h2>
           </div>
+          <div class="column-filters" style="display:flex; gap: 1.5rem; font-size: 0.85rem; flex-wrap: wrap; margin-bottom:1rem; padding: 0 1.25rem; color:var(--text-main);">
+            <div style="font-weight:600; color:var(--gold-400); margin-right:0.5rem;"><i class="fa-solid fa-table-columns"></i> View Options:</div>
+            <label style="cursor:pointer;"><input type="checkbox" checked class="col-toggle" data-table-id="actEq-left,actEq-right" data-col="2" style="margin-right:0.3rem;"> Activity</label>
+            <label style="cursor:pointer;"><input type="checkbox" checked class="col-toggle" data-table-id="actEq-left,actEq-right" data-col="3" style="margin-right:0.3rem;"> Leader</label>
+            <label style="cursor:pointer;"><input type="checkbox" checked class="col-toggle" data-table-id="actEq-left,actEq-right" data-col="4" style="margin-right:0.3rem;"> Status</label>
+          </div>
           <div class="two-column-grid">
             <div class="table-container" style="padding: 0;">
               <table class="data-table data-table-compact" data-table-id="actEq-left">
@@ -292,10 +416,9 @@
                     <th>Item</th>
                     <th style="text-align:center;">Qty</th>
                     <th>Activity</th>
-                    <th>Role</th>
                     <th>Leader</th>
                     <th>Status</th>
-                    <th>Notes</th>
+                    <th style="text-align:center;">Action</th>
                   </tr>
                 </thead>
                 <tbody id="tblActEqBodyLeft">
@@ -310,10 +433,9 @@
                     <th>Item</th>
                     <th style="text-align:center;">Qty</th>
                     <th>Activity</th>
-                    <th>Role</th>
                     <th>Leader</th>
                     <th>Status</th>
-                    <th>Notes</th>
+                    <th style="text-align:center;">Action</th>
                   </tr>
                 </thead>
                 <tbody id="tblActEqBodyRight">
@@ -329,8 +451,23 @@
       <div id="tab-food" class="tab-pane">
         <div class="card">
           <div class="card-header" style="flex-direction: column; align-items: flex-start; gap: 0.5rem;">
-            <h2 class="card-title"><i class="fa-solid fa-utensils" style="color:var(--coral-500)"></i> Communal Food & Catering Shopping List</h2>
+            <div style="display: flex; justify-content: space-between; width: 100%; align-items: center; flex-wrap: wrap; gap: 1rem;">
+              <h2 class="card-title"><i class="fa-solid fa-utensils" style="color:var(--coral-500)"></i> Communal Food & Catering Shopping List</h2>
+              <div style="display: flex; align-items: center; gap: 0.5rem; background: rgba(30,41,59,0.6); padding: 0.5rem; border-radius: 8px;">
+                <label style="font-size: 0.8rem; font-weight: 600;">Overall Food Leader:</label>
+                <select id="bulkFoodLeaderSelect" class="form-control" style="width: 150px; font-size: 0.8rem;">
+                  <!-- Dynamically populated -->
+                </select>
+                <button id="btnBulkFoodLeader" class="btn btn-primary" style="font-size: 0.8rem;"><i class="fa-solid fa-bolt"></i> Change All</button>
+              </div>
+            </div>
             <div style="font-size: 0.85rem; color: var(--text-muted);"><i class="fa-solid fa-calculator"></i> Calculated for a Total Headcount of: <strong id="foodTotalCount" style="color:var(--gold-400);">43</strong> participants based on Settings.</div>
+          </div>
+          <div class="column-filters" style="display:flex; gap: 1.5rem; font-size: 0.85rem; flex-wrap: wrap; margin-bottom:1rem; padding: 0 1.25rem; color:var(--text-main);">
+            <div style="font-weight:600; color:var(--gold-400); margin-right:0.5rem;"><i class="fa-solid fa-table-columns"></i> View Options:</div>
+            <label style="cursor:pointer;"><input type="checkbox" checked class="col-toggle" data-table-id="food-left,food-right" data-col="2" style="margin-right:0.3rem;"> Qty</label>
+            <label style="cursor:pointer;"><input type="checkbox" checked class="col-toggle" data-table-id="food-left,food-right" data-col="3" style="margin-right:0.3rem;"> Leader</label>
+            <label style="cursor:pointer;"><input type="checkbox" checked class="col-toggle" data-table-id="food-left,food-right" data-col="4" style="margin-right:0.3rem;"> Status</label>
           </div>
           <div class="two-column-grid">
             <div class="table-container" style="padding: 0;">
@@ -393,15 +530,13 @@
               <h2 class="card-title"><i class="fa-solid fa-list-check" style="color:var(--gold-500)"></i> Detailed Operations Timetable</h2>
               <div style="font-size:0.8rem; color:var(--text-muted);">Combined time windows, assigned leaders, and interactive Playbook / Equipment links</div>
             </div>
-            <details class="mobile-filter-accordion" style="width:100%; margin-top:0.5rem;">
-              <summary><i class="fa-solid fa-table-columns"></i> View Options & Columns</summary>
-              <div class="column-filters" style="display:flex; gap: 1rem; font-size: 0.85rem; flex-wrap: wrap; margin-top:0.5rem; color:var(--text-main); padding-top:0.25rem;">
-                <label style="cursor:pointer;"><input type="checkbox" checked id="toggleColEq" style="margin-right:0.3rem;"> Linked Equipment</label>
-                <label style="cursor:pointer;"><input type="checkbox" checked id="toggleColRole" style="margin-right:0.3rem;"> Assigned Role</label>
-                <label style="cursor:pointer;"><input type="checkbox" checked id="toggleColLeader" style="margin-right:0.3rem;"> Assigned Leader</label>
-                <label style="cursor:pointer;"><input type="checkbox" checked id="toggleColPlanB" style="margin-right:0.3rem;"> Plan B (Contingency)</label>
-              </div>
-            </details>
+          </div>
+          <div class="column-filters" style="display:flex; gap: 1.5rem; font-size: 0.85rem; flex-wrap: wrap; margin-bottom:1rem; padding: 0 1.25rem; color:var(--text-main);">
+            <div style="font-weight:600; color:var(--gold-400); margin-right:0.5rem;"><i class="fa-solid fa-table-columns"></i> View Options:</div>
+            <label style="cursor:pointer;"><input type="checkbox" checked class="col-toggle" data-table-id="timetable" data-col="5" style="margin-right:0.3rem;"> Linked Equipment</label>
+            <label style="cursor:pointer;"><input type="checkbox" checked class="col-toggle" data-table-id="timetable" data-col="6" style="margin-right:0.3rem;"> Assigned Role</label>
+            <label style="cursor:pointer;"><input type="checkbox" checked class="col-toggle" data-table-id="timetable" data-col="7" style="margin-right:0.3rem;"> Assigned Leader</label>
+            <label style="cursor:pointer;"><input type="checkbox" checked class="col-toggle" data-table-id="timetable" data-col="8" style="margin-right:0.3rem;"> Plan B (Contingency)</label>
           </div>
           <div class="table-container">
             <table class="data-table" data-table-id="timetable">
@@ -811,6 +946,10 @@
       </div>
     </div>
   </div>
+
+  <!-- Firebase SDKs -->
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
 
   <!-- App JavaScript Engine -->
   <script src="js/app.js"></script>
